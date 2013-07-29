@@ -1,0 +1,42 @@
+File Copy: mfc100u.dll
+File Copy: msvcp100.dll
+File Copy: msvcr100.dll
+File Copy: BCGCBPRO1510u100.dll
+File Copy: BCGPStyle2007Aqua1510.dll
+File Copy: BCGPStyle2007Luna1510.dll
+File Copy: BCGPStyle2007Obsidian1510.dll
+File Copy: BCGPStyle2007Silver1510.dll
+File Copy: BCGPStyle2010Black1510.dll
+File Copy: BCGPStyle2010Blue1510.dll
+File Copy: BCGPStyle2010White1510.dll
+File Copy: BCGPStyleCarbon1510.dll
+File Copy: BCGPStyleScenic1510.dll
+File Copy: Torn Edge - *.hs5stamp
+File Copy: agreement.txt
+File Copy: readme.txt
+File Copy: HomePage.url
+File Copy: HprSnap7.exe
+File Copy prt: StartHS7.exe
+File Copy: HprSnap7Man.chm
+File Copy: HSVoice.cfg
+File Copy: HSVoice.xml
+File Copy: HprSnap7.tlb
+File Copy: hsnaphlp-s.xpi
+File Copy: dxsnap.dll
+File Copy: HprRes7.dll
+File Copy: HSTxtCap.dll
+File Copy: HsSizer7.dll
+File Copy: OverlayHook.dll
+File Copy: VistaPlus.dll
+File Copy: setup.exe > HprUnInst.exe
+File Copy x64: TsHelper64.exe
+File Copy x64: HSTxtCap64.dll
+; Files to install if present and delete with uninstall
+File Copy: *.hs7lic
+File Copy: HprSnap7.ini
+; Files to delete only, e.g. from old installs
+File Del: *.old
+
+File Del: HS7ctx.zip
+
+

@@ -1,0 +1,1 @@
+========== Compiler-nice.255 ==========Remove Parser ivars 'requestor' and 'category' again now that MC is patched.

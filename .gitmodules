@@ -1,0 +1,9 @@
+[submodule "gvimim"]
+	path = gvimim
+	url = git@github.com:michalliu/gvimim.git
+[submodule "Portable-Git"]
+	path = Portable-Git
+	url = git@github.com:michalliu/Portable-Git.git
+[submodule "goagent"]
+	path = goagent
+	url = git@github.com:michalliu/goagent.git

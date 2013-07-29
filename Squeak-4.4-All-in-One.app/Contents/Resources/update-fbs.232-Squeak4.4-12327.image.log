@@ -1,0 +1,1 @@
+========== MonticelloConfigurations-fbs.111 ==========Committing too fast means sometimes you leave off other bits: another #ifNotNil:.>>> MonticelloConfigurations-fbs.110 <<<The #ifNotNil: protects against the user abandoning the action.========== MorphicExtrasTests-fbs.1 ==========ByteEncoder is a MorphicExtras class, so its tests belong in MorphicExtrasTests.

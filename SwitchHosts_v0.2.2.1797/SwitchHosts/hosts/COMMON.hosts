@@ -1,0 +1,3 @@
+#@SwitchHosts! {"url": null, "icon_idx": 0, "title": "COMMON.hosts"}
+# common
+# 这儿是公用 hosts，其内容会插入到各个方案最前面
