@@ -1,6 +1,3 @@
-[submodule "gvimim"]
-	path = gvimim
-	url = git@github.com:michalliu/gvimim.git
 [submodule "Portable-Git"]
 	path = Portable-Git
 	url = git@github.com:michalliu/Portable-Git.git
