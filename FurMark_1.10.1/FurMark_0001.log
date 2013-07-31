@@ -1,0 +1,36 @@
+<->[NORMAL]#00000001#Mon Apr 22 22:22:03 2013#FurMark 1.10.1 is starting up...
+<->[NORMAL]#00000002#Mon Apr 22 22:22:04 2013#OpenGL renderer (main graphics card): AMD Radeon HD 6870
+<->[NORMAL]#00000003#Mon Apr 22 22:22:04 2013#OpenGL version detected: 4.2
+<->[NORMAL]#00000004#Mon Apr 22 22:22:04 2013#OpenGL max viewport size: 16384X16384 pixels
+<->[NORMAL]#00000005#Mon Apr 22 22:22:04 2013#Device ID string (main graphics card): PCI\VEN_1002&DEV_6738&SUBSYS_31001682&REV_00
+<->[NORMAL]#00000006#Mon Apr 22 22:22:04 2013#CPU/System info:
+<->[NORMAL]#00000007#Mon Apr 22 22:22:04 2013#- CPU: Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz
+<->[NORMAL]#00000008#Mon Apr 22 22:22:05 2013#- CPU speed: 3292 MHz
+<->[NORMAL]#00000009#Mon Apr 22 22:22:05 2013#- System memory: 8139 MB
+<->[NORMAL]#00000010#Mon Apr 22 22:22:05 2013#- OS: Windows post-Win7 64-bit ver.6.2 build 9200 [No Service Pack]
+<->[NORMAL]#00000011#Mon Apr 22 22:22:05 2013#Detecting GPUs...
+<->[NORMAL]#00000012#Mon Apr 22 22:22:05 2013#Found 1 GPUs.
+<->[NORMAL]#00000013#Mon Apr 22 22:22:05 2013#- GPU 1:  AMD Radeon HD 6870
+<->[NORMAL]#00000014#Mon Apr 22 22:22:05 2013#  - Cores: 1120
+<->[NORMAL]#00000015#Mon Apr 22 22:22:05 2013#  - Memory size: 1024MB
+<->[NORMAL]#00000016#Mon Apr 22 22:22:05 2013#  - Memory type: GDDR5
+<->[NORMAL]#00000017#Mon Apr 22 22:22:05 2013#  - TDP: 151W
+<->[NORMAL]#00000018#Mon Apr 22 22:22:05 2013#  - Bus ID: 1
+<->[NORMAL]#00000019#Mon Apr 22 22:22:05 2013#  - Bios: 113-687AZNF-10  
+<->[NORMAL]#00000020#Mon Apr 22 22:22:05 2013#  - GPU temperature: 81.0°C
+<->[NORMAL]#00000021#Mon Apr 22 22:22:05 2013#  - Graphics driver: 9.2.0.0
+<->[NORMAL]#00000022#Mon Apr 22 22:22:05 2013#WARNING: true GPU core and memory clocks for GPU 1 are not available on this platform. Only Pstate clocks will be displayed.
+<->[NORMAL]#00000023#Mon Apr 22 22:22:05 2013#  - PState 0 - GPU clock: 100MHz - Memory clock: 300MHz - GPU voltage: 0.950V
+<->[NORMAL]#00000024#Mon Apr 22 22:22:05 2013#  - PState 0 - GPU clock: 775MHz - Memory clock: 1050MHz - GPU voltage: 1.100V
+<->[NORMAL]#00000025#Mon Apr 22 22:22:05 2013#  - PState 0 - GPU clock: 900MHz - Memory clock: 1050MHz - GPU voltage: 1.175V
+<->[NORMAL]#00000026#Mon Apr 22 22:22:05 2013#  - Fan speed: 34%
+<->[NORMAL]#00000027#Mon Apr 22 22:22:05 2013#  - Fan speed: 1790 RPM
+<->[NORMAL]#00000028#Mon Apr 22 22:22:05 2013#GPU monitoring thread started up ok.
+<->[NORMAL]#00000029#Mon Apr 22 22:22:05 2013#oZone3D Engine is starting up - kernel build: [v3.3.0 - Apr 16 2012 @ 11:03:16] - codename: Zhadanas
+<->[NORMAL]#00000030#Mon Apr 22 22:22:05 2013#oZone3D initialization in progress...
+<->[NORMAL]#00000031#Mon Apr 22 22:22:05 2013#oZone3D - OpenGL renderer creation ok.
+<->[NORMAL]#00000032#Mon Apr 22 22:22:05 2013#o3RendererOpenGL INFO: OpenGL version: 4.2.11931 Compatibility Profile Context
+<->[NORMAL]#00000033#Mon Apr 22 22:22:05 2013#o3RendererOpenGL INFO: OpenGL Shading Language (GLSL) version: 4.20
+<->[NORMAL]#00000034#Mon Apr 22 22:22:05 2013#oZone3D initialization ok.
+<->[NORMAL]#00000035#Mon Apr 22 22:22:09 2013#oZone3D shutdown ok.
+<->[NORMAL]#00000036#Mon Apr 22 22:22:09 2013#FurMark shutdown OK.
