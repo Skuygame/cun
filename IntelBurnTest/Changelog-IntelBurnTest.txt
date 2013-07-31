@@ -1,0 +1,137 @@
+IntelBurnTest - The Changelog
+by AgentGOD
+----------------------------
+
+v2.54
+ - Linpack binaries updated (7-20-2012) + patched for AMD CPUs
+ - Improved effectiveness of Xtreme Stress Mode
+
+v2.53
+ - Linpack binaries updated (12-18) + patched for AMD CPUs
+ - Added "All" threads option to allow full utilization of SMT threads (e.g. HyperThreading units)
+ - Default times to run is now set to 10
+
+v2.52
+ - Linpack binaries updated (7-29) + patched for AMD CPUs
+ - Branding update for Xtreme Gaming Studio
+
+v2.51
+ - Linpack binaries updated + patched for AMD CPUs
+ - Official support for Six-Core CPUs and Sandy Bridge Architecture
+ - Added new algorithm to detect calculation errors faster
+ - Fixed a bug that caused blank results to be valid
+
+v2.50
+ - Linpack binaries updated + patched for AMD CPUs
+ - Tested on more AMD systems
+ - Better compatibility with UAC-enabled systems
+ - Optimized GUI for less CPU overhead
+ - Officially supports Windows 7 x86 & x64
+
+v2.4
+ - Optimized the unprecedented Xtreme Stress Mode
+ - Added latest Linpack binaries and patched for AMD CPUs
+ - Linpack binary 8-threads issue fixed by Intel
+
+v2.3
+ - Added latest Linpack binaries and patched for AMD CPUs
+ - Added Xtreme Stress Mode (Right-click the "Start" button)
+
+v2.2
+ - Now outputs result of test (success, failure, etc) in log
+ - Now outputs stress level tested in log
+ - Added "high", and "very high" stress levels
+ - Fixed a small bug that could've broken logging
+ - Added debug logging for troubleshooting (right-click logging checkbox)
+
+v2.1
+ - Optimized error-checking code, reduces CPU overhead
+ - Now displays more accurate ending time
+ - Simplified graphical user interface further
+ - Improved color of captions in the GUI
+ - Added ability to override the number of threads for Linpack to use (as requested by users)
+ - Added display of progress in the title bar
+ - Now outputs current time for each iteration to log file (hh:mm:ss)
+ - Now auto-scrolls output list to the bottom as results are outputted
+ - Fixed a GUI quirk
+
+v2.0
+ - Completely re-coded from the ground up
+ - New, intuitive graphical user interface
+ - Windows Vista/7 Aero friendly
+ - Real-time result output
+ - Real-time error checking, auto-stops when error occurs
+ - Simplified stress level selection
+ - Easy copy of results to clipboard (right-click context menu)
+ - Built-in system freeze test (animated flame)
+ - Real-time free system memory display
+ - Uncluttered integrated title/status bar
+ - Added log results to file feature, with date and time, CPU/RAM info
+ - Displays total time taken to complete test at the end
+ - Correctly detects the maximum memory limit for x86 Windows
+ - Fixed a bug that caused testing memory to be limited to 6.1 GB
+ - New eye-catching icon
+ - Various bug fixes carried over from v1.93
+
+v1.92
+ - Updated Linpack binaries to the latest
+ - Added check to make sure Linpack binaries were properly placed
+
+v1.9
+ - Official Intel(R) support for Core i7 processors
+ - Fixed a bug that caused crashing when using a 32-bit OS and having more than 2 GB of memory free
+ - Changed interface colors for better visibility
+ - Revised "wordy" prompts
+
+v1.8
+ - Updated Linpack binaries to October 2008, and patched for AMD compatibility
+ - Fixed crash triggered by using more than 2 GB of memory in 32-bit Windows
+ - Fixed a bug triggered by using more than the available memory in the system
+ - Added automatic compensation for memory selection for 32-bit Windows
+ - Added smart-allocation to disallow allocating more memory than possible, and
+   set it to the maximum possible when needed
+ - Added smarter error detection algorithm
+
+v1.7
+ - Patched Linpack binaries, now compatible with AMD processors!
+ Note: these binaries can not be distributed without IntelBurnTest or the consent of this
+	program's author since the original idea was by the author, and the binaries
+	were patched by the author
+
+v1.6
+ - Added updated 32-bit and 64-bit Intel(R) Linpack binaries from Intel(R) [August, Official]
+
+v1.5.1
+ - Reverted to latest stable Linpack binaries upon request
+
+v1.5
+ - Updated to latest Linpack binaries
+ - Updated credits section of readme
+ - Fixed a crashing bug when using new binaries
+ Note: This version will not accept older binaries, and older versions will not accept the
+       new binaries. Each situation will cause the program to crash.
+
+v1.4
+ - Fixed a bug with percentage display that resulted in displaying 0% instead of the actual
+   pass rate
+ - Removed redundant prompt at the beginning asking if user wants to run the program
+ - Added customize option for selecting the stress level
+
+v1.3
+ - Added automatic error-detection feature (choose at the beginning)
+ - Added elapsed time at the end
+ - Added updated 32-bit and 64-bit Intel(R) Linpack binaries from Intel(R)
+
+v1.2
+ - First non-beta version
+ - Added automatic detection of total available physical memory
+ - Added ability to select testing stress level
+ - Added automatic detection of OS type (X86/X64) [Itanium is not, and will not be supported]
+ - Further program optimizations applied
+ - Added more notes in the program for user-friendliness
+ - Added changelog
+ - Added credits section in readme (was missing before for some reason)
+
+v1.1 beta
+ - Optimized memory equation (originally by Cronos) to use maximum memory available and leave
+   headroom to prevent memory paging

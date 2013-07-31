@@ -1,0 +1,35 @@
+<P><FONT face=黑体 size=4><STRONG>-== 关于FTERM 2 ==-<BR><BR></STRONG></FONT>fterm 2期望作一个通用的term，可以上bbs，也可以操作unix主机。<BR><BR><BR><STRONG><FONT face=黑体 size=4>-== 完整的unix telnet client ==-<BR></FONT></STRONG>-----------------------------------------------------------------------<BR>作为一个操作unix主机的term，首先要实现一个正确的term，即支持基本的ansi控制符，正确地显示颜色，能够卷滚，能够随意变动行列数。<BR><BR>特别地，由于在unix中使用mc(Midnight Commander)会带来相当多的方便，因此加入了codepage的支持以画出表格线。<BR><BR>fterm支持行列数根据屏幕大小变换，在变换大小时有时会清历史屏幕以配合正确的卷滚。</P>
+<P>在telnet一个unix主机时，TERM Type当然是可以随意设，但是许多软件对不同的termtype的处理就是不同的：</P>
+<OL>
+<LI>第一个不同是键盘，特别的上下左右键在vt220时是*[A *[B,而在XTERM中则是*OA,*OB，这里*表示^[，即0x1B字符 <BR>
+<LI>第二个不同是显示，如果TERM是支持彩色的，那么会主机会发回来有彩色的界面来，如果TERM是不支持Graphic Char的，那么主机就会以'|---|'等ASCII字符来显示表格 <BR>
+<LI>第三个不同是鼠标支持，如果TERM=xterm或其派生，那么一些程序就会支持鼠标点击，这在TERM类型的界面中相当有趣。 <BR>
+<LI>以上几点可以用Midnight Commander试验，在Linux中打mc，在FreeBSD中叫midc.</LI></OL>
+<P>FTERM支持自定义键盘，默认地，它附带了三种类型的键盘设置:</P>
+<OL>
+<LI>第一种是vt110，上键*OA 下键：*OB，配合FreeBSD默认的设置，在Linux中如果希望出表格线，应当设置TERM=vt220，并且使用fterm1-linux.kbd代替fterm1.kbd <BR>
+<LI>第二种是BBSTERM，这个是专为bbs中设计的，以vt110为基础，多了一些连系功能的按键 <BR>
+<LI>第三种是xterm，你可以测试鼠标操作</LI></OL>
+<P>fterm支持XTERM mouse，请在属性里键盘选择XTERM, 登陆一个unix主机，打mc测试点击鼠标会有动作。但这还在非常alpha的阶段，xterm termtype显示方面刷新还很糟糕。<BR><BR><BR><FONT face=黑体 size=4><STRONG>-== 令bbs上的操作更有趣些 ==-<BR></STRONG></FONT>---------------------------------------------------------------------------<BR>作为一个bbs term，在一个标准term的基础上，提供一些功能期望使得上bbs变得有趣一些。<BR><BR>特别地，希望浙大笑书亭bbs上的人们快乐一些。<BR><BR><STRONG><FONT size=4>-== 彩色拷贝与粘贴 ==-</FONT></STRONG><BR>拷贝：拷贝的问题在于如何使得拷贝得到的字符串比较优化，不会有太多的冗余控制符。<BR>（比如*[1;32;41maaaaaaaaaaa*[33mbbbbb*[m这里a和b显示应当都是红底和高亮的，b有关的背景和高亮控制符可以省略。）<BR><BR>目前fterm支持色彩，背景，高亮，闪烁控制符，下划线等拷贝与粘贴。</P>
+<P>粘贴：在bbs上，描述ansi彩色的字符ESC(#27)是无法直接输入的，因此是依赖约定的某种键组合产生。在Firebird上一般按两次ESC，在maple上按ctrl-u输入。<BR><BR>只要你各个bbs选对类型，就可以在不同系统之间作拷贝与粘贴。<BR><BR><BR><STRONG><FONT size=4>-== 全文下载 ==-</FONT></STRONG><BR><BR>在bbs上实现全文下载是一件很别拗的事情，在此之前，我们尝试过用csbbsd配合cq66实现全文下载，这样看起来更加合理一些，此外，通过bbspop3d从pop3端口取信也是很好的方式，hightman还实现了webbbsd，可以用web浏览很方便实现文章的下载。<BR><BR>但是直接从term中下载看到的文章似乎仍然是更令人习惯的方式。因此，这次fterm仍然采用模拟翻页的方式走完文章，以实现“全文下载”。<BR><BR>目前支持Maple和Firebird BBS的全文下载，可以在文章列表或者在阅读文章的时候中按右键下载，在工具条中也有快捷按钮。如果你打开鼠标操作，那么操作起来就显得更加愉快<FONT size=4>。<BR><BR><BR></FONT><FONT size=4><STRONG>-== 鼠标操作==-<BR><BR></STRONG></FONT>在bbs中进行鼠标操作，已经有很多term作过了，由于maple类型的bbs不多，因而这些term对于笑书亭上的人们显得很遗憾。<BR><BR>fterm2期望给笑书亭上的朋友们一些希望。<BR><BR>在主菜单，分类讨论区，聊天选单中，fterm2会识别出类似"(C)lass" 这样包括")"的选项，画一条暗色下划线用以标示。点击时自动发送出"C"这样的命令。<BR><BR>版面列表，精华区，用户列表，好友列表等列表中，识别列表中各项位置，画下划线以标示，鼠标点击时自动移到期望的位置，并发送回车进入。<BR>特别的，在笑书亭，查询讯息时点选讯息会自动按"w"以进行发讯息操作。<BR><BR>在列表中有几种可能的操作：<BR></P>
+<OL>
+<LI>点在最上面一行，会发出HOME键，以跳到列表首项;<BR>
+<LI>点在最上面2-3行，发出PGUP键;<BR>
+<LI>在最下面一行(第24行)时，会发送PGDN键，以跳到列表末项;<BR>
+<LI>在文章列表或版面列表中点击，模拟移动到鼠标所指文章并进入阅读;<BR>
+<LI>在横向70字符以后移动鼠标，在11行以上点击会发送Page Up键，向上翻页，&nbsp;在11行以下点击会发送Page Down键，向下翻页;<BR>
+<LI>在横向10字符左边点击鼠标，会发送左键，以退到上级菜单；<BR>
+<LI>在阅读文章时，点屏幕上半部点击模拟按"上"键，点屏幕下半部模拟按"下"键;<BR>
+<LI>在编辑文章时，在屏幕编辑区点击自动将光标尽可能近地移到点击处;<BR>
+<LI>在不可判断的状态下，在屏幕中间点鼠标发送回车。<BR><BR><BR></LI></OL>
+<P><FONT size=4><STRONG>-== 防发呆 ==-<BR></STRONG></FONT>一般bbs上60分钟没有按键操作，就会被踢下。使用防发呆就是定时发送点操作给bbs站。</P>
+<P><BR>事先请定义一个防发呆键。dnl建议^[[A^[[B，这是表示连续按上下键的意思。</P>
+<P>fterm默认设置^@表示刷新屏幕。<BR><BR>总之这样的事情大家自便，不知道还有什么键可以用，可以打开工具-&gt;自定义键盘<BR>按一些键看看键值。当然也有人习惯打开netterm看。<BR></P>
+<P><FONT size=4><STRONG>-== 自动回讯息 ==-</STRONG></FONT><BR><BR>讯息到来时会发出一个Beep，fterm2收到beep字符后，会在下次数据到来时期望屏幕上出现讯息的字样。(有的系统是一次，有的是2次)</P>
+<P><BR>fterm2会从屏幕上的讯息字符串中提取发送人。并记录为最后发讯人lastwho。如果最后发讯人重复发送讯息，那么，只回复一次。这样防止了两个fterm设置为自动回复，然后其中一个发送了一个讯息造成死循环。</P>
+<P><BR>在现在的版本中，如果同一个人在10秒后再发送讯息，仍然会自动回复，因为10秒的间隔可以被认为不会产生恶意的后果。</P>
+<P>如果fterm的主人切换了一次自动回复的功能，那么lastwho被清，也就是说重新记时和记lastwho.</P>
+<P>fterm现在的版本加入一个新的功能：N分钟无动作切换自动回复讯息。顾名思义，就是如果你被人忽然叫开了，那么机器上鼠标和键盘N分钟没有动作，那么就认为机器前没人，自动开启自动回复功能。<BR><BR><BR><FONT size=4><STRONG>-== 自动应答聊天请求 ==-<BR><BR></STRONG></FONT>大部分bbs在收到聊天请求时会发送beep给term，这时fterm发送一个单个字符出去，会期望屏幕首行会出现“....聊天吗”字样，这时，fterm可以自动回复no和不能聊天的理由。<BR><BR>但在smth和大话西游站上，bbs系统只有当term有动作才发送出beep字符，使得这个功能无法实现。<BR><BR><BR><FONT size=4><STRONG>-== 设置自定义快捷键 ==-<BR></STRONG></FONT>菜单-&gt;界面-&gt;显示自定义快捷键-&gt;会显示出一个新的工具条。其中第一个按钮是定义快捷键，点击后出现编辑界面。</P>
+<P>命令的格式我在fterm中示范了几个例子。比如说转寄一篇文章到自己的信箱就象这样：F^M^M^MN^M^M^M^[[B<BR></P>
+<P>其中^M表示回车，^[[B表示下方向键，上面那个序列是针对smth bbs上在文章列表上按大写F然后三个回车，当提示要不要过滤ANSI字符时回N再接三个回车，然后这时应当会回到文章列表，按下键，为转寄下一篇文章作准备。<BR><BR>其它的如^[[A表示上方向键^[[C表示右 ^[[D表示左。很自然的^A表示ctrl-a，^P表示按ctrl-P可以发文章..........等等。这样就可以组合出一连串的操作序列。<BR><BR>新的版本加入^~表示延时100ms。</P>
+<P><BR><STRONG><FONT size=4>-== 自定义ANSI色彩 ==-</FONT></STRONG><BR><BR>目前fterm准备有三种可自定义ANSI色彩配色方案。<BR>其中配色方案一是标准的ANSI色彩，一般bbs用这个配色方案<BR>二是上面标准的ANSI色彩的基础上，将第7种Silver色加亮，用于操作<BR>unix主机的默认前景色。<BR>配色方案三随你自己定。<BR><BR><BR><FONT size=4><STRONG>-== 自定义键盘 ==-<BR><BR></STRONG></FONT>为各位使用方便，以下功能键为预定义：<BR>&nbsp;&nbsp; F12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 地址簿<BR>&nbsp;&nbsp; ctrl-insert&nbsp;&nbsp;: 拷贝<BR>&nbsp;&nbsp; shift-insert : 粘贴<BR>&nbsp;&nbsp; ctrl-delete&nbsp;&nbsp;: 粘贴<BR>&nbsp;&nbsp; ctrl-f4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 关闭当前页<BR>&nbsp;&nbsp; BBS TERM除以上功能外，还预定义以下功能键：<BR>&nbsp;&nbsp; shift-ctrl-b : 切换选择方式<BR>&nbsp;&nbsp; shift-ctrl-i : 显示输助输入窗<BR>&nbsp;&nbsp; shift-ctrl-l : 讯息记录<BR>&nbsp;&nbsp; shift-ctrl-f : 字体设置<BR>&nbsp;&nbsp; shift-ctrl-q : 快速连接<BR>&nbsp;&nbsp; shift-ctrl-s : 显示自定义快捷键<BR><BR>附：以下是所有可以关联的功能，各位可以根据自己的喜好使用kbsetup自行配置：<BR>&nbsp;&nbsp;&nbsp;&nbsp;'拷贝',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'粘贴',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'自动换行粘贴'，<BR>&nbsp;&nbsp;&nbsp;&nbsp;'地址簿',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'页面切换',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'全文下载',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'关闭当前页',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'当前连接属性',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'讯息记录',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'字体设置',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'调整窗口大小配合字体',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'调整字体大小配合窗口',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'自动调整字体/窗口',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'显示辅助输入窗',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'切换到辅助输入窗',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'显示自定义快捷键',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'设置快捷键',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'自动拷贝至剪贴板',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'切换选择方式',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'自动回讯息',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'收到讯息跳出',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'自动防止发呆',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'鼠标操作',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'参数设置',<BR>&nbsp;&nbsp;&nbsp;&nbsp;'快速连接'<BR><BR><BR></P>
