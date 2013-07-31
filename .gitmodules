@@ -4,3 +4,6 @@
 [submodule "goagent"]
 	path = goagent
 	url = git@github.com:michalliu/goagent.git
+[submodule "gvimim"]
+	path = gvimim
+	url = git@github.com:michalliu/gvimim.git
