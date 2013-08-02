@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+	<default>
+		<superspeed_text><![CDATA[使用高速通道能大幅提升下载速度]]></superspeed_text>
+		<offline_text><![CDATA[离线下载可代您挂机，节省下载时间]]></offline_text>
+	</default>
+	<pause>
+		<superspeed_text><![CDATA[使用高速通道能大幅提升下载速度]]></superspeed_text>
+		<offline_text><![CDATA[离线下载可代您挂机，节省下载时间]]></offline_text>
+	</pause>
+	<downloading>
+		<superspeed_text><![CDATA[使用高速通道能大幅提升下载速度]]></superspeed_text>
+		<offline_text><![CDATA[离线下载可代您挂机，节省下载时间]]></offline_text>
+	</downloading>
+	<failed>
+		<superspeed_text><![CDATA[使用高速通道能大幅提升下载速度]]></superspeed_text>
+		<offline_text><![CDATA[离线下载可代您挂机，节省下载时间]]></offline_text>
+	</failed>
+</scene>

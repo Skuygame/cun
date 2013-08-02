@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlowMonitorAddin>
+	<Runtime>283594</Runtime>
+	<TotalTaskAdded>21</TotalTaskAdded>
+	<StartTimes>45</StartTimes>
+	<RecordTime>
+		<Year>2013</Year>
+		<Month>7</Month>
+		<Day>29</Day>
+		<Minute>40</Minute>
+		<Hour>3</Hour>
+		<Second>36</Second>
+	</RecordTime>
+	<Upload>
+		<Today>145673389</Today>
+		<Current>145673389</Current>
+		<Total>32042785356</Total>
+	</Upload>
+	<Download>
+		<Today>5038530980</Today>
+		<Current>5038530980</Current>
+		<Total>66818837605</Total>
+	</Download>
+	<StartTime>
+		<Year>2013</Year>
+		<Month>7</Month>
+		<Day>29</Day>
+		<Minute>24</Minute>
+		<Hour>2</Hour>
+		<Second>51</Second>
+	</StartTime>
+	<StartLastTime>
+		<Year>2013</Year>
+		<Month>7</Month>
+		<Day>28</Day>
+		<Minute>38</Minute>
+		<Hour>20</Hour>
+		<Second>33</Second>
+	</StartLastTime>
+</FlowMonitorAddin>

@@ -1,0 +1,5 @@
+<PluginList>
+<Plugin enable='true' name='Community'  clsid="{F70E2559-1C97-4A2D-B815-A9269422AC68}" path='Community.dll' />
+<Plugin enable='true' name='VipService' clsid="{BD5BA450-2619-4338-8171-87643D0BDEA5}" path='VipService.dll' />
+<Plugin enable='true' name='MsgBox'     clsid="{A64FF048-7265-4C38-B23B-5619271B99DC}" path='MsgBox.dll' />
+</PluginList>

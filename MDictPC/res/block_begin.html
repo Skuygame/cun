@@ -1,0 +1,16 @@
+
+<div onclick="ToggleShow('div_$dict_id$_$entry_no$', 'arrow_$dict_id$_$entry_no$')" id="ctrl_div_$dict_id$_$entry_no$" class="tabs" style="cursor:pointer;">
+    <ul>
+        <li class="tabs_active tabs_active_title">
+            <img src="mdictres:///book.png" style="vertical-align:middle;" width="16" height="16"/>
+            $headword$ - $title$
+        </li>
+        <li style="float:right;">
+            <img id="arrow_$dict_id$_$entry_no$" name="mdx_arrow_img" src="mdictres:///arrow_up.png" style="vertical-align:middle;" />
+        </li>
+    </ul>
+ </div>
+<div id="div_$dict_id$_$entry_no$" name="mdx_block_div" class="mdx_dict_block_collapse">
+    <div class="ui-tabs">
+        <iframe width="100%" name="if_$dict_id$_$entry_no$" id="if_$dict_id$_$entry_no$" src="mdxentry://$dict_id$.mdict.cn/_$entry_no$/"  
+        frameborder="0" ></iframe>

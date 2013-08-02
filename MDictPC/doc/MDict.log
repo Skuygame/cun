@@ -1,0 +1,41 @@
+[INFO] 0113/06/30 00:18:00 (31)Fail to init localization translation file
+[INFO] 0113/06/30 00:18:00 (16)Found 0 speech databases
+[INFO] 0113/06/30 00:18:00 (0)Searching font files...
+[INFO] 0113/06/30 00:18:00 (0)Found 0 font files
+[INFO] 0113/06/30 00:18:00 (0)Load font resource done
+[INFO] 0113/06/30 00:18:00 (0)Begin loading html templates
+[INFO] 0113/06/30 00:18:00 (0)Html templates loaded
+[DEBUG] 0113/06/30 00:18:00 (0)Creating mainframe
+[DEBUG] 0113/06/30 00:18:00 (0)OnCreating MainFrame
+[DEBUG] 0113/06/30 00:18:00 (0)Registering message loop
+[DEBUG] 0113/06/30 00:18:00 (0)Create view client
+[DEBUG] 0113/06/30 00:18:00 (0)Creating input window and splitter
+[DEBUG] 0113/06/30 00:18:00 (16)Creating entry window and mdx view
+[DEBUG] 0113/06/30 00:18:00 (0)Creating mdx view
+[DEBUG] 0113/06/30 00:18:00 (0)Creating html view
+[DEBUG] 0113/06/30 00:18:00 (31)Creating tab ctrl
+[DEBUG] 0113/06/30 00:18:00 (0)Layout mdx view
+[DEBUG] 0113/06/30 00:18:00 (0)Setting up window
+[DEBUG] 0113/06/30 00:18:00 (0)Create command bar
+[DEBUG] 0113/06/30 00:18:00 (15)Create tool bar
+[DEBUG] 0113/06/30 00:18:00 (0)Create re-bar
+[DEBUG] 0113/06/30 00:18:00 (0)Init TTS engine
+[DEBUG] 0113/06/30 00:18:01 (282)TTS inited
+[DEBUG] 0113/06/30 00:18:01 (0)Fill toolbar combox of TTS engine
+[DEBUG] 0113/06/30 00:18:01 (15)Install task bar icon
+[DEBUG] 0113/06/30 00:18:01 (16)Register hotkey
+[DEBUG] 0113/06/30 00:18:01 (0)Restore last window size and position
+[DEBUG] 0113/06/30 00:18:01 (16)Mainframe created
+[DEBUG] 0113/06/30 00:18:01 (0)Create and register handler factory
+[DEBUG] 0113/06/30 00:18:01 (0)IWebbrowser helper object inited
+[DEBUG] 0113/06/30 00:18:01 (0)Show welcome page
+[DEBUG] 0113/06/30 00:18:01 (0)Open last dict
+[DEBUG] 0113/06/30 00:18:01 (46)MDict App init completed
+[DEBUG] 0113/06/30 00:18:08 (7204)Closing CMainFrame
+[DEBUG] 0113/06/30 00:18:08 (0)Release TTS tokens
+[DEBUG] 0113/06/30 00:18:08 (15)Destroying CMDictView
+[DEBUG] 0113/06/30 00:18:08 (0)Destroying CMDXView
+[DEBUG] 0113/06/30 00:18:08 (0)Destructing CMainFrame
+[DEBUG] 0113/06/30 00:18:08 (0)Destructing CMDictView
+[DEBUG] 0113/06/30 00:18:08 (0)Destructing CMDXView
+[DEBUG] 0113/06/30 00:18:08 (16)Htmlview released

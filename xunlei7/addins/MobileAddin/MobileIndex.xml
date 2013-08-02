@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobiles>
+	<brand id="4" name="HTC" desc="htc" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/htc.png</pic_url>
+		<type id="2" name="6750" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000002.xml</param>
+		</type>
+		<type id="3" name="7950" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000003.xml</param>
+		</type>
+		<type id="70" name="CEO'S睿翼" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000070.xml</param>
+		</type>
+		<type id="84" name="Desire(G7)" alias="2h3">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000084.xml</param>
+		</type>
+		<type id="86" name="Dream" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000086.xml</param>
+		</type>
+		<type id="89" name="Droid Eris" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000089.xml</param>
+		</type>
+		<type id="90" name="Droid Incredible" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000090.xml</param>
+		</type>
+		<type id="120" name="Espresso" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000120.xml</param>
+		</type>
+		<type id="126" name="EVO 4G" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000126.xml</param>
+		</type>
+		<type id="131" name="Firestone" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000131.xml</param>
+		</type>
+		<type id="158" name="HD2" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000158.xml</param>
+		</type>
+		<type id="159" name="Hero(G3)" alias="2hl">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000159.xml</param>
+		</type>
+		<type id="161" name="Hero200" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000161.xml</param>
+		</type>
+		<type id="199" name="Imagio" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000199.xml</param>
+		</type>
+		<type id="210" name="Legend(G6)" alias="2hj">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000210.xml</param>
+		</type>
+		<type id="215" name="Liberty(Aria)" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000215.xml</param>
+		</type>
+		<type id="232" name="Magic G2" alias="2de">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000232.xml</param>
+		</type>
+		<type id="233" name="Magic+" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000233.xml</param>
+		</type>
+		<type id="234" name="Maple" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000234.xml</param>
+		</type>
+		<type id="235" name="MAX 4G" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000235.xml</param>
+		</type>
+		<type id="254" name="myTouch 3G Slide" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000254.xml</param>
+		</type>
+		<type id="282" name="Opal" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000282.xml</param>
+		</type>
+		<type id="295" name="P6950" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000295.xml</param>
+		</type>
+		<type id="308" name="S1+" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000308.xml</param>
+		</type>
+		<type id="311" name="S521" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000311.xml</param>
+		</type>
+		<type id="337" name="Shadow" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000337.xml</param>
+		</type>
+		<type id="344" name="T2223" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000344.xml</param>
+		</type>
+		<type id="345" name="T4242" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000345.xml</param>
+		</type>
+		<type id="355" name="Tattoo(G4)" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000355.xml</param>
+		</type>
+		<type id="359" name="Tilt2" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000359.xml</param>
+		</type>
+		<type id="361" name="Touch 3G" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000361.xml</param>
+		</type>
+		<type id="362" name="Touch Diamond" alias="2dx">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000362.xml</param>
+		</type>
+		<type id="363" name="Touch Diamond 2" alias="2eo">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000363.xml</param>
+		</type>
+		<type id="364" name="Touch HD" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000364.xml</param>
+		</type>
+		<type id="366" name="Touch Pro" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000366.xml</param>
+		</type>
+		<type id="371" name="Touch2" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000371.xml</param>
+		</type>
+		<type id="372" name="Trophy" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000372.xml</param>
+		</type>
+		<type id="375" name="U1000" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000375.xml</param>
+		</type>
+		<type id="399" name="Vision" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000399.xml</param>
+		</type>
+		<type id="401" name="Viva" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000401.xml</param>
+		</type>
+		<type id="411" name="Wildfire(G8)" alias="2h7">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000411.xml</param>
+		</type>
+		<type id="444" name="XV6850" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000444.xml</param>
+		</type>
+		<type id="455" name="NexusOne(G5)" alias="ff6,ff5">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000455.xml</param>
+		</type>
+		<type id="456" name="Desire HD" alias="2hu">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000456.xml</param>
+		</type>
+	</brand>
+	<brand id="8" name="LG" desc="lg" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/lg.png</pic_url>
+		<type id="128" name="GW820" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000128.xml</param>
+		</type>
+		<type id="145" name="GM730" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000145.xml</param>
+		</type>
+		<type id="147" name="GM750" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000147.xml</param>
+		</type>
+		<type id="149" name="GT500s" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000149.xml</param>
+		</type>
+		<type id="150" name="GT540" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000150.xml</param>
+		</type>
+		<type id="151" name="GT810H" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000151.xml</param>
+		</type>
+		<type id="152" name="GW550" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000152.xml</param>
+		</type>
+		<type id="154" name="GW620" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000154.xml</param>
+		</type>
+		<type id="155" name="GW825v" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000155.xml</param>
+		</type>
+		<type id="163" name="HQ" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000163.xml</param>
+		</type>
+		<type id="200" name="Incite" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000200.xml</param>
+		</type>
+		<type id="208" name="KT878" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000208.xml</param>
+		</type>
+		<type id="209" name="KU2100" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000209.xml</param>
+		</type>
+		<type id="213" name="KS10" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000213.xml</param>
+		</type>
+		<type id="218" name="LU2100" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000218.xml</param>
+		</type>
+		<type id="283" name="KU9500" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000283.xml</param>
+		</type>
+		<type id="342" name="SU210" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000342.xml</param>
+		</type>
+	</brand>
+	<brand id="9" name="O2" desc="o2" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/o2.png</pic_url>
+		<type id="132" name="Flame" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000132.xml</param>
+		</type>
+		<type id="251" name="MWG Zinc II" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000251.xml</param>
+		</type>
+		<type id="430" name="XDA Guide" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000430.xml</param>
+		</type>
+		<type id="431" name="XDA Ignito" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000431.xml</param>
+		</type>
+		<type id="432" name="XDA Orbit II" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000432.xml</param>
+		</type>
+		<type id="433" name="XDA Serra" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000433.xml</param>
+		</type>
+		<type id="434" name="Xda Shark" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000434.xml</param>
+		</type>
+		<type id="435" name="XDA Venn" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000435.xml</param>
+		</type>
+		<type id="436" name="XDA Zest" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000436.xml</param>
+		</type>
+	</brand>
+	<brand id="13" name="多普达" desc="dopod" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/dopod.png</pic_url>
+		<type id="1" name="696" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000001.xml</param>
+		</type>
+		<type id="35" name="A3288" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000035.xml</param>
+		</type>
+		<type id="40" name="A6288" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000040.xml</param>
+		</type>
+		<type id="41" name="A6388" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000041.xml</param>
+		</type>
+		<type id="43" name="A8188" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000043.xml</param>
+		</type>
+		<type id="307" name="S1" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000307.xml</param>
+		</type>
+		<type id="310" name="S505" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000310.xml</param>
+		</type>
+		<type id="312" name="S521" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000312.xml</param>
+		</type>
+		<type id="313" name="S610" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000313.xml</param>
+		</type>
+		<type id="314" name="S700C" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000314.xml</param>
+		</type>
+		<type id="318" name="S900c" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000318.xml</param>
+		</type>
+		<type id="321" name="S910W" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000321.xml</param>
+		</type>
+		<type id="346" name="T4288" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000346.xml</param>
+		</type>
+		<type id="347" name="T5388" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000347.xml</param>
+		</type>
+		<type id="348" name="T5399" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000348.xml</param>
+		</type>
+		<type id="350" name="T7278" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000350.xml</param>
+		</type>
+		<type id="351" name="T8188" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000351.xml</param>
+		</type>
+		<type id="352" name="T8388" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000352.xml</param>
+		</type>
+		<type id="353" name="T8588" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000353.xml</param>
+		</type>
+		<type id="354" name="Tachi" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000354.xml</param>
+		</type>
+		<type id="365" name="Touch HD" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000365.xml</param>
+		</type>
+		<type id="369" name="T3238" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000369.xml</param>
+		</type>
+		<type id="370" name="Touch Viva" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000370.xml</param>
+		</type>
+	</brand>
+	<brand id="22" name="联想" desc="lenovo" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/lenovo.png</pic_url>
+		<type id="121" name="ET10" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000121.xml</param>
+		</type>
+		<type id="122" name="ET60" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000122.xml</param>
+		</type>
+		<type id="123" name="ET60C" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000123.xml</param>
+		</type>
+		<type id="124" name="ET660" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000124.xml</param>
+		</type>
+		<type id="125" name="ET700" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000125.xml</param>
+		</type>
+		<type id="448" name="乐Phone" alias=";3GW100">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000448.xml</param>
+		</type>
+	</brand>
+	<brand id="23" name="摩托罗拉" desc="motorola" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/motorola.png</pic_url>
+		<type id="32" name="A1680" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000032.xml</param>
+		</type>
+		<type id="33" name="A3000" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000033.xml</param>
+		</type>
+		<type id="34" name="A3100" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000034.xml</param>
+		</type>
+		<type id="36" name="A3300c" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000036.xml</param>
+		</type>
+		<type id="44" name="A955" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000044.xml</param>
+		</type>
+		<type id="85" name="Devour A555" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000085.xml</param>
+		</type>
+		<type id="88" name="Droid" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000088.xml</param>
+		</type>
+		<type id="91" name="Droid 2" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000091.xml</param>
+		</type>
+		<type id="119" name="ES400" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000119.xml</param>
+		</type>
+		<type id="144" name="i1" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000144.xml</param>
+		</type>
+		<type id="164" name="MB710" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000164.xml</param>
+		</type>
+		<type id="236" name="MB810" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000236.xml</param>
+		</type>
+		<type id="237" name="ME501" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000237.xml</param>
+		</type>
+		<type id="238" name="ME502" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000238.xml</param>
+		</type>
+		<type id="239" name="ME511" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000239.xml</param>
+		</type>
+		<type id="240" name="ME600" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000240.xml</param>
+		</type>
+		<type id="241" name="MileStone" alias=";A853">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000241.xml</param>
+		</type>
+		<type id="242" name="Morrison" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000242.xml</param>
+		</type>
+		<type id="246" name="Q11" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000246.xml</param>
+		</type>
+		<type id="414" name="XT3" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000414.xml</param>
+		</type>
+		<type id="437" name="XT502" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000437.xml</param>
+		</type>
+		<type id="438" name="XT701" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000438.xml</param>
+		</type>
+		<type id="439" name="XT702" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000439.xml</param>
+		</type>
+		<type id="440" name="XT711" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000440.xml</param>
+		</type>
+		<type id="442" name="XT800" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000442.xml</param>
+		</type>
+		<type id="461" name="DEFY" alias=";MB525,ME525">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000461.xml</param>
+		</type>
+	</brand>
+	<brand id="24" name="诺基亚" desc="nokia" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/nokia.png</pic_url>
+		<type id="6" name="3250" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000006.xml</param>
+		</type>
+		<type id="7" name="5230" alias=";5235,5233">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000007.xml</param>
+		</type>
+		<type id="10" name="5320XM" alias=";5320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000010.xml</param>
+		</type>
+		<type id="11" name="5530XM" alias=";5530">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000011.xml</param>
+		</type>
+		<type id="12" name="5630XM" alias=";5630">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000012.xml</param>
+		</type>
+		<type id="13" name="5700" alias=";5700xm">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000013.xml</param>
+		</type>
+		<type id="14" name="5730XM" alias=";5730">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000014.xml</param>
+		</type>
+		<type id="15" name="5800XM" alias=";5800,5802">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000015.xml</param>
+		</type>
+		<type id="19" name="6120c" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000019.xml</param>
+		</type>
+		<type id="21" name="6122c" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000021.xml</param>
+		</type>
+		<type id="22" name="6124" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000022.xml</param>
+		</type>
+		<type id="23" name="6210s" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000023.xml</param>
+		</type>
+		<type id="24" name="6220c" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000024.xml</param>
+		</type>
+		<type id="25" name="6290" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000025.xml</param>
+		</type>
+		<type id="26" name="6650-Mobile" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000026.xml</param>
+		</type>
+		<type id="27" name="6710N" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000027.xml</param>
+		</type>
+		<type id="28" name="6720c" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000028.xml</param>
+		</type>
+		<type id="29" name="6730" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000029.xml</param>
+		</type>
+		<type id="30" name="6730C" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000030.xml</param>
+		</type>
+		<type id="62" name="C5" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000062.xml</param>
+		</type>
+		<type id="63" name="C6" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000063.xml</param>
+		</type>
+		<type id="98" name="E5" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000098.xml</param>
+		</type>
+		<type id="99" name="E50" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000099.xml</param>
+		</type>
+		<type id="100" name="E51" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000100.xml</param>
+		</type>
+		<type id="101" name="E52" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000101.xml</param>
+		</type>
+		<type id="103" name="E61" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000103.xml</param>
+		</type>
+		<type id="105" name="E62" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000105.xml</param>
+		</type>
+		<type id="106" name="E63" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000106.xml</param>
+		</type>
+		<type id="107" name="E65" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000107.xml</param>
+		</type>
+		<type id="108" name="E66" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000108.xml</param>
+		</type>
+		<type id="110" name="E71" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000110.xml</param>
+		</type>
+		<type id="111" name="E72" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000111.xml</param>
+		</type>
+		<type id="112" name="E75" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000112.xml</param>
+		</type>
+		<type id="256" name="N71" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000256.xml</param>
+		</type>
+		<type id="258" name="N73" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000258.xml</param>
+		</type>
+		<type id="259" name="N75" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000259.xml</param>
+		</type>
+		<type id="260" name="N76" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000260.xml</param>
+		</type>
+		<type id="261" name="N77" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000261.xml</param>
+		</type>
+		<type id="262" name="N78" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000262.xml</param>
+		</type>
+		<type id="263" name="N79" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000263.xml</param>
+		</type>
+		<type id="266" name="N81" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000266.xml</param>
+		</type>
+		<type id="267" name="N82" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000267.xml</param>
+		</type>
+		<type id="268" name="N85" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000268.xml</param>
+		</type>
+		<type id="269" name="N86" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000269.xml</param>
+		</type>
+		<type id="270" name="N91" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000270.xml</param>
+		</type>
+		<type id="271" name="N92" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000271.xml</param>
+		</type>
+		<type id="272" name="N93" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000272.xml</param>
+		</type>
+		<type id="273" name="N93i" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000273.xml</param>
+		</type>
+		<type id="274" name="N95" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000274.xml</param>
+		</type>
+		<type id="275" name="N96" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000275.xml</param>
+		</type>
+		<type id="276" name="N97" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000276.xml</param>
+		</type>
+		<type id="277" name="N97 Mini" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000277.xml</param>
+		</type>
+		<type id="424" name="X6" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000424.xml</param>
+		</type>
+		<type id="462" name="c7" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000462.xml</param>
+		</type>
+	</brand>
+	<brand id="26" name="三星" desc="samsung" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/samsung.png</pic_url>
+		<type id="31" name="931SC" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000031.xml</param>
+		</type>
+		<type id="51" name="B5210U" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000051.xml</param>
+		</type>
+		<type id="53" name="B7300C" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000053.xml</param>
+		</type>
+		<type id="54" name="B7320" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000054.xml</param>
+		</type>
+		<type id="55" name="B7610" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000055.xml</param>
+		</type>
+		<type id="56" name="B7620" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000056.xml</param>
+		</type>
+		<type id="69" name="Captivate i897" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000069.xml</param>
+		</type>
+		<type id="130" name="Fascinate" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000130.xml</param>
+		</type>
+		<type id="141" name="G810" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000141.xml</param>
+		</type>
+		<type id="142" name="G818E" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000142.xml</param>
+		</type>
+		<type id="166" name="Galaxy Teos" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000166.xml</param>
+		</type>
+		<type id="167" name="Galaxy U" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000167.xml</param>
+		</type>
+		<type id="168" name="I350" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000168.xml</param>
+		</type>
+		<type id="169" name="i400" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000169.xml</param>
+		</type>
+		<type id="170" name="i408" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000170.xml</param>
+		</type>
+		<type id="172" name="i450" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000172.xml</param>
+		</type>
+		<type id="173" name="i458" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000173.xml</param>
+		</type>
+		<type id="177" name="i520" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000177.xml</param>
+		</type>
+		<type id="178" name="I5500" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000178.xml</param>
+		</type>
+		<type id="179" name="i550w" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000179.xml</param>
+		</type>
+		<type id="180" name="i560" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000180.xml</param>
+		</type>
+		<type id="183" name="I5700" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000183.xml</param>
+		</type>
+		<type id="184" name="I5801" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000184.xml</param>
+		</type>
+		<type id="185" name="i637" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000185.xml</param>
+		</type>
+		<type id="186" name="I6500U" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000186.xml</param>
+		</type>
+		<type id="187" name="i7110" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000187.xml</param>
+		</type>
+		<type id="188" name="i740" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000188.xml</param>
+		</type>
+		<type id="191" name="I7500" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000191.xml</param>
+		</type>
+		<type id="193" name="i770" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000193.xml</param>
+		</type>
+		<type id="194" name="I8000" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000194.xml</param>
+		</type>
+		<type id="195" name="I8000U" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000195.xml</param>
+		</type>
+		<type id="198" name="I8520" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000198.xml</param>
+		</type>
+		<type id="201" name="I8910" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000201.xml</param>
+		</type>
+		<type id="205" name="I899" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000205.xml</param>
+		</type>
+		<type id="220" name="I900" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000220.xml</param>
+		</type>
+		<type id="222" name="I9000" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000222.xml</param>
+		</type>
+		<type id="228" name="I908" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000228.xml</param>
+		</type>
+		<type id="229" name="I908E" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000229.xml</param>
+		</type>
+		<type id="281" name="I908L" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000281.xml</param>
+		</type>
+		<type id="305" name="I909" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000305.xml</param>
+		</type>
+		<type id="323" name="i920" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000323.xml</param>
+		</type>
+		<type id="326" name="Jack" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000326.xml</param>
+		</type>
+		<type id="327" name="L870" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000327.xml</param>
+		</type>
+		<type id="328" name="L878E" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000328.xml</param>
+		</type>
+		<type id="329" name="M100S" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000329.xml</param>
+		</type>
+		<type id="330" name="M120S" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000330.xml</param>
+		</type>
+		<type id="331" name="M8400" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000331.xml</param>
+		</type>
+		<type id="335" name="i220" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000335.xml</param>
+		</type>
+		<type id="446" name="阿玛尼4" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000446.xml</param>
+		</type>
+		<type id="460" name="I5800" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000460.xml</param>
+		</type>
+	</brand>
+	<brand id="27" name="索尼爱立信" desc="sonyericsson" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/sonyericsson.png</pic_url>
+		<type id="136" name="G819" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000136.xml</param>
+		</type>
+		<type id="223" name="M1i" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000223.xml</param>
+		</type>
+		<type id="225" name="M610" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000225.xml</param>
+		</type>
+		<type id="418" name="X1" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000418.xml</param>
+		</type>
+		<type id="419" name="X10i" alias="9pq,6jy">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000419.xml</param>
+		</type>
+		<type id="420" name="U20i" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000420.xml</param>
+		</type>
+		<type id="421" name="E10i" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000421.xml</param>
+		</type>
+		<type id="422" name="X2" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000422.xml</param>
+		</type>
+		<type id="423" name="X20" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000423.xml</param>
+		</type>
+		<type id="427" name="X8" alias="6kp">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000427.xml</param>
+		</type>
+	</brand>
+	<brand id="35" name="魅族" desc="meizu" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/meizu.png</pic_url>
+		<type id="231" name="M8" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000035/0000000231.xml</param>
+		</type>
+		<type id="457" name="M9" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000035/0000000457.xml</param>
+		</type>
+	</brand>
+	<brand id="38" name="索尼" desc="sony" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/sony.png</pic_url>
+		<type id="458" name="PSP" alias="">
+			<param>http://help.mobile.xunlei.com/mobile/0000000038/0000000458.xml</param>
+		</type>
+		<type id="459" name="PSP GO" alias="ox">
+			<param>http://help.mobile.xunlei.com/mobile/0000000038/0000000459.xml</param>
+		</type>
+	</brand>
+</mobiles>
