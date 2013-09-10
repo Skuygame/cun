@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="Ð¦ÊéÍ¤µØÖ·²¾"?>
+  <ROOT addrtype="0" SiteName="FTERMµØÖ·²¾">
+    FTERMµØÖ·²¾
+    <Õ¾µã addrtype="2" IP="bbs.newsmth.net" Port="22" Is_SSH="1" SiteName="Ë®Ä¾ÉçÇø ssh¡ï" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="2" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="1" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0" ZDLscript="^Yy^M^M" inputconvcode="0" outputconvcode="0" ringscheme="0" showincenter="0" bbs_user="xinyucq" bbs_pass="270C1DFC7CD368D748" ssh_user="xinyucq" ssh_pass="E64CDD3DBC102C1303">
+      Ë®Ä¾ÉçÇø ssh¡ï
+    </Õ¾µã>
+    <·Ö×é addrtype="1" SiteName="CERNET">
+      CERNET BBS
+      <Õ¾µã addrtype="2" IP="bbs.nju.edu.cn" Port="23" Is_SSH="0" SiteName="ÄÏ´óÐ¡°ÙºÏ" IsBBS="1" Cols="80" Rows="24" AutoWrap="1" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992">
+        ÄÏ´óÐ¡°ÙºÏ
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.sjtu.edu.cn" Port="23" Is_SSH="0" SiteName="ÉÏº£½»´ó-ÒûË®Ë¼Ô´" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992">
+        ÉÏº£½»´ó-ÒûË®Ë¼Ô´
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.pku.edu.cn" Port="23" Is_SSH="0" SiteName="±±´óÎ´ÃûÕ¾" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992">
+        ±±´óÎ´ÃûÕ¾
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.whnet.edu.cn" Port="23" Is_SSH="0" SiteName="Îäºº°×ÔÆ»Æº×" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" ssh_user="&quot;" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="0" inputconvcode="0" outputconvcode="0">
+        Îäºº°×ÔÆ»Æº×
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.gznet.edu.cn" Port="23" Is_SSH="0" SiteName="»ªÄÏÄ¾ÃÞÕ¾" initscript="bbs" IsBBS="1" Cols="80" Rows="24" AutoWrap="1" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="1" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        »ªÄÏÄ¾ÃÞÕ¾
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.xanet.edu.cn" Port="23" Is_SSH="0" SiteName="Î÷°²½»´ó±øÂíÙ¸" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="1" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="0" inputconvcode="0" outputconvcode="0">
+        Î÷°²½»´ó±øÂíÙ¸
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bupt.org" Port="23" Is_SSH="0" SiteName="±±ÓÊÕæÇéÁ÷Â¶" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="0" ParseUrl="1" ReplyKey="0" ESCKey="0" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        ±±ÓÊÕæÇéÁ÷Â¶
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.fudan.edu.cn" Port="23" Is_SSH="0" SiteName="¸´µ©ÈÕÔÂ¹â»ª" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="1" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        ¸´µ©ÈÕÔÂ¹â»ª
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.zsu.edu.cn" Port="23" Is_SSH="0" SiteName="ÖÐÉ½´óÑ§-ÒÝÏÉÊ±¿Õ" initscript="bbs" IsBBS="1" Cols="80" Rows="24" AutoWrap="1" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        ÖÐÉ½´óÑ§-ÒÝÏÉÊ±¿Õ
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.mit.edu" Port="23" Is_SSH="0" SiteName="Î´Ãû¿Õ¼ä¡ï" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        Î´Ãû¿Õ¼ä¡ï
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="202.118.66.5" Port="23" Is_SSH="0" SiteName="´óÁ¬Àí¹¤" initscript="bbs" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        ´óÁ¬Àí¹¤
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="211.96.233.1" Port="23" Is_SSH="0" SiteName="´äºà²èå¼¡î" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992">
+        ´äºà²èå¼¡î
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.huizhou.gd.cn" Port="23" Is_SSH="0" SiteName="»ÝÖÝÃ÷ÔÂÍå" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        »ÝÖÝÃ÷ÔÂÍå
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="zixia.net" Port="23" Is_SSH="0" SiteName="´ó»°Î÷ÓÎ¡î" initscript="bbs" IsBBS="1" Cols="80" Rows="24" AutoWrap="1" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        ´ó»°Î÷ÓÎ¡î
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="zixia.net" Port="2000" Is_SSH="0" SiteName="´ó»°Î÷ÓÎ´©ËóÕ¾" IsBBS="1" Cols="80" Rows="24" AutoWrap="1" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        ´ó»°Î÷ÓÎ´©ËóÕ¾
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="202.115.64.174" Port="23" Is_SSH="0" SiteName="Î÷ÄÏÀí¹¤" initscript="bbs" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        Î÷ÄÏÀí¹¤
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.zju.edu.cn" Port="23" Is_SSH="0" SiteName="Õã´óÐÂÕ¾ ¡ï" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        Õã´óÐÂÕ¾ ¡ï
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.twomice.net" Port="23" Is_SSH="0" SiteName="Ã÷ÔÂ¡ï" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="0" ParseUrl="1" ReplyKey="0" ESCKey="0" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0">
+        Ã÷ÔÂ¡ï
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="newytht.net" Port="23" Is_SSH="0" SiteName="ÐÂÒ»ËúºýÍ¿" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="Fixedsys" FontSize="12" fontcharset="134" UseSocksProxy="0" ProxyScheme="0" sshver="0" zmodemenable="0" RectSelect1="0" SystemEcho="0" BackColor="8404992" inputconvcode="0" outputconvcode="0" ringscheme="0" showincenter="0">
+        ÐÂÒ»ËúºýÍ¿
+      </Õ¾µã>
+    </·Ö×é>
+    <·Ö×é addrtype="1" SiteName="TWBBS">
+      TWBBS
+      <Õ¾µã addrtype="2" IP="wretch.csie.nctu.edu.tw" Port="23" Is_SSH="0" SiteName="ÎÞÃûÐ¡Õ¾" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        ÎÞÃûÐ¡Õ¾
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="ptt2.twbbs.org" Port="23" Is_SSH="0" SiteName="ptt2.twbbs.org" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        ptt2.twbbs.org
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="wd.twbbs.org" Port="23" Is_SSH="0" SiteName="wd.twbbs.org" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        wd.twbbs.org
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="ptt2.csie.ntu.edu.tw" Port="23" Is_SSH="0" SiteName="ptt2.csie.ntu.edu.tw" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        ptt2.csie.ntu.edu.tw
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.sbbs.idv.tw" Port="23" Is_SSH="0" SiteName="bbs.sbbs.idv.tw" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        bbs.sbbs.idv.tw
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="luna.twbbs.org" Port="23" Is_SSH="0" SiteName="luna.twbbs.org" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="0" ParseUrl="1" ReplyKey="0" ESCKey="0" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        luna.twbbs.org
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="cpp.twbbs.org" Port="23" Is_SSH="0" SiteName="cpp.twbbs.org" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="0" ParseUrl="1" ReplyKey="0" ESCKey="0" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        cpp.twbbs.org
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.yzu.edu.tw" Port="23" Is_SSH="0" SiteName="bbs.yzu.edu.tw" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="0" ParseUrl="1" ReplyKey="0" ESCKey="0" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        bbs.yzu.edu.tw
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="processor.tfcis.org" Port="23" Is_SSH="0" SiteName="itoc" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="0" ParseUrl="1" ReplyKey="0" ESCKey="0" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        itoc
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.tku.edu.tw" Port="23" Is_SSH="0" SiteName="bbs.tku.edu.tw" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        bbs.tku.edu.tw
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="starriver.twbbs.org" Port="23" Is_SSH="0" SiteName="starriver.twbbs.org" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="0" ParseUrl="1" ReplyKey="0" ESCKey="0" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        starriver.twbbs.org
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="bbs.ee.ntu.edu.tw" Port="23" Is_SSH="0" SiteName="bbs.ee.ntu.edu.tw" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="0" ParseUrl="1" ReplyKey="0" ESCKey="0" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="1" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        bbs.ee.ntu.edu.tw
+      </Õ¾µã>
+      <Õ¾µã addrtype="2" IP="loyal.ee.tku.edu.tw" Port="23" Is_SSH="0" SiteName="loyal.ee.tku.edu.tw" IsBBS="1" Cols="80" Rows="24" AutoWrap="0" NoScrollBar="1" CaretType="1" FKey="1" BackRows="0" BBSTYPE="1" ParseUrl="1" ReplyKey="1" ESCKey="1" Big5="0" TERMTYPE="VT100" ColorScheme="0" UseAutologin="0" FontName="MingLiU" FontSize="12" fontcharset="136" UseSocksProxy="0" ProxyScheme="1" sshver="0" zmodemenable="1" RectSelect1="0" SystemEcho="0" BackColor="0">
+        loyal.ee.tku.edu.tw
+      </Õ¾µã>
+    </·Ö×é>
+  </ROOT>

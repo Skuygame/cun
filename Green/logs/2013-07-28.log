@@ -1,0 +1,270 @@
+[19:06:43]  Device node created. Install is complete when drivers are installed...
+Updating drivers for tap0901 from D:\Program\Green\openvpn\driver\tap64\OemWin2k.inf.
+Drivers installed successfully.
+
+[19:15:19]  Sun Jul 28 19:06:47 2013 OpenVPN 2.2.0 i586-mingw32msvc [SSL] [LZO2] [PF_INET6] built on May 10 2011
+Enter Auth Username:Enter Auth Password:
+Sun Jul 28 19:06:47 2013 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Sun Jul 28 19:06:48 2013 LZO compression initialized
+Sun Jul 28 19:06:48 2013 Control Channel MTU parms [ L:1544 D:140 EF:40 EB:0 ET:0 EL:0 ]
+Sun Jul 28 19:06:48 2013 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sun Jul 28 19:06:48 2013 Data Channel MTU parms [ L:1544 D:1450 EF:44 EB:135 ET:0 EL:0 AF:3/1 ]
+Sun Jul 28 19:06:48 2013 Local Options hash (VER=V4): '69109d17'
+Sun Jul 28 19:06:48 2013 Expected Remote Options hash (VER=V4): 'c0103fa8'
+Sun Jul 28 19:06:48 2013 Attempting to establish TCP connection with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:06:48 2013 TCP connection established with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:06:48 2013 TCPv4_CLIENT link local: [undef]
+Sun Jul 28 19:06:48 2013 TCPv4_CLIENT link remote: [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:06:51 2013 TLS: Initial packet from [AF_INET]61.64.61.87:10339, sid=7028ecc6 62b9c959
+Sun Jul 28 19:06:51 2013 VERIFY OK: depth=1, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=openvpn_CA/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:06:51 2013 VERIFY OK: nsCertType=SERVER
+Sun Jul 28 19:06:51 2013 VERIFY OK: depth=0, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=server/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:06:54 2013 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:06:54 2013 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:06:54 2013 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:06:54 2013 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:06:54 2013 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Sun Jul 28 19:06:54 2013 [server] Peer Connection Initiated with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:06:56 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:07:02 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:07:07 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:07:12 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:07:17 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:07:22 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:07:23 2013 read TCPv4_CLIENT: Connection timed out (WSAETIMEDOUT) (code=10060)
+Sun Jul 28 19:07:23 2013 Connection reset, restarting [-1]
+Sun Jul 28 19:07:23 2013 TCP/UDP: Closing socket
+Sun Jul 28 19:07:23 2013 SIGUSR1[soft,connection-reset] received, process restarting
+Sun Jul 28 19:07:23 2013 Restart pause, 5 second(s)
+Sun Jul 28 19:07:28 2013 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Sun Jul 28 19:07:28 2013 Re-using SSL/TLS context
+Sun Jul 28 19:07:28 2013 LZO compression initialized
+Sun Jul 28 19:07:28 2013 Control Channel MTU parms [ L:1544 D:140 EF:40 EB:0 ET:0 EL:0 ]
+Sun Jul 28 19:07:28 2013 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sun Jul 28 19:07:28 2013 Data Channel MTU parms [ L:1544 D:1450 EF:44 EB:135 ET:0 EL:0 AF:3/1 ]
+Sun Jul 28 19:07:28 2013 Local Options hash (VER=V4): '69109d17'
+Sun Jul 28 19:07:28 2013 Expected Remote Options hash (VER=V4): 'c0103fa8'
+Sun Jul 28 19:07:28 2013 Attempting to establish TCP connection with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:07:49 2013 TCP: connect to [AF_INET]61.64.61.87:10339 failed, will try again in 5 seconds: Connection timed out (WSAETIMEDOUT)
+Sun Jul 28 19:08:15 2013 TCP: connect to [AF_INET]61.64.61.87:10339 failed, will try again in 5 seconds: Connection timed out (WSAETIMEDOUT)
+Sun Jul 28 19:08:20 2013 TCP connection established with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:08:20 2013 TCPv4_CLIENT link local: [undef]
+Sun Jul 28 19:08:20 2013 TCPv4_CLIENT link remote: [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:08:20 2013 TLS: Initial packet from [AF_INET]61.64.61.87:10339, sid=ec6e65e3 97db1981
+Enter Auth Username:Enter Auth Password:
+Sun Jul 28 19:08:21 2013 VERIFY OK: depth=1, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=openvpn_CA/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:08:21 2013 VERIFY OK: nsCertType=SERVER
+Sun Jul 28 19:08:21 2013 VERIFY OK: depth=0, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=server/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:08:23 2013 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:08:23 2013 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:08:23 2013 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:08:23 2013 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:08:23 2013 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Sun Jul 28 19:08:23 2013 [server] Peer Connection Initiated with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:08:26 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:08:28 2013 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 bypass-dhcp,dhcp-option DNS 8.8.8.8,dhcp-option DNS 8.8.4.4,route 10.2.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.2.0.194 10.2.0.193'
+Sun Jul 28 19:08:28 2013 OPTIONS IMPORT: timers and/or timeouts modified
+Sun Jul 28 19:08:28 2013 OPTIONS IMPORT: --ifconfig/up options modified
+Sun Jul 28 19:08:28 2013 OPTIONS IMPORT: route options modified
+Sun Jul 28 19:08:28 2013 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Sun Jul 28 19:08:28 2013 ROUTE default_gateway=192.168.2.1
+Sun Jul 28 19:08:28 2013 TAP-WIN32 device [Local Area Connection 2] opened: \\.\Global\{6750B427-4117-4F3E-AC39-C1842B85A18C}.tap
+Sun Jul 28 19:08:28 2013 TAP-Win32 Driver Version 9.9 
+Sun Jul 28 19:08:28 2013 TAP-Win32 MTU=1500
+Sun Jul 28 19:08:28 2013 Notified TAP-Win32 driver to set a DHCP IP/netmask of 10.2.0.194/255.255.255.252 on interface {6750B427-4117-4F3E-AC39-C1842B85A18C} [DHCP-serv: 10.2.0.193, lease-time: 31536000]
+Sun Jul 28 19:08:28 2013 Successful ARP Flush on interface [28] {6750B427-4117-4F3E-AC39-C1842B85A18C}
+Sun Jul 28 19:08:33 2013 TEST ROUTES: 2/2 succeeded len=1 ret=1 a=0 u/d=up
+Sun Jul 28 19:08:33 2013 C:\WINDOWS\system32\route.exe ADD 61.64.61.87 MASK 255.255.255.255 192.168.2.1
+ 操作完成!
+Sun Jul 28 19:08:33 2013 C:\WINDOWS\system32\route.exe ADD 0.0.0.0 MASK 128.0.0.0 10.2.0.193
+ 操作完成!
+Sun Jul 28 19:08:33 2013 C:\WINDOWS\system32\route.exe ADD 128.0.0.0 MASK 128.0.0.0 10.2.0.193
+ 操作完成!
+Sun Jul 28 19:08:33 2013 C:\WINDOWS\system32\route.exe ADD 10.2.0.1 MASK 255.255.255.255 10.2.0.193
+ ?n Jul 28僮魍瓿?
+Sun Jul 28 19:08:33 2013 Initialization Sequence Completed
+Sun Jul 28 19:14:17 2013 read TCPv4_CLIENT: Connection timed out (WSAETIMEDOUT) (code=10060)
+Sun Jul 28 19:14:17 2013 Connection reset, restarting [-1]
+Sun Jul 28 19:14:17 2013 TCP/UDP: Closing socket
+Sun Jul 28 19:14:17 2013 SIGUSR1[soft,connection-reset] received, process restarting
+Sun Jul 28 19:14:17 2013 Restart pause, 5 second(s)
+Sun Jul 28 19:14:22 2013 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Sun Jul 28 19:14:22 2013 Re-using SSL/TLS context
+Sun Jul 28 19:14:22 2013 LZO compression initialized
+Sun Jul 28 19:14:22 2013 Control Channel MTU parms [ L:1544 D:140 EF:40 EB:0 ET:0 EL:0 ]
+Sun Jul 28 19:14:22 2013 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sun Jul 28 19:14:22 2013 Data Channel MTU parms [ L:1544 D:1450 EF:44 EB:135 ET:0 EL:0 AF:3/1 ]
+Sun Jul 28 19:14:22 2013 Local Options hash (VER=V4): '69109d17'
+Sun Jul 28 19:14:22 2013 Expected Remote Options hash (VER=V4): 'c0103fa8'
+Sun Jul 28 19:14:22 2013 Attempting to establish TCP connection with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:14:43 2013 TCP: connect to [AF_INET]61.64.61.87:10339 failed, will try again in 5 seconds: Connection timed out (WSAETIMEDOUT)
+Sun Jul 28 19:15:09 2013 TCP: connect to [AF_INET]61.64.61.87:10339 failed, will try again in 5 seconds: Connection timed out (WSAETIMEDOUT)
+Sun Jul 28 19:15:14 2013 TCP connection established with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:15:14 2013 TCPv4_CLIENT link local: [undef]
+Sun Jul 28 19:15:14 2013 TCPv4_CLIENT link remote: [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:15:14 2013 TLS: Initial packet from [AF_INET]61.64.61.87:10339, sid=1152a8cf 0ecf838c
+Enter Auth Username:Enter Auth Password:
+Sun Jul 28 19:15:14 2013 VERIFY OK: depth=1, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=openvpn_CA/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:15:14 2013 VERIFY OK: nsCertType=SERVER
+Sun Jul 28 19:15:14 2013 VERIFY OK: depth=0, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=server/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:15:18 2013 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:15:18 2013 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:15:18 2013 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:15:18 2013 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:15:18 2013 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Sun Jul 28 19:15:18 2013 [server] Peer Connection Initiated with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:15:20 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:15:20 2013 AUTH: Received AUTH_FAILED control message
+Sun Jul 28 19:15:20 2013 TCP/UDP: Closing socket
+Sun Jul 28 19:15:20 2013 C:\WINDOWS\system32\route.exe DELETE 10.2.0.1 MASK 255.255.255.255 10.2.0.193
+ 操作完成!
+Sun Jul 28 19:15:20 2013 C:\WINDOWS\system32\route.exe DELETE 61.64.61.87 MASK 255.255.255.255 192.168.2.1
+ 操作完成!
+Sun Jul 28 19:15:20 2013 C:\WINDOWS\system32\route.exe DELETE 0.0.0.0 MASK 128.0.0.0 10.2.0.193
+ 操作完成!
+Sun Jul 28 19:15:20 2013 C:\WINDOWS\system32\route.exe DELETE 128.0.0.0 MASK 128.0.0.0 10.2.0.193
+ 操作完成!
+Sun Jul 28 19:15:20 2013 Closing TUN/TAP interface
+Sun Jul 28 19:15:20 2013 SIGTERM[soft,auth-failure] received, process exiting
+
+<TEST INFO>: Child process ended
+
+[19:31:44]  Sun Jul 28 19:15:43 2013 OpenVPN 2.2.0 i586-mingw32msvc [SSL] [LZO2] [PF_INET6] built on May 10 2011
+Enter Auth Username:Enter Auth Password:
+Sun Jul 28 19:15:43 2013 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Sun Jul 28 19:15:43 2013 LZO compression initialized
+Sun Jul 28 19:15:43 2013 Control Channel MTU parms [ L:1544 D:140 EF:40 EB:0 ET:0 EL:0 ]
+Sun Jul 28 19:15:43 2013 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sun Jul 28 19:15:43 2013 Data Channel MTU parms [ L:1544 D:1450 EF:44 EB:135 ET:0 EL:0 AF:3/1 ]
+Sun Jul 28 19:15:43 2013 Local Options hash (VER=V4): '69109d17'
+Sun Jul 28 19:15:43 2013 Expected Remote Options hash (VER=V4): 'c0103fa8'
+Sun Jul 28 19:15:43 2013 Attempting to establish TCP connection with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:16:04 2013 TCP: connect to [AF_INET]61.64.61.87:10339 failed, will try again in 5 seconds: Connection timed out (WSAETIMEDOUT)
+Sun Jul 28 19:16:30 2013 TCP: connect to [AF_INET]61.64.61.87:10339 failed, will try again in 5 seconds: Connection timed out (WSAETIMEDOUT)
+Sun Jul 28 19:16:56 2013 TCP: connect to [AF_INET]61.64.61.87:10339 failed, will try again in 5 seconds: Connection timed out (WSAETIMEDOUT)
+Sun Jul 28 19:17:01 2013 TCP connection established with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:17:01 2013 TCPv4_CLIENT link local: [undef]
+Sun Jul 28 19:17:01 2013 TCPv4_CLIENT link remote: [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:17:01 2013 TLS: Initial packet from [AF_INET]61.64.61.87:10339, sid=8c2dc5f8 e84b0379
+Sun Jul 28 19:17:02 2013 VERIFY OK: depth=1, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=openvpn_CA/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:17:02 2013 VERIFY OK: nsCertType=SERVER
+Sun Jul 28 19:17:02 2013 VERIFY OK: depth=0, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=server/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:17:05 2013 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:17:05 2013 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:17:05 2013 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:17:05 2013 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:17:05 2013 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Sun Jul 28 19:17:05 2013 [server] Peer Connection Initiated with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:17:08 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:17:10 2013 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 bypass-dhcp,dhcp-option DNS 8.8.8.8,dhcp-option DNS 8.8.4.4,route 10.2.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.2.0.194 10.2.0.193'
+Sun Jul 28 19:17:10 2013 OPTIONS IMPORT: timers and/or timeouts modified
+Sun Jul 28 19:17:10 2013 OPTIONS IMPORT: --ifconfig/up options modified
+Sun Jul 28 19:17:10 2013 OPTIONS IMPORT: route options modified
+Sun Jul 28 19:17:10 2013 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Sun Jul 28 19:17:10 2013 ROUTE default_gateway=192.168.2.1
+Sun Jul 28 19:17:10 2013 TAP-WIN32 device [Local Area Connection 2] opened: \\.\Global\{6750B427-4117-4F3E-AC39-C1842B85A18C}.tap
+Sun Jul 28 19:17:10 2013 TAP-Win32 Driver Version 9.9 
+Sun Jul 28 19:17:10 2013 TAP-Win32 MTU=1500
+Sun Jul 28 19:17:10 2013 Notified TAP-Win32 driver to set a DHCP IP/netmask of 10.2.0.194/255.255.255.252 on interface {6750B427-4117-4F3E-AC39-C1842B85A18C} [DHCP-serv: 10.2.0.193, lease-time: 31536000]
+Sun Jul 28 19:17:10 2013 Successful ARP Flush on interface [28] {6750B427-4117-4F3E-AC39-C1842B85A18C}
+Sun Jul 28 19:17:15 2013 TEST ROUTES: 2/2 succeeded len=1 ret=1 a=0 u/d=up
+Sun Jul 28 19:17:15 2013 C:\WINDOWS\system32\route.exe ADD 61.64.61.87 MASK 255.255.255.255 192.168.2.1
+ 操作完成!
+Sun Jul 28 19:17:15 2013 C:\WINDOWS\system32\route.exe ADD 0.0.0.0 MASK 128.0.0.0 10.2.0.193
+ 操作完成!
+Sun Jul 28 19:17:15 2013 C:\WINDOWS\system32\route.exe ADD 128.0.0.0 MASK 128.0.0.0 10.2.0.193
+ 操作完成!
+Sun Jul 28 19:17:15 2013 C:\WINDOWS\system32\route.exe ADD 10.2.0.1 MASK 255.255.255.255 10.2.0.193
+ ?僮魍瓿?
+Sun Jul 28 19:17:15 2013 Initialization Sequence Completed
+
+<TEST INFO>: Child process ended
+
+[20:13:43]  Sun Jul 28 19:39:06 2013 OpenVPN 2.2.0 i586-mingw32msvc [SSL] [LZO2] [PF_INET6] built on May 10 2011
+Enter Auth Username:Enter Auth Password:
+Sun Jul 28 19:39:06 2013 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Sun Jul 28 19:39:07 2013 LZO compression initialized
+Sun Jul 28 19:39:07 2013 Control Channel MTU parms [ L:1544 D:140 EF:40 EB:0 ET:0 EL:0 ]
+Sun Jul 28 19:39:07 2013 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sun Jul 28 19:39:07 2013 Data Channel MTU parms [ L:1544 D:1450 EF:44 EB:135 ET:0 EL:0 AF:3/1 ]
+Sun Jul 28 19:39:07 2013 Local Options hash (VER=V4): '69109d17'
+Sun Jul 28 19:39:07 2013 Expected Remote Options hash (VER=V4): 'c0103fa8'
+Sun Jul 28 19:39:07 2013 Attempting to establish TCP connection with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:39:07 2013 TCP connection established with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:39:07 2013 TCPv4_CLIENT link local: [undef]
+Sun Jul 28 19:39:07 2013 TCPv4_CLIENT link remote: [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:39:07 2013 TLS: Initial packet from [AF_INET]61.64.61.87:10339, sid=7ad3d80d 595d98d4
+Sun Jul 28 19:39:08 2013 VERIFY OK: depth=1, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=openvpn_CA/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:39:08 2013 VERIFY OK: nsCertType=SERVER
+Sun Jul 28 19:39:08 2013 VERIFY OK: depth=0, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=server/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:39:11 2013 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:39:11 2013 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:39:11 2013 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:39:11 2013 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:39:11 2013 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Sun Jul 28 19:39:11 2013 [server] Peer Connection Initiated with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:39:13 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:39:13 2013 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 bypass-dhcp,dhcp-option DNS 8.8.8.8,dhcp-option DNS 8.8.4.4,route 10.2.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.2.0.194 10.2.0.193'
+Sun Jul 28 19:39:13 2013 OPTIONS IMPORT: timers and/or timeouts modified
+Sun Jul 28 19:39:13 2013 OPTIONS IMPORT: --ifconfig/up options modified
+Sun Jul 28 19:39:13 2013 OPTIONS IMPORT: route options modified
+Sun Jul 28 19:39:13 2013 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Sun Jul 28 19:39:13 2013 ROUTE default_gateway=192.168.2.1
+Sun Jul 28 19:39:13 2013 TAP-WIN32 device [Local Area Connection 2] opened: \\.\Global\{6750B427-4117-4F3E-AC39-C1842B85A18C}.tap
+Sun Jul 28 19:39:13 2013 TAP-Win32 Driver Version 9.9 
+Sun Jul 28 19:39:13 2013 TAP-Win32 MTU=1500
+Sun Jul 28 19:39:13 2013 Notified TAP-Win32 driver to set a DHCP IP/netmask of 10.2.0.194/255.255.255.252 on interface {6750B427-4117-4F3E-AC39-C1842B85A18C} [DHCP-serv: 10.2.0.193, lease-time: 31536000]
+Sun Jul 28 19:39:13 2013 Successful ARP Flush on interface [28] {6750B427-4117-4F3E-AC39-C1842B85A18C}
+Sun Jul 28 19:39:18 2013 TEST ROUTES: 2/2 succeeded len=1 ret=1 a=0 u/d=up
+Sun Jul 28 19:39:18 2013 C:\WINDOWS\system32\route.exe ADD 61.64.61.87 MASK 255.255.255.255 192.168.2.1
+ 操作完成!
+Sun Jul 28 19:39:18 2013 C:\WINDOWS\system32\route.exe ADD 0.0.0.0 MASK 128.0.0.0 10.2.0.193
+路由添加失败: 对象已存在。
+
+Sun Jul 28 19:39:18 2013 C:\WINDOWS\system32\route.exe ADD 128.0.0.0 MASK 128.0.0.0 10.2.0.193
+路由添加失败: 对象已存在。
+
+Sun Jul 28 19:39:18 2013 C:\WINDOWS\system32\route.exe ADD 10.2.0.1 MASK 255.255.255.255 10.2.0.193
+路由添加失败: 对象已存在。
+
+Sun Jul 28 19:39:18 2013 Initialization Sequence Completed
+Sun Jul 28 19:39:37 2013 read TCPv4_CLIENT: Connection timed out (WSAETIMEDOUT) (code=10060)
+Sun Jul 28 19:39:37 2013 Connection reset, restarting [-1]
+Sun Jul 28 19:39:37 2013 TCP/UDP: Closing socket
+Sun Jul 28 19:39:37 2013 SIGUSR1[soft,connection-reset] received, process restarting
+Sun Jul 28 19:39:37 2013 Restart pause, 5 second(s)
+Sun Jul 28 19:39:42 2013 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Sun Jul 28 19:39:42 2013 Re-using SSL/TLS context
+Sun Jul 28 19:39:42 2013 LZO compression initialized
+Sun Jul 28 19:39:42 2013 Control Channel MTU parms [ L:1544 D:140 EF:40 EB:0 ET:0 EL:0 ]
+Sun Jul 28 19:39:42 2013 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sun Jul 28 19:39:42 2013 Data Channel MTU parms [ L:1544 D:1450 EF:44 EB:135 ET:0 EL:0 AF:3/1 ]
+Sun Jul 28 19:39:42 2013 Local Options hash (VER=V4): '69109d17'
+Sun Jul 28 19:39:42 2013 Expected Remote Options hash (VER=V4): 'c0103fa8'
+Sun Jul 28 19:39:42 2013 Attempting to establish TCP connection with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:40:03 2013 TCP: connect to [AF_INET]61.64.61.87:10339 failed, will try again in 5 seconds: Connection timed out (WSAETIMEDOUT)
+Sun Jul 28 19:40:18 2013 TCP connection established with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:40:18 2013 TCPv4_CLIENT link local: [undef]
+Sun Jul 28 19:40:18 2013 TCPv4_CLIENT link remote: [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:40:18 2013 TLS: Initial packet from [AF_INET]61.64.61.87:10339, sid=672a0504 af266199
+Enter Auth Username:Enter Auth Password:
+Sun Jul 28 19:40:20 2013 VERIFY OK: depth=1, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=openvpn_CA/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:40:20 2013 VERIFY OK: nsCertType=SERVER
+Sun Jul 28 19:40:20 2013 VERIFY OK: depth=0, /C=HK/ST=HK/L=Hongkong/O=openvpn/CN=server/emailAddress=evergreenonline@126.com
+Sun Jul 28 19:40:23 2013 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:40:23 2013 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:40:23 2013 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Jul 28 19:40:23 2013 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Jul 28 19:40:23 2013 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Sun Jul 28 19:40:23 2013 [server] Peer Connection Initiated with [AF_INET]61.64.61.87:10339
+Sun Jul 28 19:40:25 2013 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sun Jul 28 19:40:27 2013 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 bypass-dhcp,dhcp-option DNS 8.8.8.8,dhcp-option DNS 8.8.4.4,route 10.2.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.2.0.194 10.2.0.193'
+Sun Jul 28 19:40:27 2013 OPTIONS IMPORT: timers and/or timeouts modified
+Sun Jul 28 19:40:27 2013 OPTIONS IMPORT: --ifconfig/up options modified
+Sun Jul 28 19:40:27 2013 OPTIONS IMPORT: route options modified
+Sun Jul 28 19:40:27 2013 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Sun Jul 28 19:40:27 2013 Preserving previous TUN/TAP instance: Local Area Connection 2
+Sun Jul 28 19:40:27 2013 Initialization Sequence Completed
+
+<TEST INFO>: Child process ended
+

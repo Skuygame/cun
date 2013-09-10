@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addins>
+	<addin name="UADAddin" lastest="2.0" size="91456"  date="2010-11-17 11:58:43" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1289966293991.thunderaddin]]></download_url>
+		<desc><![CDATA[流量统计]]></desc>
+	</addin>
+	<addin name="TaskSchedulerAddin" lastest="1.1" size="160624"  date="2011-01-08 15:16:05" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1291864492757.thunderaddin]]></download_url>
+		<desc><![CDATA[计划任务]]></desc>
+	</addin>
+	<addin name="MD5CheckerAddin" lastest="1.3" size="132184"  date="2011-01-14 16:35:01" thunder="1.2" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1294994101684.thunderaddin]]></download_url>
+		<desc><![CDATA[MD5查看器]]></desc>
+	</addin>
+	<addin name="KankanAddin" lastest="1.0" size="85576"  date="2010-11-17 17:54:41" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1289960995457.thunderaddin]]></download_url>
+		<desc><![CDATA[迅雷看看]]></desc>
+	</addin>
+	<addin name="Purse" lastest="1.0" size="98928"  date="2010-11-17 17:55:36" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1289961324148.thunderaddin]]></download_url>
+		<desc><![CDATA[迅雷钱包]]></desc>
+	</addin>
+	<addin name="RJCK" lastest="1.0" size="457952"  date="2010-11-17 17:55:13" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1289962224162.thunderaddin]]></download_url>
+		<desc><![CDATA[软件仓库]]></desc>
+	</addin>
+	<addin name="UUAddin" lastest="1.1" size="118584"  date="2011-04-26 19:10:43" thunder="1.8" xlue="1.1" downloadkernel="1.0" basic="1.1" force="1">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1303816243134.thunderaddin]]></download_url>
+		<desc><![CDATA[边下边玩]]></desc>
+	</addin>
+	<addin name="KuXunFlight" lastest="1.1" size="90176"  date="2011-01-13 19:21:19" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1294917679809.thunderaddin]]></download_url>
+		<desc><![CDATA[酷讯机票]]></desc>
+	</addin>
+	<addin name="MyStock" lastest="1.0" size="83696"  date="2010-12-03 15:36:53" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1291361813520.thunderaddin]]></download_url>
+		<desc><![CDATA[我的股票]]></desc>
+	</addin>
+	<addin name="CIDToolAddin" lastest="2.0" size="177808"  date="2011-01-08 15:13:12" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1292833244852.thunderaddin]]></download_url>
+		<desc><![CDATA[下载地址恢复]]></desc>
+	</addin>
+	<addin name="DoubanFM" lastest="1.1" size="82920"  date="2011-03-11 10:49:25" thunder="1.0" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1299811765070.thunderaddin]]></download_url>
+		<desc><![CDATA[豆瓣电台]]></desc>
+	</addin>
+	<addin name="IPAddressAddin" lastest="1.1" size="93376"  date="2011-01-28 19:05:35" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1296212735706.thunderaddin]]></download_url>
+		<desc><![CDATA[我的IP地址]]></desc>
+	</addin>
+	<addin name="Saw" lastest="1.0" size="89104"  date="2010-12-15 19:17:36" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1292411856393.thunderaddin]]></download_url>
+		<desc><![CDATA[电锯惊魂]]></desc>
+	</addin>
+	<addin name="XiamiRadio" lastest="1.1" size="83648"  date="2011-03-11 10:49:59" thunder="1.8" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1299811799807.thunderaddin]]></download_url>
+		<desc><![CDATA[虾米电台]]></desc>
+	</addin>
+	<addin name="xlcp" lastest="1.1" size="100000"  date="2011-04-22 15:15:00" thunder="1.8" xlue="1.0" downloadkernel="1.0" basic="1.0" force="1">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1303456500001.thunderaddin]]></download_url>
+		<desc><![CDATA[迅雷彩票]]></desc>
+	</addin>
+	<addin name="DouDiZhu" lastest="1.2" size="87032"  date="2011-03-04 20:13:27" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1299240807383.thunderaddin]]></download_url>
+		<desc><![CDATA[斗地主]]></desc>
+	</addin>
+	<addin name="InternetSpeedTester" lastest="1.0" size="168192"  date="2011-02-24 09:52:57" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1298512377295.thunderaddin]]></download_url>
+		<desc><![CDATA[网络测速]]></desc>
+	</addin>
+	<addin name="Snooker" lastest="1.0" size="86328"  date="2011-03-05 10:47:14" thunder="1.2" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1299293234724.thunderaddin]]></download_url>
+		<desc><![CDATA[斯诺克]]></desc>
+	</addin>
+	<addin name="DuiDuiPeng" lastest="1.0" size="86696"  date="2011-03-04 20:14:03" thunder="1.1" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1299240843122.thunderaddin]]></download_url>
+		<desc><![CDATA[对对碰]]></desc>
+	</addin>
+	<addin name="LianLianKan" lastest="1.0" size="85504"  date="2011-03-04 20:14:23" thunder="1.2" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1299240863002.thunderaddin]]></download_url>
+		<desc><![CDATA[连连看]]></desc>
+	</addin>
+	<addin name="AssociateResourceAddin" lastest="1.0" size="95456"  date="2011-03-02 20:35:12" thunder="" xlue="" downloadkernel="" basic="" force="">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1299069312128.thunderaddin]]></download_url>
+		<desc><![CDATA[相关推荐]]></desc>
+	</addin>
+	<addin name="MobileAddin" lastest="1.0" size="4248488"  date="2011-03-21 11:04:57" thunder="1.7" xlue="1.1" downloadkernel="1.0" basic="2.0" force="2">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1300676697735.thunderaddin]]></download_url>
+		<desc><![CDATA[iPad及移动设备支持]]></desc>
+	</addin>
+	<addin name="PingAnCarInsurance" lastest="1.0" size="91352"  date="2011-03-24 10:41:54" thunder="1.0" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1300934518663.thunderaddin]]></download_url>
+		<desc><![CDATA[车险计算器]]></desc>
+	</addin>
+	<addin name="DownloadSites" lastest="1.0" size="108408"  date="2011-03-16 19:05:22" thunder="1.0" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1300273522538.thunderaddin]]></download_url>
+		<desc><![CDATA[下载站导航]]></desc>
+	</addin>
+	<addin name="HotGames" lastest="1.0" size="100728"  date="2011-03-16 19:07:46" thunder="1.0" xlue="1.0" downloadkernel="1.0" basic="1.0" force="2">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1300273666880.thunderaddin]]></download_url>
+		<desc><![CDATA[热门小游戏]]></desc>
+	</addin>
+	<addin name="WalkboxAddin" lastest="1.1" size="602720"  date="2011-03-31 11:22:55" thunder="1.8" xlue="1.1" downloadkernel="1.0" basic="2.0" force="1">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1301541775613.thunderaddin]]></download_url>
+		<desc><![CDATA[随身盘]]></desc>
+	</addin>
+	<addin name="GougouSearch" lastest="1.2" size="204104"  date="2011-05-09 14:17:11" thunder="1.9" xlue="1.1" downloadkernel="1.0" basic="2.0" force="1">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1304921831504.thunderaddin]]></download_url>
+		<desc><![CDATA[狗狗搜索]]></desc>
+	</addin>
+	<addin name="zonezu" lastest="1.0" size="90456"  date="2011-04-19 11:19:06" thunder="1.2" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1303183146057.thunderaddin]]></download_url>
+		<desc><![CDATA[账族免费记账]]></desc>
+	</addin>
+	<addin name="Tuan" lastest="1.0" size="88200"  date="2011-04-20 17:26:36" thunder="1.0" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1303291596673.thunderaddin]]></download_url>
+		<desc><![CDATA[团购导航]]></desc>
+	</addin>
+	<addin name="YiGeMusic" lastest="1.0" size="226664"  date="2011-04-21 11:11:46" thunder="1.8" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1303355506669.thunderaddin]]></download_url>
+		<desc><![CDATA[亦歌]]></desc>
+	</addin>
+	<addin name="UrlShareAddin" lastest="2.0" size="306944"  date="2011-05-27 18:52:59" thunder="1.7" xlue="1.1" downloadkernel="1.0" basic="1.0" force="1">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1306493579824.thunderaddin]]></download_url>
+		<desc><![CDATA[下载链接分享]]></desc>
+	</addin>
+	<addin name="LBSAddin" lastest="1.0" size="95456"  date="2011-05-26 14:34:29" thunder="1.6" xlue="1.0" downloadkernel="1.0" basic="1.0" force="0">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1306391669817.thunderaddin]]></download_url>
+		<desc><![CDATA[迅雷雷区]]></desc>
+	</addin>
+	<addin name="ThunderAddin" lastest="2.1" size="97024"  date="2011-06-15 22:35:06" thunder="1.9" xlue="1.0" downloadkernel="1.0" basic="1.0" force="1">
+		<download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1308148506958.thunderaddin]]></download_url>
+		<desc><![CDATA[界面辅助]]></desc>
+	</addin>
+</addins>

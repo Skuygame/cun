@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coop>
+	<item id="K000001">
+		<icon><![CDATA[http://img.plugin.xl7.xunlei.com//s1308035597229.png]]></icon>
+		<title>一折微软正版</title>
+		<url><![CDATA[http://campus.shop.xunlei.com/]]></url>
+		<type>1</type> 
+		<tips><![CDATA[一折微软正版]]></tips>
+	<keywords>
+					<keyword><![CDATA[office]]></keyword>
+					<keyword><![CDATA[办公软件]]></keyword>
+					<keyword><![CDATA[windows]]></keyword>
+					<keyword><![CDATA[文字处理]]></keyword>
+			</keywords>
+	</item>
+</coop>

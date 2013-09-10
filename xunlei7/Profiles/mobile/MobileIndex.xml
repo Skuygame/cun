@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobiles>
+	<brand id="4" name="HTC" desc="htc" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/htc.png</pic_url>
+		<type id="2" name="6750" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000002.xml</param>
+		</type>
+		<type id="3" name="7950" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000003.xml</param>
+		</type>
+		<type id="70" name="CEO'S睿翼" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000070.xml</param>
+		</type>
+		<type id="84" name="Desire(G7)" alias="2h3,2ha;;2hv_HM@35l_PL" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000084.xml</param>
+		</type>
+		<type id="86" name="Dream" alias=";;2dd_NG-KV-GZ-LC-LZ-LD@2de_NG-KV-GZ-LC-LZ-LD-NH@35o_KV" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000086.xml</param>
+		</type>
+		<type id="89" name="Droid Eris" alias="" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000089.xml</param>
+		</type>
+		<type id="90" name="Droid Incredible" alias=";;2hq_HJ" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000090.xml</param>
+		</type>
+		<type id="120" name="Espresso" alias="" os_version="Android OS v2.1"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000120.xml</param>
+		</type>
+		<type id="126" name="EVO 4G" alias=";;2h9_HL" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000126.xml</param>
+		</type>
+		<type id="131" name="Firestone" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000131.xml</param>
+		</type>
+		<type id="158" name="HD2" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000158.xml</param>
+		</type>
+		<type id="159" name="Hero(G3)" alias="2hl_LG@2de_LG-P2@2hk_L9@2hl_L9" os_version="Android OS v2.0"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000159.xml</param>
+		</type>
+		<type id="161" name="Hero200" alias=";;2dj_HF@2hm_HF" os_version="Android OS v1.6"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000161.xml</param>
+		</type>
+		<type id="199" name="Imagio" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000199.xml</param>
+		</type>
+		<type id="210" name="Legend(G6)" alias="2hj;;2hj_NX@35l_NX" os_version="Android OS v2.1"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000210.xml</param>
+		</type>
+		<type id="215" name="Liberty(Aria)" alias=";;2dd_RJ@35l_RJ" os_version="Android OS v2.1"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000215.xml</param>
+		</type>
+		<type id="232" name="Magic G2" alias="2de;;2dd_KF-LV-PB@2de_NE@2df_KF@35o_P4@2gx_NE-KF-LV" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000232.xml</param>
+		</type>
+		<type id="233" name="Magic+" alias="" os_version="Android OS v2.1"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000233.xml</param>
+		</type>
+		<type id="234" name="Maple" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000234.xml</param>
+		</type>
+		<type id="235" name="MAX 4G" alias="" os_version="Windows Mobile 6.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000235.xml</param>
+		</type>
+		<type id="254" name="myTouch 3G Slide" alias=";;2rn_PS" os_version="Android OS v2.1"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000254.xml</param>
+		</type>
+		<type id="282" name="Opal" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000282.xml</param>
+		</type>
+		<type id="295" name="P6950" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000295.xml</param>
+		</type>
+		<type id="308" name="S1+" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000308.xml</param>
+		</type>
+		<type id="311" name="S521" alias="" os_version="Windows Mobile 6.5"  resolution="320*240">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000311.xml</param>
+		</type>
+		<type id="337" name="Shadow" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000337.xml</param>
+		</type>
+		<type id="344" name="T2223" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000344.xml</param>
+		</type>
+		<type id="345" name="T4242" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000345.xml</param>
+		</type>
+		<type id="355" name="Tattoo(G4)" alias=";Tattoo;2dd_LG@2de_LG-P2" os_version="Android OS v1.6"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000355.xml</param>
+		</type>
+		<type id="359" name="Tilt2" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000359.xml</param>
+		</type>
+		<type id="361" name="Touch 3G" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000361.xml</param>
+		</type>
+		<type id="362" name="Touch Diamond" alias="2dx" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000362.xml</param>
+		</type>
+		<type id="363" name="Touch Diamond 2" alias="2eo" os_version="Windows Mobile 6.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000363.xml</param>
+		</type>
+		<type id="364" name="Touch HD" alias="" os_version="Windows Mobile 6.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000364.xml</param>
+		</type>
+		<type id="366" name="Touch Pro" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000366.xml</param>
+		</type>
+		<type id="371" name="Touch2" alias="" os_version="Windows Mobile 6.5"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000371.xml</param>
+		</type>
+		<type id="372" name="Trophy" alias="" os_version="Windows Mobile 6.5"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000372.xml</param>
+		</type>
+		<type id="375" name="U1000" alias="" os_version="Windows Mobile 5.0"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000375.xml</param>
+		</type>
+		<type id="399" name="Vision" alias="" os_version="Android OS v2.2"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000399.xml</param>
+		</type>
+		<type id="401" name="Viva" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000401.xml</param>
+		</type>
+		<type id="411" name="Wildfire(G8)" alias="2h7;Wildfire;2dd_PY@2de_PY@2df_PY@2h7_RB@2h7_PY@35o_PY" os_version="Android OS v2.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000411.xml</param>
+		</type>
+		<type id="444" name="XV6850" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000444.xml</param>
+		</type>
+		<type id="455" name="NexusOne(G5)" alias="ff6,ff5" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000455.xml</param>
+		</type>
+		<type id="456" name="Desire HD" alias="2hu;;2hu_RX@35o_RX" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000456.xml</param>
+		</type>
+		<type id="469" name="Desire S" alias="2i3" os_version="Android OS v2.2"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000004/0000000469.xml</param>
+		</type>
+	</brand>
+	<brand id="8" name="LG" desc="lg" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/lg.png</pic_url>
+		<type id="128" name="GW820" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000128.xml</param>
+		</type>
+		<type id="145" name="GM730" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000145.xml</param>
+		</type>
+		<type id="147" name="GM750" alias="" os_version="Windows Mobile 6.5"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000147.xml</param>
+		</type>
+		<type id="149" name="GT500s" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000149.xml</param>
+		</type>
+		<type id="150" name="GT540" alias="" os_version="Android OS v1.6"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000150.xml</param>
+		</type>
+		<type id="151" name="GT810H" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000151.xml</param>
+		</type>
+		<type id="152" name="GW550" alias="" os_version="Windows Mobile 6.5"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000152.xml</param>
+		</type>
+		<type id="154" name="GW620" alias="" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000154.xml</param>
+		</type>
+		<type id="155" name="GW825v" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000155.xml</param>
+		</type>
+		<type id="163" name="HQ" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000163.xml</param>
+		</type>
+		<type id="200" name="Incite" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000200.xml</param>
+		</type>
+		<type id="208" name="KT878" alias="" os_version="Windows Mobile 6.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000208.xml</param>
+		</type>
+		<type id="209" name="KU2100" alias="" os_version="Windows Mobile 6.5"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000209.xml</param>
+		</type>
+		<type id="213" name="KS10" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000213.xml</param>
+		</type>
+		<type id="218" name="LU2100" alias="" os_version="Windows Mobile 6.5"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000218.xml</param>
+		</type>
+		<type id="283" name="KU9500" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000283.xml</param>
+		</type>
+		<type id="342" name="SU210" alias="" os_version="Windows Mobile 6.5"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000342.xml</param>
+		</type>
+		<type id="474" name="GD880" alias="" os_version="S-Class"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000008/0000000474.xml</param>
+		</type>
+	</brand>
+	<brand id="9" name="O2" desc="o2" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/o2.png</pic_url>
+		<type id="132" name="Flame" alias="" os_version="Windows Mobile 5.0"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000132.xml</param>
+		</type>
+		<type id="251" name="MWG Zinc II" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000251.xml</param>
+		</type>
+		<type id="430" name="XDA Guide" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000430.xml</param>
+		</type>
+		<type id="431" name="XDA Ignito" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000431.xml</param>
+		</type>
+		<type id="432" name="XDA Orbit II" alias="" os_version="Windows Mobile 6.0"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000432.xml</param>
+		</type>
+		<type id="433" name="XDA Serra" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000433.xml</param>
+		</type>
+		<type id="434" name="Xda Shark" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000434.xml</param>
+		</type>
+		<type id="435" name="XDA Venn" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000435.xml</param>
+		</type>
+		<type id="436" name="XDA Zest" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000009/0000000436.xml</param>
+		</type>
+	</brand>
+	<brand id="13" name="多普达" desc="dopod" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/dopod.png</pic_url>
+		<type id="1" name="696" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000001.xml</param>
+		</type>
+		<type id="35" name="A3288" alias="" os_version="Android OS v1.6"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000035.xml</param>
+		</type>
+		<type id="40" name="A6288" alias="" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000040.xml</param>
+		</type>
+		<type id="41" name="A6388" alias="" os_version="Android OS v2.1"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000041.xml</param>
+		</type>
+		<type id="43" name="A8188" alias="" os_version="Android OS v1.6"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000043.xml</param>
+		</type>
+		<type id="307" name="S1" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000307.xml</param>
+		</type>
+		<type id="310" name="S505" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000310.xml</param>
+		</type>
+		<type id="312" name="S521" alias="" os_version="Windows Mobile 6.1"  resolution="320*240">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000312.xml</param>
+		</type>
+		<type id="313" name="S610" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000313.xml</param>
+		</type>
+		<type id="314" name="S700C" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000314.xml</param>
+		</type>
+		<type id="318" name="S900c" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000318.xml</param>
+		</type>
+		<type id="321" name="S910W" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000321.xml</param>
+		</type>
+		<type id="346" name="T4288" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000346.xml</param>
+		</type>
+		<type id="347" name="T5388" alias="" os_version="Windows Mobile 6.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000347.xml</param>
+		</type>
+		<type id="348" name="T5399" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000348.xml</param>
+		</type>
+		<type id="350" name="T7278" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000350.xml</param>
+		</type>
+		<type id="351" name="T8188" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000351.xml</param>
+		</type>
+		<type id="352" name="T8388" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000352.xml</param>
+		</type>
+		<type id="353" name="T8588" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000353.xml</param>
+		</type>
+		<type id="354" name="Tachi" alias="" os_version="Windows Mobile 6.1"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000354.xml</param>
+		</type>
+		<type id="365" name="Touch HD" alias="" os_version="Windows Mobile 6.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000365.xml</param>
+		</type>
+		<type id="369" name="T3238" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000369.xml</param>
+		</type>
+		<type id="370" name="Touch Viva" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000013/0000000370.xml</param>
+		</type>
+	</brand>
+	<brand id="22" name="联想" desc="lenovo" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/lenovo.png</pic_url>
+		<type id="121" name="ET10" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000121.xml</param>
+		</type>
+		<type id="122" name="ET60" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000122.xml</param>
+		</type>
+		<type id="123" name="ET60C" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000123.xml</param>
+		</type>
+		<type id="124" name="ET660" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000124.xml</param>
+		</type>
+		<type id="125" name="ET700" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000125.xml</param>
+		</type>
+		<type id="448" name="乐Phone" alias=";3GW100" os_version="dumb"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000022/0000000448.xml</param>
+		</type>
+	</brand>
+	<brand id="23" name="摩托罗拉" desc="motorola" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/motorola.png</pic_url>
+		<type id="32" name="A1680" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000032.xml</param>
+		</type>
+		<type id="33" name="A3000" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000033.xml</param>
+		</type>
+		<type id="34" name="A3100" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000034.xml</param>
+		</type>
+		<type id="36" name="A3300c" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000036.xml</param>
+		</type>
+		<type id="44" name="A955" alias="" os_version="Android OS v2.2"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000044.xml</param>
+		</type>
+		<type id="85" name="Devour A555" alias="" os_version="Android OS v1.6"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000085.xml</param>
+		</type>
+		<type id="88" name="Droid" alias="" os_version="Android OS v2.1"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000088.xml</param>
+		</type>
+		<type id="91" name="Droid 2" alias="" os_version="Android OS v2.2"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000091.xml</param>
+		</type>
+		<type id="119" name="ES400" alias="" os_version="Windows Mobile 6.5"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000119.xml</param>
+		</type>
+		<type id="144" name="i1" alias="" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000144.xml</param>
+		</type>
+		<type id="164" name="MB710" alias="" os_version="Android OS v1.5"  resolution="438*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000164.xml</param>
+		</type>
+		<type id="236" name="MB810" alias="" os_version="Android OS v2.2"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000236.xml</param>
+		</type>
+		<type id="237" name="ME501" alias="8Ys;" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000237.xml</param>
+		</type>
+		<type id="238" name="ME502" alias="" os_version="Android OS v2.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000238.xml</param>
+		</type>
+		<type id="239" name="ME511" alias="" os_version="Android OS v2.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000239.xml</param>
+		</type>
+		<type id="240" name="ME600" alias="" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000240.xml</param>
+		</type>
+		<type id="241" name="MileStone" alias="d00;A853" os_version="Android OS v2.0"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000241.xml</param>
+		</type>
+		<type id="242" name="Morrison" alias="" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000242.xml</param>
+		</type>
+		<type id="246" name="Q11" alias="" os_version="Windows Mobile 6.1"  resolution="320*240">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000246.xml</param>
+		</type>
+		<type id="414" name="XT3" alias="" os_version="Android OS v1.6"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000414.xml</param>
+		</type>
+		<type id="437" name="XT502" alias="" os_version="Android OS v2.1"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000437.xml</param>
+		</type>
+		<type id="438" name="XT701" alias="" os_version="Android OS v2.0"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000438.xml</param>
+		</type>
+		<type id="439" name="XT702" alias="" os_version="Android OS v2.1"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000439.xml</param>
+		</type>
+		<type id="440" name="XT711" alias="" os_version="Android OS v2.1"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000440.xml</param>
+		</type>
+		<type id="442" name="XT800" alias="D04;" os_version="Android OS v2.0"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000442.xml</param>
+		</type>
+		<type id="461" name="DEFY" alias=";MB525,ME525" os_version="Android OS v2.2"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000461.xml</param>
+		</type>
+		<type id="473" name="MileStone2" alias=";A953" os_version="Android OS v2.2"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000023/0000000473.xml</param>
+		</type>
+	</brand>
+	<brand id="24" name="诺基亚" desc="nokia" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/nokia.png</pic_url>
+		<type id="6" name="3250" alias="" os_version="Symbian S60V3_MR"  resolution="176*208">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000006.xml</param>
+		</type>
+		<type id="7" name="5230" alias=";5235,5233" os_version="Symbian S60V5"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000007.xml</param>
+		</type>
+		<type id="10" name="5320XM" alias=";5320" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000010.xml</param>
+		</type>
+		<type id="11" name="5530XM" alias=";5530" os_version="Symbian S60V5"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000011.xml</param>
+		</type>
+		<type id="12" name="5630XM" alias=";5630" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000012.xml</param>
+		</type>
+		<type id="13" name="5700" alias=";5700xm" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000013.xml</param>
+		</type>
+		<type id="14" name="5730XM" alias=";5730" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000014.xml</param>
+		</type>
+		<type id="15" name="5800XM" alias=";5800,5802" os_version="Symbian S60V5"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000015.xml</param>
+		</type>
+		<type id="19" name="6120c" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000019.xml</param>
+		</type>
+		<type id="21" name="6122c" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000021.xml</param>
+		</type>
+		<type id="22" name="6124" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000022.xml</param>
+		</type>
+		<type id="23" name="6210s" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000023.xml</param>
+		</type>
+		<type id="24" name="6220c" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000024.xml</param>
+		</type>
+		<type id="25" name="6290" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000025.xml</param>
+		</type>
+		<type id="26" name="6650-Mobile" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000026.xml</param>
+		</type>
+		<type id="27" name="6710N" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000027.xml</param>
+		</type>
+		<type id="28" name="6720c" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000028.xml</param>
+		</type>
+		<type id="29" name="6730" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000029.xml</param>
+		</type>
+		<type id="30" name="6730C" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000030.xml</param>
+		</type>
+		<type id="62" name="C5" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000062.xml</param>
+		</type>
+		<type id="63" name="C6" alias="" os_version="Symbian S60V5"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000063.xml</param>
+		</type>
+		<type id="98" name="E5" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000098.xml</param>
+		</type>
+		<type id="99" name="E50" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000099.xml</param>
+		</type>
+		<type id="100" name="E51" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000100.xml</param>
+		</type>
+		<type id="101" name="E52" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000101.xml</param>
+		</type>
+		<type id="103" name="E61" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000103.xml</param>
+		</type>
+		<type id="105" name="E62" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000105.xml</param>
+		</type>
+		<type id="106" name="E63" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000106.xml</param>
+		</type>
+		<type id="107" name="E65" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000107.xml</param>
+		</type>
+		<type id="108" name="E66" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000108.xml</param>
+		</type>
+		<type id="110" name="E71" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000110.xml</param>
+		</type>
+		<type id="111" name="E72" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000111.xml</param>
+		</type>
+		<type id="112" name="E75" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000112.xml</param>
+		</type>
+		<type id="256" name="N71" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000256.xml</param>
+		</type>
+		<type id="258" name="N73" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000258.xml</param>
+		</type>
+		<type id="259" name="N75" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000259.xml</param>
+		</type>
+		<type id="260" name="N76" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000260.xml</param>
+		</type>
+		<type id="261" name="N77" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000261.xml</param>
+		</type>
+		<type id="262" name="N78" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000262.xml</param>
+		</type>
+		<type id="263" name="N79" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000263.xml</param>
+		</type>
+		<type id="266" name="N81" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000266.xml</param>
+		</type>
+		<type id="267" name="N82" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000267.xml</param>
+		</type>
+		<type id="268" name="N85" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000268.xml</param>
+		</type>
+		<type id="269" name="N86" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000269.xml</param>
+		</type>
+		<type id="270" name="N91" alias="" os_version="Symbian S60V3_MR"  resolution="176*208">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000270.xml</param>
+		</type>
+		<type id="271" name="N92" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000271.xml</param>
+		</type>
+		<type id="272" name="N93" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000272.xml</param>
+		</type>
+		<type id="273" name="N93i" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000273.xml</param>
+		</type>
+		<type id="274" name="N95" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000274.xml</param>
+		</type>
+		<type id="275" name="N96" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000275.xml</param>
+		</type>
+		<type id="276" name="N97" alias="" os_version="Symbian S60V5"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000276.xml</param>
+		</type>
+		<type id="277" name="N97 Mini" alias="" os_version="Symbian S60V5"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000277.xml</param>
+		</type>
+		<type id="424" name="X6" alias="" os_version="Symbian S60V5"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000424.xml</param>
+		</type>
+		<type id="462" name="C7" alias="" os_version="c3"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000462.xml</param>
+		</type>
+		<type id="468" name="C6-01" alias="" os_version="Symbian"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000468.xml</param>
+		</type>
+		<type id="472" name="n72" alias="" os_version="Symbian S60V2"  resolution="176*208">
+			<param>http://help.mobile.xunlei.com/mobile/0000000024/0000000472.xml</param>
+		</type>
+	</brand>
+	<brand id="26" name="三星" desc="samsung" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/samsung.png</pic_url>
+		<type id="31" name="931SC" alias="" os_version="Windows Mobile 6.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000031.xml</param>
+		</type>
+		<type id="51" name="B5210U" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000051.xml</param>
+		</type>
+		<type id="53" name="B7300C" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000053.xml</param>
+		</type>
+		<type id="54" name="B7320" alias="" os_version="Windows Mobile 6.1"  resolution="320*240">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000054.xml</param>
+		</type>
+		<type id="55" name="B7610" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000055.xml</param>
+		</type>
+		<type id="56" name="B7620" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000056.xml</param>
+		</type>
+		<type id="69" name="Captivate i897" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000069.xml</param>
+		</type>
+		<type id="130" name="Fascinate" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000130.xml</param>
+		</type>
+		<type id="141" name="G810" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000141.xml</param>
+		</type>
+		<type id="142" name="G818E" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000142.xml</param>
+		</type>
+		<type id="166" name="Galaxy Teos" alias="" os_version="Android OS v2.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000166.xml</param>
+		</type>
+		<type id="167" name="Galaxy U" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000167.xml</param>
+		</type>
+		<type id="168" name="I350" alias="" os_version="Windows Mobile 6.5"  resolution="480*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000168.xml</param>
+		</type>
+		<type id="169" name="i400" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000169.xml</param>
+		</type>
+		<type id="170" name="i408" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000170.xml</param>
+		</type>
+		<type id="172" name="i450" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000172.xml</param>
+		</type>
+		<type id="173" name="i458" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000173.xml</param>
+		</type>
+		<type id="177" name="i520" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000177.xml</param>
+		</type>
+		<type id="178" name="I5500" alias="" os_version="Android OS v2.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000178.xml</param>
+		</type>
+		<type id="179" name="i550w" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000179.xml</param>
+		</type>
+		<type id="180" name="i560" alias="" os_version="Symbian S60V3_FP1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000180.xml</param>
+		</type>
+		<type id="183" name="I5700" alias="" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000183.xml</param>
+		</type>
+		<type id="184" name="I5801" alias="" os_version="Android OS v2.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000184.xml</param>
+		</type>
+		<type id="185" name="i637" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000185.xml</param>
+		</type>
+		<type id="186" name="I6500U" alias="" os_version="Android OS v2.1"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000186.xml</param>
+		</type>
+		<type id="187" name="i7110" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000187.xml</param>
+		</type>
+		<type id="188" name="i740" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000188.xml</param>
+		</type>
+		<type id="191" name="I7500" alias="k5f,kG4;GALAxy;K74_7500" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000191.xml</param>
+		</type>
+		<type id="193" name="i770" alias="" os_version="Windows Mobile 6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000193.xml</param>
+		</type>
+		<type id="194" name="I8000" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000194.xml</param>
+		</type>
+		<type id="195" name="I8000U" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000195.xml</param>
+		</type>
+		<type id="198" name="I8520" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000198.xml</param>
+		</type>
+		<type id="201" name="I8910" alias="" os_version="Symbian S60V5"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000201.xml</param>
+		</type>
+		<type id="205" name="I899" alias=";SCH-I899" os_version="Android OS v1.5"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000205.xml</param>
+		</type>
+		<type id="220" name="I900" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000220.xml</param>
+		</type>
+		<type id="222" name="I9000" alias="kls,K82;;kn5_9000@KKc_1000@kKC_9000@kkD_1000@KKd_9000@ko9_9000@Km6_M110" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000222.xml</param>
+		</type>
+		<type id="228" name="I908" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000228.xml</param>
+		</type>
+		<type id="229" name="I908E" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000229.xml</param>
+		</type>
+		<type id="281" name="I908L" alias="" os_version="Windows Mobile 6.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000281.xml</param>
+		</type>
+		<type id="305" name="I909" alias=";SCH-I909;kKc_I909" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000305.xml</param>
+		</type>
+		<type id="323" name="i920" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000323.xml</param>
+		</type>
+		<type id="326" name="Jack" alias="" os_version="Windows Mobile 6.1"  resolution="320*240">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000326.xml</param>
+		</type>
+		<type id="327" name="L870" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000327.xml</param>
+		</type>
+		<type id="328" name="L878E" alias="" os_version="Symbian S60V3_FP2"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000328.xml</param>
+		</type>
+		<type id="329" name="M100S" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000329.xml</param>
+		</type>
+		<type id="330" name="M120S" alias="" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000330.xml</param>
+		</type>
+		<type id="331" name="M8400" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000331.xml</param>
+		</type>
+		<type id="335" name="i220" alias="" os_version="Windows Mobile 6.1"  resolution="320*240">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000335.xml</param>
+		</type>
+		<type id="446" name="阿玛尼4" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000446.xml</param>
+		</type>
+		<type id="460" name="I5800" alias="" os_version="Android OS v2.1"  resolution="240*400">
+			<param>http://help.mobile.xunlei.com/mobile/0000000026/0000000460.xml</param>
+		</type>
+	</brand>
+	<brand id="27" name="索尼爱立信" desc="sonyericsson" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/sonyericsson.png</pic_url>
+		<type id="136" name="G819" alias="" os_version="Android OS v2.0"  resolution="360*640">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000136.xml</param>
+		</type>
+		<type id="223" name="M1i" alias="" os_version="Windows Mobile 6.5"  resolution="320*240">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000223.xml</param>
+		</type>
+		<type id="225" name="M610" alias="" os_version="Symbian S60V3_MR"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000225.xml</param>
+		</type>
+		<type id="418" name="X1" alias="" os_version="Windows Mobile 6.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000418.xml</param>
+		</type>
+		<type id="419" name="X10i" alias="9pq,6jy" os_version="Android OS v1.6"  resolution="480*854">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000419.xml</param>
+		</type>
+		<type id="420" name="U20i" alias="" os_version="Android OS v1.6"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000420.xml</param>
+		</type>
+		<type id="421" name="E10i" alias="" os_version="Android OS v1.6"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000421.xml</param>
+		</type>
+		<type id="422" name="X2" alias="" os_version="Windows Mobile 6.5"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000422.xml</param>
+		</type>
+		<type id="423" name="X20" alias="" os_version="Android OS v2.0"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000423.xml</param>
+		</type>
+		<type id="427" name="X8" alias="6kp" os_version="Android OS v1.6"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000027/0000000427.xml</param>
+		</type>
+	</brand>
+	<brand id="35" name="魅族" desc="meizu" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/meizu.png</pic_url>
+		<type id="231" name="M8" alias=";;4wh_vlw@4wh_yro@11j_7q8" os_version="Windows CE"  resolution="480*720">
+			<param>http://help.mobile.xunlei.com/mobile/0000000035/0000000231.xml</param>
+		</type>
+		<type id="457" name="M9" alias=";;4wh_5" os_version="Android OS v2.2"  resolution="640*960">
+			<param>http://help.mobile.xunlei.com/mobile/0000000035/0000000457.xml</param>
+		</type>
+	</brand>
+	<brand id="38" name="索尼" desc="sony" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/sony.png</pic_url>
+		<type id="458" name="PSP" alias="" os_version="psp"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000038/0000000458.xml</param>
+		</type>
+		<type id="459" name="PSP GO" alias="ox" os_version="psp"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000038/0000000459.xml</param>
+		</type>
+	</brand>
+	<brand id="39" name="苹果" desc="Apple" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/apple.png</pic_url>
+		<type id="463" name="iPad" alias="" os_version="ios"  resolution="1024*768">
+			<param>http://help.mobile.xunlei.com/mobile/0000000039/0000000463.xml</param>
+		</type>
+		<type id="464" name="iPhone 3gs" alias="" os_version="ios"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000039/0000000464.xml</param>
+		</type>
+		<type id="465" name="iPhone 4" alias="" os_version="ios"  resolution="640*960">
+			<param>http://help.mobile.xunlei.com/mobile/0000000039/0000000465.xml</param>
+		</type>
+		<type id="466" name="iTouch 4" alias="" os_version="ios"  resolution="640*960">
+			<param>http://help.mobile.xunlei.com/mobile/0000000039/0000000466.xml</param>
+		</type>
+		<type id="467" name="iTouch 3" alias="" os_version="ios"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000039/0000000467.xml</param>
+		</type>
+	</brand>
+	<brand id="40" name="谷歌" desc="Google" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/google.png</pic_url>
+		<type id="470" name="Nexus One" alias="ff6,ff5" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000040/0000000470.xml</param>
+		</type>
+		<type id="471" name="Nexus S" alias="ffm" os_version="Android OS v2.1"  resolution="480*800">
+			<param>http://help.mobile.xunlei.com/mobile/0000000040/0000000471.xml</param>
+		</type>
+	</brand>
+	<brand id="41" name="黑莓" desc="Blackberry" alias="">
+		<pic_url>http://help.mobile.xunlei.com/mobile/images/logo/blackberry.png</pic_url>
+		<type id="475" name="9530" alias="" os_version="BlackBerry OS 5.0"  resolution="360*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000475.xml</param>
+		</type>
+		<type id="476" name="9000" alias="" os_version="BlackBerry OS 4.6.0"  resolution="320*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000476.xml</param>
+		</type>
+		<type id="477" name="9700" alias="" os_version="BlackBerry OS 5.0"  resolution="360*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000477.xml</param>
+		</type>
+		<type id="478" name="9780" alias="" os_version="BlackBerry OS 6.0"  resolution="360*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000478.xml</param>
+		</type>
+		<type id="479" name="9630" alias="" os_version="BlackBerry OS 4.7.1"  resolution="360*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000479.xml</param>
+		</type>
+		<type id="480" name="9800" alias="" os_version="BlackBerry OS 6.0"  resolution="360*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000480.xml</param>
+		</type>
+		<type id="481" name="9520" alias="" os_version="BlackBerry OS 5.0"  resolution="360*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000481.xml</param>
+		</type>
+		<type id="482" name="8900" alias="" os_version="BlackBerry OS 4.6.1"  resolution="360*480">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000482.xml</param>
+		</type>
+		<type id="483" name="8310" alias="" os_version="BlackBerry OS 4.6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000483.xml</param>
+		</type>
+		<type id="484" name="8520" alias="" os_version="BlackBerry OS 4.6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000484.xml</param>
+		</type>
+		<type id="485" name="8220" alias="" os_version="BlackBerry OS 4.6.1"  resolution="240*320">
+			<param>http://help.mobile.xunlei.com/mobile/0000000041/0000000485.xml</param>
+		</type>
+	</brand>
+</mobiles>

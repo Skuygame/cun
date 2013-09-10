@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<element>
+		<sys_type>1</sys_type>
+		<sys_name><![CDATA[站内信]]></sys_name>
+		<msg_count>0</msg_count>
+	</element>
+	<element>
+		<sys_type>102</sys_type>
+		<sys_name><![CDATA[好友验证]]></sys_name>
+		<msg_count>0</msg_count>
+	</element>
+	<element>
+		<sys_type>101</sys_type>
+		<sys_name><![CDATA[系统消息]]></sys_name>
+		<msg_count>0</msg_count>
+	</element>
+	<element>
+		<sys_type>108</sys_type>
+		<sys_name><![CDATA[通知]]></sys_name>
+		<msg_count>2</msg_count>
+		<url><![CDATA[http://notify.i.xunlei.com/getsysmsg?userno=106652022 ]]></url>
+	</element>
+</data>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app_list>
+  <app name="AssociateResourceAddin" show_name="相关推荐">
+    <download_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/files/s1299069312128.thunderaddin]]></download_url>
+    <logo_url><![CDATA[http://plugin.xl7.xunlei.com/plugins/images/l1299069312128.png]]></logo_url>
+    <desc><![CDATA[根据您当前下载的资源自动查询并推荐与之最相关的资源，让您轻松下载。]]></desc>
+    <demo_img><![CDATA[http://img.plugin.xl7.xunlei.com/wi1300082650457.png]]></demo_img>
+    <open_tab><![CDATA[0]]></open_tab>
+  </app>
+</app_list>

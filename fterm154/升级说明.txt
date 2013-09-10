@@ -1,0 +1,5 @@
+Q: 怎样保留我的 fterm 设置和地址本？
+A: 保留 fterm.ini fterm.xml fdigest.vst *.kbd
+
+Q: 英文OS下面菜单都是乱码，或者启动时候就非法操作，简体中文OS下没有问题
+A: 删除 fterm.enu 和 fterm.cht ，新版本的已经不需要他们了

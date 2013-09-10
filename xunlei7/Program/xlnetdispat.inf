@@ -1,0 +1,122 @@
+; Copyright (c) 2003-2009 Thunder Networking Technologies,LTD
+; Unauthorized copying or use without explicit permission of Thunder
+; is prohibited
+;
+[Version]
+Signature  = "$Windows NT$"
+Class      = NetService
+ClassGUID  = {4D36E974-E325-11CE-BFC1-08002BE10318}
+Provider   = %XunLei%
+DriverVer  = 04/24/2010,1.0.2.18
+
+
+[Manufacturer]
+%XunLei% = XUNLEI,NTx86,NTia64,NTamd64
+
+[ControlFlags]
+
+;=========================================================================
+;
+;=========================================================================
+
+;For Win2K
+[XUNLEI]
+%XLNetDispat_Desc% = NetDriver.ndi, xl_netdispat
+
+;For WinXP and later
+[XUNLEI.NTx86]
+%XLNetDispat_Desc% = NetDriver.ndi, xl_netdispat
+
+[XUNLEI.NTia64]
+%XLNetDispat_Desc% = NetDriver.ndi, xl_netdispat
+
+[XUNLEI.NTamd64]
+%XLNetDispat_Desc% = NetDriver.ndi, xl_netdispat
+
+[NetDriver.ndi]
+AddReg          = NetDriver.ndi.AddReg, NetDriver.AddReg
+Characteristics = 0x4410 ; NCF_FILTER | NCF_NDIS_PROTOCOL !--Filter Specific--!!
+CopyFiles       = NetDriver.Files.Sys
+CopyInf         = xlnetdispat_m.inf
+
+[NetDriver.ndi.Remove]
+DelFiles = NetDriver.Files.Sys
+
+[NetDriver.ndi.Services]
+AddService = xlnetdispat,, NetDriver.AddService
+
+[NetDriver.AddService]
+DisplayName    = %XLNetDispatcherService_Desc%
+ServiceType    = 1 ;SERVICE_KERNEL_DRIVER
+StartType      = 3 ;SERVICE_DEMAND_START
+ErrorControl   = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\xlnetdispat.sys
+AddReg         = NetDriver.AddService.AddReg
+
+
+[NetDriver.AddService.AddReg]
+; ----------------------------------------------------------------------
+; Add any miniport-specific parameters here.  These are params that your
+; filter device is going to use.
+;
+;HKR, Parameters, ParameterName,  0x10000, "MultiSz", "Parameter", "Value"
+;HKR, Parameters, ParameterName2, 0x10001, 4
+
+; ----------------------------------------------------------------------
+; File copy
+;
+[SourceDisksNames]
+1=%DiskDescription%
+
+[SourceDisksFiles]
+xlnetdispat.sys=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+NetDriver.Files.Sys = 12   ; %windir%\System32\drivers
+
+[NetDriver.Files.Sys]
+xlnetdispat.sys,,,2
+
+; ----------------------------------------------------------------------
+; Filter Install
+;
+
+[NetDriver.ndi.AddReg]
+HKR, Ndi, HelpText, , %XLNetDispat_HELP%
+
+; ----------------------------------------------------------------------
+; !!--Filter Specific--!!
+;
+; Note:
+; 1. Other components may also have UpperRange/LowerRange but for filters
+;    the value of both of them must be noupper/nolower
+; 2. The value FilterClass is required.
+; 3. The value Service is required
+; 4. FilterDeviceInfId is the InfId of the filter device (miniport) that will
+;    be installed for each filtered adapter.
+;    In this case this is xl_netdispatmp (refer to xlnetdispat_m.inf)
+;
+HKR, Ndi,            FilterClass,         , failover
+HKR, Ndi,            FilterDeviceInfId,   , xl_netdispatmp
+HKR, Ndi,            Service,             , xlnetdispat
+HKR, Ndi\Interfaces, UpperRange,          , noupper
+HKR, Ndi\Interfaces, LowerRange,          , nolower
+HKR, Ndi\Interfaces, FilterMediaTypes,    , "ethernet, tokenring, fddi, wan"
+
+[NetDriver.AddReg]
+; The following key is Required
+; The following key is NetDriver specific
+HKR, Parameters, Param1, 0, 4
+
+; ----------------------------------------------------------------------
+[Strings]
+XunLei= "XunLei"
+DiskDescription = "XunLei NetDispat Driver Disk"
+
+XLNetDispat_Desc = "XunLei Network Dispatch Driver"
+XLNetDispat_HELP = "XunLei Network Dispatch Driver"
+XLNetDispatcherService_Desc = "XLNetDispat Service"
+
+
+

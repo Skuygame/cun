@@ -1,0 +1,74 @@
+; Copyright (c) 2003-2009 Thunder Networking Technologies,LTD
+; Unauthorized copying or use without explicit permission of Thunder
+; is prohibited
+;
+[Version]
+signature  = "$Windows NT$"
+Class      = Net
+ClassGUID  = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider   = %XunLei%
+DriverVer  = 04/24/2010,1.0.2.18
+
+[ControlFlags]
+ExcludeFromSelect = xl_netdispatmp
+
+[DestinationDirs]
+DefaultDestDir=12
+; No files to copy 
+
+[Manufacturer]
+%XunLei% = XUNLEI, NTx86,NTia64,NTamd64
+
+;For Win2K
+
+[XUNLEI]
+%XLNetDispatMP_Desc% = XLNetDispatMP.ndi, xl_netdispatmp
+
+;For WinXP and later
+
+[XUNLEI.NTx86]
+%XLNetDispatMP_Desc% = XLNetDispatMP.ndi, xl_netdispatmp
+
+[XUNLEI.NTia64]
+%XLNetDispatMP_Desc% = XLNetDispatMP.ndi, xl_netdispatmp
+
+[XUNLEI.NTamd64]
+%XLNetDispatMP_Desc% = XLNetDispatMP.ndi, xl_netdispatmp
+
+[XLNetDispatMP.ndi]
+AddReg  = XLNetDispatMP.ndi.AddReg
+Characteristics = 0x09 ; NCF_VIRTUAL | NCF_HIDDEN
+
+[XLNetDispatMP.ndi.AddReg]
+HKR, Ndi, Service,  0,  xlnetdispatmp
+
+[XLNetDispatMP.ndi.Services]
+AddService = xlnetdispatmp,0x2, XLNetDispatMP.AddService
+
+[XLNetDispatMP.AddService]
+ServiceType    = 1 ;SERVICE_KERNEL_DRIVER
+StartType      = 3 ;SERVICE_DEMAND_START
+ErrorControl   = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\xlnetdispat.sys
+AddReg         = XLNetDispatMP.AddService.AddReg
+
+
+[XLNetDispatMP.AddService.AddReg]
+; ----------------------------------------------------------------------
+; Add any miniport-specific parameters here.  These are params that your
+; filter device is going to use.
+;
+;HKR, Parameters, ParameterName,  0x10000, "MultiSz", "Parameter", "Value"
+;HKR, Parameters, ParameterName2, 0x10001, 4
+
+[Strings]
+XunLei = "XunLei"
+XLNetDispatMP_Desc = "XunLei Network Dispatch Miniport"
+
+[SourceDisksNames]
+;None 
+
+[SourceDisksFiles]
+;None
+
+
