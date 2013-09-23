@@ -1,0 +1,6 @@
+Name: "LiveLong"
+Addr1: "LiveLong@wtf.net"
+Addr2: "World"
+Key1: "65BA95C45AC7FE57EE5432907972FAF1"
+Key2: "3B8FB020525114519C6F731A424D2698"
+Chksm: "9D"
