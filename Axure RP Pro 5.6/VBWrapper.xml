@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VBWrapper
+</name>
+</assembly>
+<members>
+<member name="M:Axure.Ubiquity.WordResources.WordWrapper.EnableSpellAndGrammarChecking(System.Object)">
+ This function does not create a word application unless it has to.
+
+</member>
+</members>
+</doc>

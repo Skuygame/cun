@@ -1,0 +1,555 @@
+<Template>
+<Page_Each>
+<![CDATA[
+//Check if IE
+var bIE = false;
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0) 
+{
+	bIE = true;
+}
+
+function OffSetAll() {
+  var checkOffsetX;
+  var checkOffsetY;
+  var radioOffsetX;
+  var radioOffsetY;
+  var hlinkOffsetX;
+  var hlinkOffsetY;
+  
+  if (bIE) {
+    checkOffsetX = 4;
+	checkOffsetY = 2;
+	radioOffsetX = 4;
+	radioOffsetY = 2;
+	hlinkOffsetX = 0;
+	hlinkOffsetY = 2;
+  }
+  else {
+    checkOffsetX = 4;
+	checkOffsetY = 1;
+	radioOffsetX = 4;
+	radioOffsetY = 3;
+	hlinkOffsetX = 0;
+	hlinkOffsetY = 0;
+  }
+
+  var inputs = document.getElementsByTagName("input");
+  for(index = 0; index < inputs.length; index++)
+  {
+    if(inputs[index].type == 'checkbox') {
+		var inputEl = inputs[index].parentNode;
+		var x = getAbsoluteLeft(inputEl);
+		var y = getAbsoluteTop(inputEl);
+		inputEl.style.left = (x - checkOffsetX) + "px";
+		inputEl.style.top = (y - checkOffsetY) + "px";
+    }
+    if(inputs[index].type == 'radio') {
+		var inputEl = inputs[index].parentNode;
+		var x = getAbsoluteLeft(inputEl);
+		var y = getAbsoluteTop(inputEl);
+		inputEl.style.left = (x - radioOffsetX) + "px";
+		inputEl.style.top = (y - radioOffsetY) + "px";
+    }
+  }
+  
+  var hlinks = document.getElementsByTagName("a");
+  for(index = 0; index < hlinks.length; index++)
+  {
+	var inputEl = hlinks[index].parentNode;
+	var x = getAbsoluteLeft(inputEl);
+	var y = getAbsoluteTop(inputEl);
+	inputEl.style.left = (x - hlinkOffsetX) + "px";
+	inputEl.style.top = (y - hlinkOffsetY) + "px";
+  }
+  
+}
+
+OffSetAll();
+
+//Make insertAdjacentElement work for Netscape
+if(typeof HTMLElement!="undefined" && !HTMLElement.prototype.insertAdjacentElement)
+{
+	HTMLElement.prototype.insertAdjacentElement = function(where,pnode)
+	{
+		switch (where)
+		{
+			case 'beforeBegin':
+				this.parentNode.insertBefore(pnode,this)
+				break;
+			case 'afterBegin':
+				this.insertBefore(pnode,this.firstChild);
+				break;
+			case 'beforeEnd':
+				this.appendChild(pnode);
+				break;
+			case 'afterEnd':
+				if (this.nextSibling) this.parentNode.insertBefore(pnode,this.nextSibling);
+				else this.parentNode.appendChild(pnode);
+				break;
+		}
+	}
+
+	HTMLElement.prototype.insertAdjacentHTML = function(where,html)
+	{
+		var range = this.ownerDocument.createRange();
+		range.setStartBefore(this);
+		var phtml = range.createContextualFragment(html);
+		this.insertAdjacentElement(where,phtml)
+	}
+}
+
+var MaxZIndex = 1000;
+
+//Get the id of the Workflow Dialog belonging to element with id = id
+function Workflow(id) {
+	return id+'WF';
+}
+
+//Get the id of the Workflow Description Box belonging to element with id = id
+function WorkflowDescBox(id) {
+	return id+'WFDesc';
+}
+
+//Get the id of the Element Description belonging to element with id = id			
+function WorkflowElementDesc(id) 
+{
+	return id+'d';
+}
+
+function BringToFront(id)
+{
+	var target = document.getElementById(id);
+	MaxZIndex = MaxZIndex + 1;
+	target.style.zIndex = MaxZIndex ;
+}
+
+function HideElement(id)
+{
+	var source = document.getElementById(id);
+	source.style.visibility = "hidden";
+	RefreshScreen();
+}
+
+function RefreshScreen()
+{
+	var oldColor = document.body.style.backgroundColor
+	var setColor = (oldColor=="rgb(0,0,0)")?"#FFFFFF":"#000000";
+	document.body.style.backgroundColor = setColor
+	document.body.style.backgroundColor = oldColor
+}
+
+function getAbsoluteLeft(node)
+{
+   var currentNode=node;
+   var left=0;
+   while(currentNode.tagName!="BODY"){
+      left+=currentNode.offsetLeft;
+      currentNode=currentNode.offsetParent;
+   }
+   return left;
+}
+
+function getAbsoluteTop(node)
+{
+   var currentNode=node;
+   var top=0;
+   while(currentNode.tagName!="BODY"){
+      top+=currentNode.offsetTop;
+      currentNode=currentNode.offsetParent;
+   }
+   return top;
+}
+
+function ToggleWorkflow(event, id, width, height, hasWorkflow)
+{
+	SuppressBubble(event);
+	var target = document.getElementById(Workflow(id));
+	if (target.style.visibility == "visible") {HideElement(Workflow(id));}
+	else 
+	{
+		var source = document.getElementById(id + "Note");
+		BringToFront(target.id);
+		var bufferH = 10;
+		var bufferV = 10;
+		var blnLeft = false;
+		var blnAbove = false;
+		height = height + 30;
+		var sourceLeft = getAbsoluteLeft(source) + (source.offsetWidth/2);
+		var sourceTop = getAbsoluteTop(source) + (source.offsetHeight/2);
+		if (sourceLeft > width + bufferH + document.body.scrollLeft) 
+		{
+			blnLeft = true;
+		}
+		if (sourceTop > height + bufferV + document.body.scrollTop)
+		{
+			blnAbove = true;
+		}
+		DrawAnnotation(target.id, width, height);
+		var descBox = document.getElementById(WorkflowDescBox(id));
+		if (descBox.innerHTML == '') ShowDescription(id, id + 'base', '');
+		if (blnAbove) target.style.top = sourceTop - height;
+		else target.style.top = sourceTop;
+		if (blnLeft) target.style.left = sourceLeft - width;
+		else target.style.left = sourceLeft;
+	}
+	RefreshScreen();
+}
+
+function DrawAnnotation(id, width, height) 
+{
+	var target = document.getElementById(id);
+	target.style.width = width;
+	target.style.height = height;
+	var btnClose = document.getElementById(id+'Close');
+	var crop = document.getElementById(id+'Crop');
+	var desc = document.getElementById(id+'Desc');
+	var label = document.getElementById(id+'Label');
+	var resize = document.getElementById(id+'Resize');
+	var heightCell = document.getElementById(id+'Height');
+	label.style.left = 10;
+	label.style.top = 4;
+	label.style.width = width - 30;
+	if(bIE)
+	{
+		btnClose.style.left = width - 18;
+		btnClose.style.top = 7;
+		desc.style.left = 4;
+		desc.style.top = 24;
+		desc.style.width = width - 8;
+		desc.style.height = height - 28;
+		resize.style.left = width - 15;
+		resize.style.top = height - 15;
+	}
+	else
+	{
+		heightCell.style.height = height - 40;
+		btnClose.style.left = width - 18;
+		btnClose.style.top = 7;
+		desc.style.left = 4;
+		desc.style.top = 24;
+		desc.style.width = width - 20;
+		desc.style.height = height - 40;
+		resize.style.left = width - 15;
+		resize.style.top = height - 15;
+	}
+	target.style.visibility = "visible";
+}
+
+function ShowDescription(id, WFE, CurrentWFE)
+{
+	var source = document.getElementById(WorkflowElementDesc(WFE));
+	var target = document.frames(WorkflowDescBox(id));
+	target.document.body.innerHTML = source.innerHTML;
+	//var element = document.getElementById(WFE);
+	//if (element != null) {element.style.border = "thin solid yellow"};
+}
+
+function ToggleLinks(event, id)
+{
+	var element = document.getElementById(id);
+	var links = document.getElementById(id + 'Links');
+	if (links.style.visibility == "visible") {HideElement(links.id);}
+	else {
+		if (bIE) 
+		{
+			links.style.top = window.event.y + document.body.scrollTop;
+			links.style.left = window.event.x + document.body.scrollLeft;
+		}
+		else
+		{
+			links.style.top = event.pageY;
+			links.style.left = event.pageX;
+		}
+		links.style.visibility = "visible";
+		BringToFront(links.id);
+	}
+	RefreshScreen();
+}
+
+var objDrag = new Object();
+objDrag.zIndex = 0;
+
+function StartDrag(event, id) 
+{
+	var x, y;
+	objDrag.elNode = document.getElementById(id);
+	if (bIE) 
+	{
+		x = window.event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft;
+		y = window.event.clientY + document.documentElement.scrollTop + document.body.scrollTop;
+	}
+	else
+	{
+		x = event.pageX;
+		y = event.pageY;
+	}
+	objDrag.cursorStartX = x;
+	objDrag.cursorStartY = y;
+	objDrag.elStartLeft  = parseInt(objDrag.elNode.style.left, 10);
+	objDrag.elStartTop   = parseInt(objDrag.elNode.style.top,  10);
+	BringToFront(objDrag.elNode.id);
+	if (bIE) 
+	{
+		document.attachEvent("onmousemove", Drag);
+		document.attachEvent("onmouseup",   StopDrag);
+	}
+	else
+	{
+		document.addEventListener("mousemove", Drag, true);
+		document.addEventListener("mouseup", StopDrag, true);
+	}
+	SuppressBubble(event);
+}
+
+function Drag(event)
+{
+	var x, y;
+	if (bIE) 
+	{
+		x = window.event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft;
+		y = window.event.clientY + document.documentElement.scrollTop + document.body.scrollTop;
+	}
+	else
+	{
+		x = event.pageX;
+		y = event.pageY;
+	}
+	objDrag.elNode.style.left = (objDrag.elStartLeft + x - objDrag.cursorStartX) + "px";
+	objDrag.elNode.style.top  = (objDrag.elStartTop  + y - objDrag.cursorStartY) + "px";
+	SuppressBubble(event);
+}
+
+function StopDrag(event) 
+{
+	objDrag.elNode = null;
+	if (bIE)
+	{
+		document.detachEvent("onmousemove", Drag);
+		document.detachEvent("onmouseup",   StopDrag);
+	}
+	else
+	{
+		document.removeEventListener("mousemove", Drag,   true);
+		document.removeEventListener("mouseup",   StopDrag, true);
+    }
+}
+
+var objResize = Object();
+
+function StartResize(event, id)
+{
+	var el;
+	var x, y;
+	var element = document.getElementById(id);
+	if(bIE)
+	{
+		x = window.event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft;
+		y = window.event.clientY + document.documentElement.scrollTop + document.body.scrollTop;
+	}
+	else
+	{
+		x = event.pageX;
+		y = event.pageY;
+	}
+	objResize.id = id;
+	objResize.cursorStartX = x;
+	objResize.cursorStartY = y;
+	objResize.startWidth = parseInt(element.style.width);
+	objResize.startHeight = parseInt(element.style.height);
+	if (bIE)
+	{
+		document.attachEvent("onmousemove", Resize);
+		document.attachEvent("onmouseup",   StopResize);
+	}
+	else
+	{
+		document.addEventListener("mousemove", Resize, true);
+		document.addEventListener("mouseup",   StopResize, true);
+	}
+}
+
+function Resize(event)
+{
+	var x, y;
+	if(bIE)
+	{
+		x = window.event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft;
+		y = window.event.clientY + document.documentElement.scrollTop + document.body.scrollTop;
+	}
+	else
+	{
+		x = event.pageX;
+		y = event.pageY;
+	}
+	width = objResize.startWidth + x - objResize.cursorStartX;
+	if (width < 100) {width = 100};
+	height = objResize.startHeight + y - objResize.cursorStartY;
+	if (height < 100) {height = 100};
+	DrawAnnotation(objResize.id, width, height);
+	SuppressBubble(event);
+}
+
+function StopResize(event)
+{
+	objResize.id = null;
+	if(bIE)
+	{
+		document.detachEvent("onmousemove", Resize);
+		document.detachEvent("onmouseup",   StopResize);
+	}
+	else
+	{
+		document.removeEventListener("mousemove", Resize, true);
+		document.removeEventListener("mouseup",   StopResize, true);
+	}
+}
+
+var Forms = document.getElementsByTagName("FORM");
+for (var i = 0; i < Forms.length; i++) 
+{
+	var Form = Forms(i);
+	Form.onclick = SuppressBubble;
+}
+
+function SuppressBubble(event)
+{
+	if (bIE)
+	{
+		window.event.cancelBubble = true;
+		window.event.returnValue = false;
+	}
+	else
+	{
+		if (event) {
+			event.stopPropagation();
+		}
+	}
+}
+
+function NewWindow(hyperlink, name, features, center, width, height)
+{
+	if(center)
+	{
+		var winl = (screen.width - width) / 2;
+		var wint = (screen.height - height) / 2;
+		features = features + ', left=' + winl + ', top=' + wint;
+	}
+	window.open(hyperlink, name, features);
+}
+
+
+var PageName = '{Ubiquity:Page:Name}';
+var PageId = '{Ubiquity:Page:ID}'
+document.title = '{Ubiquity:Page:Name}';
+
+if (top.location != self.location)
+{
+	parent.HandleMainFrameChanged();
+}
+
+]]>
+</Page_Each>
+<Element_Init>
+<![CDATA[
+var {Ubiquity:Element:IDNoSpace} = document.getElementById('{Ubiquity:Element:IDNoSpace}');
+]]>
+</Element_Init>
+<Element_UseLabels>
+<![CDATA[
+x = getAbsoluteLeft({Ubiquity:Element:IDNoSpace}) + ({Ubiquity:Element:IDNoSpace}.offsetWidth) - 7;
+y = getAbsoluteTop({Ubiquity:Element:IDNoSpace}) - 4;
+document.body.insertAdjacentHTML("afterBegin", "<div id='{Ubiquity:Element:IDNoSpace}Note' style='font-family: arial; font-size: 10px; border:1px solid #666666; background:#DDDD00 none repeat scroll 0% 0%; padding-left:3px; padding-right:3px; cursor:help;position:absolute;z-index:500;left:" + x + ";top:" + y + "'>{Ubiquity:Element:Label}</div>");
+]]>
+</Element_UseLabels>
+<Element_NoLabels>
+<![CDATA[
+x = getAbsoluteLeft({Ubiquity:Element:IDNoSpace}) + ({Ubiquity:Element:IDNoSpace}.offsetWidth) - 7;
+y = getAbsoluteTop({Ubiquity:Element:IDNoSpace}) - 4;
+document.body.insertAdjacentHTML("afterBegin", "<img src='Resources/note.gif' id='{Ubiquity:Element:IDNoSpace}Note' style='cursor:help;position:absolute;z-index:500;left:" + x + ";top:" + y + "'>");
+]]>
+</Element_NoLabels>
+<Element_Each>
+<![CDATA[
+var {Ubiquity:Element:IDNoSpace}WFECurrent = '';
+var {Ubiquity:Element:IDNoSpace}Note = document.getElementById('{Ubiquity:Element:IDNoSpace}Note');
+if (bIE) {Ubiquity:Element:IDNoSpace}Note.attachEvent("onclick", {Ubiquity:Element:IDNoSpace}ToggleWorkflow);
+else {Ubiquity:Element:IDNoSpace}Note.addEventListener("click", {Ubiquity:Element:IDNoSpace}ToggleWorkflow, true);
+document.body.insertAdjacentHTML("afterBegin", "<!-- For each bubble on the page generate a div as follows --><div id='{Ubiquity:Element:IDNoSpace}WF' style='cursor:move; font-family: arial; font-size: 14px; visibility:hidden; position:absolute;' onmousedown=\"StartDrag(event, this.id)\">\n<TABLE WIDTH=100% HEIGHT=100% BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD WIDTH=10 HEIGHT=25 ALIGN=left VALIGN=top><IMG SRC='Resources/window_01.gif' WIDTH=10 HEIGHT=25></TD><TD STYLE=\"BACKGROUND-IMAGE:url('Resources/window_02.gif');background-repeat: repeat-x\" HEIGHT=25 ALIGN=left VALIGN=top><IMG SRC='Resources/window_02.gif' WIDTH=5 HEIGHT=25></TD><TD WIDTH=15 HEIGHT=25 ALIGN=left VALIGN=top><IMG SRC='Resources/window_04.gif' WIDTH=15 HEIGHT=25></TD></TR><TR><TD ID='{Ubiquity:Element:IDNoSpace}WFHeight' STYLE=\"BACKGROUND-IMAGE:url('Resources/window_09.gif');background-repeat: repeat-y\"  WIDTH=10 ALIGN=left VALIGN=top><IMG SRC='Resources/window_05.gif' WIDTH=10 HEIGHT=5></TD><TD>&nbsp;</TD><TD STYLE=\"BACKGROUND-IMAGE:url('Resources/window_07.gif');background-repeat: repeat-y\" WIDTH=15 ALIGN=left VALIGN=top><IMG SRC='Resources/window_07.gif' WIDTH=15 HEIGHT=5></TD></TR><TR><TD WIDTH=10 HEIGHT=10 ALIGN=left VALIGN=top><IMG SRC='Resources/window_10.gif' WIDTH=10 HEIGHT=15></TD><TD STYLE=\"BACKGROUND-IMAGE:url('Resources/window_11.gif');background-repeat: repeat-x\"  HEIGHT=15 ALIGN=left VALIGN=top><IMG SRC='Resources/window_11.gif' WIDTH=5 HEIGHT=15></TD><TD WIDTH=15 HEIGHT=15 ALIGN=left VALIGN=top><IMG SRC='Resources/window_12.gif' WIDTH=15 HEIGHT=15></TD></TR></TABLE><!-- Title --><div id='{Ubiquity:Element:IDNoSpace}WFLabel' style='cursor:move; position:absolute; z-index:1; width:270; height:15; overflow:hidden' onClick=\"ShowDescription('{Ubiquity:Element:IDNoSpace}', '{Ubiquity:Element:IDNoSpace}base', {Ubiquity:Element:IDNoSpace}WFECurrent); {Ubiquity:Element:IDNoSpace}WFECurrent=''\"><strong>{Ubiquity:Element:Label}</strong></div>\n<!-- Dialog outline and close button -->\n<img src='Resources/CloseButton.gif' height=13 width=13; id='{Ubiquity:Element:IDNoSpace}WFClose' style='cursor:pointer; position:absolute;' onclick=\"HideElement('{Ubiquity:Element:IDNoSpace}WF')\">\n<img src='Resources/window_12.gif' id='{Ubiquity:Element:IDNoSpace}WFResize' style='position:absolute;z-index:5;cursor:nw-resize' onmousedown=\"SuppressBubble(event);StartResize(event, '{Ubiquity:Element:IDNoSpace}WF')\">\n<!-- Div that contains the Workflow Description Box -->\n<iframe id='{Ubiquity:Element:IDNoSpace}WFDesc' style='cursor:auto; border:0px solid #777777; position:absolute; background:white none repeat scroll 0% 0%; overflow:auto;' onmousedown='SuppressBubble(event)'></iframe>\n</div>");
+var {Ubiquity:Element:IDNoSpace}WFD = document.getElementById('{Ubiquity:Element:IDNoSpace}WFD');
+document.body.insertAdjacentHTML("afterBegin", "<div id='{Ubiquity:Element:IDNoSpace}based' style='z-index:1; visibility:hidden; position:absolute'></div><div id='{Ubiquity:Element:IDNoSpace}base' style='z-index:1; visibility:hidden; position:absolute'></div>");
+var {Ubiquity:Element:IDNoSpace}based = document.getElementById('{Ubiquity:Element:IDNoSpace}based');
+function {Ubiquity:Element:IDNoSpace}ToggleWorkflow(event)
+{
+	ToggleWorkflow(event,'{Ubiquity:Element:ID}', {Ubiquity:Description.Width}, {Ubiquity:Description.Height}, false);
+}
+]]>
+</Element_Each>
+<Element_Field_Each>
+<![CDATA[
+{Ubiquity:Element:IDNoSpace}based.insertAdjacentHTML("beforeEnd", "<div style='cursor:move; font-family: arial; font-size: 14px;'><STRONG>{Ubiquity:Element.Field}:</STRONG> {Ubiquity:Element.FieldValue}<BR><BR></div>");
+]]>
+</Element_Field_Each>
+<Element_Hyperlink>
+<![CDATA[
+//Handle hyperlinks
+{Ubiquity:Element:IDNoSpace}.style.cursor = 'pointer';
+document.body.insertAdjacentHTML("afterBegin", "<DIV id='{Ubiquity:Element:IDNoSpace}Links' style='font-family: arial; font-size: 12px; border:1px solid #666666; background:#DDDDDD none repeat scroll 0% 0%; z-index:9999; visibility:hidden; position:absolute; padding:5px;'></DIV>")
+if (bIE) {Ubiquity:Element:IDNoSpace}.attachEvent("onclick", {Ubiquity:Element:IDNoSpace}ToggleLinks);
+else {Ubiquity:Element:IDNoSpace}.addEventListener("click", {Ubiquity:Element:IDNoSpace}ToggleLinks, true);
+var {Ubiquity:Element:IDNoSpace}Links = document.getElementById('{Ubiquity:Element:IDNoSpace}Links');
+function {Ubiquity:Element:IDNoSpace}ToggleLinks(event) 
+{
+	ToggleLinks(event, '{Ubiquity:Element:IDNoSpace}');
+}
+]]>
+</Element_Hyperlink>
+<Element_Hyperlink_Target>
+<![CDATA[
+{Ubiquity:Element:IDNoSpace}Links.insertAdjacentHTML("beforeEnd", "<div onmouseout='SuppressBubble(event);'><a href='{Ubiquity:Link:TargetHyperLink}'>{Ubiquity:Link:TargetText}</a></div>")
+]]>
+</Element_Hyperlink_Target>
+<Element_Hyperlink_Target_NewWindow>
+<![CDATA[
+{Ubiquity:Element:IDNoSpace}Links.insertAdjacentHTML("beforeEnd", "<div onmouseout='SuppressBubble(event);'><a href='#' onclick='NewWindow(\"{Ubiquity:Link:TargetHyperLink}\", \"\", \"{Ubiquity:Link:Target:PopupFeatures}\", {Ubiquity:Link:Target:PopupCenter}, {Ubiquity:Link:Target:PopupWidth}, {Ubiquity:Link:Target:PopupHeight})'>{Ubiquity:Link:TargetText}</a></div>")
+]]>
+</Element_Hyperlink_Target_NewWindow>
+<Element_Hyperlink_Target_NoDisplay>
+<![CDATA[
+{Ubiquity:Element:IDNoSpace}.style.cursor = 'pointer';
+if (bIE) {Ubiquity:Element:IDNoSpace}.attachEvent("onclick", Redir{Ubiquity:Element:IDNoSpace});
+else {Ubiquity:Element:IDNoSpace}.addEventListener("click", Redir{Ubiquity:Element:IDNoSpace}, true);
+function Redir{Ubiquity:Element:IDNoSpace}()
+{
+	self.location.href="{Ubiquity:Link:TargetHyperLink}";
+}
+]]>
+</Element_Hyperlink_Target_NoDisplay>
+<Element_Hyperlink_Target_NoDisplay_NewWindow>
+<![CDATA[
+{Ubiquity:Element:IDNoSpace}.style.cursor = 'pointer';
+if (bIE) {Ubiquity:Element:IDNoSpace}.attachEvent("onclick", Redir{Ubiquity:Element:IDNoSpace});
+else {Ubiquity:Element:IDNoSpace}.addEventListener("click", Redir{Ubiquity:Element:IDNoSpace}, true);
+function Redir{Ubiquity:Element:IDNoSpace}()
+{
+	NewWindow("{Ubiquity:Link:TargetHyperLink}", "", "{Ubiquity:Link:Target:PopupFeatures}", {Ubiquity:Link:Target:PopupCenter}, {Ubiquity:Link:Target:PopupWidth}, {Ubiquity:Link:Target:PopupHeight});
+}
+]]>
+</Element_Hyperlink_Target_NoDisplay_NewWindow>
+<Element_Hyperlink_Target_CloseWindow>
+<![CDATA[
+{Ubiquity:Element:IDNoSpace}Links.insertAdjacentHTML("beforeEnd", "<div onmouseout='SuppressBubble(event);'><a href='#' onclick='if ({Ubiquity:Link:RedirectMain}) {top.opener.window.location.href = \"{Ubiquity:Link:TargetHyperLink}\";} parent.window.close()'>{Ubiquity:Link:TargetText}</a></div>")
+]]>
+</Element_Hyperlink_Target_CloseWindow>
+<Element_Hyperlink_Target_NoDisplay_CloseWindow>
+<![CDATA[
+{Ubiquity:Element:IDNoSpace}.style.cursor = 'pointer';
+if (bIE) {Ubiquity:Element:IDNoSpace}.attachEvent("onclick", Redir{Ubiquity:Element:IDNoSpace});
+else {Ubiquity:Element:IDNoSpace}.addEventListener("click", Redir{Ubiquity:Element:IDNoSpace}, true);
+function Redir{Ubiquity:Element:IDNoSpace}()
+{
+	if ({Ubiquity:Link:RedirectMain}) {top.opener.window.location.href = '{Ubiquity:Link:TargetHyperLink}';}
+	parent.window.close();
+}
+]]>
+</Element_Hyperlink_Target_NoDisplay_CloseWindow>
+</Template>
