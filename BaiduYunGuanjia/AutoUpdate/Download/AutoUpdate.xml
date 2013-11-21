@@ -1,0 +1,57 @@
+<AutoUpdate version="1.0">
+	<Updater version="1.0.0.1" url="http://bs.baidu.com/clouddisk-pc-guanjia-update/updater_2107.cab" md5="F71EC55D3E2C2BACA4602C9CA42B9E99" hint="">
+		<File name="Autoupdate.exe" dest="updater:\" type="bin" operation="add" md5="AEBED74132BC08DBCE4E4BFB4A78C624"/>
+		<File name="AutoUpdateUtil.dll" dest="updater:\" type="bin" operation="add" md5="A0BB8CABD9E9DE7ACD8A75A38255FB26"/>
+		<File name="config.ini" dest="updater:\" type="resource" operation="add" md5="1295D0AC59573097B8912F6D4D70CBCA"/>
+		<File name="VersionInfo.xml" dest="updater:\" type="resource" operation="add" md5="EB22E9C69970351840A797047216050A"/>
+	</Updater>
+	<Module name="MainApp" text="2.1.0自动升级" version="2.1.0.7" level="recommend">
+		<Upgrade versionLow="2.0.0.12" hint="1. 支持云端文件管理：删除、重命名、新建文件夹、移动\r\n2. 支持缩略图浏览模式\r\n3. 支持三种文件排序方式：按修改时间、按大小、按文件名\r\n4. 支持在悬浮窗查看传输进度\r\n5. 体验优化" md5="2C6FEFE8ABFB76D8397084B0E702CB53" url="http://bs.baidu.com/clouddisk-pc-guanjia-update/upgrade_20012_2107.cab">
+			<File name="apputil.dll" dest="MainApp:\" type="bin" operation="patch" md5="55FF2A5920A5F7C14824EC188E465A4F"/>
+			<File name="baiduyunguanjia.exe" dest="MainApp:\" type="bin" operation="patch" md5="FFF6F5DA0FEDFB0CD79DB2F9F489E02F"/>
+			<File name="basement.dll" dest="MainApp:\" type="bin" operation="patch" md5="017E1CCB6ABEB40683F5B0F2C1F5F5F9"/>
+			<File name="bugreport.exe" dest="MainApp:\" type="bin" operation="patch" md5="8BD464A764CA743280579C08AF26DD5E"/>
+			<File name="bull80u.dll" dest="MainApp:\" type="bin" operation="patch" md5="A275EFBAB465727CB7D6EAC30F72013D"/>
+			<File name="channelpcsdk.dll" dest="MainApp:\" type="bin" operation="patch" md5="B31827AE830D40154A07D109BB1A4D19"/>
+			<File name="helputility.exe" dest="MainApp:\" type="bin" operation="patch" md5="CEF83471370509B1504466A3D2F630A9"/>
+			<File name="npyunwebdetect.dll" dest="MainApp:\" type="bin" operation="patch" md5="9341A4473004B1F2DB10E0ED8C7E5C05"/>
+			<File name="resource.db" dest="MainApp:\" type="resource" operation="patch" md5="FF4D0B67EC314A482B2C592BB55486EF"/>
+			<File name="skin\default.db" dest="MainApp:\skin\" type="resource" operation="patch" md5="AAE73A80479B923F4F5727B372CA561A"/>
+			<File name="uninst.exe" dest="MainApp:\" type="bin" operation="add" md5="4F006C775B213E43054F9D51B8246100"/>
+			<File name="versioninfo" dest="MainApp:\" type="resource" operation="patch" md5="8FCB1ACA3BD505526115D2C67847896F"/>
+			<File name="ximage.dll" dest="MainApp:\" type="bin" operation="patch" md5="F6C25BB52BA77F243DF5A98DFFA013B0"/>
+			<File name="yundb.dll" dest="MainApp:\" type="bin" operation="patch" md5="2356F413D39033B82C0F06BFE1AE92AC"/>
+			<File name="yunlogic.dll" dest="MainApp:\" type="bin" operation="patch" md5="F63AEB37AF3B0361D4B3A5868342254F"/>
+			<File name="yunshellext.dll" dest="MainApp:\" type="bin" operation="patch" md5="1267D854B3B1BE65DA99D2254344099F"/>
+			<File name="yunshellext64.dll" dest="MainApp:\" type="bin" operation="patch" md5="5F42C15E291C0673251AC26306B49056"/>
+		</Upgrade>
+		<FullPackage hint="1. 支持云端文件管理：删除、重命名、新建文件夹、移动\r\n2. 支持缩略图浏览模式\r\n3. 支持三种文件排序方式：按修改时间、按大小、按文件名\r\n4. 支持在悬浮窗查看传输进度\r\n5. 体验优化" md5="038C63673470D08D33324D69667AAEA5" url="http://bs.baidu.com/clouddisk-pc-guanjia-update/fullpackage_2107.cab">
+			<File name="appproperty.xml" dest="MainApp:\" type="resource" operation="add" md5="38A35EE4EF24896D4450825D30DA2D84"/>
+			<File name="apputil.dll" dest="MainApp:\" type="bin" operation="add" md5="55FF2A5920A5F7C14824EC188E465A4F"/>
+			<File name="atl80.dll" dest="MainApp:\" type="bin" operation="add" md5="3E9A33113D663D8BD5ED38858E669652"/>
+			<File name="baiduyunguanjia.exe" dest="MainApp:\" type="bin" operation="add" md5="FFF6F5DA0FEDFB0CD79DB2F9F489E02F"/>
+			<File name="basement.dll" dest="MainApp:\" type="bin" operation="add" md5="017E1CCB6ABEB40683F5B0F2C1F5F5F9"/>
+			<File name="bugreport.exe" dest="MainApp:\" type="bin" operation="add" md5="8BD464A764CA743280579C08AF26DD5E"/>
+			<File name="bull80u.dll" dest="MainApp:\" type="bin" operation="add" md5="A275EFBAB465727CB7D6EAC30F72013D"/>
+			<File name="channelpcsdk.dll" dest="MainApp:\" type="bin" operation="add" md5="B31827AE830D40154A07D109BB1A4D19"/>
+			<File name="dbghelp.dll" dest="MainApp:\" type="bin" operation="add" md5="28D3E1F32742CA36974120B49E2B9DC2"/>
+			<File name="helputility.exe" dest="MainApp:\" type="bin" operation="add" md5="CEF83471370509B1504466A3D2F630A9"/>
+			<File name="microsoft.vc80.atl.manifest" dest="MainApp:\" type="resource" operation="add" md5="1CCB36CF4D7744F2A2449710032573F8"/>
+			<File name="microsoft.vc80.crt.manifest" dest="MainApp:\" type="resource" operation="add" md5="12B6A5638A4D54F6E613CAFD04BC1C0D"/>
+			<File name="msvcm80.dll" dest="MainApp:\" type="bin" operation="add" md5="75F2A9B695EF3EF22D731F059920F636"/>
+			<File name="msvcp80.dll" dest="MainApp:\" type="bin" operation="add" md5="8C53CCD787C381CD535D8DCCA12584D8"/>
+			<File name="msvcr80.dll" dest="MainApp:\" type="bin" operation="add" md5="1169436EE42F860C7DB37A4692B38F0E"/>
+			<File name="npyunwebdetect.dll" dest="MainApp:\" type="bin" operation="add" md5="9341A4473004B1F2DB10E0ED8C7E5C05"/>
+			<File name="resource.db" dest="MainApp:\" type="resource" operation="add" md5="FF4D0B67EC314A482B2C592BB55486EF"/>
+			<File name="riched20.dll" dest="MainApp:\" type="bin" operation="add" md5="0A76F27A01CD217B572597E97A029D05"/>
+			<File name="skin\default.db" dest="MainApp:\skin\" type="resource" operation="add" md5="AAE73A80479B923F4F5727B372CA561A"/>
+			<File name="uninst.exe" dest="MainApp:\" type="bin" operation="add" md5="4F006C775B213E43054F9D51B8246100"/>
+			<File name="versioninfo" dest="MainApp:\" type="resource" operation="add" md5="8FCB1ACA3BD505526115D2C67847896F"/>
+			<File name="ximage.dll" dest="MainApp:\" type="bin" operation="add" md5="F6C25BB52BA77F243DF5A98DFFA013B0"/>
+			<File name="yundb.dll" dest="MainApp:\" type="bin" operation="add" md5="2356F413D39033B82C0F06BFE1AE92AC"/>
+			<File name="yunlogic.dll" dest="MainApp:\" type="bin" operation="add" md5="F63AEB37AF3B0361D4B3A5868342254F"/>
+			<File name="yunshellext.dll" dest="MainApp:\" type="bin" operation="add" md5="1267D854B3B1BE65DA99D2254344099F"/>
+			<File name="yunshellext64.dll" dest="MainApp:\" type="bin" operation="add" md5="5F42C15E291C0673251AC26306B49056"/>
+		</FullPackage>
+	</Module>
+</AutoUpdate>
