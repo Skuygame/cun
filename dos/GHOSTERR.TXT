@@ -1,0 +1,1222 @@
+*********************************
+Date   : Sun Jun 23 21:01:27 2013
+Error Number: (36000)
+Message: A GeneralException occurred
+Version: 11.5.0.2113 (Apr 22 2008, Build=2113)
+OS Version: DOS v7.10
+Command line arguments:
+Active Switches :
+       AutoName
+PathName            : 
+DumpFile            : 3.7:\test.GHO
+DumpPos             : 0
+Last LFO Buffersize : 1048576
+Last LFO Path       : 
+  Full Path         : 3.7:\test.GHO
+  Disk:Partition    : 3:7
+Last LFO Filesystem : Proprietary
+Last LFO Error      : Filesystem error (2): File or directory does not exist
+Last LFO Error Path : 
+  Full Path         : 3.7:\test.GHO
+  Disk:Partition    : 3:7
+FlagImplode         : 2
+FlagExplode         : 0
+
+Operation Details :
+  Total size.........0
+  MB copied..........0
+  MB remaining.......0
+  Percent complete...0%
+  Speed..............0 MB/min
+  Time elapsed.......0:00   
+  Time remaining.....0:00   
+
+Processor exception
+Generated at HardExceptionHandlerDjgpp.cpp:257
+
+Program Call Stack
+ProcessDirectoryInode
+DumpLinuxPartition
+SizeLinuxPartition
+ProcessLinuxPartition
+CopyPartition
+ProcessAllPartitions
+CopyAllPartitions
+CopyPartToFile
+CopyMainline
+AttemptOperation
+sub_main
+main
+
+Call Stack
+  0x000fb02e
+  0x000f9f00
+  0x000fa92c
+  0x000f7c57
+  0x001017ee
+  0x00125c80
+  0x00124b83
+  0x00124849
+  0x00122898
+  0x0000296f
+  0x00002b12
+  0x00006b45
+  0x0000545c
+  0x0051dcf8
+End Call Stack
+
+Exception code: 0000000e Page fault Error: 0004
+Registers:
+EAX=f218d7d0 EBX=00ab5e30 ECX=00000003 EDX=f0cd8e4c ESI=00000054 EDI=00a36bb4
+EBP=00ab55a8 ESP=00ab559c EIP=000fb02e FLG=00013202
+CS: sel=00af  base=10000000  limit=0167ffff
+DS: sel=00b7  base=10000000  limit=ffffffff
+ES: sel=00b7  base=10000000  limit=ffffffff
+FS: sel=00bf  base=00000000  limit=0010ffff
+GS: sel=00bf  base=00000000  limit=0010ffff
+SS: sel=00b7  base=10000000  limit=ffffffff
+
+Application stack: 00ab6bb4..00a36bb4
+Exception stack:   00a36af8..00a34bb8
+
+
+Start heap available: 2132049920
+Cur   heap available: 2120646656
+Total Memory:         2144239616
+
+Allocated
+   1024 DpmiDjgpp.cpp:56
+  33504 ghost.cpp:1505
+    528 IdeDmaServerPci.cpp:144
+    528 IdeDmaServerPci.cpp:144
+    528 IdeDmaServerPci.cpp:144
+    528 IdeDmaServerPci.cpp:144
+     64 DiskDriveAccessExInt13.cpp:156
+    512 DiskDriveAccessExInt13.cpp:156
+    512 DiskDriveAccessExInt13.cpp:156
+Free
+     16 MsdosFile.cpp:182
+     80 DiskDriveAccessExInt13.cpp:119
+    512 DiskDriveAccessInt13.cpp:190
+   1024 DiskDriveAccessInt13.cpp:190
+  32768 BlockDeviceDosDrive.cpp:404
+
+Fat details:
+  SRC:
+  FatType..........32
+  firstSector.......1869637632
+  ClusterSize......16384
+  clusters.........2620095
+  root_next_avail..0
+  data_next_avail..0
+  dir_sector.......0
+  root_sector......40992
+  data_sector......40992
+  FAT_sector.......0
+
+NTFS details:
+----------------
+
+NTFS Global Flags:
+----------------
+	 contiguousWrite=1 forceDiskClusterMapping=0 
+	 inhibitCHKDSK=1 ignoreBadLog=0 ignoreCHKDSKBit=0
+	 enable_cache=0 xfrbuflen=0 
+	 last_attr_type = 0 
+	 loadExact = 0 
+	 sameSize = 0 
+----------------
+	=======================================================
+	NTFS volume 0:
+	----------------
+	initialised..............1
+	read cached..............N
+	Selective caching........N
+	flags....................Volume OK
+	drive....................0x02
+	part order...............5
+	version..................0x0400
+	volsize..................1598592960
+	blocksize................512
+	clusterfactor............8
+	clustersize..............4096
+	mftrecordsize............1024
+	indexrecordsize..........4096
+	indexclustperrecord......1
+	bootSectorCopyOffset.....1598592960
+	pagefileSys..............-1
+	bootIni..................-1
+	volumeLabel..............[]
+	sectorsInUse.............536314952
+	totalNonCopiedBytes......0
+	bytesToCopy..............0
+	bitmapClusters...........6099
+	bitmapUsedBytes..........24978016
+	estimatedClusters........6099
+	estimatedUsedBytes.......24978016
+	clustersizeShift.........12
+	blocksizeShift...........9
+	mftrecordsizeShift.......10
+	indexrecordsizeShift.....12
+	totalRootMftRecs.........0
+	clustermap failover......N
+	Boot sector details
+		name....................[NTFS    ]
+		blocksize...............512
+		clusterfactor...........8
+		reservedSectorsUnused...0
+		mediaType...............0xf8
+		secPerTrack.............63
+		numHeads................240
+		hiddenSectors...........63
+		volsize.................1598592960
+		mftcluster..............786432
+		mftmirrorcluster........2
+		clustersPerMFTRecord....246
+		clustersPerIndexBuffer..1
+
+		---------------------------------------------------
+		Cluster Allocation Map
+		---------------------------------------------------
+		Start: 199824120 Length: 0 Next: 199824120
+
+
+	=======================================================
+	=======================================================
+	NTFS volume 1:
+	----------------
+	initialised..............1
+	read cached..............N
+	Selective caching........N
+	flags....................Volume OK
+	drive....................0x02
+	part order...............1
+	version..................0x0400
+	volsize..................195311615
+	blocksize................512
+	clusterfactor............8
+	clustersize..............4096
+	mftrecordsize............1024
+	indexrecordsize..........4096
+	indexclustperrecord......1
+	bootSectorCopyOffset.....195311615
+	pagefileSys..............-1
+	bootIni..................-1
+	volumeLabel..............[]
+	sectorsInUse.............86181192
+	totalNonCopiedBytes......0
+	bytesToCopy..............0
+	bitmapClusters...........746
+	bitmapUsedBytes..........3051744
+	estimatedClusters........746
+	estimatedUsedBytes.......3051744
+	clustersizeShift.........12
+	blocksizeShift...........9
+	mftrecordsizeShift.......10
+	indexrecordsizeShift.....12
+	totalRootMftRecs.........0
+	clustermap failover......N
+	Boot sector details
+		name....................[NTFS    ]
+		blocksize...............512
+		clusterfactor...........8
+		reservedSectorsUnused...0
+		mediaType...............0xf8
+		secPerTrack.............63
+		numHeads................240
+		hiddenSectors...........292864
+		volsize.................195311615
+		mftcluster..............786432
+		mftmirrorcluster........2
+		clustersPerMFTRecord....246
+		clustersPerIndexBuffer..1
+
+		---------------------------------------------------
+		Cluster Allocation Map
+		---------------------------------------------------
+		Start: 24413951 Length: 0 Next: 24413951
+
+
+	=======================================================
+
+Disk Info :
+  remote.............0
+  drive..............2
+  sectorsUsedCount.......1953513346
+  estimatedUsedCount.....649514388
+  numPartitions..............1
+  Version............0
+  Full structure dump....
+   {
+      PID_START_BYTE: 0
+      PID_WIN_9X_ID_PRESERVE: false
+      SVersion: 0
+      SCylinders: 1023
+      PID_WIN_9X_ID: 1913900354
+      SDiskFormat: 13
+      PID_WIN_NT_ID: 705360
+      SMbr: 
+         0x0000 eb 63 90 d0 bc 00 7c 8e c0 8e d8 be 00 7c bf 00 
+         0x0010 06 b9 00 02 fc f3 a4 50 68 1c 06 cb fb b9 04 00 
+         0x0020 bd be 07 80 7e 00 00 7c 0b 0f 85 0e 01 83 c5 10 
+         0x0030 e2 f1 cd 18 88 56 00 55 c6 46 11 05 c6 46 10 00 
+         0x0040 b4 41 bb aa 55 cd 13 5d 72 0f 81 fb 55 aa 75 09 
+         0x0050 f7 c1 01 00 74 03 fe 46 10 66 00 80 01 00 00 00 
+         0x0060 00 00 00 00 ff fa 90 90 f6 c2 80 74 05 f6 c2 70 
+         0x0070 74 02 b2 80 ea 79 7c 00 00 31 c0 8e d8 8e d0 bc 
+         0x0080 00 20 fb a0 64 7c 3c ff 74 02 88 c2 52 bb 17 04 
+         0x0090 80 27 03 74 06 be 88 7d e8 17 01 be 05 7c b4 41 
+         0x00a0 bb aa 55 cd 13 5a 52 72 3d 81 fb 55 aa 75 37 83 
+         0x00b0 e1 01 74 32 31 c0 89 44 04 40 88 44 ff 89 44 02 
+         0x00c0 c7 04 10 00 66 8b 1e 5c 7c 66 89 5c 08 66 8b 1e 
+         0x00d0 60 7c 66 89 5c 0c c7 44 06 00 70 b4 42 cd 13 72 
+         0x00e0 05 bb 00 70 eb 76 b4 08 cd 13 73 0d f6 c2 80 0f 
+         0x00f0 84 d0 00 be 93 7d e9 82 00 66 0f b6 c6 88 64 ff 
+         0x0100 40 66 89 44 04 0f b6 d1 c1 e2 02 88 e8 88 f4 40 
+         0x0110 89 44 08 0f b6 c2 c0 e8 02 66 89 04 66 a1 60 7c 
+         0x0120 66 09 c0 75 4e 66 a1 5c 7c 66 31 d2 66 f7 34 88 
+         0x0130 d1 31 d2 66 f7 74 04 3b 44 08 7d 37 fe c1 88 c5 
+         0x0140 30 c0 c1 e8 02 08 c1 88 d0 5a 88 c6 bb 00 70 8e 
+         0x0150 c3 31 db b8 01 02 cd 13 72 1e 8c c3 60 1e b9 00 
+         0x0160 01 8e db 31 f6 bf 00 80 8e c6 fc f3 a5 1f 61 ff 
+         0x0170 26 5a 7c be 8e 7d eb 03 be 9d 7d e8 34 00 be a2 
+         0x0180 7d e8 2e 00 cd 18 eb fe 47 52 55 42 20 00 47 65 
+         0x0190 6f 6d 00 48 61 72 64 20 44 69 73 6b 00 52 65 61 
+         0x01a0 64 00 20 45 72 72 6f 72 0d 0a 00 bb 01 00 b4 0e 
+         0x01b0 cd 10 ac 3c 00 75 f4 c3 50 c3 0a 00 00 00 00 20 
+         0x01c0 21 00 83 58 28 13 00 08 00 00 00 70 04 00 80 58 
+         0x01d0 29 13 07 ef ff ff 00 78 04 00 00 38 a4 0b 00 ef 
+         0x01e0 ff ff 83 ef ff ff 00 b0 a8 0b 00 08 bf 01 00 ef 
+         0x01f0 ff ff 0f ef ff ff 3d b8 67 0d c3 a7 08 67 55 aa 
+         0x0200 
+      SIsSpanned: false
+      SOs2Name: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 
+      SFingerprint: 0
+      SHeadsPerCyl: f0
+      SectorsPerTrack: 3f
+      SRemote: false
+      SEndOfImagePosition: 0
+      PID_BYTE_COUNT: e8e0db6000
+      SFlags: 1
+      SPatchedFileCount: 0
+      SDrive: 2
+      PID_BOOT_CODE: 
+         0x0000 eb 63 90 d0 bc 00 7c 8e c0 8e d8 be 00 7c bf 00 
+         0x0010 06 b9 00 02 fc f3 a4 50 68 1c 06 cb fb b9 04 00 
+         0x0020 bd be 07 80 7e 00 00 7c 0b 0f 85 0e 01 83 c5 10 
+         0x0030 e2 f1 cd 18 88 56 00 55 c6 46 11 05 c6 46 10 00 
+         0x0040 b4 41 bb aa 55 cd 13 5d 72 0f 81 fb 55 aa 75 09 
+         0x0050 f7 c1 01 00 74 03 fe 46 10 66 00 80 01 00 00 00 
+         0x0060 00 00 00 00 ff fa 90 90 f6 c2 80 74 05 f6 c2 70 
+         0x0070 74 02 b2 80 ea 79 7c 00 00 31 c0 8e d8 8e d0 bc 
+         0x0080 00 20 fb a0 64 7c 3c ff 74 02 88 c2 52 bb 17 04 
+         0x0090 80 27 03 74 06 be 88 7d e8 17 01 be 05 7c b4 41 
+         0x00a0 bb aa 55 cd 13 5a 52 72 3d 81 fb 55 aa 75 37 83 
+         0x00b0 e1 01 74 32 31 c0 89 44 04 40 88 44 ff 89 44 02 
+         0x00c0 c7 04 10 00 66 8b 1e 5c 7c 66 89 5c 08 66 8b 1e 
+         0x00d0 60 7c 66 89 5c 0c c7 44 06 00 70 b4 42 cd 13 72 
+         0x00e0 05 bb 00 70 eb 76 b4 08 cd 13 73 0d f6 c2 80 0f 
+         0x00f0 84 d0 00 be 93 7d e9 82 00 66 0f b6 c6 88 64 ff 
+         0x0100 40 66 89 44 04 0f b6 d1 c1 e2 02 88 e8 88 f4 40 
+         0x0110 89 44 08 0f b6 c2 c0 e8 02 66 89 04 66 a1 60 7c 
+         0x0120 66 09 c0 75 4e 66 a1 5c 7c 66 31 d2 66 f7 34 88 
+         0x0130 d1 31 d2 66 f7 74 04 3b 44 08 7d 37 fe c1 88 c5 
+         0x0140 30 c0 c1 e8 02 08 c1 88 d0 5a 88 c6 bb 00 70 8e 
+         0x0150 c3 31 db b8 01 02 cd 13 72 1e 8c c3 60 1e b9 00 
+         0x0160 01 8e db 31 f6 bf 00 80 8e c6 fc f3 a5 1f 61 ff 
+         0x0170 26 5a 7c be 8e 7d eb 03 be 9d 7d e8 34 00 be a2 
+         0x0180 7d e8 2e 00 cd 18 eb fe 47 52 55 42 20 00 47 65 
+         0x0190 6f 6d 00 48 61 72 64 20 44 69 73 6b 00 52 65 61 
+         0x01a0 64 00 20 45 72 72 6f 72 0d 0a 00 bb 01 00 b4 0e 
+         0x01b0 cd 10 ac 3c 00 75 f4 c3 50 c3 0a 00 00 00 
+      PID_WIN_NT_ID_PRESERVE: false
+      PID_DISK_NOTIFY_OS: true
+      PID_PARTITION_NODE_FORMAT: d
+      SEstimatedUsed: 26b6cd94
+      STotalSectors: 74706db0
+      SPartitions: 
+      {
+         PID_POSITION_ID: 3.1:
+         SFlagInp: 3
+         SFileOperationOffset: 0
+         PID_FIND_FIRST: false
+         PID_FIND_BEST_FIT: false
+         SSlot: 0
+         SNumSects: 47000
+         PID_VOLUME_TYPE: 1
+         PID_START_CHS_MAXED_OUT: false
+         SOrder: 0
+         SFpos: 0
+         PID_VOLUME_SLOT_NUMBER: 0
+         PID_END_CHS: 
+         {
+            PID_SECTOR: 28
+            PID_HEAD: 58
+            PID_CYLINDER: 13
+         }
+         PID_VOLUME_START: ffe00
+         SBootable: false
+         SExtended: false
+         SSystemId: 83
+         SSizeAdjustment: 0
+         PID_IS_VOLUME_CONTAINER: false
+         PID_SYSTEM_ID: 83
+         PID_START_CHS: 
+         {
+            PID_SECTOR: 21
+            PID_HEAD: 20
+            PID_CYLINDER: 0
+         }
+         PID_FORMAT: b
+         PID_ACTIVE: false
+         PID_EXTENT: 
+         {
+            PID_EXTENT_CONTAINER_EXTENT_INDEX: 0
+            PID_EXTENT_START: ffe00
+            PID_EXTENT_SIZE_MINIMUM: 8e00000
+            PID_EXTENT_SIZE_MAXIMUM: 8e00000
+         }
+         SFirstSect: 800
+         PID_READ_ONLY: false
+         PID_FIND_LAST: false
+         PID_NAME: 
+         SFlags: 0
+         PID_ROLE_FORMAT_MATCHING_TYPE: 0
+         SEndFpos: 0
+         PID_VOLUME_SIZE_MINIMUM: 8e00000
+         PID_PARENT_BOOT_RECORD_SECTOR_OFFSET: 0
+         PID_FIND_WORST_FIT: false
+         SGflags: 40
+         PID_VOLUME_SIZE_MAXIMUM: 8e00000
+         PID_END_CHS_MAXED_OUT: false
+         PID_HIDDEN: false
+         PID_IS_VOLUME: true
+         PID_VOLUME_NOTIFY_OS: true
+         PID_PARENT_BOOT_RECORD_SLOT_NUMBER: 0
+         SSectorsUsed: 11654
+         PID_ROLE: 3
+      }
+      PID_CONTAINER_ID: 3:
+      SSectorsUsed: 74703f82
+   }
+
+
+ # Ord Boot Id Ext     First        Num       Last       Used NTFS
+ 0  0    0  83 No       2048     290816     292864      71252 No
+
+Disk Info :
+  remote.............0
+  drive..............0
+  sectorsUsedCount.......0
+  estimatedUsedCount.....0
+  numPartitions..............0
+  Version............0
+  Full structure dump....
+   {
+      SVersion: 0
+      SCylinders: 0
+      SDiskFormat: 1
+      SMbr: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0100 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0110 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0120 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0130 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0140 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0150 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0160 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0170 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0180 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0190 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0200 
+      SIsSpanned: false
+      SOs2Name: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 
+      SFingerprint: 0
+      SHeadsPerCyl: 0
+      SectorsPerTrack: 0
+      SRemote: false
+      SEndOfImagePosition: 0
+      SFlags: 0
+      SPatchedFileCount: 0
+      SDrive: 0
+      SEstimatedUsed: 0
+      STotalSectors: 0
+      SPartitions: 
+      [
+      ]
+      SSectorsUsed: 0
+   }
+
+
+ # Ord Boot Id Ext     First        Num       Last       Used NTFS
+
+Fixed Drives
+
+Drive 128
+
+Total Sectors            2009088
+Bytes per Sector         512
+MB                       981
+Cylinders                125
+Heads                    255
+Sectors per Track        63
+
+Drive 128
+Int 13h (Active)
+Total Sectors            2008125
+Bytes per Sector         512
+MB                       980
+Cylinders                125
+Heads                    255
+Sectors per Track        63
+Successful IO Count      30
+
+Extended Int 13h
+Total Sectors            2009088
+Bytes per Sector         512
+MB                       981
+Cylinders                125
+Heads                    255
+Sectors per Track        63
+Successful IO Count      0
+
+Drive 129 HGST HTS541010A9E680       JD100019K84NZM
+
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                1023
+Heads                    255
+Sectors per Track        63
+
+Drive 129 HGST HTS541010A9E680       JD100019K84NZM
+Int 13h
+Total Sectors            16434495
+Bytes per Sector         512
+MB                       8024
+Cylinders                1023
+Heads                    255
+Sectors per Track        63
+Successful IO Count      0
+
+Extended Int 13h
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Successful IO Count      0
+
+IDE using PIO
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                16383
+Heads                    16
+Sectors per Track        63
+Successful IO Count      0
+
+IDE using UDMA (Active)
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                16383
+Heads                    16
+Sectors per Track        63
+Successful IO Count      130
+
+Drive 130 Hitachi HTS541010A9E680       JB40001MG7MRTC
+
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                1023
+Heads                    240
+Sectors per Track        63
+
+Drive 130 Hitachi HTS541010A9E680       JB40001MG7MRTC
+Int 13h
+Total Sectors            15467760
+Bytes per Sector         512
+MB                       7552
+Cylinders                1023
+Heads                    240
+Sectors per Track        63
+Successful IO Count      0
+
+Extended Int 13h
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Successful IO Count      0
+
+IDE using PIO
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                16383
+Heads                    16
+Sectors per Track        63
+Successful IO Count      0
+
+IDE using UDMA (Active)
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                16383
+Heads                    16
+Sectors per Track        63
+Successful IO Count      1001
+Error Count (bad media)  30
+Error Count (other)      0
+Last Error
+IDE Controller error:
+Sector ID field not found (does not exist)
+Error          0x10
+Device/Head    0x04
+Cylinder High  0x2a
+Cylinder Low   0x98
+Sector Number  0x82
+Sector Count   0x01
+LBA Sector     69900418
+
+
+Floppy Drives
+
+AsyncIo : 0
+Volume attributes
+=================
+1.1:
+Attribute dump
+BiosId:128
+DiskSignature9x:2330210894
+DiskSignatureNt:3533765
+VolumeSectorOffset:63
+
+2.1:
+Attribute dump
+BiosId:129
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:HGST HTS541010A9E680
+DiskSerialNumber:      JD100019K84NZM
+VolumeSectorOffset:2048
+
+2.2:
+Attribute dump
+BiosId:129
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:HGST HTS541010A9E680
+DiskSerialNumber:      JD100019K84NZM
+VolumeSectorOffset:292864
+
+2.3:
+Attribute dump
+BiosId:129
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:HGST HTS541010A9E680
+DiskSerialNumber:      JD100019K84NZM
+VolumeSectorOffset:195604480
+
+2.4:
+Attribute dump
+BiosId:129
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:HGST HTS541010A9E680
+DiskSerialNumber:      JD100019K84NZM
+VolumeSectorOffset:224926065
+
+2.5:
+Attribute dump
+BiosId:129
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:HGST HTS541010A9E680
+DiskSerialNumber:      JD100019K84NZM
+VolumeSectorOffset:229122048
+
+2.6:
+Attribute dump
+BiosId:129
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:HGST HTS541010A9E680
+DiskSerialNumber:      JD100019K84NZM
+VolumeSectorOffset:271080810
+
+2.7:
+Attribute dump
+BiosId:129
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:HGST HTS541010A9E680
+DiskSerialNumber:      JD100019K84NZM
+VolumeSectorOffset:1869647872
+
+3.1:
+Attribute dump
+BiosId:130
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:Hitachi HTS541010A9E680
+DiskSerialNumber:      JB40001MG7MRTC
+VolumeSectorOffset:2048
+
+3.2:
+Attribute dump
+BiosId:130
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:Hitachi HTS541010A9E680
+DiskSerialNumber:      JB40001MG7MRTC
+VolumeSectorOffset:292864
+
+3.3:
+Attribute dump
+BiosId:130
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:Hitachi HTS541010A9E680
+DiskSerialNumber:      JB40001MG7MRTC
+VolumeSectorOffset:195604480
+
+3.4:
+Attribute dump
+BiosId:130
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:Hitachi HTS541010A9E680
+DiskSerialNumber:      JB40001MG7MRTC
+VolumeSectorOffset:224901183
+
+3.5:
+Attribute dump
+BiosId:130
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:Hitachi HTS541010A9E680
+DiskSerialNumber:      JB40001MG7MRTC
+VolumeSectorOffset:229099520
+
+3.6:
+Attribute dump
+BiosId:130
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:Hitachi HTS541010A9E680
+DiskSerialNumber:      JB40001MG7MRTC
+VolumeSectorOffset:271042623
+
+3.7:
+Attribute dump
+BiosId:130
+DiskSignature9x:1913900354
+DiskSignatureNt:705360
+DiskModelNumber:Hitachi HTS541010A9E680
+DiskSerialNumber:      JB40001MG7MRTC
+VolumeSectorOffset:1869637632
+
+ConvMemoryAllocationFactoryDpmi diagnostic...
+=============================================
+
+Conventional Memory
+Initial Conventional Memory Size = 470000
+Current Conventional Memory Size = 383984
+
+Allocated
+   1024 DpmiDjgpp.cpp:56
+  33504 ghost.cpp:1505
+    528 IdeDmaServerPci.cpp:144
+    528 IdeDmaServerPci.cpp:144
+    528 IdeDmaServerPci.cpp:144
+    528 IdeDmaServerPci.cpp:144
+     64 DiskDriveAccessExInt13.cpp:156
+    512 DiskDriveAccessExInt13.cpp:156
+    512 DiskDriveAccessExInt13.cpp:156
+Free
+     16 MsdosFile.cpp:182
+     80 DiskDriveAccessExInt13.cpp:119
+    512 DiskDriveAccessInt13.cpp:190
+   1024 DiskDriveAccessInt13.cpp:190
+  32768 BlockDeviceDosDrive.cpp:404
+
+
+LargeMemoryAllocationFactory diagnostic...
+==========================================
+
+Heap available at construction: 2132049920
+Current heap available:         2120646656
+Total Memory:                   2144239616
+
+Allocated
+
+The following devices do not use an IRQ: 
+   (0x00, 0x00, 0x00):   IRQ: 0x00, INT#: -, Link: 0x00
+      Class: Bridge, SubClass: Host/PCI
+      Vendor: 0x8086, Device: 0x0158
+   (0x00, 0x1e, 0x00):   IRQ: 0xff, INT#: -, Link: 0x00
+      Class: Bridge, SubClass: Sub Decode PCI/PCI
+      Vendor: 0x8086, Device: 0x244e
+   (0x00, 0x1f, 0x00):   IRQ: 0x00, INT#: -, Link: 0x00
+      Class: Bridge, SubClass: PCI/ISA
+      Vendor: 0x8086, Device: 0x1e49, RoutePINS: 0x69, 0x63, 0x62, 0x60, 
+The following hard wire-ord devices share IRQ 11:
+   (0x00, 0x01, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Bridge, SubClass: PCI/PCI
+      Vendor: 0x8086, Device: 0x0151, RoutePINS: 0x60, 0x61, 0x62, 0x63, 
+   (0x00, 0x14, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Serial Bus, SubClass: Unknown USB
+      Vendor: 0x8086, Device: 0x1e31, RoutePINS: 0x60, 0x00, 0x00, 0x00, 
+   (0x00, 0x16, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Simple Com, SubClass: Other Com
+      Vendor: 0x8086, Device: 0x1e3a, RoutePINS: 0x60, 0x63, 0x62, 0x61, 
+   (0x00, 0x1a, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Serial Bus, SubClass: USB EHCI
+      Vendor: 0x8086, Device: 0x1e2d, RoutePINS: 0x60, 0x69, 0x62, 0x63, 
+   (0x00, 0x1c, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Bridge, SubClass: PCI/PCI
+      Vendor: 0x8086, Device: 0x1e10, RoutePINS: 0x60, 0x61, 0x62, 0x63, 
+   (0x00, 0x1c, 0x04):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Bridge, SubClass: PCI/PCI
+      Vendor: 0x8086, Device: 0x1e18, RoutePINS: 0x60, 0x61, 0x62, 0x63, 
+   (0x01, 0x00, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Display, SubClass: VGA compatible
+      Vendor: 0x1002, Device: 0x6738, RoutePINS: 0x60, 0x61, 0x62, 0x63, 
+   (0x02, 0x00, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Network, SubClass: Other Network
+      Vendor: 0x168c, Device: 0x002a, RoutePINS: 0x60, 0x61, 0x62, 0x63, 
+   (0x03, 0x00, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x60
+      Class: Network, SubClass: Ethernet
+      Vendor: 0x10ec, Device: 0x8168, RoutePINS: 0x60, 0x61, 0x62, 0x63, 
+The following hard wire-ord devices share IRQ 10:
+   (0x01, 0x00, 0x01):   IRQ: 0x0a, INT#: B, Link: 0x61
+      Class: Multimedia, SubClass: Unknown Multimedia
+      Vendor: 0x1002, Device: 0xaa88, RoutePINS: 0x60, 0x61, 0x62, 0x63, 
+The following hard wire-ord devices share IRQ 3:
+   (0x00, 0x1f, 0x03):   IRQ: 0x03, INT#: C, Link: 0x62
+      Class: Serial Bus, SubClass: SMBUS
+      Vendor: 0x8086, Device: 0x1e22, RoutePINS: 0x69, 0x63, 0x62, 0x60, 
+The following hard wire-ord devices share IRQ 10:
+   (0x00, 0x1f, 0x02):   IRQ: 0x0a, INT#: B, Link: 0x63
+      Class: Mass Storage, SubClass: IDE Controller
+      Vendor: 0x8086, Device: 0x1e00, RoutePINS: 0x69, 0x63, 0x62, 0x60, 
+   (0x00, 0x1f, 0x05):   IRQ: 0x0a, INT#: B, Link: 0x63
+      Class: Mass Storage, SubClass: IDE Controller
+      Vendor: 0x8086, Device: 0x1e08, RoutePINS: 0x69, 0x63, 0x62, 0x60, 
+The following hard wire-ord devices share IRQ 3:
+   (0x00, 0x1b, 0x00):   IRQ: 0x03, INT#: A, Link: 0x6a
+      Class: Multimedia, SubClass: Unknown Multimedia
+      Vendor: 0x8086, Device: 0x1e20, RoutePINS: 0x6a, 0x00, 0x00, 0x00, 
+The following hard wire-ord devices share IRQ 11:
+   (0x00, 0x1d, 0x00):   IRQ: 0x0b, INT#: A, Link: 0x6b
+      Class: Serial Bus, SubClass: USB EHCI
+      Vendor: 0x8086, Device: 0x1e26, RoutePINS: 0x6b, 0x63, 0x60, 0x62, 
+
+
+
+DiskManager diagnostic...
+=========================
+
+Fixed Drives
+
+Drive 128
+
+Total Sectors            2009088
+Bytes per Sector         512
+MB                       981
+Cylinders                125
+Heads                    255
+Sectors per Track        63
+
+Drive 128
+Int 13h (Active)
+Total Sectors            2008125
+Bytes per Sector         512
+MB                       980
+Cylinders                125
+Heads                    255
+Sectors per Track        63
+Successful IO Count      31
+
+Extended Int 13h
+Total Sectors            2009088
+Bytes per Sector         512
+MB                       981
+Cylinders                125
+Heads                    255
+Sectors per Track        63
+Successful IO Count      0
+
+Drive 129 HGST HTS541010A9E680       JD100019K84NZM
+
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                1023
+Heads                    255
+Sectors per Track        63
+
+Drive 129 HGST HTS541010A9E680       JD100019K84NZM
+Int 13h
+Total Sectors            16434495
+Bytes per Sector         512
+MB                       8024
+Cylinders                1023
+Heads                    255
+Sectors per Track        63
+Successful IO Count      0
+
+Extended Int 13h
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Successful IO Count      0
+
+IDE using PIO
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                16383
+Heads                    16
+Sectors per Track        63
+Successful IO Count      0
+
+IDE using UDMA (Active)
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                16383
+Heads                    16
+Sectors per Track        63
+Successful IO Count      137
+
+Drive 130 Hitachi HTS541010A9E680       JB40001MG7MRTC
+
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                1023
+Heads                    240
+Sectors per Track        63
+
+Drive 130 Hitachi HTS541010A9E680       JB40001MG7MRTC
+Int 13h
+Total Sectors            15467760
+Bytes per Sector         512
+MB                       7552
+Cylinders                1023
+Heads                    240
+Sectors per Track        63
+Successful IO Count      0
+
+Extended Int 13h
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Successful IO Count      0
+
+IDE using PIO
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                16383
+Heads                    16
+Sectors per Track        63
+Successful IO Count      0
+
+IDE using UDMA (Active)
+Total Sectors            1953525168
+Bytes per Sector         512
+MB                       953869
+Cylinders                16383
+Heads                    16
+Sectors per Track        63
+Successful IO Count      1008
+Error Count (bad media)  30
+Error Count (other)      0
+Last Error
+IDE Controller error:
+Sector ID field not found (does not exist)
+Error          0x10
+Device/Head    0x04
+Cylinder High  0x2a
+Cylinder Low   0x98
+Sector Number  0x82
+Sector Count   0x01
+LBA Sector     69900418
+
+
+Floppy Drives
+
+FilesystemMounter diagnostic...
+===============================
+
+
+FilesystemManager diagnostic...
+===============================
+
+Volume 1
+VolumePos: 1.1:
+DriveLetter: C:
+Description:  980.97MB Primary Disk 0 Offset   31.50KB  980.97MB
+Type:        fsfFat16
+Name:        DOS
+
+Volume 2
+VolumePos: 2.2:
+DriveLetter: 
+Description:   93.13GB Primary Disk 1 Offset     143MB   93.13GB HGST HTS541010A9E680       JD100019K84NZM
+Type:        fsfNtfsWindowsXP
+Name:        
+
+Volume 3
+VolumePos: 2.4:
+DriveLetter: 
+Description:       2GB Logical Disk 1 Offset  107.25GB       2GB HGST HTS541010A9E680       JD100019K84NZM
+Type:        fsfLinuxSwap
+Name:        
+
+Volume 4
+VolumePos: 2.6:
+DriveLetter: 
+Description:  762.25GB Logical Disk 1 Offset  129.26GB  762.25GB HGST HTS541010A9E680       JD100019K84NZM
+Type:        fsfNtfsWindowsXP
+Name:        
+
+Volume 5
+VolumePos: 2.7:
+DriveLetter: 
+Description:   39.99GB Logical Disk 1 Offset  891.52GB   39.99GB HGST HTS541010A9E680       JD100019K84NZM
+Type:        fsfFat32
+Name:        LPZone
+
+Volume 6
+VolumePos: 3.2:
+DriveLetter: 
+Description:   93.13GB Primary Disk 2 Offset     143MB   93.13GB Hitachi HTS541010A9E680       JB40001MG7MRTC
+Type:        fsfNtfsWindowsXP
+Name:        
+
+Volume 7
+VolumePos: 3.4:
+DriveLetter: 
+Description:       2GB Logical Disk 2 Offset  107.24GB       2GB Hitachi HTS541010A9E680       JB40001MG7MRTC
+Type:        fsfLinuxSwap
+Name:        
+
+Volume 8
+VolumePos: 3.6:
+DriveLetter: 
+Description:  762.27GB Logical Disk 2 Offset  129.24GB  762.27GB Hitachi HTS541010A9E680       JB40001MG7MRTC
+Type:        fsfNtfsWindowsXP
+Name:        
+
+Volume 9
+VolumePos: 3.7:
+DriveLetter: 
+Description:      40GB Logical Disk 2 Offset  891.51GB      40GB Hitachi HTS541010A9E680       JB40001MG7MRTC
+Type:        fsfFat32
+Name:        LPZone
+
+Volume 10
+VolumePos: 
+DriveLetter: 
+Description:   93.13GB
+Type:        fsfNtfsWindowsXP
+Name:        
+
+
+LfoFilesystemManager diagnostic...
+==================================
+
+Filesystem Index: 0
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: C:
+    ID Type: 1
+    ID: 1.1:
+    ID Type: 4
+    ID: DOS:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 2
+    volumeName: DOS
+
+Filesystem Index: 1
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: D:
+  DriveType: 32
+  No FilesystemInfo structure.
+  Filesystem has no VolumePtr
+
+Filesystem Index: 2
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 2.1:
+  DriveType: 4
+  No FilesystemInfo structure.
+
+Filesystem Index: 3
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 2.2:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: 
+
+Filesystem Index: 4
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 2.3:
+  DriveType: 4
+  No FilesystemInfo structure.
+
+Filesystem Index: 5
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 2.4:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 14
+    volumeName: 
+
+Filesystem Index: 6
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 2.5:
+  DriveType: 4
+  No FilesystemInfo structure.
+
+Filesystem Index: 7
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 2.6:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: 
+
+Filesystem Index: 8
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 2.7:
+    ID Type: 4
+    ID: LPZONE:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 3
+    volumeName: LPZone
+
+Filesystem Index: 9
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 3.1:
+  DriveType: 4
+  No FilesystemInfo structure.
+
+Filesystem Index: 10
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 3.2:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: 
+
+Filesystem Index: 11
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 3.3:
+  DriveType: 4
+  No FilesystemInfo structure.
+
+Filesystem Index: 12
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 3.4:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 14
+    volumeName: 
+
+Filesystem Index: 13
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 3.5:
+  DriveType: 4
+  No FilesystemInfo structure.
+
+Filesystem Index: 14
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 3.6:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: 
+
+Filesystem Index: 15
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 3.7:
+    ID Type: 4
+    ID: LPZONE:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 3
+    volumeName: LPZone
+
+
+Environment Variables
+=====================
+
+CONFIG=NOCD
+PATH=
+PROMPT=$P$G
+COMSPEC=C:\COMMAND.COM
+CMDLINE=ghost115
+
+
+*********************************
