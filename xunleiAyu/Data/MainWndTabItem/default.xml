@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MainWndTabItem>
+	<Item id="lixian" text="离线下载" vip="0">
+		<IconImage>http://images.client.xunlei.com/thunder7/7.9/201301/lixian.png</IconImage>
+		<TabIcon>http://images.client.xunlei.com/thunder7/7.9/201301/lixian.png</TabIcon>
+		<OperationType>4</OperationType>
+		<Pos>1</Pos>
+		<XarName>Offline</XarName>
+		<ControlName>Offline.TaskMgrWnd</ControlName>
+	</Item>
+</MainWndTabItem>

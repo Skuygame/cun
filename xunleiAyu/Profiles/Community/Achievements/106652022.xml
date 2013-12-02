@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<achm_list result="0" msg="ok" count="6" >
+<achm id="1" type="1" grant_status="0">
+<name><![CDATA[VIP1纪念章]]></name>
+<desc><![CDATA[开通迅雷会员，并升级到VIP1可领取VIP纪念章1枚。]]></desc>
+<icon_url><![CDATA[http://img.cj.xunlei.com/img/effort/gray_s/1.png]]></icon_url>
+<link_url><![CDATA[http://cj.xunlei.com/offical/1]]></link_url>
+</achm>
+<achm id="301" type="4" grant_status="0">
+<name><![CDATA[新锐勋章]]></name>
+<desc><![CDATA[下载100个文件，文件大小达到10G，在线达到100小时。]]></desc>
+<icon_url><![CDATA[http://img.cj.xunlei.com/img/effort/gray_s/301.png]]></icon_url>
+<link_url><![CDATA[http://cj.xunlei.com/offical/301]]></link_url>
+</achm>
+<achm id="304" type="4" grant_status="0">
+<name><![CDATA[优质勋章]]></name>
+<desc><![CDATA[成功下载一个100M~1G之间的文件。]]></desc>
+<icon_url><![CDATA[http://img.cj.xunlei.com/img/effort/gray_s/304.png]]></icon_url>
+<link_url><![CDATA[http://cj.xunlei.com/offical/304]]></link_url>
+</achm>
+<achm id="305" type="4" grant_status="0">
+<name><![CDATA[精品勋章]]></name>
+<desc><![CDATA[成功下载一个1G以上的文件。]]></desc>
+<icon_url><![CDATA[http://img.cj.xunlei.com/img/effort/gray_s/305.png]]></icon_url>
+<link_url><![CDATA[http://cj.xunlei.com/offical/305]]></link_url>
+</achm>
+<achm id="506" type="4" grant_status="0">
+<name><![CDATA[最爱下载1]]></name>
+<desc><![CDATA[累计下载完成10个离线任务]]></desc>
+<icon_url><![CDATA[http://img.cj.xunlei.com/img/effort/gray_s/506.png]]></icon_url>
+<link_url><![CDATA[http://cj.xunlei.com/offical/506]]></link_url>
+</achm>
+<achm id="511" type="4" grant_status="0">
+<name><![CDATA[瞬间秒杀1]]></name>
+<desc><![CDATA[累计秒杀10个离线任务]]></desc>
+<icon_url><![CDATA[http://img.cj.xunlei.com/img/effort/gray_s/511.png]]></icon_url>
+<link_url><![CDATA[http://cj.xunlei.com/offical/511]]></link_url>
+</achm>
+</achm_list>

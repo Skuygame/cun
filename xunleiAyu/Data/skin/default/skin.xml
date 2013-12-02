@@ -1,0 +1,107 @@
+<thunder_skin>
+	<info>
+		<name>default</name>
+		<author>Thunder</author>
+		<copyright>Thunder</copyright>
+		<date></date>
+	</info>
+
+	<skin name="default" id="default" type="full">
+
+		<respackage></respackage>
+
+		<bkg>
+			<image>defaultbkg.jpg</image>
+		</bkg>
+		<default_color_scheme>blue</default_color_scheme>
+		
+		<ani>
+			<flash>
+				<loop>true</loop>
+				<left>0</left>
+				<top>0</top>
+				<width>1280</width>
+				<height>140</height>
+				<src>flash\center.swf</src>
+				<center>true</center>
+				<framelimit>24</framelimit>
+				<flashinzip>false</flashinzip>
+			</flash>
+		</ani>
+
+		<thumbnail>default.png</thumbnail>
+
+	</skin>
+
+	<skin id="default.blue" name="blue" type="bkg">
+		<bkg>
+			<image>blue\bkg.jpg</image>
+		</bkg>
+		<thumbnail>blue\thumbnail.jpg</thumbnail>
+		<owner_skin>default</owner_skin>
+		<default_color_scheme>blue</default_color_scheme>
+	</skin>
+
+	<skin id="default.cyan" name="cyan" type="bkg">
+		<bkg>
+			<image>cyan\bkg.jpg</image>
+		</bkg>
+		<thumbnail>cyan\thumbnail.jpg</thumbnail>
+		<owner_skin>default</owner_skin>
+		<default_color_scheme>cyan</default_color_scheme>
+	</skin>
+
+	<skin id="default.red" name="red" type="bkg">
+		<bkg>
+			<image>red\bkg.jpg</image>
+		</bkg>
+		<thumbnail>red\thumbnail.jpg</thumbnail>
+		<owner_skin>default</owner_skin>
+		<default_color_scheme>red</default_color_scheme>
+	</skin>
+
+	<skin id="default.green" name="green" type="bkg">
+		<bkg>
+			<image>green\bkg.jpg</image>
+		</bkg>
+		<thumbnail>green\thumbnail.jpg</thumbnail>
+		<owner_skin>default</owner_skin>
+		<default_color_scheme>green</default_color_scheme>
+	</skin>
+
+	<skin id="default.yellow" name="yellow" type="bkg">
+		<bkg>
+			<image>yellow\bkg.jpg</image>
+		</bkg>
+		<thumbnail>yellow\thumbnail.jpg</thumbnail>
+		<owner_skin>default</owner_skin>
+		<default_color_scheme>yellow</default_color_scheme>
+	</skin>
+
+	<skin id="default.pink" name="pink" type="bkg">
+		<bkg>
+			<image>pink\bkg.jpg</image>
+		</bkg>
+		<thumbnail>pink\thumbnail.jpg</thumbnail>
+		<owner_skin>default</owner_skin>
+		<default_color_scheme>pink</default_color_scheme>
+	</skin>
+
+	<skin id="default.violet" name="violet" type="bkg">
+		<bkg>
+			<image>violet\bkg.jpg</image>
+		</bkg>
+		<thumbnail>violet\thumbnail.jpg</thumbnail>
+		<owner_skin>default</owner_skin>
+		<default_color_scheme>violet</default_color_scheme>
+	</skin>
+
+	<skin id="default.gray" name="gray" type="bkg">
+		<bkg>
+			<image>gray\bkg.jpg</image>
+		</bkg>
+		<thumbnail>gray\thumbnail.jpg</thumbnail>
+		<owner_skin>default</owner_skin>
+		<default_color_scheme>gray</default_color_scheme>
+	</skin>
+</thunder_skin>

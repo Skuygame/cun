@@ -2,20 +2,20 @@
 <vipdata>
 <announce>
 <line>
+<url><![CDATA[http://vip.xunlei.com/vip_service/apphui/]]></url>
+<title><![CDATA[【会员特权】超大大咖级服务等你淘]]></title>
+</line>
+<line>
 <url><![CDATA[http://sy.xunlei.com/?referfrom=gw&referfrom=xl5]]></url>
-<title><![CDATA[【迅雷德州扑克】登录有奖，赢白金会员]]></title>
+<title><![CDATA[【热门活动】抽幸运牌 赢白金会员]]></title>
 </line>
 <line>
-<url><![CDATA[http://image.shop.xunlei.com/act/shujia/#cold?referfrom=vip]]></url>
-<title><![CDATA[【迅雷商城】小物件 冰点价]]></title>
+<url><![CDATA[http://xiu.xunlei.com/]]></url>
+<title><![CDATA[【热门活动】迅雷秀吧开秀啦]]></title>
 </line>
 <line>
-<url><![CDATA[http://act.vip.xunlei.com/zbj/6b/]]></url>
-<title><![CDATA[【迅雷美女直播室】100六币大放送]]></title>
-</line>
-<line>
-<url><![CDATA[http://act.vip.xunlei.com/buyvip/]]></url>
-<title><![CDATA[【热门活动】充值会员返积分]]></title>
+<url><![CDATA[http://vip.xunlei.com/vip_service/freedom/hybz.html]]></url>
+<title><![CDATA[【会员特权】会员壁纸 每月更新]]></title>
 </line>
 </announce>
 <vip_growvalue>0</vip_growvalue>
@@ -25,18 +25,18 @@
 <vip_payname>----</vip_payname>
 <vip_isvip></vip_isvip>
 <vip_level>0</vip_level>
-<vip_lx_totalspace>-1</vip_lx_totalspace>
-<vip_lx_restspace>-1</vip_lx_restspace>
-<vip_lx_taskfin>-1</vip_lx_taskfin>
-<vip_lx_taskover>-1</vip_lx_taskover>
-<vip_lx_tasknum>-1</vip_lx_tasknum>
-<vip_usrname>113519615</vip_usrname>
-<vip_nickname>mplayer</vip_nickname>
+<vip_lx_totalspace>8</vip_lx_totalspace>
+<vip_lx_restspace>6</vip_lx_restspace>
+<vip_lx_taskfin>0</vip_lx_taskfin>
+<vip_lx_taskover>0</vip_lx_taskover>
+<vip_lx_tasknum>2</vip_lx_tasknum>
+<vip_usrname>-1</vip_usrname>
+<vip_nickname>-1</vip_nickname>
 <vip_is_good_number>0</vip_is_good_number>
 <channel_total>-1</channel_total>
 <channel_used>-1</channel_used>
 <channel_flux>-1</channel_flux>
-<kill>-1</kill>
-<online>-1</online>
+<kill>0</kill>
+<online>0</online>
 <vip_safebox>0</vip_safebox>
 </vipdata>

@@ -1,0 +1,1623 @@
+<config>
+<server>
+<tcp host="stat.download.xunlei.com" port="8080"/>
+</server>
+<priority>
+<level id="1" reporttime="0" net="tcp"/>
+<level id="2" reporttime="300" net="tcp"/>
+<level id="3" reporttime="-1" net="tcp"/>
+<level id="4" reporttime="-2"/>
+</priority>
+<stat>
+<!--item index="1" key="skinautochange" priority="1"/-->
+<item index="2" key="skinentertips" priority="1"/>
+<!-- <item index="3" key="skinenterinfo" priority="1"/>  -->
+<item index="4" key="skinsetup" priority="1"/>
+<item index="5" key="skinmore" priority="1"/>
+<item index="6" key="newleftmouse" priority="1"/>
+<item index="7" key="newrightmouse" priority="1"/>
+<item index="8" key="newpaste" priority="1"/>
+<item index="9" key="newopenrelate" priority="1"/>
+<item index="10" key="newrolllink" priority="1"/>
+<item index="11" key="newrollfile" priority="1"/>
+<item index="12" key="newinputlist" priority="1"/>
+<item index="13" key="newinputunfinish" priority="1"/>
+<item index="14" key="newother" priority="1"/>
+<item index="15" key="newboardopenf" priority="1"/>
+<item index="16" key="newboardopendir" priority="1"/>
+<item index="17" key="newboardopenlook" priority="1"/>
+<item index="18" key="newboardclose" priority="1"/>
+<item index="19" key="newboardeditmanual" priority="1"/>
+<item index="20" key="newboardeditauto" priority="1"/>
+<item index="21" key="newboardurlselect" priority="1"/>
+<item index="22" key="newboardxldir" priority="1"/>
+<item index="23" key="newboarddeskdir" priority="1"/>
+<item index="24" key="newboardmanualdir" priority="1"/>
+<item index="25" key="newboarddownload" priority="1"/>
+<item index="26" key="newboardautorun" priority="1"/>
+<item index="27" key="newboardfromorigin" priority="1"/>
+<item index="28" key="newboardnote" priority="1"/>
+<item index="29" key="newboardthread" priority="1"/>
+<item index="30" key="newboardbtauto" priority="1"/>
+<item index="31" key="newboardbtall" priority="1"/>
+<item index="32" key="newboardbtother" priority="1"/>
+<item index="33" key="newboardbtorder" priority="1"/>
+<item index="38" key="newurlbt" priority="1"/>
+<item index="39" key="newurlbatch" priority="1"/>
+<item index="40" key="newurldownload" priority="1"/>
+<item index="41" key="newurlrightmouse" priority="1"/>
+<!-- <item index="42" key="newurlclose" priority="1"/> -->
+<item index="43" key="taskmenuopenall" priority="1"/>
+<item index="44" key="taskmenuopen" priority="1"/> 
+<item index="45" key="taskmenuopenfile" priority="1"/>
+<item index="46" key="taskmenustart" priority="1"/>
+<item index="47" key="taskmenupause" priority="1"/>
+<item index="48" key="taskmenudelete" priority="1"/>
+<item index="49" key="taskmenuselect" priority="1"/>
+<item index="50" key="taskmenumovetoprivate" priority="1"/>
+<item index="51" key="taskmenuofflineacc" priority="1"/>
+<item index="52" key="taskmenurouteacc" priority="1"/>
+<item index="53" key="taskmenuredown" priority="1"/>
+<item index="54" key="taskmenuplay" priority="1"/>
+<item index="55" key="taskmenudiagnose" priority="1"/>
+<item index="56" key="taskmenuproperty" priority="1"/>
+<item index="58" key="runturnonpc" priority="1"/>
+<item index="59" key="runinstall" priority="1"/>
+<item index="60" key="runbho" priority="1"/>
+<item index="61" key="runrelatefile" priority="1"/>
+<item index="62" key="runclickdesk" priority="1"/>
+<item index="63" key="runclickfence" priority="1"/>
+<item index="64" key="runclickstart" priority="1"/>
+<item index="65" key="runclicktaskfence" priority="1"/>
+<item index="66" key="runclickstartmenu" priority="1"/>
+<!-- <item index="67" key="runinstalltotaskfence" priority="1"/> -->
+<item index="81" key="initskip" priority="1"/>
+<item index="84" key="initonekey" priority="1"/>
+<item index="86" key="initspeedtestskip" priority="1"/>
+<item index="88" key="setupsave" priority="1"/>
+<item index="89" key="setupcancel" priority="1"/>
+<item index="90" key="setupinit" priority="1"/>
+<item index="92" key="setuprunwithpc" priority="1"/>
+<item index="93" key="setupawayon" priority="1"/>
+<item index="94" key="setupcleverdown" priority="1"/>
+<item index="95" key="setupautorununfinish" priority="1"/>
+<!-- <item index="96" key="setupclosefloat" priority="1"/> -->
+<item index="97" key="downmodefast" priority="1"/>
+<item index="98" key="downmodewebprotect" priority="1"/>
+<item index="99" key="downmodemoresetup" priority="1"/>
+<item index="100" key="downmodepersonalize" priority="1"/>
+<item index="101" key="downmodewebprotectoff" priority="1"/>
+<item index="102" key="downmodevideoprotectoff" priority="1"/>
+<item index="103" key="downmodegameprotectoff" priority="1"/>
+<item index="104" key="downmodemailprotectoff" priority="1"/>
+<item index="106" key="detailpageclickrouteacc" priority="1"/>
+<item index="107" key="detailpageclickofflineacc" priority="1"/>
+<item index="108" key="detailpagetaskinfoshow" priority="1"/>
+<item index="109" key="detailpagepropertyshow" priority="1"/>
+<item index="110" key="detailpagetaskshow" priority="1"/>
+<item index="111" key="detailpagelinkinfoshow" priority="1"/>
+<item index="112" key="detailpageuserlinkshow" priority="1"/>
+<item index="113" key="detailpagespeedshow" priority="1"/>
+<item index="114" key="detailpagehardwareshow" priority="1"/>
+<item index="116" key="floatmenuexit" priority="1"/>
+<item index="117" key="floatmenuhide" priority="1"/>
+<item index="118" key="floatmenupause" priority="1"/>
+<item index="119" key="floatmenunew" priority="1"/>
+<item index="120" key="floatmenuopenfile" priority="1"/>
+<item index="121" key="floatmenustart" priority="1"/>
+<!-- <item index="124" key="floatwinfinishopenfile" priority="1"/>
+<item index="125" key="floatwindownopenfile" priority="1"/> -->
+<!-- <item index="127" key="floatspeedmenudown" priority="1"/>
+<item index="128" key="floatspeedmenuweb" priority="1"/>
+<item index="129" key="floatspeedmenupersonalize" priority="1"/>
+<item index="130" key="floatspeedmenustartpause" priority="1"/> -->
+<item index="131" key="planopencleverdown" priority="1"/>
+<item index="133" key="planboardcancelnormaltask" priority="1"/>
+<item index="134" key="planboardcancelprivatetask" priority="1"/>
+<item index="135" key="planboardpcoff" priority="1"/>
+<item index="136" key="planboardpclock" priority="1"/>
+<item index="137" key="planboardpcsleep" priority="1"/>
+<item index="138" key="planboardpcexit" priority="1"/>
+<item index="138" key="planboardpcexit" priority="1"/>
+<item index="139" key="tooldelete" priority="1"/>
+<item index="140" key="tooldown" priority="1"/>
+<item index="141" key="toolfinish" priority="1"/>
+<item index="142" key="toolprivate" priority="1"/>
+<item index="143" key="tooltrash" priority="1"/>
+<item index="144" key="toolalltask" priority="1"/>
+<item index="145" key="toolofflineacc" priority="1"/>
+<item index="146" key="toolmorebutton" priority="1"/>
+<item index="147" key="toolstart" priority="1"/>
+<item index="148" key="toolpause" priority="1"/>
+<item index="149" key="toolopenfile" priority="1"/>
+<item index="150" key="toolconf" priority="1"/>
+<item index="154" key="trayexit" priority="1"/>
+<item index="155" key="trayopen" priority="1"/>
+<item index="156" key="traymainshow" priority="1"/>
+<item index="157" key="traynew" priority="1"/>
+<item index="158" key="traystart" priority="1"/>
+<item index="159" key="traypause" priority="1"/>
+<item index="160" key="trayhidefloat" priority="1"/>
+<item index="161" key="menunewdown" priority="1"/>
+<item index="162" key="menustartall" priority="1"/>
+<item index="163" key="menupauseall" priority="1"/>
+<item index="164" key="menudeleteall" priority="1"/>
+<item index="165" key="menunormalnew" priority="1"/>
+<item index="166" key="menubtnormalnew" priority="1"/>
+<item index="167" key="menubatchnew" priority="1"/>
+<item index="168" key="menuhelpcenter" priority="1"/>
+<item index="169" key="menuautorun" priority="1"/>
+<item index="170" key="menusetupcenter" priority="1"/>
+<!-- <item index="171" key="menuupdate" priority="1"/> -->
+<item index="172" key="menudelete" priority="1"/>
+<item index="173" key="menuinputunfinish" priority="1"/>
+<item index="174" key="menuinputlist" priority="1"/>
+<item index="175" key="menubbs" priority="1"/>
+<item index="179" key="finishopen" priority="1"/>
+<item index="180" key="finishdir" priority="1"/>
+<item index="181" key="finishall" priority="1"/>
+<item index="182" key="finishvideo" priority="1"/>
+<item index="183" key="finishmusic" priority="1"/>
+<item index="184" key="finishpic" priority="1"/>
+<item index="185" key="finishword" priority="1"/>
+<item index="186" key="finishbt" priority="1"/>
+<item index="187" key="finishtask" priority="1"/>
+<item index="188" key="finishrar" priority="1"/>
+<item index="192" key="rightboardmenubutton" priority="1"/>
+<item index="196" key="rightboardplan" priority="1"/>
+<item index="202" key="taskqueuebuild" priority="1"/>
+<item index="203" key="taskqueueplay" priority="1"/>
+<item index="204" key="updateclick" priority="1"/>
+<item index="212" key="rarclose" priority="1"/>
+<item index="214" key="rarmore" priority="1"/>
+<item index="215" key="privatenew" priority="1"/>
+<item index="216" key="privatetab" priority="1"/>
+<item index="218" key="privateuser" priority="1"/>
+<item index="220" key="privatecode" priority="1"/>
+<item index="223" key="privateenlargespace" priority="1"/>
+<item index="224" key="privatevip" priority="1"/>
+<item index="225" key="privatevipinfo" priority="1"/>
+<item index="227" key="privatefulltipclose" priority="1"/>
+<item index="228" key="privatefulltipvip" priority="1"/>
+<item index="229" key="privatefulltipvipinfo" priority="1"/>
+<item index="217" key="privateroll" priority="1"/>
+<!-- <item index="195" key="rightboardaccinfo" priority="1"/> -->
+<item index="231" key="freevideohomepage" priority="1"/>
+<item index="233" key="freevideoinstallselected" priority="1"/>
+<item index="234" key="desktopnewsclickmenu" priority="1"/>
+<item index="236" key="desktopnewssetupblock" priority="1"/>
+<item index="238" key="desktopnewsvipbutton" priority="1"/>
+<item index="247" key="menuoutputlist" priority="1"/>
+<item index="250" key="adconf" priority="1"/>
+<item index="251" key="adconfsuccess" priority="1"/>
+<item index="254" key="newurladvancedcontent" priority="1"/>
+<item index="256" key="floatfinishrun" priority="1"/>
+<item index="257" key="floatfinishdir" priority="1"/>
+<item index="259" key="setupshowfinishtips" priority="1"/>
+<item index="260" key="setupshowfail" priority="1"/>
+<item index="261" key="setupshowrun" priority="1"/>
+<item index="264" key="downloadplay" priority="1"/>
+<item index="266" key="tipsmanualclose" priority="1"/>
+<item index="267" key="tipsclickall" priority="1"/>
+<item index="269" key="tipsclickbutton" priority="1"/>
+<item index="271" key="tipsxmlsucc" priority="1"/>
+<item index="272" key="tipsxmlfail" priority="1"/>
+<item index="274" key="tipsflashmanualclose" priority="1"/>
+<item index="275" key="tipsflashclickall" priority="1"/>
+<item index="277" key="finishother" priority="1"/>
+<item index="281" key="taskmenumovetop" priority="1"/>
+<item index="282" key="taskmenumovebottom" priority="1"/>
+<item index="283" key="taskmenushowlist" priority="1"/>
+<item index="284" key="taskmenuhidelist" priority="1"/>
+<item index="498" key="tabclose" priority="1"/>
+<item index="499" key="tabloadingclose" priority="1"/>
+<item index="2000" key="tabloadingfail" priority="1"/>
+<item index="2029" key="speedlimitrightbotentranceclick" priority="1"/>
+<item index="2031" key="speedlimittaskcancelscan" priority="1"/>
+<item index="2032" key="speedlimitcancelscan" priority="1"/>
+<item index="2033" key="speedlimitrescan" priority="1"/>
+<item index="2034" key="speedlimitcancelotherinfo" priority="1"/>
+<item index="2037" key="speedlimitvideo" priority="1"/>
+<item index="2039" key="speedlimitchangepeerclick" priority="1"/>
+<item index="2040" key="speedlimitchangepeershow" priority="1"/>
+<item index="2041" key="speedlimitrun" priority="1"/>
+<item index="2042" key="speedlimitconclshow" priority="1"/>
+<item index="2043" key="speedlimitclosetab" priority="1"/>
+<item index="2044" key="floatwindownfirst" priority="1"/>
+<item index="2045" key="floatwinwebprotect" priority="1"/>
+<item index="2046" key="floatwinautolimit" priority="1"/>
+<item index="1159" key="sharepcinfoclick" priority="1"/>
+<item index="1160" key="sharerightbuttonsharelinkclick" priority="1"/>
+<item index="1161" key="shareqrcodeshow" priority="1"/>
+<item index="2054" key="speedlimitlinknuminfoclick" priority="1"/>
+<item index="2090" key="closepredownload" priority="1"/>
+<item index="2091" key="openpredownload" priority="1"/>
+
+<item index="2092" key="rightdownload" priority="1"/>
+<item index="2093" key="rightdownloadcli" priority="1"/>
+<item index="2094" key="rightprivate" priority="1"/>
+<item index="2095" key="rightprivatecli" priority="1"/>
+<item index="2096" key="rightrecycle" priority="1"/>
+<item index="2097" key="rightrecyclecli" priority="1"/>
+
+<item index="2098" key="autoreboot" priority="1"/>
+<item index="2099" key="autorebootdone" priority="1"/>
+<item index="2100" key="diskerror" priority="1"/>
+<item index="2101" key="diskerrorenough" priority="1"/>
+
+<item index="2102" key="smallinter" priority="1"/>
+
+<item index="2103" key="2gtips" priority="1"/>
+<item index="2104" key="2gtipssee" priority="1"/>
+<item index="2105" key="2gtipsbig" priority="1"/>
+<item index="2106" key="2gtipssmall" priority="1"/>
+<item index="2107" key="2gtipserror" priority="1"/>
+<item index="2108" key="2gtipsstill" priority="1"/>
+
+<item index="2109" key="lowspeed" priority="1"/>
+<item index="2110" key="lowspeedcli" priority="1"/>
+<item index="2111" key="lowspeedclo" priority="1"/>
+<item index="2112" key="lowspeedrea" priority="1"/>
+	
+<item index="2113" key="bhotask" priority="1"/>
+
+<!--以下为小文件优先下载统计-->
+<item index="2156" key="smallpriorityon" priority="1"/>
+<item index="2157" key="smallpriorityoff" priority="1"/>
+<item index="2158" key="smallprioritydo" priority="1"/>
+<item index="2159" key="smallprioritytip" priority="1"/>
+<item index="2160" key="smallprioritytin" priority="1"/>
+<item index="2161" key="smallprioritycha" priority="1"/>
+<item index="2162" key="smallpriorityclo" priority="1"/>
+<!--以上为小文件优先下载统计-->
+
+<!--以下为插队下载统计-->
+<item index="2163" key="firstdownchb" priority="1"/>
+<item index="2164" key="firstdownnew" priority="1"/>
+<item index="2165" key="firstdownrig" priority="1"/>
+<item index="2166" key="firstdowntip" priority="1"/>
+<item index="2167" key="firstdowntipch" priority="1"/>
+<item index="2168" key="firstdowntiptin" priority="1"/>
+<item index="2169" key="firstdownticlo" priority="1"/>
+<!--以上为插队下载统计-->
+
+<!--以下为详情页方向键统计-->
+<item index="2170" key="detailpageonri" priority="1"/>
+<item index="2171" key="detailpageofle" priority="1"/>
+<!--以上为详情页方向键统计-->
+
+<!--以下为不下载不上传统计-->
+<item index="2172" key="tiyanuduptipshow" priority="1"/>
+<item index="2173" key="tiyanudupclickopen" priority="1"/>
+<item index="2174" key="tiyanudupclickclose" priority="1"/>
+<item index="2175" key="tiyanudupclickknow" priority="1"/>
+<item index="2176" key="tiyanudupuserinfo" priority="1"/>
+<!--以上为不下载不上传统计-->
+
+<!--以下为本地搜索统计-->
+<item index="2179" key="newsearchused" priority="1"/>
+<item index="2180" key="newsearcherclick" priority="1"/>
+<item index="2181" key="newsearchtip" priority="1"/>
+<item index="2182" key="newsearchtytin" priority="1"/>
+<item index="2183" key="newsearchtycha" priority="1"/>
+<item index="2184" key="newsearchf" priority="1"/>
+<item index="2185" key="newsearchc" priority="1"/>
+<item index="2220" key="newsearchopen" priority="1"/>
+<item index="2221" key="newsearchdir" priority="1"/>
+<item index="2222" key="newsearchucheck" priority="1"/>
+<item index="2223" key="newsearchnum" priority="1"/>
+<item index="2224" key="newsearchresult" priority="1"/>
+<item index="2225" key="newsearchtime" priority="1"/>
+<item index="2226" key="newsearchright" priority="1"/>
+<item index="2227" key="newsearchlen" priority="1"/>
+
+<item index="2228" key="newsearchde" priority="1"/>
+<item index="2229" key="newsearchre" priority="1"/>
+<item index="2230" key="newsearchsee" priority="1"/>
+<item index="2231" key="newsearchsend" priority="1"/>
+<item index="2232" key="newsearchops" priority="1"/>
+<item index="2233" key="newsearchststs" priority="1"/>
+<item index="2234" key="newsearchcopy" priority="1"/>
+<item index="2235" key="newsearchdea" priority="1"/>
+<item index="2236" key="newsearchbtco" priority="1"/>
+<item index="2237" key="newsearchret" priority="1"/>
+<item index="2238" key="newsearchagain" priority="1"/>
+<item index="2239" key="newsearchopa" priority="1"/>
+<!--以上为本地搜索统计-->
+
+<!--以下为新功能推荐二期需求统计-->
+<item index="2248" key="newfeaturepullxmlsuccesed" priority="1"/>
+<item index="2249" key="newfeaturepullxmlfailed" priority="1"/>
+<item index="2250" key="newfeaturepullcontendsuccesed" priority="1"/>
+<item index="2251" key="newfeaturepullcontendfailed" priority="1"/>
+<item index="2252" key="newfeatureclickdownloadxar" priority="1"/>
+<item index="2253" key="newfeaturexardownloadfailed" priority="1"/>
+<item index="2254" key="newfeaturexmlfaileddefaultshow" priority="1"/>
+<item index="2255" key="newfeatureusertypeisdownload" priority="1"/>
+<item index="2256" key="newfeatureusertypeismovie" priority="1"/>
+<item index="2257" key="newfeaturexarinstallsuccesed" priority="1"/>
+<item index="2258" key="newfeaturexarinstallfailed" priority="1"/>
+<item index="2259" key="newfeatureshowcount" priority="1"/>
+<!--以下为新功能推荐二期需求统计-->
+<!--以下为新功能推荐统计-->
+<item index="2186" key="newfeatureboardshow" priority="1"/>
+<item index="2187" key="newfeaturenormalopen" priority="1"/>
+<item index="2188" key="newfeaturetoolinstall" priority="1"/>
+<item index="2189" key="newfeaturetoolopenclick" priority="1"/>
+<item index="2190" key="newfeaturecloseclick" priority="1"/>
+<item index="2191" key="newfeatureuserhover" priority="1"/>
+<item index="2192" key="newfeaturemenuclick" priority="1"/>
+<item index="2193" key="newfeatureshowtime" priority="1"/>
+<item index="2194" key="newfeaturenormalclose" priority="1"/>
+<!--以上为新功能推荐统计-->
+
+<!--以下为免费云播统计-->
+<item index="2200" key="freeplayshow" priority="1"/>
+<item index="2201" key="freeplaytextlinkclick" priority="1"/>
+<item index="2202" key="freeplaybuttonclick" priority="1"/>
+<item index="2203" key="freeplaylimitnotifycancle" priority="1"/>
+<!--以上为免费云播统计-->
+
+<!--以下为Bt新建面板全部展开按钮统计-->
+<item index="2210" key="btallexpandbtnclick" priority="1"/>
+<!--以上为Bt新建面板全部展开按钮统计-->
+<!--以下为小喇叭统计-->
+<item index="2801" key="zhichitiprecv" priority="1"/>
+<item index="2802" key="zhichitipshow" priority="1"/>
+<item index="2803" key="zhichitipclick" priority="1"/>
+<item index="2804" key="zhichitipuserclose" priority="1"/>
+<item index="2805" key="zhichitipautoclose" priority="1"/>
+<!--以上为小喇叭统计-->
+
+<!--以下为小文件下载插入统计-->
+<item index="2177" key="tinytimeout" priority="1"/>
+<!--以下为小文件下载插入统计-->
+	
+<!--以下为会员统计-->
+<item index="500" key="vipextendshow" priority="1"/>
+<item index="501" key="vipextendacclightbut" priority="1"/>
+<item index="502" key="unvipextendaccbut" priority="1"/>
+<item index="503" key="vipextendaccbut" priority="1"/>
+<item index="504" key="unvipextendofflinebut" priority="1"/>
+<item index="505" key="vipextendofflinebut" priority="1"/>
+<item index="506" key="unvipextendaccsucc" priority="1"/>
+<item index="507" key="vipextendaccsucc" priority="1"/>
+<item index="508" key="unvipextendoffsucc" priority="1"/>
+<item index="509" key="vipextendoffsucc" priority="1"/>
+<item index="510" key="unvipextendacclack" priority="1"/>
+<item index="511" key="vipextendacclack" priority="1"/>
+<item index="512" key="unvipextendofflack" priority="1"/>
+<item index="513" key="vipextendofflack" priority="1"/>
+<item index="514" key="vipextendoffbat" priority="1"/>
+<item index="515" key="vipextendaccbat" priority="1"/>
+<item index="516" key="unvipextendaccfail" priority="1"/>
+<item index="517" key="vipextendaccfail" priority="1"/>
+<item index="518" key="unvipextendofffail" priority="1"/>
+<item index="519" key="vipextendofffail" priority="1"/>
+<item index="520" key="unvipextendacctext" priority="1"/>
+<item index="521" key="vipextendacctext" priority="1"/>
+<item index="522" key="unvipextendofftext" priority="1"/>
+<item index="523" key="vipextendofftext" priority="1"/>
+<item index="530" key="quickplayclick" priority="1"/>
+<item index="531" key="loginsucc" priority="1"/>
+<item index="532" key="loginauto" priority="1"/>
+<item index="533" key="loginremeberpassword" priority="1"/>
+<item index="534" key="loginvipsucc" priority="1"/>
+<item index="535" key="loginfailnoserver" priority="1"/>
+<item index="536" key="loginfailfromserver" priority="1"/>
+<item index="537" key="loginclickforget" priority="1"/>
+<item index="538" key="loginclickregaccout" priority="1"/>
+<item index="539" key="loginclickloginbutton" priority="1"/>
+<item index="540" key="loginclicklogout" priority="1"/>
+<item index="541" key="logincancel" priority="1"/>
+<item index="542" key="useroffline" priority="1"/>
+<item index="543" key="userofflinefromserver" priority="1"/>
+<item index="556" key="loginshowwin" priority="1"/>
+<item index="557" key="loginclosewin" priority="1"/>
+<item index="558" key="freeoffpv" priority="1"/>
+<item index="559" key="tryfeedbackoffpv" priority="1"/>
+<item index="560" key="tryfeedbackaccpv" priority="1"/>
+<item index="561" key="tryfeedbackoffpid" priority="1"/>
+<item index="562" key="tryfeedbackaccpid" priority="1"/>
+<item index="563" key="tryoffpv" priority="1"/>
+<item index="564" key="tryaccpv" priority="1"/>
+<item index="565" key="tryoffpid" priority="1"/>
+<item index="566" key="tryaccpid" priority="1"/>
+<item index="567" key="tryoffsuccpid" priority="1"/>
+<item index="568" key="tryaccsuccpid" priority="1"/>
+<item index="569" key="tryoffsuccpv" priority="1"/>
+<item index="570" key="tryaccsuccpv" priority="1"/>
+<item index="571" key="speedbeforeoff" priority="1"/>
+<item index="572" key="speedafteroff" priority="1"/>
+<item index="573" key="speedbeforeacc" priority="1"/>
+<item index="574" key="speedafteracc" priority="1"/>
+<item index="575" key="tipsclickoffpv" priority="1"/>
+<item index="576" key="tipsclickaccpv" priority="1"/>
+<item index="577" key="tipsclickoffpid" priority="1"/>
+<item index="578" key="tipsclickaccpid" priority="1"/>
+<item index="583" key="tipsnevershowclick" priority="1"/>
+<item index="584" key="virusiconclick" priority="1"/>
+<item index="585" key="previewplayclick" priority="1"/>
+<item index="586" key="previewrarclick" priority="1"/>
+<item index="588" key="vodbuttonclick" priority="1"/>
+<item index="590" key="vodtipsclick" priority="1"/>
+<item index="591" key="vodtipsclose" priority="1"/>
+<item index="592" key="vodtipsnomorealert" priority="1"/>
+<item index="598" key="vipclientkill" priority="1"/>
+<item index="599" key="lixiantab" priority="1"/>
+<item index="600" key="lixiantabunlog" priority="1"/>
+<item index="601" key="lixiantabnormlog" priority="1"/>
+<item index="602" key="lixiantabviplog" priority="1"/>
+<item index="603" key="lixianreg" priority="1"/>
+<item index="604" key="lixianlog" priority="1"/>
+<item index="605" key="lixiantoolbarnewtask" priority="1"/>
+<item index="606" key="lixiantoolbardelete" priority="1"/>
+<item index="607" key="lixiantoolbarstart" priority="1"/>
+<item index="608" key="lixiantoolbarpause" priority="1"/>
+<item index="609" key="lixiantoolbardownload" priority="1"/>
+<item index="610" key="lixiantoolbarrenew" priority="1"/>
+<item index="611" key="lixiantoolbarrenewall" priority="1"/>
+<item index="612" key="lixiantoolbarredown" priority="1"/>
+<item index="613" key="lixiantoolbardeleteall" priority="1"/>
+<item index="614" key="lixiantoolbarmore" priority="1"/>
+<item index="615" key="lixiantoolbarmorepause" priority="1"/>
+<item index="616" key="lixiantoolbarmoredelete" priority="1"/>
+<item index="617" key="lixiantoolbarmoredownload" priority="1"/>
+<item index="618" key="lixiantoolbarmoreplay" priority="1"/>
+<item index="619" key="lixiantoolbarmoreopen" priority="1"/>
+<item index="620" key="lixiantoolbarmoreredown" priority="1"/>
+<item index="621" key="lixianrightmenu" priority="1"/>
+<item index="622" key="lixianbtedit" priority="1"/>
+<item index="623" key="lixianbtback" priority="1"/>
+<item index="624" key="lixianalltask" priority="1"/>
+<item index="625" key="lixiandownload" priority="1"/>
+<item index="626" key="lixianfinish" priority="1"/>
+<item index="627" key="lixianoutofdate" priority="1"/>
+<item index="628" key="lixiandelete" priority="1"/>
+<item index="629" key="lixianvideotab" priority="1"/>
+<item index="630" key="lixianbttab" priority="1"/>
+<item index="631" key="lixianrartab" priority="1"/>
+<item index="632" key="lixiansoftwaretab" priority="1"/>
+<item index="633" key="lixianothertab" priority="1"/>
+<item index="635" key="vipinfogetfailed" priority="1"/>
+<item index="636" key="vipinforetrysuc" priority="1"/>
+<item index="637" key="vipsencegetfailed" priority="1"/>
+<item index="2114" key="lixianrefresh" priority="1"/>
+<item index="638" key="lixianweb" priority="1"/>
+
+<!--以上为会员统计-->
+<item index="285" key="taskmenucopylink" priority="1"/>
+<item index="286" key="taskmenusavebt" priority="1"/>
+<item index="287" key="taskmenucopyfileto" priority="1"/>
+<item index="290" key="detailbutdownagain" priority="1"/>
+<item index="291" key="detailbutmore" priority="1"/>
+<item index="292" key="detailbutopenfile" priority="1"/>
+<item index="293" key="detailbutopendir" priority="1"/>
+<item index="296" key="skintext" priority="1"/>
+<item index="297" key="skintipsclose" priority="1"/>
+<item index="298" key="skintipsdontshow" priority="1"/>
+<item index="299" key="skintipsshow" priority="1"/>
+<item index="300" key="doctorexe" priority="1"/>
+<item index="301" key="trashtipsshow" priority="1"/>
+<item index="302" key="trashcleanall" priority="1"/>
+<item index="303" key="trashdontshow" priority="1"/>
+<item index="304" key="Keytabclick" priority="1"/>
+<item index="305" key="Keyarrowclick" priority="1"/>
+<item index="306" key="Keyenterclick" priority="1"/>
+<item index="307" key="finishdoubleclick" priority="1"/>
+<item index="314" key="fmsgshow" priority="1"/>
+<item index="315" key="fmsgclick" priority="1"/>
+<item index="318" key="fextramenu" priority="1"/>
+<item index="320" key="coordinatedownloadTips" priority="1"/>
+<item index="321" key="coordinatedownloadShut" priority="1"/>
+<item index="322" key="coordinatedownloadCancel" priority="1"/>
+<item index="323" key="coordinatedownloadMark" priority="1"/>
+<item index="310" key="desktopnewsfeedback" priority="1"/>
+
+<item index="326" key="previewsucc" priority="1"/>
+<item index="327" key="previewfail" priority="1"/>
+<item index="328" key="previewplay" priority="1"/>
+<item index="329" key="previewxmpsucc" priority="1"/>
+<item index="330" key="previewarrow" priority="1"/>
+<item index="331" key="searchuse" priority="1"/>
+<item index="332" key="searchopenbrowser" priority="1"/>
+<item index="333" key="searchswitch" priority="1"/>
+<item index="335" key="searchautofill" priority="1"/>
+<item index="344" key="sharefailtogetlink" priority="1"/>
+<item index="345" key="shareopenweb" priority="1"/>
+<item index="346" key="shareqr" priority="1"/>
+<item index="347" key="sharesucc" priority="1"/>
+<item index="348" key="browsertabclose" priority="1"/>
+<item index="349" key="browserdrag" priority="1"/>
+<item index="350" key="browserforward" priority="1"/>
+<item index="351" key="browserback" priority="1"/>
+<item index="352" key="browserrefresh" priority="1"/>
+<item index="353" key="browserclose" priority="1"/>
+<item index="354" key="browserlinkbaruse" priority="1"/>
+<item index="355" key="browserwindowdrag" priority="1"/>
+<item index="356" key="netspeedmoreclick" priority="1"/>
+<item index="357" key="netspeedtoolbar" priority="1"/>
+<item index="358" key="netspeedappclick" priority="1"/>
+<item index="359" key="netspeedopensucc" priority="1"/>
+<item index="360" key="netspeedchangeseq" priority="1"/>
+<item index="361" key="netspeedshutdown" priority="1"/>
+<item index="362" key="netspeedrun" priority="1"/>
+<item index="364" key="netspeedclickalert" priority="1"/>
+<item index="365" key="netspeedinputbox" priority="1"/>
+<item index="366" key="netspeedcloseinputbox" priority="1"/>
+<item index="367" key="netspeedmsgsucc" priority="1"/>
+<item index="370" key="netspeedtipscloseauto" priority="1"/>
+<item index="371" key="netspeedtipsclosemanual" priority="1"/>
+<item index="372" key="netspeedclicksend" priority="1"/>
+<item index="374" key="netspeedfilebuildsucc" priority="1"/>
+<item index="375" key="netspeedcancelrec" priority="1"/>
+<item index="377" key="deleteallmenu" priority="1"/>
+<item index="378" key="deletealltoolbar" priority="1"/>
+<item index="381" key="taskboardqrshowconif" priority="1"/>
+<item index="382" key="taskboardqrhide" priority="1"/>
+<item index="383" key="taskboardclickqrtext" priority="1"/>
+<item index="386" key="taskboardlargeqr" priority="1"/>
+<item index="387" key="planboardconfirm" priority="1"/>
+<item index="388" key="toolopendir" priority="1"/>
+<item index="389" key="toolseq" priority="1"/>
+<item index="390" key="toolrec" priority="1"/>
+<item index="391" key="toolclear" priority="1"/>
+<item index="392" key="toolbuild" priority="1"/>
+<item index="397" key="bottomtoolswitchcol" priority="1"/>
+<item index="398" key="bottomtoolcloserightcol" priority="1"/>
+<item index="399" key="bottomtoolcloserightcolsetup" priority="1"/>
+<item index="400" key="downloadstart" priority="1"/>
+<item index="401" key="downloadpause" priority="1"/>
+<item index="402" key="downloaddelete" priority="1"/>
+<item index="403" key="downloadopendir" priority="1"/>
+<item index="404" key="downloadbtbutton" priority="1"/>
+<item index="405" key="downloadurlbutton" priority="1"/>
+<item index="406" key="downlloadmultibutton" priority="1"/>
+<item index="407" key="downloadpredownbutton" priority="1"/>
+<item index="408" key="downloadopenfile" priority="1"/>
+<item index="409" key="remotedownloginclick" priority="1"/>
+<item index="410" key="remotedownturnon" priority="1"/>
+<item index="411" key="remotedowntureoff" priority="1"/>
+<item index="412" key="remotedownopenappweb" priority="1"/>
+<item index="413" key="remotedownopenfuncweb" priority="1"/>
+<item index="414" key="remotedownbottomtool" priority="1"/>
+<item index="415" key="remotedownchangepic" priority="1"/>
+<item index="416" key="browsersearch" priority="1"/>
+<item index="417" key="browsergo" priority="1"/>
+<item index="418" key="remotedownbuildtask" priority="1"/>
+<item index="419" key="remotedowntaskuse" priority="1"/>
+<item index="420" key="toolvip" priority="1"/>
+
+<item index="426" key="streamtooldownsucc" priority="1"/>
+<item index="427" key="streamdownsingle" priority="1"/>
+<item index="428" key="streamdownmultione" priority="1"/>
+<item index="429" key="streamdownmultin" priority="1"/>
+<item index="431" key="streamshutdown" priority="1"/>
+<item index="433" key="streamplayclick" priority="1"/>
+<item index="434" key="streamcloseclick" priority="1"/>
+<item index="442" key="xmpopenvideoinxl" priority="1"/>
+<item index="443" key="xmpselected" priority="1"/>
+<item index="444" key="xmpusesystemplayer" priority="1"/>
+<item index="445" key="xmpselecconf" priority="1"/>
+<item index="446" key="xmpcancelseleconf" priority="1"/>
+<item index="447" key="xmpclickok" priority="1"/>
+<item index="448" key="xmpcancelclick" priority="1"/>
+<item index="449" key="orderclick" priority="1"/>
+<item index="450" key="orderrun" priority="1"/>
+<item index="451" key="orderturndown" priority="1"/>
+<item index="453" key="orderturnonbymenu" priority="1"/>
+<item index="457" key="consufinishdown" priority="1"/>
+<item index="461" key="freevideoguide" priority="1"/>
+<item index="462" key="freevideoondesk" priority="1"/>
+<item index="463" key="freevideoclose" priority="1"/>
+<item index="464" key="freevideonomoreask" priority="1"/>
+<item index="465" key="freevideoshortcut" priority="1"/>
+<item index="470" key="runinstalldirexe" priority="1"/>
+<item index="471" key="runxmp" priority="1"/>
+<item index="472" key="rundaquan" priority="1"/>
+<item index="473" key="newxmp" priority="1"/>
+<item index="474" key="newbrowser" priority="1"/>
+<item index="475" key="newdaquan" priority="1"/>
+<item index="477" key="btnewtaskscanlink" priority="1"/>
+<item index="480" key="btnewtaskqrcodelarge" priority="1"/>
+<item index="481" key="newtaskmanualclick" priority="1"/>
+<item index="482" key="newtaskgrouptaskeditname" priority="1"/>
+<item index="483" key="newtaskcancelpredown" priority="1"/>
+<item index="484" key="skinsetdeskpic" priority="1"/>
+<item index="2027" key="speedlimittaskentranceclick" priority="1"/>
+<item index="2048" key="floatwindowntab" priority="1"/>
+<item index="2049" key="floatwinfinishtab" priority="1"/>
+<item index="2050" key="floatwindowntabtaskclick" priority="1"/>
+<item index="2051" key="floatwinfinishtabtaskclick" priority="1"/>
+<item index="2052" key="downloadtipsshow" priority="1"/>
+<item index="2053" key="downloadtipsplay" priority="1"/>
+<item index="2058" key="btboardcanceldownload" priority="1"/>
+<item index="2059" key="btboardcontinuedown" priority="1"/>
+<item index="2060" key="btboardinfo" priority="1"/>
+<item index="2061" key="btboardclose" priority="1"/>
+<item index="2064" key="detailpagerightback" priority="1"/>
+<item index="2066" key="xmpbrowsersupportboardsucc" priority="1"/>
+<item index="2067" key="xmpbrowsersupportboardcancel" priority="1"/>
+
+<!--以下为幸福树统计-->
+<item index="1000" key="runuser" priority="1"/>
+<item index="1001" key="runfromxlapp" priority="1"/>
+<item index="1002" key="runfromshortcut" priority="1"/>
+<item index="1003" key="runmanualclose" priority="1"/>
+<item index="1005" key="unloginuser" priority="1"/>
+<item index="1006" key="loginuser" priority="1"/>
+<item index="1007" key="loginusernamedif" priority="1"/>
+<item index="1008" key="treeuser" priority="1"/>
+<item index="1009" key="treehealthuser" priority="1"/>
+<item index="1010" key="treeloveuser" priority="1"/>
+<item index="1011" key="treewealthuser" priority="1"/>
+<item index="1012" key="treefortuneuser" priority="1"/>
+<item index="1013" key="treesafeuser" priority="1"/>
+<item index="1014" key="treehealthinguser" priority="1"/>
+<item index="1015" key="treelovinguser" priority="1"/>
+<item index="1016" key="treewealthinguser" priority="1"/>
+<item index="1017" key="treefortuneinguser" priority="1"/>
+<item index="1018" key="treesafeinguser" priority="1"/>
+<item index="1019" key="clickunlock" priority="1"/>
+<item index="1020" key="unlocksuc" priority="1"/>
+<item index="1027" key="flowupdate" priority="1"/>
+<item index="1028" key="flowdownload" priority="1"/>
+<item index="1029" key="cardbuy" priority="1"/>
+<item index="1030" key="carduse" priority="1"/>
+<item index="1032" key="cardtipsclick" priority="1"/>
+<item index="1033" key="cardusetips" priority="1"/>
+<item index="1034" key="cardtipsnomoreshow" priority="1"/>
+<item index="1035" key="cardruleclick" priority="1"/>
+<item index="1036" key="wateringcarduse" priority="1"/>
+<item index="1037" key="trimcarduse" priority="1"/>
+<item index="1038" key="loosecarduse" priority="1"/>
+<item index="1039" key="insecticidalcarduse" priority="1"/>
+<item index="1040" key="fertilizercarduse" priority="1"/>
+<item index="1041" key="musiccarduse" priority="1"/>
+<item index="1042" key="acccardoneuse" priority="1"/>
+<item index="1043" key="acccardthreeuse" priority="1"/>
+<item index="1044" key="acccardfiveuse" priority="1"/>
+<item index="1045" key="doublecardoneuse" priority="1"/>
+<item index="1046" key="timetravelcarduse" priority="1"/>
+<item index="1047" key="gardenercardoneuse" priority="1"/>
+<item index="1048" key="gardenercardtwouse" priority="1"/>
+<item index="1049" key="gardenercardfiveuse" priority="1"/>
+<item index="1050" key="buyfertilizercard" priority="1"/>
+<item index="1051" key="buymusiccard" priority="1"/>
+<item index="1052" key="buyacccardone" priority="1"/>
+<item index="1053" key="buyacccardthree" priority="1"/>
+<item index="1054" key="buyacccardfive" priority="1"/>
+<item index="1055" key="buydoublecardone" priority="1"/>
+<item index="1056" key="buytimetravelcard" priority="1"/>
+<item index="1057" key="buygardenercardone" priority="1"/>
+<item index="1058" key="buygardenercardtwo" priority="1"/>
+<item index="1059" key="buygardenercardfive" priority="1"/>
+<item index="1060" key="rewardruleclick" priority="1"/>
+<item index="1065" key="sunshineclick" priority="1"/>
+<item index="1067" key="weatherreploading" priority="1"/>
+<item index="1068" key="weatherrepsetup" priority="1"/>
+<item index="1069" key="weatherrepsave" priority="1"/>
+<item index="1070" key="weatherrepcancel" priority="1"/>
+<item index="1075" key="closefunctionboard" priority="1"/>
+<item index="1076" key="exchangebutclick" priority="1"/>
+<item index="1077" key="clickrankingbut" priority="1"/>
+<item index="1079" key="rightmenuhomepage" priority="1"/>
+<item index="1080" key="rightmenusetup" priority="1"/>
+<item index="1081" key="rightmenuhelp" priority="1"/>
+<item index="1082" key="rightmenufeedback" priority="1"/>
+<item index="1083" key="rightmenucancel" priority="1"/>
+<item index="1084" key="rightmenuexit" priority="1"/>
+<item index="1085" key="rightmenuabout" priority="1"/>
+<item index="1086" key="rightmenudeskshowtree" priority="1"/>
+<item index="1087" key="rightmenudefault" priority="1"/>
+<item index="1088" key="rightmenusave" priority="1"/>
+<item index="1089" key="rightmenuautoruncanl" priority="1"/>
+<item index="1090" key="rightmenuautorun" priority="1"/>
+<item index="1091" key="rightmenurewarddropcanl" priority="1"/>
+<item index="1092" key="rightmenurewarddrop" priority="1"/>
+<item index="1093" key="rightmenuchangeaccountcanl" priority="1"/>
+<item index="1094" key="rightmenuchangeaccount" priority="1"/>
+<item index="1095" key="leafclick" priority="1"/>
+<item index="1096" key="scissorsclick" priority="1"/>
+<item index="1097" key="houseclick" priority="1"/>
+<item index="1098" key="doublecardfiveuse" priority="1"/>
+<item index="1099" key="doublecardtenuse" priority="1"/>
+<item index="1100" key="buydoublecardfive" priority="1"/>
+<item index="1101" key="buydoublecardten" priority="1"/>
+<item index="1320" key="hatreeinstallfromfunctionrecom" priority="1"/>
+<item index="1321" key="hatreehasinstalledandautoinstall" priority="1"/>
+<!--以上为幸福树统计-->
+
+<!--以下为手机通道统计-->
+<item index="1102" key="mobilehelperuser" priority="1"/>
+<item index="1103" key="mobilehelperwifi" priority="1"/>
+<item index="1104" key="mobilehelperusb" priority="1"/>
+<item index="1105" key="mobilehelpersuccon" priority="1"/>
+<item index="1107" key="moblieguidetab" priority="1"/>
+<item index="1109" key="mobilesendclick" priority="1"/>
+<item index="1111" key="mobilesendsucclick" priority="1"/>
+<item index="1113" key="mobiletipsclick" priority="1"/>
+<item index="1121" key="mfilesd" priority="1"/>
+<item index="1122" key="mfileoutput" priority="1"/>
+<item index="1144" key="mobileconnectclick" priority="1"/>
+<item index="1146" key="mobilefilter" priority="1"/>
+<item index="1147" key="mobilebtsend" priority="1"/>
+<item index="1148" key="mobiletaskgroupsend" priority="1"/>
+<item index="1149" key="mobilefoldersend" priority="1"/>
+<item index="1150" key="mobiledragtomainwin" priority="1"/>
+<item index="1151" key="mobiledragtofloatwin" priority="1"/>
+<item index="1152" key="mobilesdfull" priority="1"/>
+<item index="1153" key="mobileshortcutclick" priority="1"/>
+<item index="1154" key="mobilerightads" priority="1"/>
+
+<!--以上为手机通道统计-->
+
+
+<!--以下为家庭共享统计-->
+<item index="1124" key="shareclientswitchon" priority="1"/>
+<item index="1127" key="shareclientrun" priority="1"/>
+<item index="1131" key="shareclientsetpassword" priority="1"/>
+<item index="1132" key="sharefuncshare" priority="1"/>
+<item index="1133" key="sharefunccancelshare" priority="1"/>
+<item index="1134" key="sharefuncdown" priority="1"/>
+<item index="1135" key="sharefuncadd" priority="1"/>
+<item index="1136" key="sharefuncfileopen" priority="1"/>
+<item index="1137" key="sharefuncfiledir" priority="1"/>
+<item index="1138" key="sharefuncfiledown" priority="1"/>
+<item index="1141" key="shareshortcutexist" priority="1"/>
+<item index="1142" key="shareshortcutrun" priority="1"/>
+<item index="1143" key="shareautorun" priority="1"/>
+
+<item index="1162" key="shareclienttips" priority="1"/>
+<item index="1163" key="shareclienttipscli" priority="1"/>
+<item index="1164" key="shareclienttipsins" priority="1"/>
+<item index="1165" key="shareclienttipsclose" priority="1"/>
+<item index="1166" key="shareclientinserr" priority="1"/>
+<item index="1167" key="shareclientinserrclose" priority="1"/>
+
+<item index="1168" key="shareclientoffishow" priority="1"/>
+<item index="1169" key="shareclientofficli" priority="1"/>
+<item index="1170" key="shareclientofficalshow" priority="1"/>
+<item index="1171" key="shareclientofficalcli" priority="1"/>
+<item index="1172" key="shareclientofficalinfo" priority="1"/>
+<item index="1173" key="shareclientabout" priority="1"/>
+<item index="1174" key="shareclienttuo" priority="1"/>
+<item index="1175" key="shareclienttuofile" priority="1"/>
+
+<item index="1221" key="deepsearchtips" priority="1"/>
+<item index="1222" key="deepsearchcli" priority="1"/>
+<item index="1223" key="deepsearchdevice" priority="1"/>
+<item index="1224" key="smallfilesopenbutt" priority="1"/>
+<item index="1225" key="smallfilesbuttcli" priority="1"/>
+<item index="1226" key="smallfilesopen" priority="1"/>
+<item index="1227" key="videofilesopensuc" priority="1"/>
+<item index="1228" key="videofilesopenfai" priority="1"/>
+<item index="1229" key="shortcutform" priority="1"/>
+<item index="1230" key="deviceIPchangecli" priority="1"/>
+<item index="1231" key="deviceIPwinshow" priority="1"/>
+<item index="1232" key="legaldeviceIPchangecli" priority="1"/>
+
+<!--以上为家庭共享统计-->
+
+<!--以下为xmp推迅雷统计-->
+<item index="1156" key="bhoxmpnomoreask" priority="1"/>
+<item index="1157" key="bhoxmpinstallsuc" priority="1"/>
+<item index="1158" key="bhoxmpinstall" priority="1"/>
+
+<!--以上为xmp推迅雷统计-->
+
+<!--以下为360合作统计-->
+
+<item index="486" key="360exist" priority="1"/>
+<item index="487" key="360unexist" priority="1"/>
+<item index="488" key="360funcon" priority="1"/>
+
+<item index="492" key="360installboardclickinstall" priority="1"/>
+<item index="493" key="360installboardcancel" priority="1"/>
+<item index="494" key="360finishboardclick" priority="1"/>
+<item index="495" key="360appointedtaskopen" priority="1"/>
+<item index="496" key="360installsuc" priority="1"/>
+<item index="497" key="360reuninstall" priority="1"/>
+
+<item index="3008" key="360isinstall" priority="1"/>
+<item index="3009" key="360promotioninfo" priority="1"/>
+<item index="3010" key="360safeopenbtnshow" priority="1"/>
+<item index="3011" key="360guideinstallboardshow" priority="1"/>
+<item index="3012" key="360installviaus" priority="1"/>
+<item index="3013" key="360installfailed" priority="1"/>
+<item index="3014" key="360installsafeopenbtnclick" priority="1"/>
+<item index="3015" key="360checkfilesafe" priority="1"/>
+<item index="3016" key="360unsafefileopen" priority="1"/>
+<item index="3017" key="360unknowfileopen" priority="1"/>
+
+<!--以上为360合作统计-->
+
+<!--以下为网游加速器推迅雷统计-->
+<item index="2019" key="gameaccbuttonacc" priority="1"/>
+<item index="2022" key="gameaccstartdownloadacctool" priority="1"/>
+<item index="2023" key="gameaccnomoreask" priority="1"/>
+<!--以上为网游加速器推迅雷统计-->
+
+<!--以上统计点击次数-->
+
+<item index="34" key="newboardadvancedcontent" priority="1"/>
+<item index="57" key="runall" priority="1"/>
+<item index="68" key="mainboardurl" priority="1"/>
+<item index="69" key="mainboardsetup" priority="1"/>
+<item index="70" key="mainboardchangeface" priority="1"/>
+<item index="71" key="mainboardnew" priority="1"/>
+<item index="72" key="mainboardbt" priority="1"/>
+<!-- <item index="73" key="mainboardtaskdetail" priority="1"/> -->
+<item index="74" key="mainboardmanualbatch" priority="1"/>
+<item index="75" key="mainboardautobatch" priority="1"/>
+<item index="76" key="mainboardplan" priority="1"/>
+<item index="77" key="mainboardtransfer" priority="1"/>
+<!-- <item index="78" key="mainboardroute" priority="1"/> -->
+<item index="79" key="initopenxl" priority="1"/>
+<item index="80" key="initopenfunc" priority="1"/>
+<item index="82" key="initfail" priority="1"/>
+<item index="83" key="initfinish" priority="1"/>
+<item index="85" key="initspeedtestshow" priority="1"/>
+<item index="87" key="initspeedtestfail" priority="1"/>
+<item index="91" key="setupfail" priority="1"/>
+<item index="105" key="detailpageenter" priority="1"/>
+<item index="115" key="floatmainuishow" priority="1"/>
+<!-- <item index="122" key="floatwinfinishshow" priority="1"/>
+<item index="123" key="floatwindownshow" priority="1"/> -->
+<!-- <item index="126" key="floatspeedmenushow" priority="1"/> -->
+<!-- <item index="132" key="planboardshow" priority="1"/> -->
+<item index="189" key="rightboardshow" priority="1"/>
+<item index="190" key="rightboardvipshow" priority="1"/>
+<item index="191" key="rightboardfreevideoshow" priority="1"/>
+<item index="205" key="updatefail" priority="1"/>
+<item index="206" key="updatesuccess" priority="1"/>
+<!-- <item index="207" key="updatethreadsuccess" priority="1"/>
+<item index="208" key="updatethreadfail" priority="1"/>
+<item index="209" key="updateversionfail" priority="1"/>
+<item index="210" key="updateversionsuccess" priority="1"/> -->
+<item index="213" key="raropen" priority="1"/>
+<item index="221" key="privateopenspace" priority="1"/>
+<item index="222" key="privateclosespace" priority="1"/>
+<item index="226" key="privatefulltip" priority="1"/>
+<item index="230" key="freevideoonline" priority="1"/>
+<item index="232" key="freevideoinstalltips" priority="1"/>
+<item index="235" key="desktopnewsshowauto" priority="1"/>
+<item index="237" key="desktopnewsnormalshow" priority="1"/>
+<item index="239" key="desktopnewsvipshow" priority="1"/>
+<item index="253" key="floatshow" priority="1"/>
+<item index="255" key="floatfinishshow" priority="1"/>
+<item index="258" key="floathideauto" priority="1"/>
+<item index="262" key="floatfailshow" priority="1"/>
+<item index="263" key="floathide" priority="1"/>
+<item index="265" key="tipsshow" priority="1"/>
+<item index="273" key="tipsflashshow" priority="1"/>
+<item index="278" key="updatesuccess1" priority="1"/>
+<item index="2026" key="speedlimittaskentranceshow" priority="1"/>
+<item index="2028" key="speedlimitrightbotentranceshow" priority="1"/>
+<item index="2038" key="speedlimitcarvechart" priority="1"/>
+<item index="2047" key="floatwintipsshow" priority="1"/>
+<item index="2062" key="magnettaskdown" priority="1"/>
+<item index="2063" key="magnettaskdownsucc" priority="1"/>
+<item index="2065" key="xmpbrowsersupportboardshow" priority="1"/>
+
+
+<!--以下为会员统计-->
+<item index="2068" key="vipverrun" priority="1"/>
+<item index="2069" key="vipvercont" priority="1"/>
+<item index="2070" key="vipverbye" priority="1"/>
+<item index="2071" key="vipvertrancon" priority="1"/>
+<item index="2072" key="vipvertrancli" priority="1"/>
+<item index="2073" key="vipvertranmore" priority="1"/>
+<item index="2074" key="vipvertrandown" priority="1"/>
+<item index="2075" key="vipverback" priority="1"/>
+<item index="2076" key="vipverreboot" priority="1"/>
+<item index="2077" key="vipverwelcome" priority="1"/>
+<item index="2078" key="vipverlixiancan" priority="1"/>
+<item index="2079" key="vipverlixiancon" priority="1"/>
+<item index="2080" key="vipvergaosucan" priority="1"/>
+<item index="2081" key="vipvergaosucon" priority="1"/>
+<item index="2082" key="vipvertranicon" priority="1"/>
+<item index="2083" key="vipvertranordmore" priority="1"/>
+<item index="2084" key="vipvertranord" priority="1"/>
+<!--以上为会员统计-->
+<!--以下为会员统计-->
+<item index="529" key="quickplayshow" priority="1"/>
+<item index="579" key="tipsslowshowoff" priority="1"/>
+<item index="580" key="tipsslowshowacc" priority="1"/>
+<item index="581" key="tipsminishow" priority="1"/>
+<item index="582" key="tipsnormalminishow" priority="1"/>
+<item index="587" key="vodbuttonshow" priority="1"/>
+<item index="589" key="vodtipsshow" priority="1"/>
+<item index="593" key="vipwinshow" priority="1"/>
+<item index="594" key="vipwinclick" priority="1"/>
+<item index="595" key="unvipwinshow" priority="1"/>
+<item index="596" key="unvipwinclick" priority="1"/>
+<!--以上为会员统计-->
+<item index="289" key="animapanshow" priority="1"/>
+<item index="316" key="ftaskinfoshow" priority="1"/>
+<item index="317" key="finterestshow" priority="1"/>
+<item index="324" key="coordinatedownloadrunsuccess" priority="1"/>
+<item index="325" key="coordinatedownloadrunfail" priority="1"/>
+<item index="363" key="netspeedtipshighspeed" priority="1"/>
+<item index="368" key="netspeedshowlimitalert" priority="1"/>
+<item index="369" key="netspeedtipsshow" priority="1"/>
+<item index="373" key="netspeedfilerectips" priority="1"/>
+<item index="376" key="netspeedsendtips" priority="1"/>
+<item index="379" key="taskboardmagnetfail" priority="1"/>
+<item index="380" key="taskboardlargefile" priority="1"/>
+<item index="384" key="taskboardqrloadfail" priority="1"/>
+<item index="385" key="taskboardqrshow" priority="1"/>
+<item index="396" key="bottomtoolspeed" priority="1"/>
+<item index="395" key="bottomtoolnews" priority="1"/>
+<!-- <item index="421" key="mainboardxldown" priority="1"/> -->
+<item index="424" key="streamtoolshow" priority="1"/>
+<item index="441" key="xmpboardshow" priority="1"/>
+<item index="478" key="btnewtaskqrcodefail" priority="1"/>
+<item index="479" key="btnewtaskqrcodeshow" priority="1"/>
+<item index="2055" key="speedlimitlinknuminfoshow" priority="1"/>
+<item index="2057" key="btboardshow" priority="1"/>
+
+<!-- <item index="311" key="downloadplayshow" priority="1"/> -->
+
+<!--以下为幸福树统计-->
+<item index="1004" key="loginboardshow" priority="1"/>
+<item index="1031" key="cardtipsshow" priority="1"/>
+<item index="1064" key="sunshinedrop" priority="1"/>
+<item index="1066" key="weatherrepshow" priority="1"/>
+<item index="1071" key="mytreeshow" priority="1"/>
+<item index="1072" key="cardcentershow" priority="1"/>
+<item index="1073" key="achievementshow" priority="1"/>
+<item index="1074" key="helpcentershow" priority="1"/>
+<item index="1078" key="shortinfoshow" priority="1"/>
+
+
+
+
+<item index="1361" key="hatreeinstallupdatepacket" priority="1"/>
+<item index="1362" key="hatreeinstallbrokenpacketupdate" priority="1"/>
+<item index="1363" key="hatreeinstallbrokenpacket" priority="1"/>
+<item index="1364" key="hatreeinstallsyncloaddllfailupdate" priority="1"/>
+<item index="1365" key="hatreeinstallsyncloaddllfail" priority="1"/>
+<item index="1366" key="hatreeinstallserverconnectfailupdate" priority="1"/>
+<item index="1367" key="hatreeinstallserverconnectfail" priority="1"/>
+<!--以上为幸福树统计-->
+
+<!--以下为手机通道统计-->
+<item index="1108" key="mobilesendshow" priority="1"/>
+<item index="1110" key="mobilesendsucshow" priority="1"/>
+<item index="1112" key="mobiletipsshow" priority="1"/>
+
+<!--以上为手机通道统计-->
+
+<!--以下为家庭共享统计-->
+<item index="1128" key="shareclientshow" priority="1"/>
+<item index="1129" key="shareclientshowmyshare" priority="1"/>
+<item index="1130" key="shareclientfinddevshow" priority="1"/>
+<item index="1139" key="sharefeedbackboardshow" priority="1"/>
+
+
+<!--以上为家庭共享统计-->
+
+<!--以下为360合作统计-->
+<item index="491" key="360installboardshow" priority="1"/>
+<item index="2178" key="360installfail" priority="1"/>
+<!--以上为360合作统计-->
+
+<!--以下为网游加速器推迅雷统计-->
+<item index="2024" key="gameaccboardshow" priority="1"/>
+<!--以上为网游加速器推迅雷统计-->
+
+<!--以上统计展示次数-->
+
+<item index="35" key="timexllast" priority="1"/>
+<item index="36" key="timemainlast" priority="1"/>
+<item index="37" key="timefloatlast" priority="1"/>
+<item index="240" key="desktopnewsnormaltime" priority="1"/>
+<item index="241" key="desktopnewsviptime" priority="1"/>
+<item index="270" key="tipsstaytime" priority="1"/>
+<item index="276" key="tipsflashstaytime" priority="1"/>
+
+<!--以下为会员统计-->
+<item index="544" key="useronlinelessoneminutes" priority="1"/>
+<item index="545" key="useronlineonetofiveminutes" priority="1"/>
+<item index="546" key="useronlinefivetotenminutes" priority="1"/>
+<item index="547" key="useronlinetentothirtyminutes" priority="1"/>
+<item index="548" key="useronlinethirtytosixtyminutes" priority="1"/>
+<item index="549" key="useronlinesixtyminutesup" priority="1"/>
+<item index="550" key="userviponlinelessoneminutes" priority="1"/>
+<item index="551" key="userviponlineonetofiveminutes" priority="1"/>
+<item index="552" key="userviponlinefivetotenminutes" priority="1"/>
+<item index="553" key="userviponlinetentothirtyminutes" priority="1"/>
+<item index="554" key="userviponlinethirtytosixtyminutes" priority="1"/>
+<item index="555" key="userviponlinesixtyminutesup" priority="1"/>
+<!--以上为会员统计-->
+
+<!--以下为幸福树统计-->
+<item index="1026" key="onlinetime" priority="1"/>
+
+<!--以上为幸福树统计-->
+
+<!--以上统计持续时间-->
+
+<item index="248" key="adclick" priority="1"/>
+<item index="249" key="adfail" priority="1 "/>
+<item index="151" key="tabclick" priority="1 "/>
+<item index="152" key="tabinstallsuccess" priority="1 "/>
+<item index="153" key="tabinstallfail" priority="1 "/>
+<item index="176" key="appinstall" priority="1 "/>
+<item index="177" key="appclick" priority="1 "/>
+<item index="178" key="appuninstall" priority="1 "/>
+<item index="197" key="rightboardapp" priority="1 "/>
+<item index="198" key="rightboardcontent" priority="1 "/>
+<item index="199" key="freevideoroller" priority="1 "/>
+<item index="200" key="freevideobottom" priority="1 "/>
+<item index="201" key="freevideoboard" priority="1 "/>
+<item index="242" key="skinclass" priority="1 "/>
+<item index="252" key="onlineuser" priority="1 "/>
+<item index="469" key="dkinfo" priority="1 "/>
+<item index="2001" key="leftcolopenapp" priority="1 "/>
+<item index="2002" key="leftcolappshow" priority="1 "/>
+<item index="2003" key="leftcolappinstall" priority="1 "/>
+<item index="2004" key="browserget" priority="1 "/>
+<item index="2005" key="plantaskgetused" priority="1 "/>
+<item index="2006" key="downmodefastswitch" priority="1 "/>
+<item index="2007" key="downmodewebprotectswitch" priority="1 "/>
+<!-- <item index="2008" key="newtaskbroswerinfo" priority="1 "/> -->
+<item index="2009" key="perforruntime" priority="1 "/>
+<!-- <item index="2010" key="perfornewtaskspeed" priority="1 "/> -->
+<!-- <item index="2011" key="perforcpu" priority="1 "/> -->
+<item index="2012" key="userenvirres" priority="1 "/>
+<item index="2013" key="userenvirbroswer" priority="1 "/>
+<item index="2014" key="userenvirplayer" priority="1 "/>
+<item index="2015" key="userenvirdownloadtool" priority="1 "/>
+<item index="2016" key="userenvirlocation" priority="1 "/>
+<item index="2017" key="userenvirrouter" priority="1 "/>
+<!-- <item index="2018" key="perforflash" priority="1 "/> -->
+
+<!--以下为会员统计-->
+<item index="524" key="vipantiblock" priority="1 "/>
+<item index="525" key="vipofflineinfo" priority="1 "/>
+<item index="526" key="vipaccinfo" priority="1 "/>
+<!-- <item index="527" key="viptasksence" priority="1 "/> -->
+<item index="528" key="vipaccresult" priority="1 "/>
+<item index="597" key="viplixianspeedaccinfo" priority="1 "/>
+<!-- <item index="634" key="vipacclighton" priority="1 "/> -->
+<item index="641" key="gaosudetail" priority="1 "/>
+<item index="642" key="vipgaosumini" priority="1 "/>
+<item index="643" key="lixianclientlao" priority="1 "/>
+<item index="644" key="lixianclientshare" priority="1 "/>
+<item index="645" key="lixianclientsa" priority="1 "/>
+<item index="646" key="lixianclientding" priority="1 "/>
+<item index="647" key="lixianclientkan" priority="1 "/>
+<item index="648" key="lixianclientfu" priority="1 "/>
+<item index="649" key="lixianclientkuang" priority="1 "/>
+<item index="650" key="lixianclientjia" priority="1 "/>
+<item index="651" key="lixianclientbo" priority="1 "/>
+<item index="652" key="lixianclientlist" priority="1 "/>
+<item index="653" key="lixianclientcan" priority="1 "/>
+<item index="654" key="lixianclientfan" priority="1 "/>
+<item index="655" key="lixianclientju" priority="1 "/>
+<item index="656" key="lixianclientqiye" priority="1 "/>
+
+<!--以上为会员统计-->
+
+<!--以下为离线高速统计-->
+<item index="657" key="highspeastwireshow" priority="1 "/>
+<item index="658" key="highspeastwireenter" priority="1 "/>
+<item index="659" key="highspeastwireentersuccess" priority="1 "/>
+<item index="660" key="highspeastwireenterfailed" priority="1 "/>
+<item index="661" key="highsplaoopen" priority="1 "/>
+<item index="662" key="highsptaskfsmnil" priority="1 "/> 
+<item index="663" key="highspeastwirefuncnil" priority="1 "/> 
+<!--以上为离线高速统计-->
+
+<item index="294" key="skinpop1" priority="1 "/>
+<item index="295" key="skinpop2" priority="1 "/>
+<item index="312" key="playerexe" priority="1 "/>
+<item index="313" key="finterestclick" priority="1 "/>
+<item index="319" key="finterestextraclick" priority="1"/>
+<item index="334" key="searchuseengine" priority="1"/>
+<item index="336" key="mobileinfo" priority="1"/>
+<item index="337" key="mobilephoneapp" priority="1"/>
+<item index="338" key="mobiledrive" priority="1"/>
+<item index="339" key="mobilehelper" priority="1"/>
+<item index="340" key="mobileusb" priority="1"/>
+<item index="341" key="mobilepcwifi" priority="1"/>
+<item index="342" key="sharemenuclick" priority="1"/>
+<item index="343" key="sharedetailclick" priority="1"/>
+<item index="393" key="tooltabnum" priority="1"/>
+<item index="394" key="bottomtoolclick" priority="1"/>
+<!-- <item index="421" key="tabvipclick" priority="1"/> -->
+<item index="422" key="magnetdetail" priority="1"/>
+<item index="423" key="freecontentusertrack" priority="1"/>
+<item index="430" key="streamurl" priority="1"/>
+<item index="432" key="streamfail" priority="1"/>
+<item index="425" key="streamtoolclick" priority="1"/>
+<item index="458" key="streamlistinfo" priority="1"/>
+<item index="435" key="limitgetxmlsucc" priority="1"/>
+<item index="436" key="limitinquire" priority="1"/>
+<item index="437" key="limitgetfeedback" priority="1"/>
+<item index="438" key="limitgetfeedbackofshow" priority="1"/>
+<item index="439" key="limitdirectsetup" priority="1"/>
+<item index="440" key="limitgetwrongfeedback" priority="1"/>
+<item index="452" key="orderchange" priority="1"/>
+<item index="454" key="funcappshow" priority="1"/>
+<!-- <item index="455" key="funcguidebarshow" priority="1"/> -->
+<item index="456" key="consufileinfo" priority="1"/>
+<item index="459" key="iebhomenu" priority="1"/>
+<item index="460" key="closetaskinfo" priority="1"/>
+<item index="466" key="freevideoshortcutopen" priority="1"/>
+<item index="467" key="freevideoondeskinfo" priority="1"/>
+<item index="468" key="freevideoshortcutinfo" priority="1"/>
+<item index="476" key="newupdatesuc" priority="1"/>
+<item index="485" key="runinstallname" priority="1"/>
+<item index="2030" key="speedlimitlaninfo" priority="1"/>
+<item index="2035" key="speedlimitconcl" priority="1"/>
+<item index="2036" key="speedlimitafterspeedconcl" priority="1"/>
+<item index="2056" key="speedlimitotherreasontime" priority="1"/>
+
+<!--以下为幸福树统计-->
+<item index="1021" key="finishtree" priority="1"/>
+<item index="1022" key="level" priority="1"/>
+<item index="1023" key="hp" priority="1"/>
+<item index="1024" key="sunshinehp" priority="1"/>
+<item index="1025" key="sunshinedayhp" priority="1"/>
+<item index="1061" key="rewardcardget" priority="1"/>
+<item index="1062" key="rewardcarduse" priority="1"/>
+<item index="1063" key="sunshineget" priority="1"/>
+<item index="1322" key="hatreeuninstallsuccess" priority="1"/>
+<item index="1323" key="hatreeuninstall" priority="1"/>
+<item index="1315" key="hatreelaunchfromsmallleaf" priority="1"/>
+<item index="1316" key="hatreenumclickpropsprompt" priority="1"/>
+<item index="1317" key="hatreeclickenablesunshinedrop" priority="1"/>
+<item index="1318" key="hatreeclickuninstall" priority="1"/>
+<item index="1319" key="hatreeclickfunctionpanel" priority="1"/>
+<item index="1324" key="hatreeversion" priority="1"/>
+<item index="1325" key="hatreeinstallfailed" priority="1"/>
+<item index="1326" key="hatreeclickretrytoinstall" priority="1"/>
+
+<item index="1331" key="hatreeinboxshow" priority="1"/>
+<item index="1327" key="hatreeoutboxshow" priority="1"/>
+<item index="1328" key="hatreesendmailbutton" priority="1"/>
+<item index="1329" key="hatreeasendfailwinshow" priority="1"/>
+<item index="1330" key="hatreesendfailwinbuytools" priority="1"/>
+<item index="1332" key="hatreedustbinbutton" priority="1"/>
+<item index="1334" key="hatreeinboxnumber" priority="1"/>
+<item index="1335" key="hatreeoutboxnumber" priority="1"/>
+<item index="1336" key="hatreedownloadfiletype" priority="1"/>
+<item index="1337" key="hatreegetheartfiletype" priority="1"/>
+<item index="1338" key="hatreeshowmail" priority="1"/>
+<item index="1339" key="hatreemaildetailshow" priority="1"/>
+<item index="1340" key="hatreemaildetailclose" priority="1"/>
+<item index="1341" key="hatreemaildetailsave" priority="1"/>
+<item index="1342" key="hatreemailsavesucwinshow" priority="1"/>
+<item index="1343" key="hatreemailsavesucsend" priority="1"/>
+<item index="1344" key="hatreemailsavesucbuytools" priority="1"/>
+<item index="1345" key="hatreemailsavesuccheckoutbox" priority="1"/>
+<item index="1347" key="hatreechoosefileshow" priority="1"/>
+<item index="1348" key="hatreechoosefileclose" priority="1"/>
+<item index="1349" key="hatreesuggestfileshow" priority="1"/>
+<item index="1350" key="hatreechoosefilesendbutton" priority="1"/>
+<item index="1351" key="hatreesendsucwinshow" priority="1"/>
+<item index="1352" key="hatreesendsucsendagain" priority="1"/>
+<item index="1353" key="haytreesendsucbuytools" priority="1"/>
+<item index="1354" key="hatreesendsuccheckoutbox" priority="1"/>
+<item index="1355" key="hatreeheartvipbuy" priority="1"/>
+<item index="1356" key="hatreesendhappyopen" priority="1"/>
+<item index="1357" key="hatreecomebackshow" priority="1"/>
+<item index="1358" key="hatreecomebackkownbutton" priority="1"/>
+<item index="1359" key="hatreecomebackclose" priority="1"/>
+<item index="1360" key="hatreenodownloadusernum" priority="1"/>
+
+<item index="1368" key="hatreeversionnotmatch" priority="1"/>
+<item index="1369" key="hatreepollingconnect" priority="1"/>
+<item index="1370" key="hatreenewinstallserverconnectfail" priority="1"/>
+<item index="1371" key="hatreenewinstallsyncloaddllfail" priority="1"/>
+<!--以上为幸福树统计-->
+
+
+<!--以下为手机通道统计-->
+<item index="1106" key="mobilehelpernum" priority="1"/>
+<item index="1114" key="mobilesendfucall" priority="1"/>
+<item index="1115" key="mobilesendfucsuc" priority="1"/>
+<item index="1116" key="mobilesendfucfail" priority="1"/>
+<item index="1117" key="mfiletabclick" priority="1"/>
+<item index="1118" key="mfileinfo" priority="1"/>
+<item index="1119" key="mfileopen" priority="1"/>
+<item index="1120" key="mfiledelete" priority="1"/>
+<item index="1123" key="mfileoutputinfo" priority="1"/>
+<item index="1145" key="mobileerror" priority="1"/>
+
+
+<!--以上为手机通道统计-->
+
+<!--以下为APK安装器统计-->
+<item index="1501" key="mobh_pluginstart" priority="1"/>
+<item index="1502" key="mobh_apkdownloadname" priority="1"/>
+<item index="1503" key="mobh_apkdownloadnum" priority="1"/>
+<item index="1504" key="mobh_apkinstallpopauto" priority="1"/>
+<item index="1505" key="mobh_apkinstallpopmanu" priority="1"/>
+<item index="1506" key="mobh_apkinfogetfail" priority="1"/>
+<item index="1507" key="mobh_apkinstallcolse" priority="1"/>
+<item index="1508" key="mobh_apkinstallclosestep" priority="1"/>
+<item index="1509" key="mobh_apkinstallclick" priority="1"/>
+<item index="1510" key="mobh_apkinstallusbinsert" priority="1"/>
+<item index="1511" key="mobh_apkdriverdownsucc" priority="1"/>
+<item index="1512" key="mobh_apkdriverdownfail" priority="1"/>
+<item index="1513" key="mobh_apkmobileconnectsucc" priority="1"/>
+<item index="1514" key="mobh_apkmobileconnectfail" priority="1"/>
+<item index="1515" key="mobh_mobilehelperinstallsucc" priority="1"/>
+<item index="1516" key="mobh_mobilehelperinstallfail" priority="1"/>
+<item index="1517" key="mobh_apkinstallsuccname" priority="1"/>
+<item index="1518" key="mobh_apkinstallsuccnum" priority="1"/>
+<item index="1519" key="mobh_apkinstallfailname" priority="1"/>
+<item index="1520" key="mobh_apkinstallfailnum" priority="1"/>
+<item index="1521" key="mobh_apkinstallsetclick" priority="1"/>
+<item index="1522" key="mobh_apkinstallconfigclick" priority="1"/>
+<item index="1523" key="mobh_apkdriverinstallfail" priority="1"/>
+<item index="1524" key="mobh_xl7runusbinsert" priority="1"/>
+<item index="1525" key="mobh_xl7runusbpullout" priority="1"/>
+
+<item index="1526" key="mobh_mobilehelperinstallfailreason" priority="1"/>
+<item index="1527" key="mobh_apkinstallfailreason" priority="1"/>
+
+<item index="1540" key="mobh_filetranspluginstart" priority="1"/>
+<item index="1541" key="mobh_filetransnewtask" priority="1"/>
+<item index="1542" key="mobh_filetranscansendmobile" priority="1"/>
+<item index="1543" key="mobh_filetranstaskcomplete" priority="1"/>
+<item index="1544" key="mobh_filetransfromdownloading" priority="1"/>
+<item index="1545" key="mobh_filetransfromdownloaded" priority="1"/>
+<item index="1546" key="mobh_filetransfromlocal" priority="1"/>
+<item index="1547" key="mobh_filetransfileinfo" priority="1"/>
+<item index="1548" key="mobh_filetransclickicon" priority="1"/>
+<item index="1549" key="mobh_filetransclickmenu" priority="1"/>
+<item index="1550" key="mobh_filetransclickdownloadedlist" priority="1"/>
+<item index="1551" key="mobh_filetransclickrightpanel" priority="1"/>
+<item index="1552" key="mobh_filetransfireconnect" priority="1"/>
+<item index="1553" key="mobh_filetransconnectsucc" priority="1"/>
+<item index="1554" key="mobh_filetransconnectfail" priority="1"/>
+<item index="1555" key="mobh_filetransconnectfailreason" priority="1"/>
+<item index="1556" key="mobh_filetransrequestdownloaddriver" priority="1"/>
+<item index="1557" key="mobh_filetransdownloaddriversucc" priority="1"/>
+<item index="1558" key="mobh_filetransdownloaddriverfail" priority="1"/>
+<item index="1559" key="mobh_filetransdownloaddriverfailreason" priority="1"/>
+<item index="1560" key="mobh_filetransinstallmarkerapk" priority="1"/>
+<item index="1561" key="mobh_filetransupdatemarkerapk" priority="1"/>
+<item index="1562" key="mobh_filetransclickinstallmarket" priority="1"/>
+<item index="1563" key="mobh_filetransclickuninstallmarket" priority="1"/>
+<item index="1564" key="mobh_filetransdownloadmarket" priority="1"/>
+<item index="1565" key="mobh_filetransdownloadmarketsucc" priority="1"/>
+<item index="1566" key="mobh_filetransdownloadmarketfail" priority="1"/>
+<item index="1567" key="mobh_filetransdownloadmarketfailreason" priority="1"/>
+<item index="1568" key="mobh_filetransinstallmarketsucc" priority="1"/>
+<item index="1569" key="mobh_filetransinstallmarketfail" priority="1"/>
+<item index="1570" key="mobh_filetransinstallmarketfailreason" priority="1"/>
+<item index="1571" key="mobh_filetransspeedinfo" priority="1"/>
+<item index="1572" key="mobh_filetranspulloutusb" priority="1"/>
+<item index="1573" key="mobh_filetransinsertusb" priority="1"/>
+<item index="1574" key="mobh_filetransremovefile" priority="1"/>
+<item index="1575" key="mobh_filetransremovefilestate" priority="1"/>
+<item index="1576" key="mobh_filetranssendfilenum" priority="1"/>
+<item index="1577" key="mobh_filetranssendfilesucc" priority="1"/>
+<item index="1578" key="mobh_filetranssendfilefail" priority="1"/>
+<item index="1579" key="mobh_filetranssendfilefailreason" priority="1"/>
+<item index="1580" key="mobh_filetranslocalfilenum" priority="1"/>
+<item index="1581" key="mobh_filetranslocalfileinfo" priority="1"/>
+<item index="1582" key="mobh_filetransclickentry" priority="1"/>
+<item index="1583" key="mobh_filetransclickbottomnotify" priority="1"/>
+<item index="1584" key="mobh_filetransinstalldriverfail" priority="1"/>
+<item index="1585" key="mobh_filetransfirstshowtip" priority="1"/>
+<item index="1586" key="mobh_filetransclickfirstshowtip" priority="1"/>
+<item index="1587" key="mobh_filetransshowdowndloadingphoneicon" priority="1"/>
+<item index="1588" key="mobh_filetransshowrightpanelsendbtn" priority="1"/>
+<item index="1589" key="mobh_apkmobileclickinstallmarket" priority="1"/>
+<item index="1590" key="mobh_apkmobileclickminibtn" priority="1"/>
+<item index="1591" key="mobh_filetranspcmobiledisconnectreason" priority="1"/>
+<item index="1592" key="mobh_filetransitemselectclickicon" priority="1"/>
+<item index="1593" key="mobh_filetransconnectfilesendsession" priority="1"/>
+<item index="1594" key="mobh_filetransusbpulloutstate" priority="1"/>
+<item index="1595" key="mobh_filetransconfirminstallbtnshowtime" priority="1"/>
+<item index="1596" key="mobh_filetransconfirminstallbtnclicktime" priority="1"/>
+<item index="1597" key="mobh_filetransdriverconnectreboot" priority="1"/>
+<item index="1598" key="mobh_filetransdriverconnectsucc" priority="1"/>
+<item index="1599" key="mobh_filetransdriverconnectuac" priority="1"/>
+<!---->
+<item index="1600" key="mobh_filetransdebugmodealreadyopened" priority="1"/>
+<item index="1601" key="mobh_filetransdebugmodenextgrouppic" priority="1"/>
+<item index="1602" key="mobh_filetransconnectfailretry" priority="1"/>
+<item index="1603" key="mobh_filetranstotalconnecttime" priority="1"/>
+<item index="1604" key="mobh_filetransdriverdownloadtime" priority="1"/>
+<item index="1605" key="mobh_filetransdriverinstalltime" priority="1"/>
+<item index="1606" key="mobh_filetransthundermobiledownloadtime" priority="1"/>
+<item index="1607" key="mobh_filetransthundermobileinstalltime" priority="1"/>
+<item index="1608" key="mobh_filetransappconnecttime" priority="1"/>
+<item index="1609" key="mobh_filetransthundermobiledownloadcount" priority="1"/>
+<item index="1610" key="mobh_filetransthundermobiledownloadsucc" priority="1"/>
+<item index="1611" key="mobh_filetransthundermobiledownloadfail" priority="1"/>
+<item index="1612" key="mobh_filetransthundermobiledownloadfailreason" priority="1"/>
+<item index="1613" key="mobh_filetransthundermobileinstallsucc" priority="1"/>
+<item index="1614" key="mobh_filetransthundermobileinstallfail" priority="1"/>
+<item index="1615" key="mobh_filetransthundermobileinstallfailreason" priority="1"/>
+<item index="1616" key="mobh_filetranssendfilefailretry" priority="1"/>
+<!--以上为APK安装器统计-->
+
+<!--以下为任务下载体验统计-->
+<item index="2086" key="checkvideo" priority="1"/>
+<item index="2087" key="checkvideocli" priority="1"/>
+<!--以上为任务下载体验统计-->
+
+<!--以下为功能大全统计-->
+<item index="2088" key="checkfileerror" priority="1"/>
+<item index="2089" key="downfileerror" priority="1"/>
+<!--以上为功能大全统计-->
+
+<!--以下为BHO统计-->
+<item index="2085" key="bhobrowser" priority="1"/>
+
+<!--以上为BHO统计-->
+
+<!--以下为家庭共享统计-->
+<item index="1125" key="shareclientfiledowninfo" priority="1"/>
+<item index="1126" key="shareclientfileshareinfo" priority="1"/>
+<item index="1140" key="sharefeedbackinfo" priority="1"/>
+
+<item index="1176" key="lstsortingcli" priority="1"/>
+<item index="1182" key="quiteshow" priority="1"/>
+<item index="1183" key="quiteremindquitecli" priority="1"/>
+<item index="901" key="otherscli" priority="1"/>
+<item index="902" key="otherspageshow" priority="1"/>
+<!--以上为家庭共享统计-->
+
+<!--以下为360统计-->
+<item index="489" key="360unexistsoftware" priority="1"/>
+<!--以上为360统计-->
+
+<!--以下为xmp推迅雷统计-->
+<item index="1155" key="bhoxmpget" priority="1"/>
+<!--以上为xmp推迅雷统计-->
+
+<!--以下为网游加速器推迅雷统计-->
+<item index="2020" key="gameacccidhit" priority="1"/>
+<item index="2021" key="gameacccdngetfailed" priority="1"/>
+<item index="2025" key="gamaccflow" priority="1"/>
+<!--以上为网游加速器推迅雷统计-->
+
+<!--以下为游戏盒子统计-->
+<item index="639" key="toolgame" priority="1"/>
+<item index="640" key="toolgamedown" priority="1"/>
+<!--以上为游戏盒子统计-->
+
+<!--以上为复合统计，统计为key值加一个id值-->
+
+<!--以下为下载体验相关核心统计-->
+<item index="2115" key="newtasktime" priority="1"/>
+
+<item index="2116" key="stimeon" priority="1"/>
+<item index="2117" key="stimeoff" priority="1"/>
+<item index="2118" key="stimedown" priority="1"/>
+<item index="2119" key="stimenodown" priority="1"/>
+<!--以上为下载体验相关核心统计-->
+
+
+<!--以下为BHO相关统计-->
+<item index="2120" key="bhosugon" priority="1"/>
+<item index="2121" key="bhosugtipsoff" priority="1"/>
+<item index="2122" key="bhosugreg" priority="1"/>
+<item index="2123" key="bhosugtool" priority="1"/>
+<item index="2124" key="bhosugnomore" priority="1"/>
+<item index="2125" key="bhosugnomoreyes" priority="1"/>
+<item index="2126" key="bhosugnomoreno" priority="1"/>
+<item index="2127" key="bhosugdis" priority="1"/>
+<item index="2128" key="bhosugclo" priority="1"/>
+<item index="2129" key="bhosugopen" priority="1"/>
+<item index="2138" key="bhodefa" priority="1"/>
+<!--以上为BHO相关统计-->
+
+
+<!--以下为小文件下载统计-->
+<item index="2139" key="tinystart" priority="1"/>
+<item index="2140" key="tinybig" priority="1"/>
+<item index="2141" key="tinydown" priority="1"/>
+<item index="2142" key="tinycancel" priority="1"/>
+<item index="2143" key="tinysuc" priority="1"/>
+<item index="2144" key="tinyfail" priority="1"/>
+<item index="2145" key="tinyzhu" priority="1"/>
+<item index="2146" key="tinytime" priority="1"/>
+<item index="2147" key="tinysize" priority="1"/>
+<item index="2148" key="tinyza" priority="1"/>
+<item index="2149" key="tinyopen" priority="1"/>
+<item index="2150" key="tinyclose" priority="1"/>
+<item index="2151" key="tinyying" priority="1"/>
+<item index="2152" key="tinytan" priority="1"/>
+<item index="2153" key="tinyopenying" priority="1"/>
+<item index="2154" key="tinynewtask" priority="1"/>
+<item index="2155" key="tinynewtaskno" priority="1"/>
+<!--以上为小文件下载相关统计-->
+
+<!--以下为新功能推荐相关统计-->
+<item index="2130" key="newfeaon" priority="1"/>
+<item index="2131" key="newfeaho" priority="1"/>
+<item index="2132" key="newfealeri" priority="1"/>
+<item index="2133" key="newfeaopen" priority="1"/>
+<!-- <item index="2134" key="newfeatool" priority="1"/> -->
+<item index="2135" key="newfeatoolcli" priority="1"/>
+<!-- <item index="2136" key="newfeaopenon" priority="1"/> -->
+<!-- <item index="2137" key="newfeashow" priority="1"/> -->
+<!--以上为新功能推荐相关统计-->
+
+<!--以下为不下载不上传相关统计-->
+
+<item index="2172" key="tiyanuduptipshow" priority="1"/>
+<item index="2173" key="tiyanudupclickopen" priority="1"/>
+<item index="2174" key="tiyanudupclickclose" priority="1"/>
+<item index="2175" key="tiyanudupclickknow" priority="1"/>
+<item index="2176" key="tiyanudupuserinfo" priority="1"/>
+
+<!--以上为不下载不上传相关统计-->
+
+<!--以下为小文件优先下载统计-->
+<item index="2156" key="smallpriorityon" priority="1"/>
+<item index="2157" key="smallpriorityoff" priority="1"/>
+<item index="2158" key="smallprioritydo" priority="1"/>
+<item index="2159" key="smallprioritytip" priority="1"/>
+<item index="2160" key="smallprioritytin" priority="1"/>
+<item index="2161" key="smallprioritycha" priority="1"/>
+<item index="2162" key="smallpriorityclo" priority="1"/>
+<!--以上为小文件优先下载统计-->
+
+<!--以下为小文件重命名统计-->
+<item index="1233" key="smallfilerenamecli" priority="1"/>
+<item index="1234" key="smallfileholdextensioncheck" priority="1"/>
+<item index="1235" key="smallfilenotholdextensioncheck" priority="1"/>
+<item index="1236" key="smallfilerenamevalidcli" priority="1"/>
+<item index="1237" key="smallfilerenamesurecli" priority="1"/>
+<item index="1238" key="smallfilerenamecancelcli" priority="1"/>
+<!--以上为小文件重命名统计-->
+<!--以下为插队下载统计-->
+<item index="2163" key="firstdownchb" priority="1"/>
+<item index="2164" key="firstdownnew" priority="1"/>
+<item index="2165" key="firstdownrig" priority="1"/>
+<item index="2166" key="firstdowntip" priority="1"/>
+<item index="2167" key="firstdowntipch" priority="1"/>
+<item index="2168" key="firstdowntiptin" priority="1"/>
+<item index="2169" key="firstdownticlo" priority="1"/>
+<!--以上为插队下载统计-->
+
+<!--以下为详情页方向键统计-->
+<item index="2170" key="detailpageonri" priority="1"/>
+<item index="2171" key="detailpageofle" priority="1"/>
+<!--以上为详情页方向键统计-->
+
+<!--以下为性能相关统计-->
+<item index="2401" key="sofeng.singlenewtaskspeed" priority="1"/>
+<item index="2402" key="sofeng.startspeed" priority="1"/>
+<item index="2403" key="sofeng.cpuoccupancy" priority="1"/>
+<item index="2404" key="sofeng.memoryoccupancy" priority="1"/>
+<item index="2405" key="sofeng.stuck" priority="1"/>
+<item index="2406" key="sofeng.batchnewtaskspeed" priority="1"/>
+<item index="2407" key="sofeng.btstartup" priority="1"/>
+<item index="2408" key="sofeng.thunderpush.start" priority="1"/>
+<item index="2409" key="sofeng.thunderpush.error" priority="1"/>
+<!--以上为性能相关统计-->
+
+
+
+<!--以下为本地搜索统计-->
+<item index="2179" key="newsearchused" priority="1"/>
+<item index="2180" key="newsearcherclick" priority="1"/>
+<item index="2181" key="newsearchtip" priority="1"/>
+<item index="2182" key="newsearchtytin" priority="1"/>
+<item index="2183" key="newsearchcha" priority="1"/>
+<item index="2184" key="newsearchf" priority="1"/>
+<item index="2185" key="newsearchc" priority="1"/>
+<!--以上为本地搜索统计-->
+
+<!--以下为360软件管家相关统计-->
+<item index="3022" key="360softlaunch" priority="1"/>
+<item index="3023" key="360softcreatetask" priority="1"/>
+<item index="3024" key="360softfinishtask" priority="1"/>
+<item index="3025" key="360softactive" priority="1"/>
+<item index="3026" key="360softtime" priority="1"/>
+
+<item index="3027" key="unsafefiledownwithout360" priority="1"/>
+<item index="3028" key="unsafefiledowntipshow" priority="1"/>
+<item index="3029" key="unsafefiledowntipnotshow" priority="1"/>
+<item index="3030" key="unsafetipinstallclick" priority="1"/>
+<item index="3031" key="unsafetipinstallsuccess" priority="1"/>
+<item index="3032" key="unsafetipcloseclick" priority="1"/>
+<item index="3033" key="unsafetipnotipclick" priority="1"/>
+
+<item index="3035" key="360softpush" priority="1"/>
+<item index="3036" key="360softlaunchpush" priority="1"/>
+<item index="3037" key="360softcreatetaskpush" priority="1"/>
+<item index="3038" key="360softfinishtaskpush" priority="1"/>
+<item index="3039" key="360softactivepush" priority="1"/>
+<item index="3034" key="launchprocess" priority="1"/>
+<!--以上为360软件管家相关统计-->
+
+<!--以下为浏览器合作相关统计-->
+<item index="3040" key="cooperatelaunch" priority="1"/>
+<item index="3041" key="cooperatecreatetask" priority="1"/>
+<item index="3042" key="cooperatefinishtask" priority="1"/>
+
+<item index="3043" key="downloadfinishtippop" priority="1"/>
+<item index="3044" key="downloadfinishtipinstallclick" priority="1"/>
+<item index="3045" key="downloadfinishguideinstallclick" priority="1"/>
+<item index="3046" key="downloadfinishguidenotipclick" priority="1"/>
+<item index="3047" key="downloadfinishnotifytip" priority="1"/>
+<item index="3048" key="downloadfinishnotifytipinstallclick" priority="1"/>
+<item index="3049" key="downloadfinishnotifyguideinstallclick" priority="1"/>
+<item index="3050" key="downloadfinishnotifyguidenotipclick" priority="1"/>
+
+<item index="3051" key="sofeng.xlupdate.start" priority="1"/>
+<item index="3052" key="sofeng.xlupdate.panel" priority="1"/>
+<item index="3053" key="sofeng.xlupdate.now" priority="1"/>
+<!--以上为浏览器合作相关统计-->
+
+<!--以下为迅雷打开360浏览器相关统计-->
+<item index="3004" key="safebrowser" priority="1"/>
+<item index="3005" key="setusesafebrowser" priority="1"/>
+<!--以上为迅雷打开360浏览器相关统计-->
+
+<item index="2760" key="bhosmartrepair" priority="1"/>
+
+<!--下载口碑SpeedRank 相关统计 -->
+
+<item index="1200" key="onetaskspeediconshow" priority="1"/>
+<item index="1201" key="onetaskspeediconcli" priority="1"/>
+<item index="1202" key="mutasksppeediconshow" priority="1"/>
+<item index="1203" key="mutasksppeediconcli" priority="1"/>
+<item index="1204" key="taskmoreshow" priority="1"/>
+<item index="1205" key="taskfeedbackshow" priority="1"/>
+<item index="1206" key="taskfeedbackcli" priority="1"/>
+<item index="1207" key="bandwidthchangeinfoshow" priority="1"/>
+<item index="1208" key="bandwidthchangeinfo" priority="1"/>
+<item index="1219" key="reqfeedbackurl" priority="1"/>
+<item index="1220" key="resfeedbackurlfail" priority="1"/>
+
+<!--以上为 下载口碑SpeedRank 相关统计 -->
+<!--空闲下载2.0 begin-->
+<item index="1209" key="freemodelworktime" priority="1"/>
+<item index="1210" key="notfreemodelwinshow" priority="1"/>
+<item index="1211" key="notfreemodelwinopen" priority="1"/>
+<item index="1212" key="freemodelwinshow" priority="1"/>
+<item index="1213" key="freemodelwinhold" priority="1"/>
+<item index="1214" key="freemodelwinquit" priority="1"/>
+<item index="1215" key="freemodelwinrealquit" priority="1"/>
+<item index="1216" key="freemodelopenamount" priority="1"/>
+<item index="1217" key="freemodelcloseamount" priority="1"/>
+<item index="1218" key="mistakeinputamount" priority="1"/>
+<!--空闲下载2.0 end-->
+
+<!--空闲下载3.0 begin-->
+<item index="1241" key="freemodelnewtaskopencli" priority="1"/>
+<item index="1242" key="freemodelnewtasktipshow" priority="1"/>
+<item index="1243" key="freemodelbttaskopencli" priority="1"/>
+<item index="1244" key="freemodelbttasktipshow" priority="1"/>
+<item index="1245" key="freemodelnewtaskeffective" priority="1"/>
+<item index="1246" key="freemodelfinishedwinshow" priority="1"/>
+<item index="1247" key="freemodellockopencli" priority="1"/>
+<item index="1248" key="freemodelopenamount2" priority="1"/>
+<item index="1249" key="freemodelontime" priority="1"/>
+<item index="1250" key="freemodelbuttonshow" priority="1"/>
+<item index="1251" key="freemodelvideopro" priority="1"/>
+<item index="1252" key="freemodelpuatipsshow" priority="1"/>
+<item index="1253" key="freemodelpuainsideopen" priority="1"/>
+<item index="1254" key="freemodeltipscloseclic" priority="1"/>
+<!--空闲下载3.0 end-->
+
+<!--以下为移动正在下载文件统计-->
+<item index="2240" key="movetodirclick" priority="1"/>
+<item index="2241" key="movetodirsuccesed" priority="1"/>
+<item index="2242" key="movedownloadingtodir" priority="1"/>
+<item index="2243" key="movedownloadingtodirsuccesed" priority="1"/>
+<item index="2244" key="movetohistorydir" priority="1"/>
+<item index="2245" key="movetodirerrortipshow" priority="1"/>
+<item index="2246" key="movetodirsamedisspeed" priority="1"/>
+<item index="2247" key="movetodirdiffdisdisspeed" priority="1"/>
+<!--以下为移动正在下载文件统计-->
+<item index="2411" key="sofeng.onlinetime" priority="1"/>
+<item index="2412" key="sofeng.thunderpush.online" priority="1"/>
+
+</stat>
+</config>

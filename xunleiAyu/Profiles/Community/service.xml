@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <element>
+        <sysid>10019</sysid>
+        <imageurl>http://images.client.vip.xunlei.com/img/client/icon_year_gray.png</imageurl>
+        <jumpurl>http://vip.xunlei.com/</jumpurl>
+        <alert>年费</alert>
+        <info>0</info>
+        <openmode>1</openmode>
+    </element>
+    <element>
+        <sysid>10020</sysid>
+        <imageurl>http://xl7.cash.xunlei.com/images/xl7.png</imageurl>
+        <jumpurl>http://xl7.cash.xunlei.com/</jumpurl>
+        <alert>迅雷钱包</alert>
+        <info>0</info>
+        <openmode>2</openmode>
+    </element>
+</data>
