@@ -1,0 +1,6 @@
+X-Mouse Button Control is FREE for anyone or any business to install and use.
+If you have paid for this software, please request a refund from the person or organisation that you paid!
+
+In order to use XMBC on newer versions of Windows (7, 8, 2012 etc.), this installer will install a certificate during installation which will allow Windows to trust XMBC and permit UI Access. Without this, some functionality of XMBC will be unavailable (as it is with the portable version).
+
+Whilst the author actively runs and tests this software on several machines and different versions of windows, no warranty or guarantee on the performance of the software or that this software is free from bugs, is provided. The author nor anyone else involved in the production, testing or delivery of this software shall be liable to you for any damages of any type.  

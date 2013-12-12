@@ -1,0 +1,566 @@
+
+Version 2.6.2
+	#193 Fixed problem causing XMBC bot to be launched after installation.
+	#194 Fixed incorrect default for Cycle Layers, Fixed portable release.
+	#195 Fixed portable version so it is not signed.
+	#196 Fixed a problem scrolling OneNote pages view when "Scroll window under cursor activated"
+
+Version 2.6.1
+    Fixed a bug in the installer preventing the program menu item for XMBC from being created!
+    
+Version 2.6
+	#191: Fixed problem with VS2012 scrolling caused by fix for VS2010. 
+	      For now, the 2010 fix becomes a hidden XML setting, disabled by default.
+	#188: Fixed problems with language when resuming from sleep.
+	#189: Fixed detection of Windows 8.1
+    #179 - Modified to use registry startup entries, not the startup shortcut.
+    #186 - Added a throttle to the mousehweel when sending other mouse inputs to reduce lag/lockups.
+    #187 - fixed a problem with "Ignore Numlock" option when sending NUM{x} extended keys.
+    #182 - Fixed minimize window for full screen VMWare, VirtualBox and RemoteDesktop.
+    #183 - Fixed error causing foreign character keys not to be saved properly in the default profile 
+           and not to be sent as expected in some cases.
+    #176 - Fixed some scrolling bugs in VB6 MDI Child windows introduced with the new 
+           scrolling/widnow detection code.
+    #177 - Fixed a bug where the hook failed after resuming from sleep/hibernation 
+           (by reinstalling the hook when this happends).
+    #156 - Fixed invert scroll when left or right buttons are held down.
+    #166 - Problem with multi-language systems, unable to switch language & US English gets auto-installed on Win 8.
+    #173 - Fixed some issues when scrolling old VB6 dropdown controls
+    #172 - Reworked as last change broke scrolling in remote destop window(s) amongst others.
+    #170 - Added 'System Menu' action for Windows 8 (not available in portable mode).
+    #171 - Fixed issues in settings dialog dropdown lists caused by #168
+    #172 - Fixed scrolling in Visual Studio debugger text/xml/html visualiser window(s)
+    #175 - Added discrete mouse button down and up commands to simulated keystrokes. 
+           Instead of {LMB} use {LMBD} for Down/Press {LMBU} for UP/Release (same for MMB, RMB, MB4, MB5 etc.)
+           NOTE: This is not currently 'documented'
+    #169 - Fixed settings file name corruption in German windows.
+    #168 - Fixed scrolling on the index tab in CHM help file windows.
+    #167 - Fixed a bug causing the 'sticky' click drag modifiers not to work on a layer that was active due to 
+           a modifier key.
+    #165 - Fixed ALT+TAB in Windows 8 by signing the XMBC executable and removing the XMBC Launcher Service
+           The executable is signed with a private certificate that is added to your system during installation
+    #164 - Added some Windows 8/8.1 specific options
+    #163 - Fixed some translation issues.
+    #159 - Added option to bring window to foreground when scrolling 
+           NOTE: I dont think this is working as expected :(
+    #158 - Modified the service to better launch XMBC when sometimes it would fail previously
+
+    MISC - Improved thread synchronisation code to try and reduce lockups/crashes
+
+Version 2.5
+	#129 - Removed short delay when using scroll window up or down
+	#131 - Fixed problems with Dvorak keyboard layouts
+	#133 - Fixed crash when opening a language pack with the advanced settings tabs already open!
+	#137 - Removed short delay when using mouse wheel dropdown options
+	#138 - Changed the version checking so it actually fires when requested, even if PC is left 
+	       on or hibernated. Previously it only ever check when you launched XMBC!
+	#139 - Fixed problem introduced in Beta 1 with Close (ALT F4) and a few other commands.
+	#141 - Fixed problems when using High DPI on Vista/7
+	#142 - Modified Advanced scrolling to detect if CTRL is held down so it sends default scroll 
+	       messages for ZOOM support.
+	#143 - Fixed problem with sticky "change movement to scroll" being reset when CTRL was 
+	         pressed (CTRL and scroll is zoom so should not reset when CTRL is pressed, 
+	         even with "Reset on any key" ticked).
+	#144 - Added /layer:X command line option to start on/switch to specified layer.
+	#145 - Fixed spelling mistake in language file (and GUI) reported by Liquid. Increased width 
+	         of "Delay between simulated keystrokes" GUI element.	
+	       Change 'Restore desktop icon &layout' text to fix translation conflict with context menu.
+	#146 - Added CONTROL+Click on the tray icon to "quick open" the profile folder.
+	#150 - Added option to change layers by left clicking the system tray icon!
+	#152 - Fix horizontal scrolling in explorer using method 1 by default!
+	#138 - Improved the version checking routine so it actually checks at the correct interval 
+	         even if PC & XMBC is left running.
+	
+	Added language example/template file to the installation so it is always up to date!
+	
+Verison 2.4
+	#95  Add ability to translate XMBC to other languages. A new file type *.xmbclp is used to provide translations.
+	#96  Added sticky change movement to scroll action.
+	#97  Fixed problem with erratic mouse when left click is reassigned, noticed in Windows 7 snipping tool
+	     but I think also related to other eratic reports (like in bug #75)
+	#98  Added option to invert horizontal scrolling
+	#99  Added option to configure default delays used in simulated keystrokes in the advance settings tab
+		 (this is not related to {WAIT}/{WAITMS} tags).
+	#100 Converted the application to use Unicode strings internally to support future work to 
+	     include language selection.
+	#102 Added ability to save/restore Windows 7 desktop gadget positions when saving/restoring desktop icon positions.
+	#103 Added option to adjust/specify CPU priority.
+	#105 Modified to reset sticky buttons on key press as well as any button (when general setting enabled)
+	     NOTE: In the future I intend to make this a separate setting (for keys and buttons).
+    #106 Added check-box to only match windows profiles if the window has no parent.
+    #109 Fixed chrome/iron web drop-down/combo box scrolling
+	#110 Fixed problem with BACK/FORWARD (APPCOMMAND keys) in Remote Desktop sessions.
+	#112 Added extra debugging and error handling to layer modifier key hook.
+	#117 Installer does not remember previous installation path.
+	     NOTE: This will only apply AFTER installing 2.4 beta 8 or later.
+    #120 Added Author and Description flags to language pack files so translators can be credited in the GUI.
+    #121 Fixed long standing bug with WAIT and WAITMS which were broken in v2.0.
+         This has an impact on any simulated keystroke macros. I have introduced {HOLD} and {HOLDMS} tags 
+         which allow you to customize specify the time the following key is held down for and reverted WAIT 
+         and WAITMS to their previous function of a delay between keys in a sequence.
+    #122 Fixed detection of custom window profiles introduced in Beta 10.
+    #123 Added new simulated keystroke action: "As mouse button is pressed & when released"
+    #124 Add "Same as layer 1" default option for layers 2-5.
+    #125 Actions in dropdown are only displayed if applicable to current operating system.
+	#126 Fixed bug which prevented activation of profiles if the process name was not all lower case!
+	#127 Modified version check to use a DNS query instead of a WWW query, also check for beta updates.
+	
+	.... Misc performance improvments, debug logging & fixes to new features introduced during the beta stage.
+	
+	Thanks to everyone that helped in the beta testing of v2.4 and to all those providing language translation packs!
+	
+--------------------------------------------------------------------------------------------------------------------------
+
+Verison 2.3
+	#74  Fixed a problem causing the active profile not to be highlighted in the setup window.
+	#77  Fixed problem with "Scroll window under cursor" when tooltip windows popped up and blocked scrolling.
+	#78  Added new simulated keystroke commands for toggling the state of num lock, caps lock & scroll lock:
+	     {NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}.
+	#79  Fixed problem with simulated keystrokes RSHIFT, RCTRL and RALT in during/Sticky mode. 
+	#80  Installer deletes old files before replacing with new ones (for easy downgrade in the future).
+	#81  Fixed problem not finding process/windows because the name was in the wrong case in the settings.
+	#82: Fixed case sensitivity problem when highlighting profiles in setup dialog.
+	#83: Fixed problem with minimize actions not working as expected.
+	#84: Added window handle to window finder dialog.
+	#85: Modified repeat detection to handle messages 0ms apart. 
+	#86: Reduced calls to GetProcessName to try and optimize the code.
+	#87: Added Windows Key and Apps key to the dropdown selection of layer modifer keys.
+	#88: Added a message to the setup screen when disabled via scroll lock or remote desktop (#90).
+	#89: Added "Sticky Left button (Click Drag) X Axis" and "Sticky Left button (Click Drag) Y Axis".
+	#90: Added option to disable XMBC when connected via RDP (remote desktop).
+	#91: Added "Change movement to scroll" option (universal scroll?).
+	#93: Fixed {SPACE} tag does not work in simkeys (during mode).
+	
+	...  Misc fixes and performance improvements including extra error and debug logging.
+			     
+    Thanks to everyone that helped in the beta testing of v2.3!
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Verison 2.2
+	#29  Modified code to allow the user to configure how frequently XMBC checks for updates.
+	#68  Fixed bug introduced in v2.1 that broke the "Invert mouse wheel" scrolling option.
+	#72  Fixed problem with simulated keystrokes using the WAIT and WAITMS tags.
+	#73  Fixed problem with de-bounce horizontal mouse wheel settings.
+		     
+    Thanks to everyone that helped in the beta testing of v2.2!
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Verison 2.1
+	
+	#42  Fixed simulated keys for page up / page down in internet explorer.
+	#43  Fixed misc. spelling errors.
+	#44  Fixed Tilt button not working if another button is held down.
+	#45  Fixed ability to simulate brackes {} in simulated keystrokes.
+	#46  Fixed scroll window under cursor for Visual Studio 2010.
+	#46  Added new scroll method (5) for scrolling some WPF windows such as Visual Studio 2010.
+	#47  Fixed high CPU usage when moving mouse along desktop boundaries.
+	#49  Fixed simulated keystrokes for {LEFT}, {RIGHT} etc. in during mode.
+	#50  Fixed some simulated keys sending the wrong scan code such as {LWIN}{HOME}.
+	#52  Fixed GUI errors with "Launch Application" and "Open Explorer" custom actions.
+	#54  Added simulated keys for switching layers {LAYER:x}, although not recommended in daily use!
+	#55  Fixed error with scroll pages when disabling XMBC.
+	#56  Fixed thread priority which was not being set high enough.
+	#57  Added ability to use advanced scrolling with application specific profiles.
+	#58  Fixed problems finding the correct window under the cursor in some cases.
+	#59  Fixed setup dialog so it correctly highlights the profile under the cursor.
+	#61  Fixed (ignored) "Only send when active" for simulated keystrokes in default profile.
+	#63  Fixed Tilt window under cursor not working correctly.
+	#64  Updated user manual to include informaion relevant to version 2.1
+	#65  Modified install kit to wait longer for processes to terminate when upgrading.
+	#66  Fixed simulated keys sequence (more than one key) not working as expected in during mode.
+
+    Thanks to everyone that helped in the beta testing of v2.1!
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Verison 2.0
+	Added custom profile support for individual windows as well as the existing application profile support.
+	Added ability to switch profiles when the the mouse is over the target window.
+	Added edit buton to edit the selected profile name/window.
+	Added global option to enable hover activation.
+	Added ability in the window finder dialog to find a window just by moving the mouse over it.
+	Added IMPORT/EXPORT of XMBC profiles.
+	Added context menu on the profile list to allow access to import, export and various other profile actions.
+	Added file associations to auto-import settings files when opening them in explorer.
+	Added IPC to communicate better between XMBC instances to support import by opening setting file in explorer.
+	Added proper multithreading support for the mouse hooks to improve performance and response.
+	Added reset button to the layer tabs.
+	Added option to show/hide layer balloon notifications.
+	Added ability to use default windows keyboard repeat delay and speed for repeated sim-keys (set delay to 0).
+	Added new button configuration options 'Activate Screensaver' & 'Activate Monitor Powersaving'.
+	Added ability to set buttons to "same as default" in custom profiles profiles.
+	Added sticky-hold simulated keystroke option. 
+	Added sticky button 4 and button 5 actions to complete the sticky buttons collection.
+	Added ability to allow the WAIT delays in simulated keystrokes to apply between modifier and key eg. {CTRL}{WAITMS50}A
+	Added global option to reset sticky buttons (and sticky keys) by pressing any other mouse button.
+	Added userguide in installation. Thanks to MainTrane for the help writing the documentation.
+	Added confirmation on close when configuration has changed and not been applied.
+	
+	Major GUI overhaul and update to support new functionality and improve useability.
+	Modified the code to open the setup window when another instance on XMBC is run (ie. from Start menu).
+	Fixed mouse lockup during version check with some firewall software (ZoneAlarm, NOD32 etc.).
+	Fixed some spelling mistakes and other typos.
+	Fixed GUI tab order in several dialogs.
+	Fixed errors in sticky mouse button code.
+	Fixed bug when scroll wheel is assigned to button presses.
+	
+** I'd like to thank all those, especially MainTrane, who helped out in the beta testing for this major update. **
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Version 1.53
+    Added ability to provide a user defined name for each layers (in each profile).
+    Added some more debug logging.
+    Added global hotkeys to toggle locking of the X an dY axes.
+    Added test button to scroll window configuration to test on the fly changes.
+    Added new icon - thanks to Pavel Kiselev for the initial design.
+    Added ability to load icons dynamically from files (in same folder as executable) (See FAQ for details)
+    Added OPTIONAL check for new verison, which will run once a month (the first time XMBC is run in the current month).
+	Added ability to specify negative scroll values on windows scrolling tab (reverses scroll direction)
+    Fixed some spelling mistakes.
+    Fixed PRINT SCREEN dropdown option.
+    Fixed bug when XMouseButtonControl.exe was added as an applicaiton profile.
+	Fixed inverted spin controls on windows scrolling tab.
+	Fixed double scroll lines in some windows with method 1.	
+	Fixed bug in scrolling methods where the parent window class was specified.
+	Fixed/Changed behaviour of the global hotkey and layer modifier key tabs (always visible).
+    Fixed bug causing primary (layer 1) icon to dissapear occasionally.
+    Fixed scroll window methods default & disable.
+    Fixed scroll window scroll multiplers for default/mouse wheel methods.
+    Fixed bug in "Restore" option which was maximizing not restoring!
+    Fixed error with volume and several other simulated keystrokes.
+    Fixed small memory leak when switching between layers in the settings.
+    Fixed a bug causing layer modifiers to not work properly with simluated keystrokes.
+
+Version 1.52
+	Added more debugging, including Windows 7 hook timeout value.
+	Added support for distinguishing between left and right extended keys in simulated keystrokes (e.g. LSHIFT/RSHIFT)
+	Added Ignore Numlock for simulated keys option, to always send the numeric keypad keys, even if numlock is off.
+	Added TILT LEFT/RIGHT actions to send a tilt message to windows.
+	Added SCROLL UP/DOWN/LEFT/RIGHT actions to scroll the active window (or the window under the cursor if enabled).
+	Fixed print screen simulated keystroke.	
+	Added notification balloon for layer change events, disable events, desktop icon events.
+	Select profile in setup dialog when specific application is activated.
+	Further modifications to the scrolling support.
+	Added scrolling tweak configuration in advanced settings dialog. This allows you to configure how 
+	  individual windows are scrolled, even if they are old applicaitons and dont nativly support the 
+	  scroll wheel.
+	Added support for axis locking. NOTE. You must enable modifier keys to then enable and configure axis locking 
+	  modifiers per application profiles.
+	Added configurable mouse whell scroll lines for app specific profiles.
+	Fixed bug in service launcher when not running for the default location (c:\program files)
+
+Version 1.51
+	Added "Double Click Drag" action.
+	Fixed bug causing buttons to stop responding in Windows Vista/7 on a standard user 
+	  account with UAC enabled. Note. Under some circumstances the defual button action may 
+	  be applied as well as the remapped action - only during switch between UAC to non UAC window.
+	Fixed errors in service launcher that cased XMBC to be called more than once, which had the
+	  side effect of forcing the icon to be shown, even if "Show icon by default" was not checked.
+	Fixed simulated keystrokes which were not working correctly in some circumstances, for
+	  example, {LWIN}{SHIFT}{RIGHT} and is some applications (VMWare, maybe some games).	
+	Fixed hardcoded commands that sent keys (like Copy (CTRL+C), Paste (CTRL+V) etc.) as in 1.50.5
+	Write more error information to the windows even log when the service encounters an error.
+
+Version 1.50
+	Added mouse wheel and tilt commands {MWUP} {MWDN} {TILTL} {TILTR} to simulated keystrokes.
+	Changed "delay" spinner on simulated keystrokes to accept up to 300,000ms (5 mins).
+	Added an option to always swap the 4th and 5th mouse buttons.
+	Added layer modifier keys (like global hotkeys except the layer is swicthed only 
+	  while the key is held down.
+	Added ability to ignore mouse button messages when over the non-client area of a 
+	  window, for example, the title bar (NOTE: this is experimental and not enabled by 
+	  default; it may slow down responses a little when enabled).
+	Several miscellaneous bug fixes.
+	
+Version 1.49
+    Layer support (up to 5 configuraitons accessable via hotkeys/button combo's)
+    Change the GUI to support layers and moved the settings to a seperate dialog.
+    Added optional global hotkey support for several XMBC operations.
+    Added debounce/throttling settings for tilt wheel, to try and control the repeat messages of the tilt wheel.
+    Removed old disable XMBC "hotkey"/mouse action as its now configurable along with the other hotkeys.
+    Added ability to open a selected folder, and open some default folders (computer, documents, 
+      network, control panel)
+    Added ability to scroll windows that do not respond to the usual windows scroll messages, 
+      currently configured manually in settings file. One day I will have a GUI to do that!
+    Fixed some bugs causing the mouse hook creation to fail.
+    Fixed bug causing tray icon to sometimes not show.
+    Modified service launcher to retry if the launch fails.
+	
+Version 1.48.1
+    Fixed desktop icon saving (removed a hard coded test variable!) - DOH!
+
+Version 1.48
+    General release. No functional changes from 1.47.8 other than the version number.
+
+Version 1.47.8 (Internal build)
+    Added a configuration page to the installer, allowing you to specify a custom path to 
+      store the settings file
+    Modified the code to better detect the active application (for example Warcraft/WoW.exe)
+
+Version 1.47.7 (Internal build)
+    Added sticky (toggle) simulated keystrokes
+
+Version 1.47.6 (Internal build)
+    Changed layout of the simulated keystroke dialog.
+    Added ability to customise the delay between repeated simulated keystrokes.
+
+Version 1.47.4 (Internal build)
+    Fixed some problems with icon save/restore & added more logging to this area of the application.
+    Added a clear settings option to the installer finish page (not enabled by default).
+
+Version 1.47.2 (Internal build)
+    Added new Add application specific dialog which lists the running applications to create a new profile for.
+	
+Version 1.47.1 (Internal build)
+    Fixed a bug with the mouse wheel over, causing it to break certain features of Explorer (and the desktop) 
+      such as resizing of icons using CTRL+Mouse wheel. Now, If the CTRL key is down, the mouse wheel will 
+      be sent to the active window.
+    Fixed a bug in simulated keystrokes where the modifier key was not released after the preceding key (it 
+      stays down even though the description in the simulated keystrokes editor says that this is not the case.
+    Fixed a bug with simulated keystrokes 'during' which did not release the mouse buttons 
+      when using {LMB}, {RMB}, {MMB}
+    Added a registry setting (for al users in HKEY_LOCAL_MACHINE) to change the default location of the settings file
+      NOTE: I will try and modify the setup to allow you to choose this location during installation.
+    Added a global "hotkey" {Left Control + Left ALT + right mouse button double click} to disable/enable. 
+      (Usefull if you accidentally set your left button to something that makes it impossible to use the mouse)!
+
+Version 1.47
+    General release. No changes from 1.46.9 other than the version number.
+
+Version 1.46.9: (Internal build)
+    Added new simulated keys: VOL+, VOL-, MUTE, PAUSE, EXT: (which allows you to specify 
+      any "virtual key" code you like!).
+    Fixed bug causing single simulated key presses to fail in FEAR2 (and other games).
+      Please use the "During" option in Simulated Keystrokes.
+	
+Version 1.46.5: (Internal build)
+    Added option to make the mouse scroll wheel scroll the window under the mouse cursor.
+    Changed the installation to use the Nullsoft Installer System. 
+      This is much faster and means I can have a single (small) distribution for both
+      x86 and x64 versions.
+    Undone the addition of the {CLEAR} keystroke tag which was not suitable as modifier keys 
+      only apply to the following key anyway.
+    Modified the simulated mouse button presses to fire a DOWN + UP message in one go, ie a button click.
+    Added {WAITMS<n>} simulated keystroke to add a delay specified in milliseconds instead of seconds (with{WAIT<n>})
+
+Version 1.46:
+    Fixed a bug in 1.45 that broke application specific simulated keystrokes.
+
+Version 1.45:
+    Fixed the Save/Restore desktop icons in Windows 7 (rc)
+    Added a 'Disable' option on the context menu. This completely disables the mouse hook when ticked.
+    Modifed the text in the GUI slightly.
+    Modifed Simulated keystrokes to allow the user to have more control over when the keystrokes 
+      are pressed and released
+    Added a {CLEAR} keystroke tag to reset any modifier keys (CTRL}, {ALT}, {SHIFT} etc.	
+
+Version 1.44:
+    Fixed a bug in the setup dialog causing the simulated keystorkes (and launch appliation) for RIGHT-X 
+      to use the settings from Scroll WheelDown instead of its own setting.
+    Fixed a bug with simulated keystrokes where a key sequence with multiple characters (eg. 'hello' is not 
+      sent correctly because the same "keydown" is sent twice without a "keyup" in between.
+    Fixed bug causing /NoLog commandline option to be ignored and setting in the config file used always.
+
+Version 1.43:
+    Fixed installation error on Windows 2000/XP/2003.
+    Added /NoLog commandline and 'hidden' configuration option to disable all logging.
+
+Version 1.42:
+    Added ability to configure the wheel up/down action.
+    Fixed some actions like "Copy (CTRL+C)" that use keyboard shortcuts and
+      did not work when a non-english keyboard was installed.
+	
+Version 1.41:
+    Added ability to copy application specific settings to a new application.
+    Modified the logging to always create a log file with some useful information in it.
+    Added automatic file size management of the log file so it never gets too big.
+    Added "Enable DEBUG logging" option in the settings dialog (with warning).
+    Fixed a bug causing buttons to stop working when switching between applications with custom button 
+      actions like "double click" defined.
+    Modifed the code to use XML configuration files instead of the registry.
+    Added new Portable mode. In this mode the configuration file (and log) is stored alongside the 
+      executable, ideal for running from a USB stick.
+      Portable mode is automatically enabled if the application is not in the install location under \program files
+      It is also enabled if the /portable command line switch is specified.
+
+Version 1.40:
+    Fixed some bugs that could cause crashes under certain circumstances.
+    Fixed the "Wheel scrolls in pages instead of lines"
+    Added "hidden" registry option to enable enable configuration of the 6th mouse button on an "Office Mouse".
+      NOTE: If you want to try this, PM me on the Highrez forums or email me at Phil@Highrez.co.uk.
+            for details and instructions. This mode disables TILT support as these mice do not have tilt wheels.
+
+Version 1.39.3:
+    Fixed some more installer issues with the C++ runtimes.
+
+Version 1.39.2:
+    Fixed some installer issues with the C++ runtimes.
+
+Version 1.39.1: (Changes effect only Vista and later OS's)
+    Removed the task scheduler changes - they didnt work in many situations.
+    Added the server launcher to start elevated if the used has the required admin acocunt.
+	
+Version 1.39:
+    Changed the GUI layout to allow changes to be made more easily in the future.
+    Modified the installer to add a scheduled task on Vista and later to run with elevated privileges
+    Updated the source to use Visual Studio 2008 and its runtimes.
+
+Version 1.38:
+    Internal build to test wheel tilt options.
+
+Version 1.37:
+    Fixed a bug with the auto-repeat of simulated keys where the auto-repeat option never got applied.
+    Fixed a related bug in the new simulated key code which caused keys to get "stuck" repeating the 
+      keystroke.
+    Changed the default option on upgrade for invert mouse scrolling to FALSE.
+    Modified the settings dialog to prevent you adding a duplicate applicaiton executable.
+
+Version 1.36:
+    Fixed a bug introduced in 1.35 which broke some simulated keystrokes.
+    Changed the layout of the simulated keystrokes dialog.
+    Added auto repeat option for simulated keystrokes. When enable the keystroke(s) are repeated while the mouse
+      button is held down.
+    Added auto-repeat for the Mouse Wheel Scroll Down/Mouse Wheel Scroll Up options.
+    Added Invert mouse wheel scrolling option (that is configurable for specific applications or globally).
+
+Version 1.35: 
+    Fixed a bug with send keystrokes not working for characters req	using a SHIFT key to be down
+    Fixed broken LockWorkstation function (In Vista sending LWIN+L does not work for some reason!)
+	
+Version 1.34:
+    Fixed bug that sometimes caused buttons to lock is Application Specific mode is used.
+    Added check boxes to the applications list allowing you to enable/disable each custom application.
+
+Version 1.33:
+    Added {WAIT<n>} option in simulated key strokes (where N = number of seconds to wait).
+    Added 'Left/Right/Middle Click-Drag [Sticky Button]' feature to allow the forst button 
+      press to be treated as DOWN only and the second press to be treated as UP only. Therefore,
+      press once to start drag and againto stop.
+	 
+Version 1.32:
+    Internal code changes and tidy up.
+    No new features.
+	
+Version 1.31:
+    Added ability to swap 4th and 5th (X) buttons when running under a remote desktop (or terminal service) session.
+    Added Show Sidebar *Vista & Later* action to show the Vista sidebar.
+    Added {SPACE} option to the simulated keystrokes, as requested by several people on the forums.
+    Added About dialog.
+
+Version 1.30:
+    Added fix for FooBar 2000 Media player which caused a wierd problem where the mouse buttons could stop working!
+
+Version 1.29.1:
+    Fixed a few Setup GUI bugs introduced in 1.29 due to new checkboxes.
+
+Version 1.29:
+    Added ability to bypass disabled or all buttons if scroll lock is turned on. 
+    Added PRINT SCREEN and PRINT ACTIVE WINDOW actions and {PRTSCN} to the custom key dialog. 
+
+Version 1.28:
+    Added Flip3D support and Alt-Tab support (Vista Only). Added ability to use 
+    mouse buttons in "simulated keystroke" option using 
+        {LMB}	- Left mouse button
+        {RMB}	- Right mouse button
+        {MMB}	- Middle mouse button
+        {XMB1}	- First X mouse button (4th button)
+        {XMB2}	- Second X mouse button (5th button)	
+
+Version 1.27.2:
+    Special (32bit only) 6 button version for Typhoon Optical OfficeMouse.
+
+Version 1.27.1:
+    Fixed the version number which, in V1.27 still said 1.26!!
+
+Version 1.27:
+    Added support for simulating the numeric keypad keys using
+    {NUM<0..9>}, {NUM-}, {NUM+}, {NUM*}, {NUM/}, {NUM.}
+	
+    NOTE: I have been ubale so far to simulate the enter key but you can try {NUME}
+          - it may work for you!
+
+Version 1.26.1:
+    Special (32bit only) 6 button version for Typhoon Optical OfficeMouse.
+
+Version 1.26:
+    Fixed incompatibility with third party shell's (ie. geOShell).
+	
+Version 1.25:
+    Added the ability to always hide the tray icon.
+    Ensured only ONE instance can run at any time.
+    Added the following optional command line options to invoke the application:
+        /?            - Help
+        /ShowIcon     - Show the icon (does not change default setting in setup screen)
+        /HideIcon     - Hide the icon (does not change default setting in setup screen)
+        /Setup        - Show the setup screen
+        /SaveIcons    - Save the desktop icons (same as context menu option on tray icon)
+        /RestoreIcons - Save the desktop icons (same as context menu option on tray icon)
+
+Version 1.24:
+    Added Mouse Wheel Scroll Up/Down to simulate the user scrolling the mouse wheel - when a button is pressed.
+
+Version 1.23:
+    Improved text and description of the send keystroke configuration dialog.
+
+Version 1.22:
+    Fixed crash when sending keystrokes - thats what happens after a re-write and not enough testing :(
+
+Version 1.21:
+    Re-written the hook DLL to make it smaller and faster and not use MFC :)
+    Fixed some bugs in the custom keystroke option (especially when switching windows with custom {ALT}{TAB}
+    Reduced the installation size quite a bit.
+
+Version 1.20:
+    Yes, I know its a jumpin version numbers. This is primarily because I made several changes to get v1.17 working,
+      and I have upgraded the development environment to Visual Studio 2005, therefore using new C++ and MFC runtimes.
+	
+Version 1.17: 
+    Fixed a bug causing the Application to close when configuring the "Close (Alt-F4)" option!
+    Fixed a compatibility issue in the 32bit version which meant it didnt run on Windows 2000.
+
+Version 1.16: 
+    Fixed a bug causing the Application specific checkbox to be under the frame (since v1.14)
+    Fixed a bug which left the popup menu hanging around when it wasnt wanted!
+
+Version 1.5:
+    Added - 32Bit version - because its provides more functionallity than MS's IntelliPoint 5.x software and I still use dual boot!
+    Fixed - Sending some extended keys didnt work if MS keyboard software is installed. This was aparent in 32bit but not 64bit.
+    Fixed - Occasioanl crash when pressing the left mouse button!
+
+Version 1.4:
+    Fixed - Sending custom keystrokes to DirectX application (ie games) didn't work
+    Fixed - All actions now work as expected
+    Fixed - Enabled customisation of LEFT and RIGHT buttons. Beware, this overrides any swap buttons stuff you may have set.
+	
+	Added - Extra Actions
+            Lock Workstation, Open Windows Explorer, Open RUN Command, Restore Window,
+            Escape, Open Help, Open Search, Open Web Browser, Browser Stop, Browser Refresh, Browser Favorites
+	
+    Known Issues - Registry entries are not removed if a applicaiton specific settings are removed.
+	             - Simulated Keystrokes can only be set to what can be typed into the edit box (no scripting yet)
+
+Version 1.3:
+    Fixed - Remeber if application specific settings is selected and use it properly.
+    Fixed - Proper recognition of active process to determine which action should be taken.
+    Fixed - Crash when removing from list of specific applications.
+
+    Known Issues - Registry entries are not removed if a applicaiton specific settings are removed.
+	             - Simulated Keystrokes can only be set to what can be typed into the edit box (no scripting yet)
+                 - Several actions are not currently working. These are:
+                   Any "normal" mouse actions - click, right click, double click etc
+                   Minimize
+                   Maximize	
+                   Next Window (limited functionality - switches next active window aka ALT+TAB rather than cycles them all)
+
+Version 1.2:
+    Added - "Simulate Keystrokes" action to send specific keys to the active applicaiton
+	
+Version 1.1:
+    Fixed - Removed requirements on Visual Studio 2005
+    Fixed - XP Style interface now working properly!
+
+Version 1.0;
+    Initial release - Only compatible with x64 systems that have Visual Studio 2005 Beta 1 installed (oops!)

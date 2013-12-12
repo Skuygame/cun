@@ -1,0 +1,446 @@
+﻿# Sample XMBC Language template file. 
+# Base version 2.4 Beta 15
+#
+# Changes to this template are marked
+#   -- Updated in <version> --
+# or 
+#   -- Added in <version> --
+#
+
+#Describe the language pack here - this is displayed in the language dropdown in the settings tab.
+Language=Deutsch (German)
+Description=Deutsche Übersetzung für XMouse Button.
+
+#Put your name here and (at some point in the future) you will be creditied in the user interface
+Author=Sven Foerster
+
+
+#Setup screen
+"Scrolling && Navigation" => "Scrollen && Navigation"
+"Default" => "Voreinstellung"
+"A&dd" => "Hinzufügen"
+"Edi&t" => "Bearbeiten"
+"C&opy" => "Kopieren"
+"Remo&ve" => "Entfernen"
+"&Settings" => "Einstellungen"
+"Abo&ut" => "Über"
+"&Apply" => "Anwenden"
+"&Close" => "Schließen"
+"Description" => "Beschreibung"
+"Process" => "Verarbeiten"
+"Class" => "Gruppe"
+"Window Class" => "Fenster Gruppe"
+"Parent Class" => "Hauptgruppe"
+"Application / Window Profiles:" => "Programm/ Fenster-Profile"
+"Profile Information" => "Profil-Information"
+"Setup" => "Einrichten"
+
+
+#General strings
+"Layer" => "Stufe"
+"Portable" => "Portabel"
+"All" => "Alle"
+"Not Defined" => "nicht definiert"
+"Default: All windows that do not match any profile." => "Standard wiederherstellen"
+"&OK" => "OK"
+"&Cancel" => "Abbruch"
+"OK" => "OK"
+"Cancel" => "Abbruch"
+"Global Settings" => "Allgemeine Einstellungen"
+
+#Global settings: General settings
+"General" => "allgemeine Einstellungen"
+"Mouse &Speed" => "Geschwindigkeit"
+"Ma&ke scroll wheel scroll window under cursor" => "Scrollrad Scroll-Fenster unter dem Cursor"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "Umgehe alle Aktionen wenn ROLLEN eingeschaltet ist"
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "Umgehe alle Aktionen wenn ROLLEN ausgeschaltet ist"
+"S&wap 4th and 5th buttons" => "Vertausche 4. und 5. Taste"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Vertausche 4. und 5. Taste beim Remoutedesktop"
+"&Disable when running under remote desktop (RDP)" => "Abschalten beim Remoutedesktop"
+"Show layer switch &balloon notifications" => "Zeige Stufe Umschalter && Benachrichtigungssymbole"
+"Language" => "Sprache"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "OK Drücken zum anwenden der Einstallungen (Wird erst beim Neustart des Programms übernommen)."
+
+# The following tag is the LABEL displayed on the general settings page.
+# The word 'Author' should be directly translated, ie. Don't put your name here :)
+# NOTE: The description labe is also on the setup screen with the same meaning.
+"Author" => "Autor"
+# --
+
+#Global settings: Advanced settings
+"Advanced" => "Erweitert
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "OK Drücken wird erst beim Neustart des Programms übernommen."
+"Enable profi&le switching on mouse move" => "Aktiviere Profil bei Maus Bewegung"
+"Process &Non-Client mouse messages *RECOMMENDED*" => Verwende `Nicht-Client´ Meldungen von der Maus * EMPFOHLEN"
+"Reset &sticky buttons when any other button is pressed" =>  "Rücksetzen von gedrückter Maustaste wenn andere Maustaste gedrückt wird"
+"R&eset sticky buttons when any other key is pressed" => "Rücksetzen von gedrückter Maustaste wenn andere Taste gedrückt wird"
+"Show &tray icon by default" => "Zeige Tray-Icon standardmäßig"
+"&Ignore numlock state for Simulated Keystrokes" => "Ignoriere Numlock bei simulierter gedrückter Tastenkombination"
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "Ändere Wippenrad Wiederholungsrate"
+"&Initial repeat rate" => "Anfangs Verzögerung"
+"&Repeat tilt rate" => "Wiederholungsrate"
+"(ms)" => ""
+"Dela&y between simulated keystrokes" => "Verzögerung zwischen Tastenkombination"
+"&CPU Priority" => "CPU Priorität"
+"Check for new &version every" => "Überprüfe jede"
+"days (at application startup)" => "Tage auf neue Vesion"
+"Enable &DEBUG logging" => "Benutze Fehlerrotokoll"
+"*** Debug logging will degrade performace and response times! ***" => "***Fehlerprotokoll mindert die Leistung***"
+# -- Updated in 2.6 Beta 1 --
+"*** Debug logging will degrade performance and response times! ***" => "***Fehlerprotokoll mindert die Leistung***"
+
+# -- Added in 2.4 Beta 15 --
+"Realtime" => "Echtzeit"
+"High" => "Hoch"
+"Above normal" => "Höher als normal"
+"Normal" => "Normal"
+"Below normal" => "Niedriger als normal"
+# --
+
+
+#Global settings: Hotkey tab
+"Hotkeys" => "Tastenkürzel"
+"Enable &global hotkeys" => "Aktiviere Tastenkürzel"
+"You can assign your hotkeys using the boxes below..." => "Sie konne Ihre Tastenkürzel unten zuweisen"
+"Switch to Layer &1" => "Schalte zu Stufe 1"
+"Switch to Layer &2" => "Schalte zu Stufe 2"
+"Switch to Layer &3" => "Schalte zu Stufe 3"
+"Switch to Layer &4" => "Schalte zu Stufe 4"
+"Switch to Layer &5" => "Schalte zu Stufe 5"
+"&Next Layer" => "Nexte Stufe"
+"&Previous Layer" => "Voherige Stufe"
+"&Enable/Disable XMBC" => "Aktivieren/ Deaktiviere XMBC"
+"&Toggle Debug mode" => "Schalte in Debug-Modus"
+"&Save desktop icon layout" => "Desktop Icon Layout speichern"
+"&Restore desktop icon layout" => "Desktop Icon Layout wiederherstellen"
+"Toggle &X Axis Lock" => " Setze X-Achsen sperre"
+"Toggle &Y Axis Lock" => "Setze Y-Achsen sperre"
+"NOTE: Only valid hotkey combinations will be allowed." => "Nur gültige Tastenkürzel-Kombinationen sind erlaubt"
+
+# -- Added in 2.4 Beta 15 --
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "Tastenkürzel sind in den Einstellungen deaktiviert. Sie müssen das Programm neutarten um die Einstllungen zu übernehmen"
+
+
+#Global settings: Modifyer key tab
+"Modifier Keys" => "Modifizierte Tasten"
+"Enab&le modifier keys (switching layers && axis locking)" => "Aktivierung der Modifizierte Tastenstufe und Achsen"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "Modifizierte Tastenkombination sind Tastenkombinationen, die nur vorübergehend aktiv sind solange die Tastenkombinationen gedrückt wird. Sobald Sie die Tastenkombinationen loslassen wird, wird der vorherige Zustand wiederhergestellt."
+"Layers" => "Stufen"
+"Activate Layer 1" => "Aktiviere Stufe 1"
+"Activate Layer 2" => "Aktiviere Stufe 2"
+"Activate Layer 3" => "Aktiviere Stufe 3"
+"Activate Layer 4" => "Aktiviere Stufe 4"
+"Activate Layer 5" => "Aktiviere Stufe 5"
+"Axis Locking" => "Achs Sperrung"
+"Lock X-Axis" => "X-Achs Sperrung"
+"Lock Y-Axis" => "Y-Achs Sperrung"
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "Achs-Verriegelung erfordert für jede Anwendung ein eigendes Profil. Dies ermöglicht Ihnen, Achse nur für eine bestimmte Anwendung zu sperren."
+"None" => "keine"
+"Shift" => "Shift"
+"Control" => "Strg"
+"Alt" => "Alt"
+"Shift + Control" => "Shift + Strg"
+"Shift + Alt" => "Shift + Alt"
+"Shift + Control + Alt" => "Shift + Strg + Alt"
+"Control + Alt" => "Strg + Alt"
+"Left Window Key" => "Linke Windows Taste"
+"Right Window Key" => "Rechte Windows Taste"
+"App Menu Key" => "Programm Menütaste"
+
+
+#Context Menus
+"Edit" => "Bearbeiten"
+"Copy" => "Kopieren"
+"Remove" => "Entfernen"
+"Import" => "Import"
+"Export Selected" => "Exportiere markierte"
+"Export All" => "Exportiere alle"
+"&Layers" => "Stufe"
+"Layer &1" => "Stufe 1"
+"Layer &2" => "Stufe 2"
+"Layer &3" => "Stufe 3"
+"Layer &4" => "Stufe 4"
+"Layer &5" => "Stufe 5"
+"&Setup" => "Einstellungen"
+"&Hide Icon" => "Verstecke Icon"
+"&Open log file" => "Öffne Logdatei"
+"&Disable X-Mouse Button Control" => "X-Mouse Button Control ausschalten"
+"S&ave desktop icon layout" => "Speichere Desktop Icon Layout"
+"Restore desktop icon &layout" => "Desktop Icon Layout wieder wiederherstellen"
+"Exit" => "Programm beenden"
+
+
+#Layer tab(s)
+"Layer name" => "Stufen Name"
+"&Left Button" => "Linke Maustaste"
+"&Right Button" => "Rechte Maustaste"
+"&Middle Button" => "Mittlere Maustaste"
+"&Middle Button 2" => "Mittlel Taste 2"
+"Mouse Button &4" => "Maustaste 4"
+"Mouse Button &5" => "Maustaste 5"
+"W&heel Up" => "Radtaste hoch"
+"Wh&eel Down" => "Radtaste runter"
+"Tilt Wheel Le&ft" => "Wippenrad links"
+"Tilt Wheel Ri&ght" => "Wippenrad rechts"
+"Reset Layer" => "Stufe zurücksetzen"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "Diese Stufe ist resaviert für modifizierten Tasten. Sie können diesen nicht direkt auswählen "
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "Stfen Befehle werden auf alle Stufen angewannt. Weiter?"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => " Dieser Layer ist beireits in Verwendung. Dies würde ein unbestimmtes Verhalten verursachen und wird daher nicht unterstützt. "
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "Wenn Sie diesen Stufenbefehl entfernen, werden alle Stufenbefehle entfernt! Weiter?"
+#--
+
+
+#simulated keystrokes
+"(undefined)" => "undefiniert"
+"(pressed)" => "gedückt"
+"(released)" => "losgelassen"
+"(during)" => "während"
+"(thread-down)" => "Beim runterdrücken"
+"(thread-up)" => "Beim hochdrücken"
+"(repeat)" => "widerholung"
+"(sticky repeat)" => "(Wiederholung gedrückt)"
+"(sticky hold)" => "(Gedrückt halten)"
+"(pressed & released)" => "Drücken & Loslassen"									# -- Added in 2.4 Beta 12 --
+
+
+#Simulated Keystrokes dialog
+"Simulate Keystrokes" => "simulierte Tastenanschläge"								# -- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => "Tasteneingabe"
+"How to send the simulated key strokes:" => "Senden der Simulierte Tasteneingabe"
+"1 As mouse button is pressed" => "Als Maustaste gedrückt "
+"2 As mouse button is released" => "Als Maustaste losgelassen "
+"3 During (press on down, release on up)" => "während (Drücke runter beim loslassen)"
+"4 In another thread as mouse button is pressed" => ""
+"5 In another thread as mouse button is released" => ""
+"6 Repeatedly while the button is down" => "wiederhole während die Taste gedrückt ist"
+"7 Sticky (repeatedly until button is pressed again)" => "gedrückt halten (so oft, bis erneut gedrückt wird)"
+"8 Sticky (held down until button is pressed again)" => "gedrückt halten (nach unten, bis Taste erneut gedrückt gehalten wird)"
+"9 As mouse button is pressed & when released" => "Als Maustaste gedrückt und losgelassen"			# -- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => "nur senden wenn Profile Prozess aktiv ist"
+"Auto repeat delay" => "Auto wiederholen Verzögerung"
+"(milliseconds)" => "Millisekunden"
+"0 = Windows default repeat delay && speed." => "Windows-Standard Wiederholungsrate und Verzögerung"
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => ""
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => ""
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK}" => ""
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => ""
+"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code\r\n\t\t\t{CLEAR} Clears any modifier tags (CTRL},{ALT} etc." => ""
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => ""
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => ""
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => ""
+
+
+#Run Application dialog
+"Run Application" => "Starte Programm"
+"Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => "Geben Sie den Namen eines Programms, Ordner, Dokumente oder Internet-Ressource, und XMBC wird es für Sie öffnen wenn die Taste gedrückt wird."
+
+
+#Scrolling tab
+"&Invert mouse wheel scrolling" => "Invertiere horizontales Scrcollen"
+"I&nvert mouse horizontal (tilt) scrolling" => "Invertiere Maus horizontale wippen Scrollen"
+"Wheel scrolls i&n pages instead of lines" => "Rad rollt auf den Seiten anstelle von Zeilen"
+"Lines to scroll using the scroll wheel:" => "Folgende Anzahl Zeilen: "
+"Enable a&xis locking modifier keys" => "Schalte Achsen Verrigelung bei modifizierten Tasten"
+"Advanced Window Scrolling" => "Erweitertes Fenster Scrolling"
+"&Scroll Method" => "Scroll-Methode"
+"&Vertical Lines" => "vertikale Linien"
+"&Horizontal characters" => "Horizontal Zeichen"
+"Method 1 (SCROLL Msg)" => "Methode 1 (SCROLL Msg)"
+"Method 2 (ScrollInfo)" => "Methode 2 (ScrollInfo)"
+"Method 3 (Left/Right Keys)" => "Methode 3 (Links/rechts Tasten"
+"Method 4 (Wheel Msg)" => "Methode 4 (Wheel Msg)"
+"Method 5 (WPF Scroll Msg)" => "Methode 5 (WPF Scroll Msg)"
+"None (Disable Scroll)" => "Scrollen abschalten"
+
+
+#About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => "XML-Unterstützung von XML + + von Michael sofern auf turboirc.com"
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC ist Freeware  (keine Gewährleistung oder Garantie). Darf von jedem und überall verteilt werden. Wenn Sie möchten klicken Sie auf PayPal um mir eine Spende zu machen."
+"More information can be found on my download page or user forums." => "Weitere Informationen finden Sie auf meiner Download-Seite oder im User-Foren."
+"Homepage" => "Hompage"
+"Donate" => "Spenden"
+"Forums" => "Forum"
+
+# -- Added in 2.4 Beta 15 --
+"About" => "Über"
+"Version" => "Version"	
+"This application is designed and written by %s of %s." => "Dieses Programm wurde Entworfen und geschrieben von %s of %s." # NOTE: The %s are replace at runtime
+# --
+
+#Find Window Dialog
+"Find Window" => "Bestimme Fenster"
+"Find Method" => "Bestimme Methode"
+"Click and drag the window finder icon to the window you want to select." => "Klicken und ziehen Sie das Fenster Finder-Symbol, um das Fenster auszuwählen."
+"Hover" => "schweben"
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "Bewegen Sie die Maus über das gewünschte Fenster. Schalten CAPS LOCK ein, um das Fenster zu fixieren"
+"You can also manually enter/edit the window details below." => "Fenster manuell eingeben"
+"Window Details" => "Fenster Details"
+"Caption" => "Name"
+"Handle" => "Verarbeiten"
+"&Process" => "Prozess"
+"C&lass" => "Klasse"
+"Pa&rent Class" => "übergeordnete Klasse"
+"Only match if there is no parent class." => "Erlaube nur, wenn es keine übergeordnete Klasse ist"
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => ""
+
+
+#Choose Application dialog (custom window profile)
+"Choose Application" => "Wähle Programm"
+"Select from the list of running applications:" => "Wähle gestartetes Programm aus der Liste"
+"Or type in/browse to the application executable (.EXE) file" => "Oder geben Sie die ausführbare Datei (.EXE) an"
+"Application" => "Programm"
+"&Specific Window" => "Bestimmtes Fenster"
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "Aktualisieren"
+"Process Name" => "Prozess Name"
+"Window Title" => "Fenster Titel"
+# --
+
+
+#Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "Bitte schließen Sie den Einstellungs Dialog, um Ihre Sprachauswahl anzuwenden."
+"The specified application already exists.\nYou can not add two entries for the same application." => "Das angegebene Programm bereits vorhanden ist. Es können keine zwei Einträge vorhanden sein."
+"You must select a profile to remove!" => "Sie müssen ein Profil zu entfernen!"
+"You can not edit the default profile!" => "Sie können dieses Profil nicht bearbeiten!"
+"You can not remove the default profile!" => "Sie können dieses Profil nicht entfernen!"
+"You must select a profile to edit." => "Wählen Sie ein Profil zum bearbeiten"
+"The specified window configuration is invalid!" => "Die angegebene Fenster Konfiguations ist ungültig!"
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "Die angegebene Profil ist bereits vorhanden. Es können keine zwei Einträge vorhanden sein.."
+"You must select an application to copy." => "Sie müssen eine Programm auswählen zum kopieren"
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "Wollen Sie die Änderungen die Sie an der Konfiguration vorgenommen haben, speichern? Warnung: Wenn Sie "Nein" drücken, gehen alle Änderungen verloren!"
+"Do you want to overwrite proflie" => "Wollen Sie das Profil überschreiben."
+"The selected file is not a valid settings file." => "Die ausgewählte Datei ist keine gültige Einstellungsdatei."
+"You must select an application to copy." => "Sie müssen ein Programm auswählen zum kopieren."
+"The log file can not be opened as it does not exist." => "Die Logdatei kann nicht geöffnet werden, da sie nicht existiert."
+"is unable to open the log file" => "Logdatei kann nicht geoffnet werden"
+"Unable to save the desktop icons using your current shell and this version of" => "Desktop Icons können mit dieser Shell nicht gespeichert werden."
+"Unable to restore the desktop icons using your current shell and this version of" => "Nicht möglich die Desktop-Icons mit Ihrer aktuellen Shell und diese Version von wiederzustellen"
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "Eine neue Version ist verfügbar"
+"A new version is available." => "Eine neue Version ist verfügbar"
+"Click the 'Homepage' button to go and download it." => "Klick auf dem Homepage Knopf um sie runterzuladen"
+"There is a new beta version available!" => " Eine neue Betaversion ist verfügbar"
+"A new beta version is available." => "Eine neue Betaversion ist verfügbar"
+"Click the 'Forums' button to go and download it." => "Klick auf dem Forum Knopf um sie runterzuladen"
+# --
+
+"You have to select or enter a process name, or press cancel." => "Wählen Sie einen Prozess oder drücken Sie abbrechen."
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. s such, the debug setting will not be saved." => "Bei der Fehlerprotokollierung sinkt die Leistung der Maus. Es wird empfohlen, nur vorübergehend zu aktivieren bis das problem beseitigt ist."
+"Are you sure you want to enable debug logging?", => "Sind Sie sicher, dass Sie die fehlerprotokollierung aktivieren möchten?"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => ""
+"This can slow down mouse operation in general, sometimes causing strange results." => "kann machmal die Mausbewegung verlangsamen"
+"Are you sure you want to ignore non-client messages?" => ""
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "Standardmäßig wird das Symbol in der Taskleiste (neben der Uhr) immer angezeigt. Wenn Sie diese deaktivieren, wird kein Symbol in der Taskleiste angezeigt"
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "Wenn das XMBC nochmal gestartet wird erscheint wieder das Icon neben der Uhr. Dort können dann wieder die einstellungen aufrufen"
+
+
+#Balloon popup windows
+"Debugging enabled" => "Fehlerrotokoll eingeschaltet"
+"Debugging disabled" => "Fehlerrotokoll ausgeschaltet"
+"Successfully saved desktop icon positions" => "Icon Layout erfolgreich gespeichert"
+"Successfully restored desktop icon positions" => "Icon Layout erfolgreich wiederhergestellt"
+"Mouse button re-mapping is now disabled" => "Maustaste Re-Mapping ist nun deaktiviert"
+"Mouse button re-mapping is now enabled" => "Maustaste Re-Mapping ist nun aktiviert"
+
+
+# Actions (displayed in the dropdown lists)
+"Left Click" => "Links Klick"
+"Right Click" => "rechts Klick"
+"Next Window" => "Nächstes Fenster"
+"Back" => "Zurück"
+"Forward" => "Vorwärts"
+"Middle Click" => "Mittlerer Klick"
+"Disable" => "Deaktivieren"
+"Close (Alt+F4)" => "Schließen (Alt+F4)"
+"Copy (Ctrl+C)" => "Kopieren (Ctrl+C)"
+"Cut (Ctrl+X)" => "Ausschneiden (Ctrl+X)"
+"Double Click" => "Doppelklick"
+"Enter" => "Enter"
+"Maximize Window" => "Maximiere Fenster"
+"Minimize Window" => "Minimiere Fenster"
+"New" => "Neu"
+"Open" => "Öffnen"
+"Paste (Ctrl+V)" => "Einfügen (Ctrl+V)"
+"Redo (Ctrl+Y)" => "Wiederholen"
+"Show/Hide Desktop" => "Zeige/ Verstecke Desktop"
+"Undo (Ctrl+Z)" => "Rückgangig"
+"Media - Mute" => "Media - Stumm"
+"Media - Volume Up" => "Media - Lauter"
+"Media - Volume Down" => "Media - Leiser"
+"Media - Next Track" => "Media - Nächstes Stück"
+"Media - Last Track" => "Media - Letztes Stück"
+"Media - Stop" => "Media - Stop"
+"Media - Play/Pause" => "Media - Play/Pause"
+"Launch EMail" => "Starte Mail"
+"Simulated Keys" => "Simulierte Tasten"
+"Lock Workstation" => "Arbeitsstation sperren"
+"Open Explorer" => "Öffne Explorer"
+"Open RUN Command" => "Öffne ausführeren"
+"Restore Window" => "Fenster wiederherstellen"
+"Escape" => "ESC"
+"Open Help" => "Öffne Hilfe"
+"Open Web Browser" => "Öffne Browser"
+"Browser Stop" => "Browser Stop"
+"Browser Refresh" => "Browser aktualisieren"
+"Open Search" => "Öffne Suche"
+"Browser Favorites" => "Browser Favorieren"
+"** No Change (Don't intercept) **" => "** keine Änderung **"
+"Run Application" => "Programm ausführen"
+"Mouse Wheel Up" => "Mausrad hoch"
+"Mouse Wheel Down" => "Mausrad runter"
+"Flip 3D *Vista & Later*" => "3D Fenster umschalten *Vista & später*"
+"ALT-TAB *Vista & Later*" => "Alt-Tab *Vista & später*"
+"Print Screen" => "Drucke Hardcopy Monitor"
+"Print Active Window" => "Drucke Aktives Fenster"
+"Show sidebar *Vista & Later*" => "Zeige Minianwendungen *Vista & später*"
+"Sticky Left Button [Click-Drag]" => Gedrückt bleibt linke Taste [Click-Drag] "
+"Sticky Right Button" => "Gedrückt bleibt rechte Taste"
+"Sticky Middle Button" => "Gedrückt bleibt mittlere Taste"
+"Layer (Next)" => "Stufe - Nächste"
+"Layer (Previous)" => "Stufe - Voriger"
+"Layer 1" => "Stufe 1"
+"Layer 2" => "Stufe 2"
+"Layer 3" => "Stufe 3"
+"Layer 4" => "Stufe 4"
+"Layer 5" => "Stufe 5"
+"Open Explorer at specified folder" => "Öffne Explorer in bestimmten Ordner"
+"Open Explorer at My Documents" => "Öffne Explorer in Dokumente"
+"Open Explorer at My Computer" => "Öffne Explorer im Arbeitsplatz"
+"Open Explorer at Network Favourites" => "Öffne Explorer in Netzwerkumgebung"
+"Open Control Panel" => "Öffne Systemsteuerung"
+"Double Click Drag" => "Doppel Click ziehen"
+"Mouse Wheel Tilt Left" => "Mausrad Neigung links"
+"Mouse Wheel Tilt Right" => "Mausrad Neigung rechts"
+"Scroll Window Up" => "Fenster hochscrollen"
+"Scroll Window Down" => "Fenster runterscrollen"
+"Scroll Window Left" => "Fenster Scrollen links"
+"Scroll Window Right" => "Fenster Scrollen rechts"
+"Previous Window" => "Vorriges Fenster"
+"Activate Screensaver" => "Aktiviere Bildschirmschoner"
+"Activate Monitor Power Saving" => "Aktiviere Monitor energieeinstellung"
+"** Same As Default Profile **" => "** Gleiche wie Hauptprofile **"
+"Sticky 4th Button" => "4te Taste bleibt gedrückt"
+"Sticky 5th Button" => "5te Taste bleibt gedrückt"
+"Change Movement to Scroll" => "Ändere Bewegung zum Blättern"
+"Sticky Left Button [Click-Drag] X-Axis" => "Gedrückt bleibt linke Taste [Click-Drag] X-Achse"
+"Sticky Left Button [Click-Drag] Y-Axis" => "Gedrückt bleibt rechte Taste [Click-Drag] Y-Achse"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "Zwischen Fenstern umschalten"
+"ALT-TAB" => "ALT-TAB"
+"Show sidebar" => "Zeige Minianwendungen"
+"Reveal Desktop" => "Zeige Desktop"							 # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => "(Gleiche wie Stufe 1 (aktuelles profiel)"  # -- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "Modifizierte Stufe invertieren"

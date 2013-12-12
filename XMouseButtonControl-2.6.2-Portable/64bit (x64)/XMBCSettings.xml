@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+	<version major="2" minor="6" revision="2"/>
+	<OfficeMouse Enable="false"/>
+	<Logging Disable="false"/>
+	<RazorMouse DoubleClickFix="false"/>
+	<Language filename=""/>
+	<ScrollWheel ScrollWindowUnderCursor="false"/>
+	<ScrollLock BypassAll="false" BypassDisabled="false"/>
+	<Swap4and5 Always="false"/>
+	<RemoteDesktop SwapButtons4and5="false" Disable="false"/>
+	<TrayIcon Show="true"/>
+	<BalloonNotification Layer="true"/>
+	<ResetSticky Enabled="false" Key="false"/>
+	<GlobalHotkeys Enable="false">
+		<Hotkey0 Key="0" Modifier="0"/>
+		<Hotkey1 Key="0" Modifier="0"/>
+		<Hotkey2 Key="0" Modifier="0"/>
+		<Hotkey3 Key="0" Modifier="0"/>
+		<Hotkey4 Key="0" Modifier="0"/>
+		<Hotkey5 Key="0" Modifier="0"/>
+		<Hotkey6 Key="0" Modifier="0"/>
+		<Hotkey7 Key="0" Modifier="0"/>
+		<Hotkey8 Key="0" Modifier="0"/>
+		<Hotkey9 Key="0" Modifier="0"/>
+		<Hotkey10 Key="0" Modifier="0"/>
+		<Hotkey11 Key="0" Modifier="0"/>
+		<Hotkey12 Key="0" Modifier="0"/>
+	</GlobalHotkeys>
+	<LayerModifierKeys Enable="false">
+		<LayerKey0 Key="0" Modifier="0"/>
+		<LayerKey1 Key="0" Modifier="0"/>
+		<LayerKey2 Key="0" Modifier="0"/>
+		<LayerKey3 Key="0" Modifier="0"/>
+		<LayerKey4 Key="0" Modifier="0"/>
+		<LayerKey5 Key="0" Modifier="0"/>
+		<LayerKey6 Key="0" Modifier="0"/>
+	</LayerModifierKeys>
+	<NonClientMsgs Process="true"/>
+	<CheckVersion Enable="true" Days="5"/>
+	<Priority Process="128"/>
+	<SimulatedKeys Delay="1"/>
+	<SwitchOnMouseOver Enable="true"/>
+	<ActivateOnScroll Enable="false"/>
+	<ActivateOnMouseOver Enable="false"/>
+	<SimulatedKeystrokes IgnoreNumlock="false"/>
+	<LeftClickTrayIcon Cycle="false"/>
+	<FixTiltRepeat Enable="false" InitialDelay="100" RepeatDelay="100"/>
+	<Default InvertScrolling="false" InvertHorizontalScrolling="false" ScrollPages="false" ScrollLines="3" AxisLocking="false">
+		<Layer name=""/>
+		<Left action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<Right action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<Middle action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<XLeft action="8" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<XRight action="16" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<TiltLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<TiltRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<WheelUp action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<WheelDown action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		<Layer1>
+			<Layer name=""/>
+			<Left action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<Right action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<Middle action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<XLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<XRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<TiltLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<TiltRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<WheelUp action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<WheelDown action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		</Layer1>
+		<Layer2>
+			<Layer name=""/>
+			<Left action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<Right action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<Middle action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<XLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<XRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<TiltLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<TiltRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<WheelUp action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<WheelDown action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		</Layer2>
+		<Layer3>
+			<Layer name=""/>
+			<Left action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<Right action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<Middle action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<XLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<XRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<TiltLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<TiltRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<WheelUp action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<WheelDown action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		</Layer3>
+		<Layer4>
+			<Layer name=""/>
+			<Left action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<Right action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<Middle action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<XLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<XRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<TiltLeft action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<TiltRight action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<WheelUp action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+			<WheelDown action="40" keys="" keyaction="2" keyrepeat="0" active="false" app=""/>
+		</Layer4>
+	</Default>
+	<Applications/>
+</root>

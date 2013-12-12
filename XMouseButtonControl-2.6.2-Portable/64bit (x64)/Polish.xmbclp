@@ -1,0 +1,446 @@
+﻿# Sample XMBC Language template file. 
+# Base version 2.4 Beta 15
+#
+# Changes to this template are marked
+#   -- Updated in <version> --
+# or 
+#   -- Added in <version> --
+#
+
+#Describe the language pack here - this is displayed in the language dropdown in the settings tab.
+Language=Polski (Polish)
+Description=Polskie tłumaczenie dla XMouse Button.
+
+#Put your name here and (at some point in the future) you will be creditied in the user interface
+Author=Liquid (http://www.liquid.pl)
+
+
+#Setup screen
+"Scrolling && Navigation" => "Przewijanie i Nawigacja"
+"Default" => "Domyślne"
+"A&dd" => "Dodaj"
+"Edi&t" => "Edytuj"
+"C&opy" => "Kopiuj"
+"Remo&ve" => "Usuń"
+"&Settings" => "Ustawienia"
+"Abo&ut" => "O Programie"
+"&Apply" => "Zastosuj"
+"&Close" => "Zamknij"
+"Description" => "Opis"
+"Process" => "Proces"
+"Class" => "Klasa"
+"Window Class" => "Klasa Okna"
+"Parent Class" => "Nadrzędna klasa"
+"Application / Window Profiles:" => "Program / Profile okna"
+"Profile Information" => "Informacje Profilu"
+"Setup" => "Ustawienia"
+
+
+#General strings
+"Layer" => "Warstwa"
+"Portable" => "Przenośna"
+"All" => "Wszystkie"
+"Not Defined" => "Nie zdefiniowano"
+"Default: All windows that do not match any profile." => "Domyślnie: wszystkie okna które nie pasują do żadnego profilu"
+"&OK" => "OK"
+"&Cancel" => "Anuluj"
+"OK" => "OK"
+"Cancel" => "Anuluj"
+"Global Settings" => "Ustawienia Globalne"
+
+#Global settings: General settings
+"General" => "Ogólne"
+"Mouse &Speed" => "Szybkość Myszki"
+"Ma&ke scroll wheel scroll window under cursor" => "Przewijaj okna pod kursorem myszki"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "Przekazuj 'Wszyztkie' akcje przy włączonym SCROLL LOCK"
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "Przekazuj 'Wyłączone' akcje przy włączonym SCROLL LOCK"
+"S&wap 4th and 5th buttons" => "Zamień 4ty i 5ty przycisk"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Zamień 4ty i 5ty przycisk przy połączeniu Zdalnego Pulpitu."
+"&Disable when running under remote desktop (RDP)" => "Zdeaktywuj gdy działa pod Zdalnym Pulpitem (RDP)"
+"Show layer switch &balloon notifications" => "Pokaż przełącznik warstwy i powiadomienia w balonie"
+"Language" => "Język"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "Musisz nacisnąć OK i Zastosować w głównym oknie zanim zmiany zaczną obowiązywać. Zmiana języka będzie zastosowana po ponownym otwarciu głównego okna."
+
+# The following tag is the LABEL displayed on the general settings page.
+# The word 'Author' should be directly translated, ie. Don't put your name here :)
+# NOTE: The description labe is also on the setup screen with the same meaning.
+"Author" => "Autor"
+# --
+
+#Global settings: Advanced settings
+"Advanced" => "Zaawansowane"
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "Musisz nacisnąć OK i Zastosować w głównym oknie zanim zmiany zaczną obowiązywać."
+"Enable profi&le switching on mouse move" => "Aktywuj zmianę profili przy ruchu myszką"
+"Process &Non-Client mouse messages *RECOMMENDED*" => "Przetwarzaj dane myszki nie-klienta *Zalecane*"
+"Reset &sticky buttons when any other button is pressed" =>  "Zresetuj 'czepliwe' przyciski przy naciśnięciu dowolnego przycisku myszki"
+"R&eset sticky buttons when any other key is pressed" => "Zresetuj 'czepliwe' przyciski przy naciśnięciu dowolnego klawisza"
+"Show &tray icon by default" => "Pokaż ikone w tray'u"
+"&Ignore numlock state for Simulated Keystrokes" => "Ignoruj NUMLOCK dla symulowanych klawiszy"
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "Poprawka (de-bounce) auto powtórzeń przechyłu kółka."
+"&Initial repeat rate" => "Częstotliwość powtórzeń"
+"&Repeat tilt rate" => "Powtórzenia przechyłu"
+"(ms)" => "(ms)"
+"Dela&y between simulated keystrokes" => "Opóźnienie pomiędzy symulowanymi uderzeniami w klawisze"
+"&CPU Priority" => "Priorytet CPU"
+"Check for new &version every" => "Sprawdź czy jest nowa wersja co"
+"days (at application startup)" => "Dni przy starcie programu"
+"Enable &DEBUG logging" => "Udostępnij Debugowanie"
+"*** Debug logging will degrade performace and response times! ***" => "***Debugowanie spowolni czas reakcji i wydajność programu***"
+# -- Updated in 2.6 Beta 1 --
+"*** Debug logging will degrade performance and response times! ***" => "***Debugowanie spowolni czas reakcji i wydajność programu***"
+
+# -- Added in 2.4 Beta 15 --
+"Realtime" => "Czas rzeczywisty"
+"High" => "Wysoki"
+"Above normal" => "Powyżej normalnego"
+"Normal" => "Normalny"
+"Below normal" => "Poniżej normlnego"
+# --
+
+
+#Global settings: Hotkey tab
+"Hotkeys" => "Specjalne klawisze"
+"Enable &global hotkeys" => "Zezwól na specjalne klawisze globalne"
+"You can assign your hotkeys using the boxes below..." => "Przydziel klawisze specjalne używając poniższych zaznaczników"
+"Switch to Layer &1" => "Przełącz na warstwę 1"
+"Switch to Layer &2" => "Przełącz na warstwę 2"
+"Switch to Layer &3" => "Przełącz na warstwę 3"
+"Switch to Layer &4" => "Przełącz na warstwę 4"
+"Switch to Layer &5" => "Przełącz na warstwę 5"
+"&Next Layer" => "Następna warstwa"
+"&Previous Layer" => "Poprzednia warstwa"
+"&Enable/Disable XMBC" => "Aktywuj / Deaktywuj XMBC"
+"&Toggle Debug mode" => "Przełączanie trybu Debug"
+"&Save desktop icon layout" => "Zapisz rozkład ikon pulpitu"
+"Restore desktop icon &layout" => "Przywróć rozkład ikon pulpitu"
+"Toggle &X Axis Lock" => "Przełączaj blokade osi-X"
+"Toggle &Y Axis Lock" => "Przełączaj blokade osi-Y"
+"NOTE: Only valid hotkey combinations will be allowed." => "Tylko dozwolone kombinacje klawiszy specjalnych będą dozwolone"
+
+# -- Added in 2.4 Beta 15 --
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "Specjalne klawisze są nieaktywne w oknie ustawień. Musisz zastosować zmiany i zamknąć okno, zanim klawisze zaczną funkcjonować."
+
+
+#Global settings: Modifyer key tab
+"Modifier Keys" => "Klawisze modyfikujące"
+"Enab&le modifier keys (switching layers && axis locking)" => "Aktywuj klawisze modyfikujące (przełączanie warstw i blokada osi)"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "Klawisze modyfikujące są skrótami na klawiaturze, które tymczasowo aktywują funkcję, podczas naciśnięcia klawiszy. Gdy klawisze są zwolnione, poprzedni stan zostaje przywrócony."
+"Layers" => "Warstwy"
+"Activate Layer 1" => "Aktywuj Warstwę 1"
+"Activate Layer 2" => "Aktywuj Warstwę 2"
+"Activate Layer 3" => "Aktywuj Warstwę 3"
+"Activate Layer 4" => "Aktywuj Warstwę 4"
+"Activate Layer 5" => "Aktywuj Warstwę 5"
+"Axis Locking" => "Blokowanie osi"
+"Lock X-Axis" => "Blokuj oś-X"
+"Lock Y-Axis" => "Blokuj oś-X"
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "Blokada osi wymaga zaznaczenia blokady osi dla każdego profilu programu z osobna. Umożliwia blokadę osi dla specyficznego programu."
+"None" => "Żaden"
+"Shift" => "Shift"
+"Control" => "Control"
+"Alt" => "Alt"
+"Shift + Control" => "Shift + Control"
+"Shift + Alt" => "Shift + Alt"
+"Shift + Control + Alt" => "Shift + Control + Alt"
+"Control + Alt" => "Control + Alt"
+"Left Window Key" => "Lewy klawisz Windowsa"
+"Right Window Key" => "prawy klawisz Windowsa"
+"App Menu Key" => "Klawisz menu aplikacji"
+
+
+#Context Menus
+"Edit" => "Edytuj"
+"Copy" => "Kopiuj"
+"Remove" => "Usuń"
+"Import" => "Importuj"
+"Export Selected" => "Eksportuj zaznaczone"
+"Export All" => "Eksportuj wszystko"
+"&Layers" => "Warstwa"
+"Layer &1" => "Warstwa 1"
+"Layer &2" => "Warstwa 2"
+"Layer &3" => "Warstwa 3"
+"Layer &4" => "Warstwa 4"
+"Layer &5" => "Warstwa 5"
+"&Setup" => "Ustawienia"
+"&Hide Icon" => "Ukryj ikonę"
+"&Open log file" => "Otwórz plik LOG"
+"&Disable X-Mouse Button Control" => "Zdeaktywuj X-Mouse Button Control"
+"S&ave desktop icon layout" => "Zapisz rozkład ikon pulpitu"
+"&Restore desktop icon layout" => "Przywróć zapisany rozkład ikon pulpitu"
+"Exit" => "Zakończ program"
+
+
+#Layer tab(s)
+"Layer name" => "Nazwa warstwy"
+"&Left Button" => "Lewy przycisk"
+"&Right Button" => "Prawy przycisk"
+"&Middle Button" => "Środkowy przycisk"
+"&Middle Button 2" => "Środkowy przycisk 2"
+"Mouse Button &4" => "Przycisk 4ty"
+"Mouse Button &5" => "Przycisk 5ty"
+"W&heel Up" => "Kółko w górę"
+"Wh&eel Down" => "Kółko w dół"
+"Tilt Wheel Le&ft" => "Przechylenie kółka w lewo"
+"Tilt Wheel Ri&ght" => "Przechylenie kółka w prawo"
+"Reset Layer" => "Resetuj warstwę"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "Ta rzecz podlega rezerwacji podczas użycia modyfikacji warstwy\ngdy wprowadzona jest zmiana na inną warstwę.\n\nNie możesz jej wybrać bezpośrednio."
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "Komenda zmiany warstwy musi zostać zatwierdzona dla wszystkich warstw.\n\nKontynuować ?"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "Nie możesz dodać modyfikacji warstwy X dla tej warstwy, ponieważ inna warstwa posiada modyfikator ustawień przypisany do tej warstwy.\nRobiąc to można spowodować nieokreślone zachowanie, nie jest to zalecana akcja."
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "Jeżeli usuniesz komendę modyfikacji warstwy, będzie to miało wpływ na wszystkie podlegające warstwy.\n\nKontynuować ?"
+#--
+
+
+#simulated keystrokes
+"(undefined)" => "(niezdefiniowane)"
+"(pressed)" => "(naciśnięcie)"
+"(released)" => "(zwolnienie)"
+"(during)" => "(w czasie)"
+"(thread-down)" => "(naciśnięcie kombinacji)"
+"(thread-up)" => "(zwolnienie kombinacji)"
+"(repeat)" => "(powtórzenie)"
+"(sticky repeat)" => "(powtórzenie czepliwości)"
+"(sticky hold)" => "(przytrzymanie czepliwości)"
+"(pressed & released)" => "naciśnięcie i zwolnienie"									# -- Added in 2.4 Beta 12 --
+
+
+#Simulated Keystrokes dialog
+"Simulate Keystrokes" => "symulacja naciśnięć"								# -- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => "Wprowadź własną kombinację klawiszy"
+"How to send the simulated key strokes:" => "Jak wysyłać kombinację klawiszy"
+"1 As mouse button is pressed" => "1 jako naciśnięcie przycisku myszy"
+"2 As mouse button is released" => "2 jako zwolnienie przycisku myszy"
+"3 During (press on down, release on up)" => "3 jako naciśnięcie/zwolnienie przycisku myszy"
+"4 In another thread as mouse button is pressed" => "4 w innym wątku naciśnięcie przycisku myszy"
+"5 In another thread as mouse button is released" => "5 w innym wątku zwolnienie przycisku myszy"
+"6 Repeatedly while the button is down" => "6 ciągle, gdy naciśnięcie przycisku myszy jest aktywne"
+"7 Sticky (repeatedly until button is pressed again)" => "7 czepliwie (ciągle, dopóki przycisk nie zostanie naciśnięty ponownie)"
+"8 Sticky (held down until button is pressed again)" => "8 czpliwie (podczas wciśniętego przycisku, dopóki przycisk nie zostanie naciśnięty ponownie)"
+"9 As mouse button is pressed & when released" => "9 jako naciśnięcie przycisku myszy i zwolnienie przycisku kółka"			# -- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => "Wysyłaj tylko gdy proces profilu jest aktywny"
+"Auto repeat delay" => "Spowolnienie auto powtórzeń"
+"(milliseconds)" => "Milisekundy"
+"0 = Windows default repeat delay && speed." => "0 = Domyślne ustawienie Windowsa dla opóźnień i prędkości."
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Wpisz sekwencję klawiszy w pole powyżej.\r\nMożesz symulować następujące rozszerzenia klawiszy używając tagów..."
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Tagi modyfikacji:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  UWAGA:\ttagi modyfikujące mogą być skombinowane jako {CTRL}{ALT} lecz działają z następnym klawiszem.\r\n\tPrzykład: aby wysłać kombinację CTRL+a+CTRL+s, powinieneś wpisać '{CTRL}A{CTRL}S'."
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK}" => "Rozszerzone tagi klawiszowe:\r\n {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK}"
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Kierunkowe tagi klawiszowe:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nTagi klawiszy funkcyjnych:\t\t{F1, F2, F3 ... F24}\r\nTagi klawiszy głośności:\t\t{VOL+}, {VOL-}, {MUTE}\r\nTagi przycisków myszki:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nTagi kólka myszki:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nTagi klawiszy numerycznych:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nKlawisze przeglądarki:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nKlawisze przełącznikowe:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code\r\n\t\t\t{CLEAR} Clears any modifier tags (CTRL},{ALT} etc." => "Specjalne tagi funkcyjne:\t{WAIT<n>} dodaje opóźnienie o <n> sekund.\r\n\t\t\t{WAITMS<n>} dodaje opóźnienie o <n> milisekund\r\n\t\t\t{VKC:<n>} Wysyła wybrany kod klawiszy wirtualnych\r\n\t\t\t{EXT:<n>} Wysyła wybrany rozszerzony kod klawiszy wirtualnych\r\n\t\t\t{CLEAR} Czyści każdy tag modyfikujący (CTRL},{ALT} itd."
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Na przykład:\r\n  Aby zakmnąć okno: {ALT}{F4}\r\n  Aby wybrać wszystkie elementy: {CTRL}A\r\n  Aby wpisać pogrubiony text 'my text' w Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  Aby wysłać klawisz 'r' z 50ms opóźnieniem pomiędzy naciśnięciem a zwolnieniem , {WAITMS50}r\r\n  Aby wyłączyć numlock, {NUMLOCKOFF}"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "UWAGA: Aby uniknąć opóźnienia wraz z użyciem {WAIT}, {WAITMS}, {HOLD} lub {HOLDMS}, spróbuj użyć wątkowych\r\nmetod wysyłania z poniższej listy."
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Specjalne tagi funkcyjne:\t{WAIT<n>} dodaje opóźnienie o <n> sekund.\r\n\t\t\t{WAITMS<n>} dodaje opóźnienie o <n> milisekund.\r\n\t\t\t{HOLD<n>} przytrzymuje klawisz w czasie <n> sekund.\r\n\t\t\t{HOLDMS<n>} przytrzymuje klawisz w czasie <n> milisekund.\r\n\t\t\t{VKC:<n>} Wysyła wybrany kod klawiszy wirtualnych.\r\n\t\t\t{EXT:<n>} Wysyła wybrany rozszerzony kod klawiszy wirtualnych.\r\n\t\t\t{CLEAR} Czyści każdy tag modyfikujący {CTRL},{ALT} itd."
+
+
+#Run Application dialog
+"Run Application" => "Uruchom aplikację"
+"Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => "Wpisz nazwę programu, folderu, dokumentu lub źródła z internetu, a XMouse otworzy je dla ciebie po naciśnięciu przycisku."
+
+
+#Scrolling tab
+"&Invert mouse wheel scrolling" => "Odwróć przewijanie kółkiem myszki"
+"I&nvert mouse horizontal (tilt) scrolling" => "Odwróć przewijanie horyzontalne"
+"Wheel scrolls i&n pages instead of lines" => "Kółko przewija strony zamiast lini"
+"Lines to scroll using the scroll wheel:" => "Ilość lini do przewinięcia w czasie używania kółka myszki: "
+"Enable a&xis locking modifier keys" => "Aktywuj blokadę osi poprzez klawisze modyfikujące"
+"Advanced Window Scrolling" => "Zaawansowane przewijanie okna"
+"&Scroll Method" => "Metoda przewijania"
+"&Vertical Lines" => "Linie wertykalne"
+"&Horizontal characters" => "Horyzontalnie znaków"
+"Method 1 (SCROLL Msg)" => "Metoda 1 (SCROLL Msg)"
+"Method 2 (ScrollInfo)" => "Metoda 2 (ScrollInfo)"
+"Method 3 (Left/Right Keys)" => "Metoda 3 (Lewy/Prawy Klawisz)"
+"Method 4 (Wheel Msg)" => "Metoda 4 (Wheel Msg)"
+"Method 5 (WPF Scroll Msg)" => "Metoda 5 (WPF Scroll Msg)"
+"None (Disable Scroll)" => "Przewijanie nieaktywne"
+
+
+#About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => "Wsparcie XML + + od Michael z turboirc.com"
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC jest darmowym programem (bez gwarancji lub rękojmy) dla każdego i wszędzie. Jeśli podoba ci się XMBC i masz ochotę okazać wdzięczność, złóż donację klikając w PayPal poniżej."
+"More information can be found on my download page or user forums." => "Więcej informacji można znaleźć na stronie 'Do pobrania' lub na forum."
+"Homepage" => "Strona domowa"
+"Donate" => "Donacja"
+"Forums" => "Forum"
+
+# -- Added in 2.4 Beta 15 --
+"About" => "O programie"
+"Version" => "Wersja"	
+"This application is designed and written by %s of %s." => "Ta aplikacja jest zaprojektowa i napisana przez %s z %s." # NOTE: The %s are replace at runtime
+# --
+
+#Find Window Dialog
+"Find Window" => "Znajdź okno"
+"Find Method" => "Znajdź metodę"
+"Click and drag the window finder icon to the window you want to select." => "Naciśnij i przeciągnij ikonę 'wyszukiwarki okna' na okno programu który chcesz wybrać."
+"Hover" => "Najazd"
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "Przesuń myszkę na okno które chcesz wybrać i włącz CAPSLOCK aby zablokować szczegóły okna na miejscu."
+"You can also manually enter/edit the window details below." => "Możesz wpisać ręcznie szczegóły okna."
+"Window Details" => "Szczegóły okna"
+"Caption" => "Nazwa"
+"Handle" => "Uchwyt"
+"&Process" => "Proces"
+"C&lass" => "Klasa"
+"Pa&rent Class" => "Nadrzędna klasa"
+"Only match if there is no parent class." => "Przypasuj tylko gdy nie ma klasy nadrzędnej."
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "UWAGA: Pola mogą być puste, co będzie oznaczać wszystkie (*) okna (jeżeli nie zaznaczysz powyższego pola dla pustej klasy nadrzędnej)"
+
+
+#Choose Application dialog (custom window profile)
+"Choose Application" => "Wybierz aplikację"
+"Select from the list of running applications:" => "Wybierz z listy działających aplikacji:"
+"Or type in/browse to the application executable (.EXE) file" => "Wpisz lub wyszukaj nazwę pliku aplikacji (*.EXE)"
+"Application" => "Aplikacja"
+"&Specific Window" => "Specyficzne okno"
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "Odśwież"
+"Process Name" => "Nazwa procesu"
+"Window Title" => "Nazwa okna"
+# --
+
+
+#Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "Proszę zamknąć okno dialogowe aby w pełni zastosować zmianę języka."
+"The specified application already exists.\nYou can not add two entries for the same application." => "Wybrana aplikacja już istnieje.\nNie możesz dodać dwóch takich samych aplikacji."
+"You must select a profile to remove!" => "Musisz wybrać profil do usunięcia !"
+"You can not edit the default profile!" => "Nie możesz edytować profilu domyślnego !"
+"You can not remove the default profile!" => "Nie możesz usunąć profilu domyślnego !"
+"You must select a profile to edit." => "Musisz wybrać profil do edycji."
+"The specified window configuration is invalid!" => "Konfiguracja dla okna jest niewłaściwa!"
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "Wybrany profil już istnieje.\nNie możesz dwóch wpisów profili dla tego samego okna/aplikacji."
+"You must select an application to copy." => "Musisz wybrać aplikację do skopiowania."
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "Czy chcesz zapisać zmiany w konfiguracji ?\n\nOSTRZEŻENIE: jeżeli wybierzesz 'NIE' zmiany zostaną utracone !"
+"Do you want to overwrite proflie" => "Czy chcesz nadpisać profil"
+"The selected file is not a valid settings file." => "Wybrany plik nie jest właściwym plikiem ustawień."
+"You must select an application to copy." => "Musisz wybrać aplikację do skopiowania.."
+"The log file can not be opened as it does not exist." => "Plik LOG nie może zostać otwarty ponieważ nieistnieje."
+"is unable to open the log file" => "Logdatei kann nicht geoffnet werden"
+"Unable to save the desktop icons using your current shell and this version of" => "Niemożna zapisać ikon pulpitu używając tego shell'a i wersji"
+"Unable to restore the desktop icons using your current shell and this version of" => "Nie można przywrócić ikon pulpitu używając tego shell'a i wersji"
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "Nowsza wersja jest dostępna !"
+"A new version is available." => "Nowa wersja jest dostępna."
+"Click the 'Homepage' button to go and download it." => "Kliknij 'Strona domowa' aby pobrać."
+"There is a new beta version available!" => "Nowsza wersja beta jest dostępna !"
+"A new beta version is available." => "Nowa wersja beta jest dostępna."
+"Click the 'Forums' button to go and download it." => "kliknij 'Forum' aby pobrać."
+# --
+
+"You have to select or enter a process name, or press cancel." => "Musisz wybrać/wpisać nazwę procesu, lub wcisnąć anuluj."
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. s such, the debug setting will not be saved." => "Włączenie zapisu zdarzeń Debug Spowoduje spadek wydajności myszki. Zalecane jest aby aktywacja tej usługi była dostępna tymczasowo, aby umożliwić znalezienie przyczyny błędu."
+"Are you sure you want to enable debug logging?", => "Jesteś pewny aby włączyć zapis Debug ?"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => "Bądź świadom, odnalezienie czy dane myszki są 'nie-klienta' aby je zignorować lub nie, wymaga znacznie więcej czasu procesora."
+"This can slow down mouse operation in general, sometimes causing strange results." => "Może spowolnić operacyjność myszy, powodując dziwne zachowania."
+"Are you sure you want to ignore non-client messages?" => "Czy jesteś pewny aby zignorować dane 'nie-klienta' ?"
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "Domyślnie ikona w trayu (obok zgara) zawsze jest pokazywana. Jeśli ją wyłączysz nie będzie ona pokazywana."
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "Aby przywrócić ikonę, uruchom program z 'menu start'. Wymusi to pokazanie ikony tymczasowo, aby pozwolić ci na dostęp do menu ustawień."
+
+
+#Balloon popup windows
+"Debugging enabled" => "Debugowanie aktywne"
+"Debugging disabled" => "debugowanie nieaktywne"
+"Successfully saved desktop icon positions" => "Rozkaład ikon zapisany pomyślnie"
+"Successfully restored desktop icon positions" => "Rozkaład ikon przywrócony pomyślnie"
+"Mouse button re-mapping is now disabled" => "Re-mapowanie przycisków myszki jest nieaktywne"
+"Mouse button re-mapping is now enabled" => "Re-mapowanie przycisków myszki jest aktywne"
+
+
+# Actions (displayed in the dropdown lists)
+"Left Click" => "Kliknięcie lewym myszki"
+"Right Click" => "Kliknięcie prawym myszki"
+"Next Window" => "Następne Okno"
+"Back" => "W tył"
+"Forward" => "W przód"
+"Middle Click" => "Kliknięcie środkowym myszki"
+"Disable" => "Deaktywuj"
+"Close (Alt+F4)" => "Zamknij (Alt+F4)"
+"Copy (Ctrl+C)" => "Kopiuj (Ctrl+C)"
+"Cut (Ctrl+X)" => "Wytnij (Ctrl+X)"
+"Double Click" => "Podwójne kliknięcie"
+"Enter" => "Enter"
+"Maximize Window" => "Maksymalizuj Okno"
+"Minimize Window" => "Minimalizuj Okno"
+"New" => "Nowy"
+"Open" => "Otwórz"
+"Paste (Ctrl+V)" => "Wklej (Ctrl+V)"
+"Redo (Ctrl+Y)" => "Przywróć zmiany"
+"Show/Hide Desktop" => "Pokaż/ukryj pulpit"
+"Undo (Ctrl+Z)" => "Cofnij zmiany"
+"Media - Mute" => "Media - wycisz"
+"Media - Volume Up" => "Media - głośniej"
+"Media - Volume Down" => "Media - ciszej"
+"Media - Next Track" => "Media - następny utwór"
+"Media - Last Track" => "Media - Ostatni utwór"
+"Media - Stop" => "Media - Stop"
+"Media - Play/Pause" => "Media - Odtwarzaj/Pauzuj"
+"Launch EMail" => "Otwórz EMail"
+"Simulated Keys" => "Klawisze symulowane"
+"Lock Workstation" => "Zablokuj stację roboczą"
+"Open Explorer" => "Otwórz Explorera"
+"Open RUN Command" => "Otwórz komendę RUN"
+"Restore Window" => "Przywróć okna"
+"Escape" => "ESC"
+"Open Help" => "Otwórz pomoc"
+"Open Web Browser" => "Otwórz przeglądarkę"
+"Browser Stop" => "Stop w przeglądarce"
+"Browser Refresh" => "Odświerzanie okna przeglądarki"
+"Open Search" => "Otwórz szukanie"
+"Browser Favorites" => "Ulubione w przeglądarce"
+"** No Change (Don't intercept) **" => "** Bez zmian (nie przechwytuj) **"
+"Run Application" => "Uruchom aplikację"
+"Mouse Wheel Up" => "Przewijanie w górę"
+"Mouse Wheel Down" => "Przewijanie w dół"
+"Flip 3D *Vista & Later*" => "3D okna *Vista i nowszy*"
+"ALT-TAB *Vista & Later*" => "Alt-Tab *Vista i nowszy*"
+"Print Screen" => "Drukuj Obraz na monitorze"
+"Print Active Window" => "Drukuj aktywne okno"
+"Show sidebar *Vista & Later*" => "Pokaż sidebar *Vista i nowszy*"
+"Sticky Left Button [Click-Drag]" => "Kleiwy lewy przycisk [naciśnij-przeciągaj]"
+"Sticky Right Button" => "Kleiwy prawy przycisk"
+"Sticky Middle Button" => "Kleiwy środkowy przycisk"
+"Layer (Next)" => "Warstwa - Następna"
+"Layer (Previous)" => "Warstwa - Poprzednia"
+"Layer 1" => "Warstwa 1"
+"Layer 2" => "Warstwa 2"
+"Layer 3" => "Warstwa 3"
+"Layer 4" => "Warstwa 4"
+"Layer 5" => "Warstwa 5"
+"Open Explorer at specified folder" => "Otwórz Explorera na wybranym folderze"
+"Open Explorer at My Documents" => "Otwórz Explorera na Moich Dokumentach"
+"Open Explorer at My Computer" => "Otwórz Explorera na Mój Komputer"
+"Open Explorer at Network Favourites" => "Otwórz Explorera na Ulubionych Sieciach"
+"Open Control Panel" => "Otwórz Panel Sterowania"
+"Double Click Drag" => "Podwójne kliknięcie przeciąga"
+"Mouse Wheel Tilt Left" => "Przechył kółka myszki w lewo"
+"Mouse Wheel Tilt Right" => "Przechył kółka myszki w prawo"
+"Scroll Window Up" => "Przewijanie okna w górę"
+"Scroll Window Down" => "Przewijanie okna w gdół"
+"Scroll Window Left" => "Przewijanie okna w lewo"
+"Scroll Window Right" => "Przewijanie okna w prawo"
+"Previous Window" => "Poprzednie okno"
+"Activate Screensaver" => "Aktywuj wygaszacz ekranu"
+"Activate Monitor Power Saving" => "Aktywuj oszczędzanie energi monitora"
+"** Same As Default Profile **" => "** Takie same jak domyślny profil **"
+"Sticky 4th Button" => "Kleiwy 4y przycisk"
+"Sticky 5th Button" => "Kleiwy 5ty przycisk"
+"Change Movement to Scroll" => "Zamień ruch na przewijanie"
+"Sticky Left Button [Click-Drag] X-Axis" => "Kleiwy lewy przycisk [naciśnij-przeciągaj] Oś-X"
+"Sticky Left Button [Click-Drag] Y-Axis" => "Kleiwy lewy przycisk [naciśnij-przeciągaj] Oś-Y"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "Okna 3D"
+"ALT-TAB" => "ALT-TAB"
+"Show sidebar" => "Pokaż sidebar"
+"Reveal Desktop" => "Pokaż pulpit"							 # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => "(Taki sam jak warstwa 1 (aktualny profil)"  # -- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "Cofnięcie modyfikatora warstwy"
