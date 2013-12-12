@@ -1,0 +1,39 @@
+;=======================================================
+;version - do not change
+V1.1
+
+;влючить подтверждения перед каждой командой
+;confirmations: on
+ASK_ON
+
+;прекращать тест, если возникнет ошибка
+;terminate batch on error
+HALT_ON
+
+;сигнал по окончании каждого теста
+;make sound after each line
+ENDSND_ON
+
+;выбор диска из меню
+;select a drive (menu)
+DRV_SELECT
+
+;сброс диска
+;ata reset
+DRV_RESET
+
+;Seek Test 10 seconds
+DRV_SEEK 10
+
+;повтор следующей строки 2 раза
+;repeat NEXT line 2 times
+REPEAT 2
+
+;Сканирование всего диска без ремонта. Выполнится 2 раза.
+;scan whole drive without repair
+DRV_SCAN MIN MAX 0
+
+;останов шпинделя.
+;stop spindle
+DRV_STOP
+;=======================================================

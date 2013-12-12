@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><auto_thunder_skin>
+    <info>
+	<interval></interval>
+	<version></version>
+    </info>
+    <skin_package_list>
+		    <skin_package>
+		<id>skin18710</id>
+		<package><![CDATA[http://skin.client.xunlei.com/7.9/20131129161421_Out%20Of%20My%20Mind.thunderskin]]></package>
+		<recommend>1</recommend>
+		<icon_url></icon_url>
+		<star_level>3</star_level>
+		<expired_date></expired_date>
+		<md5></md5>
+		<business>0</business>
+		<description>Out Of My Mind</description>
+		<clickurl></clickurl>
+	    </skin_package>
+		    <skin_package>
+		<id>skin18701</id>
+		<package><![CDATA[http://skin.client.xunlei.com/7.9/20131129150203_境界的彼方.thunderskin]]></package>
+		<recommend>1</recommend>
+		<icon_url></icon_url>
+		<star_level>3</star_level>
+		<expired_date></expired_date>
+		<md5></md5>
+		<business>0</business>
+		<description>境界的彼方</description>
+		<clickurl></clickurl>
+	    </skin_package>
+	    </skin_package_list>
+</auto_thunder_skin>

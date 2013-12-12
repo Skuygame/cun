@@ -1,0 +1,46 @@
+<AppCollection><!-- 根节点 -->  
+	<Catalog id="new" text=""><!-- 分类节点，id不能相同 -->  
+		<App id="InitGuideApp" text="P2P种子搜索">
+			<image>http://xl7.xunleihd.com/7.9/nav/TSearch.png</image>
+			<imagebkg>null</imagebkg><!-- 图标的底 -->
+			<ver>1.0</ver>
+			<des>优化电脑设置，提升下载体验！</des>
+			<OpenPath path="TSearch.exe" usezip="1"/>
+			<DownloadAddr/>
+		</App>		
+		<App id="BrowserSupport" text="浏览器支持">
+			<image>http://plugin.xl7.xunlei.com/7.9/nav/BrowserSupport.png</image>
+			<imagebkg>null</imagebkg><!-- 图标的底 -->
+			<ver>1.0</ver>
+			<des>修复浏览器关联，顺畅下载！</des>
+			<OpenPath path="BrowserSupport.exe" usezip="1"/>
+			<DownloadAddr>http://plugin.xl7.xunlei.com/7.9/normal/BrowserSupport.zip</DownloadAddr>
+		</App>
+		<App id="FtpExplorer" text="FTP工具">
+			<image>http://plugin.xl7.xunlei.com/7.9/nav/FtpExplorer.png</image>
+			<imagebkg>null</imagebkg><!-- 图标的底 -->
+			<ver>1.0</ver>
+			<des>轻松查阅、下载FTP资源。</des>
+			<OpenPath path="FtpExplorer.exe" usezip="1"/>
+			<DownloadAddr>http://plugin.xl7.xunlei.com/7.9/func/FtpExplorer.zip</DownloadAddr>
+		</App>
+		<App id="ThunderXFS" text="局域网共享">
+			<image>http://plugin.xl7.xunlei.com/7.9/nav/ThunderXFS.png</image>
+			<imagebkg>null</imagebkg><!-- 图标的底 -->
+			<ver>1.0</ver>
+			<des>资源共享，告别u盘、移动硬盘！</des>
+			<OpenPath path="Program\ThunderXFSShell.exe" usezip="1"/>
+			<DownloadAddr>http://plugin.xl7.xunlei.com/7.9/func/ThunderXFS.zip</DownloadAddr>
+		</App>
+		<App id="yangtai" text="迅雷阳台">
+			<image>http://plugin.xl7.xunlei.com/7.9/nav/yangtai.png</image>
+			<ver>1.0</ver>
+			<des>了解、改善迅雷，快来阳台看看！</des>
+			<image>http://twin0871.sandai.net:9000/upload/softwares/yangtai.png</image>
+			<imagebkg>null</imagebkg><!-- 图标的底 -->     
+			<OpenUrl url="http://yangtai.xunlei.com/?from=thunder7.9" jumpkey="1" inproc="0"/>
+			<DownloadAddr/>
+		</App>
+	</Catalog>
+</AppCollection>
+
