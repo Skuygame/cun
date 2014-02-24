@@ -7,3 +7,6 @@
 [submodule "gvimim"]
 	path = gvimim
 	url = git@github.com:michalliu/gvimim.git
+[submodule "MyCygwin"]
+	path = MyCygwin
+	url = git@github.com:michalliu/MyCygwin.git
