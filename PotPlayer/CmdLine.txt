@@ -1,0 +1,72 @@
+﻿{$CP949=
+
+명령행 옵션 : PotPlayer[Mini].exe "파일명" [옵션]
+
+/filedlg	  : 파일 열기 대화 상자
+/urldlg		  : 주소 열기 대화 상자
+/folderdlg	  : 폴더 열기 대화 상자
+/simple		  : 간편 열기 대화 상자
+/cap		  : 화면 캡쳐
+/cam		  : 캠이나 기타 장치
+/atv[:ch]	  : 아날로그 TV
+/dtv[:ch]	  : 디지탈 TV
+/dvd		  : DVD 기본 장치
+/cd[:drive]	  : CD 열기
+/add		  : 재생 목록에 추가
+/autoplay	  : 자동으로 재생
+config="환경이름" : 지정된 환경 선택
+$}
+{$CP936=
+
+命令行用法 : PotPlayer[Mini].exe "文件名" [参数]
+
+/filedlg        : 打开文件对话框
+/urldlg		: 打开链接对话框
+/folderdlg      : 打开文件夹对话框
+/simple		: 简捷打开文件对话框
+/cap		: 视频录制
+/cam		: 摄像头其它设备
+/atv[:ch]	: 模拟 TV
+/dtv[:ch]	: 数字 TV
+/dvd		: 默认 DVD 设备
+/cd[:drive]	: CD 驱动器
+/add		: 添加到播放列表
+/autoplay       : 自动播放
+config="配置名"	: 选择指定配置
+$}
+{$CP950=
+
+命令行用法 : PotPlayer[Mini].exe "檔案名" [參數]
+
+/filedlg	: 開啟檔案對話框
+/urldlg		: 開啟連結對話框
+/folderdlg	: 開啟資料夾對話框
+/simple		: 快速開啟檔案對話框
+/cap		: 視訊錄制
+/cam		: 攝影機其它裝置
+/atv[:ch]	: 類比 TV
+/dtv[:ch]	: 數位 TV
+/dvd		: 預設 DVD 裝置
+/cd[:drive]	: CD 磁碟機
+/add		: 新增到播放清單
+/autoplay	: 自動播放
+config=配置名 	: 選擇指定配置
+$}
+{$CP0=
+
+Usage : PotPlayer[Mini].exe "filename" [options]
+
+/filedlg		: Open file dialog
+/urldlg			: Open url dialog
+/folderdlg  		: Open folder dialog
+/simple			: Open file navigator
+/cap			: Open screen capture
+/cam			: Open webcam/Other devices
+/atv[:ch]		: Open Analog TV
+/dtv[:ch]		: Open Digital TV
+/dvd			: Open DVD
+/cd[:drive]		: Open a cd drive
+/add			: Add to playlist
+/autoplay   		: Play the last played file
+config="preset name"	: Use the specified preset
+$}
