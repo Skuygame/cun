@@ -1,7 +1,7 @@
 
-           SecureCRT(R) 6.5 (Official) -- December 10, 2009
+          SecureCRT(R) 6.5.1 (Official) -- January 21, 2010
 
-            Copyright (C) 1995-2009 VanDyke Software, Inc.
+            Copyright (C) 1995-2010 VanDyke Software, Inc.
                         All rights reserved.
 
 

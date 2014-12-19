@@ -1,7 +1,7 @@
 
-           SecureCRT(R) 6.5 (Official) -- December 10, 2009
+          SecureCRT(R) 6.5.1 (Official) -- January 21, 2010
 
-            Copyright (C) 1995-2009 VanDyke Software, Inc.
+            Copyright (C) 1995-2010 VanDyke Software, Inc.
                         All rights reserved.
 
 
@@ -10,6 +10,48 @@ of new features, changes, and bug fixes sorted by release.  For a
 product description, installation notes, registration information,
 and contact information, please refer to Readme.txt (downloaded 
 with this installation).
+
+
+Changes in SecureCRT 6.5.1 (Official) -- January 21, 2010
+---------------------------------------------------------
+
+Changes:
+
+  - Under Windows 7 and Vista, removed the prompt for making SecureCRT
+    the default Telnet application since many applications, such as
+    Internet Explorer 8, do not allow Telnet.
+
+Bug fixes:
+
+  - If SecureCRT was in the process of closing and the close button
+    was pressed again, SecureCRT could crash.
+  - SecureCRT could crash when printing to an Adobe PDF printer using
+    pass-through printing.
+  - If the global options "Use trackable insertion caret" was set, the
+    cursor did not blink.
+  - If SecureCRT and SecureFX were integrated and the terminal or
+    file transfer protocol was changed to "None", the change was not
+    saved.
+  - In the Key Generation wizard, if a key was generated and then the
+    user clicked "Back", changed the size of the key, and answered
+    "Yes" to the prompt about regenerating the key, the key was not
+    regenerated.
+  - The menu was not expanded when the ALT+<up arrow> key was pressed.
+  - If a line of text that contained an end-of-line character was
+    copied and pasted, the end-of-line character was not included.
+  - If a URL contained international characters and the URL was opened
+    using "Open URL" or CTRL+<left click>, the URL was cut off before
+    the first international character.
+  - On Windows 7 and Vista, if a previous version of SecureCRT was
+    running prior to installation and the installation option
+    "Automatically close and attempt to restart applications" was
+    selected, the previous instance of SecureCRT was not closed and
+    could only be closed from the task manager.
+  - On Windows 7 and Vista with Aero enabled, if a custom menu was
+    used, the Close button on the main SecureCRT window appeared to
+    be disabled even though it was not.
+  - Serial: Disconnecting and reconnecting the physical RJ45 cable
+    connector caused SecureCRT to crash.
 
 
 Changes in SecureCRT 6.5 (Official) -- December 10, 2009

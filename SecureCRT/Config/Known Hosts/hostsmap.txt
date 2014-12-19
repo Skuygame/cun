@@ -1,0 +1,6 @@
+relay01.baidu.com[172.18.251.102]22=relay01.baidu.com[172.18.251.102]22.pub
+relay01.baidu.com[172.18.251.101]22=relay01.baidu.com[172.18.251.101]22.pub
+relay01.baidu.com[172.18.251.103]22=relay01.baidu.com[172.18.251.103]22.pub
+relay01.baidu.com[172.18.251.104]22=relay01.baidu.com[172.18.251.104]22.pub
+relay01.baidu.com[172.18.252.103]22=relay01.baidu.com[172.18.252.103]22.pub
+relay01.baidu.com[172.18.252.104]22=relay01.baidu.com[172.18.252.104]22.pub

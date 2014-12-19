@@ -1,5 +1,5 @@
 End-User License Agreement for SecureCRT 6.5 ("Software")
-Copyright (c) 1995-2009 VanDyke Software, Inc.
+Copyright (c) 1995-2010 VanDyke Software, Inc.
 All Rights Reserved.
 
 AGREEMENT. After reading this agreement carefully, if you ("Customer") do 
