@@ -1,0 +1,65 @@
+There are a series of animated tutorials on the xat.com website: http://www.xat.com/io/tutorial.html that will help you get the most out of Image Optimizer.
+To enter your release code, go to "Help->Enter Release code" in the menu or press the "Enter Release code" button on the about box.
+To activate the brush tools, press the "Work with regions" button at the bottom right of the compress palette. See the online tutorial for more details.
+Smaller graphics = faster web pages = more page views = more sales = more ad revenue.
+The xat.com web site, http://www.xat.com, will have updated versions of Image Optimizer when they become available.
+Image Optimizer Professional offers easy to use powerful image enhancement tools such as Color correction, Equalization, and Noise reduction.
+Licensed users can download the updated versions of Image Optimizer for FREE.
+Image Optimizer should be the last step in preparing an image before uploading. If you edit your images again with a paint package you may lose quality and compression.
+xat.com has more products. For example xatshow will make compact ScreenSavers and SlideShows, ideal for email and the web. JPEG Disk Optimizer will compress images directly on your server. WebSpeed Simulator will show you how your web site works in the real world. See http://www.xat.com for details.
+Many users of the World Wide Web have links as slow as 300 bytes per second, even in major corporations.
+You can use Image Optimizer to compress images you e-mail to friends to make them much faster to download and use up less of their mail box space.
+If your Web site downloads fast, your visitors will download more pages and stay longer.
+It is very easy to purchase xat.com products over the web.
+If you want some new features added to Image Optimizer or have an idea for a new product you can e-mail info@xat.com.
+The World Wide Web is often called the "World Wide Wait" because the Internet can be so slow.
+It's worth taking time to explore the functions of Image Optimizer, with a little practice you can create even smaller images. See the online tutorial for more details.
+Keep your eyes on the status bar when moving the cursor, it usually tells you want will happen if you click the mouse.
+You can just drop images from you desktop or a folder onto Image Optimizer and it will open them. If you drop more than one file Image Optimizer will start Batch Wizard.
+Batch Wizard makes it easy to optimize multiple images.
+You can configure Image Optimizer by selecting File -> Preferences -> General Program Preferences.
+GIFs and PNGs can have a transparent color.
+Image Optimizer remembers that last five images you have opened. Select them again using the File menu.
+You can cut images from other software packages and paste them into Image Optimizer by clicking the paste button or selecting Edit -> Paste from the menu. 
+When you've optimized and image you can copy it from Image Optimizer by clicking Edit -> Copy. You can then paste it into another application.
+If you make a mistake you can click Edit -> Undo to erase that mistake.
+If you change you mind about an Undo you can click Edit -> Redo.
+You can turn on and off toolbars by clicking on them under View -> Toolbars.
+You can turn the text labels off under the standard toolbar icons to give you a little more room for your images.
+You can click View -> Status Bar to turn off the status bar if you no longer require it. Click again to turn it back on.
+To zoom in and out of the current image select the zoom factor you want under the View menu.
+View -> Image Information tells you about the current image: File Name, Number of Colors, Estimated download time etc.
+If you want to set the window to the same size as the image click Window -> Fit to Image.
+To find out the Software Version click Help -> About Image Optimizer.
+If you need help just hit F1.
+You can visit xat.com Online under the Help Menu.
+If you have a problem look in the help, check out the support pages Online or e-mail a Technical Support question (info@xat.com).
+It is a general rule that the more colors a GIF or PNG image has the bigger the file will be.
+It is a general rule that the more dithering you add to an image the bigger it gets.
+Smoothing areas of a photographic (JPEG) image into color gradients will remove detail and save storage space.
+You can use smoothing and or noise reduction to even out edges and pre-dithered images.
+Select JPEG Extra Color to improve images with areas of solid color or sharp transitions. The file will get a bit bigger but you should be able to reduce the quality to compensate.
+Select JPEG Progressive so when a browser on a slow communications link downloads your image it will be able to generate a low-quality image quickly and gradually improve the displayed quality as it gets more data.
+Progressive JPEGs are usually smaller than normal but may not load into old browsers and paint packages.
+Select JPEG Grayscale to throw the color information away - saves a bit of storage space, but not as much as you might expect.
+Check Comments to preserve comments in an image, uncheck to remove them. This can save quite a lot of space especially with Photoshop JPEGs.
+GIF and PNGs can be interlaced so when a browser on a slow communications link downloads your image it will be able to generate a low-quality image quickly and gradually improve the displayed quality as it gets more data.
+Turning some of your GIF images into JPEGs will often make them a lot smaller especially if they are photographic.
+Most of the images on the Web are GIFs and JPEGs. PNGs can be quite a bit smaller than GIFs but may not work with old or non-standard browsers. PNG can be a good choice for screen dumps. 
+Work with regions mode allows you to fine tune the optimization process.
+Select the magnifying glass to Zoom In and Out of an image - left mouse button Zooms in, right mouse button zooms out.
+You can 'paint' MagiCompression, dithering and smoothing directly onto region windows with the brush tool.
+When in region mode, you vary the intensity of the next action by adjusting the sliders.
+PNGs are more likely to be smaller than identical GIFs but not always.
+You can also put MagiCompression, dithering and smoothing onto regions windows with the line, rectangle and freehand tools.
+If you are in work with regions mode, you can select the whole image by clicking on the select whole image icon.
+In region mode, click 'Lock Region' to work exclusively on that region. Adjusting the sliders only affects the locked region.
+When you have finished with a locked region just select one of the tools and draw the next region.
+To turn select region mode off - click on the 'Lock Region' button again.
+Click 'Invert Region' to invert the currently locked region.
+When you've opened up an image for JPEG compression and set the quality hit the MagiCompress button (wand) on the tool palette to automatically optimize the image.
+Feel free to move the tool palette around, you can float it or attach it to another side of the window.
+Click the ' Normal Viewing (1:1)' button on the Standard Toolbar to quickly restore normal viewing 1:1 of the current image.
+Three handy buttons on the Standard Toolbar allow you to hide the various toolbars. This is useful if you are working with a big image and want a bit more space.
+When you move the cursor over an image the status bar displays the position (x,y) and the RGB color at that point or the value of the regional effect 0 to 100%.
+Even if you have turned them off you can still view still view 'Tips of the Day' by clicking Help -> Tip of the Day.

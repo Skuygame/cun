@@ -1,0 +1,589 @@
+589
+English
+-
+-
+-
+-
+-
+-
+-
+-
+xat.com Image Optimizer
+For Help - press F1
+Select an object on which to get Help
+Change the window size
+Change the window position
+Reduce the window to an icon
+Enlarge the window to full size
+Switch to the next document window
+Switch to the previous document window
+Close the active window and prompts to save the documents
+Restore the window to normal size
+Activate Task List
+Activate this window
+Close print preview mode\nCancel Preview
+Thank you for choosing to evaluate Image Optimizer. Please regularly check the xat.com web site - http://www.xat.com - for new versions of Image Optimizer and take a look at our other products.\n
+You are on day %i of your 30 day evaluation.\n
+In %i days time several key facilities will be disabled. Please click on the Purchase button to purchase the product.\n
+You are on day %i of your 30 day evaluation.
+You have exceeded your 30 day evaluation period by %i days. Please click the Purchase button to purchase the product. This version will continue to function but several key facilities have been disabled.\n
+Image Optimizer Standard Edition - Evaluation.\n
+Please regularly check the xat.com web site - http://www.xat.com - for new versions of Image Optimizer and take a look at our other products.
+Image Optimizer Standard Edition - Licensed.
+The specified root directory either does not exists or is not a directory.
+Could not create CImage
+Could not get bitmap from clipboard
+Image Optimizer only runs in High Color (16 bit mode)\nor better.  Please adjust your display settings and\nrestart Image Optimizer.\n
+Compressed Regions [%i:%i]
+Did you know...
+Dithered Regions [%i:%i]
+An error occured - could not start browser
+An error occured - could not start mailer
+Tips file does not exist in the prescribed directory
+The specified file cannot be identified as a supported type
+The specified file is empty or could not be opened
+GIF / JPG Regions [%i:%i]
+Brush Style
+Thank you for choosing to evaluate Image Optimizer Professional. This demo is fully functional for 30 days except that the images have a small xat.com caption added. Please click on the Purchase button to purchase the product.
+Tool Bar
+Tool Palette
+Optimized [%i:%i] - %s Bytes %.1f%%
+Wizard
+Save optimized version of %s?
+Image Optimizer Professional Edition - Commercial Demo.
+Smoothed Regions [%i:%i]
+Original%s [%i:%i] - %s Bytes
+Displays a Tip of the Day.
+&Help
+Ti&p of the Day...
+About
+Batch
+Brush
+Copy
+Help
+(1:1)
+Open
+Control
+Paste
+Redo
+Save As
+Scan
+E-Mail
+Tools
+Undo
+Clean Image
+Enhance Image
+Color Correction
+Crop Image
+Transform Image
+Slicer
+Image Map
+Compress Image
+Debug
+Capture
+Focus
+Upgrade Online...
+Purchase Online...
+On / Off
+Remove
+% Amount
+Radius
+% Sensitivity
+Image fitted to %i x %i box
+ but not enlarged.
+Image fitted to a padded %i x %i box
+Image size is %i x %i
+Image width is %i and height is scaled
+Image height is %i and width is scaled
+Image size is unchanged.
+Image is sharpened %i%% - Image is rotated %i degrees.
+Image is sharpened %i%% - Image is not rotated.
+Image is not sharpened - Image is rotated %i degrees.
+Image is not sharpened or rotated.
+Text
+Image
+Caption:
+Back
+File:
+Trans
+Error opening file: 
+Filename buffer too small. It needs to be %d characters in size.
+Copyright (years)
+Image ID
+Transaction ID
+      JPEG Quality
+      % MagiCompression
+Comments
+Image ID:\n\n
+Transaction ID:\n\n
+Image Attributes:
+Restricted\n
+Do Not Copy\n
+<none>
+Note: You have purchased the Standard Edition but\nyou are running the Professional Edition Demo.\n\nPlease run Image Optimizer Standard Edition.
+Note: you have purchased the Professional Edition but\nyou are running the Standard Edition.\n\nPlease run the Professional Edition to access the additional features.
+There are missing Windows components that are needed to access every feature.\r\n\r\nGet these components from xat.com's online update service?
+      % Extra Compression
+Square
+Round
+Brightness/Contrast/Gamma
+Levels
+Noise Reduction
+Grayscale
+Progressive
+Extra Color
+      Number of Colors
+      % Dithering
+Interlaced
+Name
+In Folder
+Size
+Select Multiple Files
+Select a Root Directory
+Enhance
+Color
+Clean
+Focus
+Crop
+Transform
+Caption
+Watermark
+Compress
+Invalid Output Directory specified.
+&Optimize
+Batch Wizard
+Transform:
+Image is fitted to padded %i x %i box
+Image is fitted to %i x %i box
+Watermark:
+  Creator ID:\t%i
+  Distributor ID:\t%i
+  Copyright Year:\t%i %i
+  Image ID:\t%i%s
+  Transaction ID:\t%i%s
+  Attributes:\t%s%s%s
+Restricted - 
+Do Not Copy - 
+Adult Content
+  Minimum Durability:\t%i
+Compress:
+  File Type:\t
+  Extra Options:\t
+  JPEG Quality:\t%i
+  MagiCompression:\t%i%%
+  Number Of Colors:\t%i
+  Dithering:\t%i%%
+  Input file comments are removed.
+  Input file comments are preserved.
+  Input JPEG Quality is preserved. For other file types Quality set by slider.
+  Quality is set by slider for all files.
+Don't pause on error.
+Pause on error.
+Existing files are skipped.
+Existing files are overwritten.
+Output Directory:\t
+Current Time:\t
+WARNING: This is a commercial demo - no files will be written.
+&Stop
+&Continue
+Finished Batch Job.
+%i File(s) Successfully Optimized.
+%i File(s) Skipped.
+%i File(s) Watermarked.
+Original File Set Size:\t%.2f MB
+Optimized File Set Size:\t%.2f MB %.1f%%
+&Close
+Input file: %s
+ERROR: File can't be identified as a supported type - Skipping.
+ERROR: Input file doesn't exist - Skipping.
+Output file: %s already exists - Skipping.
+Output file: %s already exists - Overwriting.
+Output file: %s
+  Clean: Amount=%i Radius=%f Sensitivity=%i
+  Rotate: %i degrees
+  Resize: Width=%i Height=%i Sharpen=%i
+  Caption: Adding Image and Text
+  Caption: Adding Image
+  Caption: Adding Text
+  Watermark: Uncompressed Durability=%i ImageID=%i
+  Watermark: Uncompressed Durability=%i TransactionID=%i
+  Watermark: Uncompressed Durability=%i
+  Watermark: WARNING failed to embed watermark
+  Watermark: Compressed Durability=%i
+  Watermark: WARNING Compressed Durability=%i < Minimum Durability
+  Watermark: Retrying Intensity = %i - Q=%i - M=%i
+  Watermark: WARNING watermark not present after compression.
+  Compress: %i Bytes -> %i Bytes %.1f%%
+Failed to write JPEG file.\nDisk full?\nRead only file?
+Failed to write PNG file.\nDisk full?\nRead only file?
+Failed to write GIF file.\nDisk full?\nRead only file?
+Failed to write TIFF file.\nDisk full?\nRead only file?
+  Compress: ERROR - Failed to write file
+Use Premultiplied Alpha
+Set Vertical Border
+Set Horizontal Border
+Set Vertical Margin
+Set Horizontal Margin
+Select Foreground Color
+Set Opacity
+Enter Image Filename
+Use Transparent Color
+Select Transparent Color
+Select Image
+Enter Caption Text
+Use Background
+Select Background Color
+Select Font
+Compressed
+Smoothed
+Dithered
+AutoColor
+Color Saturation
+Cyan to Red
+Magenta to Green
+Yellow to Blue
+      % Smoothing
+Improve Palette
+Toggle Between Extra and MagiCompression
+AutoCompress
+Remove All
+Work With Whole Image
+Work With Regions
+%s  Magic = %d%%
+%s  Value = %d%%
+You must first select the area to crop by left-clicking on the image and dragging out a rectangle.
+Hold down left mouse button and drag the mouse to resize the crop area
+Hold down the left mouse button and drag the mouse to resize the crop area
+Hold down the left mouse button to move the crop area -  Click the right mouse button to crop the image
+Hold down left mouse button to drag a new crop area
+Hold down left mouse button to drag a new crop area -  Click right mouse button to clear the crop area
+Auto Levels
+All Channels
+Red Channel
+Green Channel
+Blue Channel
+Histogram Equalization
+% Brightness
+% Contrast
+% Gamma
+Threshold
+%i x %i Pixels
+Quality
+No. of Colors
+TrueColor
+ Bytes
+Comments:
+Transparency:
+Interlaced:
+Quality:
+Color:
+Progressive:
+Normal
+Transparent:
+Frame %i of %i
+Original
+%s: BMP %ix%i  TrueColor
+%s: BMP %ix%i  %i Colors
+%s: GIF %ix%i  %i Colors
+%s: JPG %ix%i  Quality=%i
+%s: PNG %ix%i  TrueColor
+%s: PNG %ix%i  %i Colors
+%s: TIF %ix%i  TrueColor
+%s: TIF %ix%i  %i Colors
+Original: None
+Optimized: JPG %ix%i  %.1fs @%s
+Optimized: GIF %ix%i  %.1fs @%s
+Optimized: PNG %ix%i  %.1fs @%s
+Optimized: None
+All Graphics Files
+All Files (*.*)
+xat.com Watermark Demo
+Invalid or unknown file type.
+Error: can't save file
+Error saving file
+Rotate to 0 Degrees
+Rotate to 90 Degrees
+Rotate to 180 Degrees
+Rotate to 270 Degrees
+Halve Image Size
+Halve Image Size Vertically
+Halve Image Size Horizontally
+Double Image Size
+Double Image Size Vertically
+Double Image Size Horizontally
+~%s Bytes
+Click and hold the left mouse button and drag the mouse to resize the image
+ - %i%% Watermark Durability
+ - No Watermark
+Image%s [%i:%i] - %s Bytes%s
+Image%s [%i:%i] - %s Bytes
+Add new creator
+Delete current creator
+<New Creator>
+Setup Creator Identifiers
+Set Watermark Resolution
+Auto Watermark
+Web Lookup
+Creator ID:\n\n
+Copyright Year:\n\n
+Rectangle
+Ellipse
+Circle
+Freehand
+Point to Point
+Smart Edge
+Copyright
+Brightness/Contrast
+Gamma Correction
+Highlight/Midtone/Shadow
+Hue/Saturation/Lightness
+Hue Map
+Red/Green/Blue
+Greyscale
+Sharpen
+Blur
+Black
+White
+Custom...
+Add Drop Shadow
+Can't create directory.
+Failed to load allBatch Settings data.\n(old version?)
+Failed to write Batch Settings data.
+  File size will be limited to %d bytes.
+  INFO: using original file.
+Limit of 1000 files reached.\nRemaining files skipped.
+Number of passes %d - Target %d - Achieved %d - Qual/Col %d\n
+Output directory does not exist.\nCreate %s ?
+%s  RGB = (%d - %d - %d)
+Same as input file.
+Set amount of drop shadow blur
+  WARNING: Compressed size > %i
+WARNING: Evaluation period exceeded - no files will be written.
+WARNING: Images will have small xat.com caption added.
+xat Batch Setup Files (*.xati)
+Yes
+No
+Shift:
+Border:
+File corrupt
+Blur:
+&About Image Optimizer...
+&Batch Wizard...\tCtrl+B    
+&Brush Style    
+&Cascade    
+&Close    
+&Control Palette    
+&Copy
+&E-Mail Technical Support...    
+&Enter Release Code...    
+&Fit To Image\tCtrl+W
+&Help Topics...\tF1    
+&Normal Viewing (1:1)\tCtrl+Alt+N
+&Open...\tCtrl+O    
+&Paste    
+&Preferences...    
+&Purchase Online...    
+&Redo\tCtrl+Y
+&Standard Buttons
+&Status Bar    
+&Support Pages...
+&Text Labels    
+&Tile Vertically    
+&Undo\tCtrl+Z
+&xat.com Home Page...
+Ac&quire Image...
+Close &All    
+E&xit
+Im&age Information...\tCtrl+I
+Online Tutorial...    
+R&edo All
+Recent File    
+S&elect Source...
+Save Optimized &As...\tCtrl+S
+Sen&d Optimized by E-Mail...    
+Ti&p of the Day...    
+Tile &Horizontally    
+Too&ls Palette    
+U&ndo All
+&Edit          
+&File          
+&Help          
+&Import Image  
+&Toolbars      
+&View          
+&Window        
+&xat.com Online
+Zoom &In       
+Zoom &Out      
+Image Information
+File Name:
+File Type:
+Dimensions:
+Current File
+Original Image
+Dimensions
+Optimized Image
+File Size:
+Download Times
+Benefits of Licensed Editions
+Batch Wizard is re-enabled
+MagiCompress is re-enabled
+GIF Save is re-enabled
+Advert is removed from output file
+&Purchase
+Single Image Digimarc Embedding
+Optimzed files can be saved
+Enhancement and Color Correction
+Image Cleaning
+Batch Resize and Thumbnailing
+Batch Digimarc Embedding
+Standard Edition
+Professional Edition
+Single Image Caption Embedding
+Batch Caption Embedding
+Future upgrades are FREE
+General Program Preferences
+High Speed
+High Quality
+Remove input file comment by default
+Read quality from input JPEGs
+Always show regional windows
+Preserve APP1-15 (EXIF - Thumbnail etc.)
+Compute download speed for
+File Open Preferences
+GIF/PNG Color Reduction
+JPEG Markers
+Always open in Compress Window
+File Type
+Tip of the Day
+Some String
+&Show tips on startup
+&Next Tip
+Step 1 of 3 - Select Multiple Files
+&Add Files...
+&Explore
+&Remove
+Remove A&ll
+Add Folder...
+Drop Files in Here
+Step 3 of 3 - Optimizing Images...
+Job Progress
+Current Step
+Copy To Clipboard
+Shape
+About Image Optimizer
+ Contact Points:
+ for Microsoft Windows
+&Enter Release Code
+&Run Professional Demo
+Release Image Optimizer
+&Release
+&Help
+Enter Release Code:
+Resize
+Width
+Height
+Maintain Aspect Ratio
+Flip
+Mirror
+Optimized File Size:
+Rotate
+Crop Image
+Clear Crop
+AutoCrop
+Aspect
+&URL
+Target
+Alt
+Eq.
+C->R
+M->G
+Y->B
+Highlight
+Midtone
+Shadow
+All
+Sat.
+Restricted Use
+Do not copy
+Creator
+Type
+Intensity
+to
+Info
+Values
+Click on the Web Look-up button for more information:
+Capture
+Interval
+Source
+Grab Frame
+Seconds
+Premultiplied Alpha
+Fore
+Margin:
+Location
+Opacity:
+Border:
+DrSha
+FTP Test
+Save File
+% Levels
+% Color
+% Sharpen
+% Brightness
+% Contrast
+% Gamma
+X offset
+Y offset
+Fit to box
+Never Enlarge Images
+Background:
+Incre&ment
+Image Attributes
+Minimum Durability %
+Remove Input File Comment
+Extra Options
+Max Bytes:
+Step 2 of 3 - Select Operation
+Never Overwrite Files
+&Browse
+Output Directory
+General Settings
+Append to file name:
+Load Settings
+Save Settings
+Setup Identifiers
+&Register
+PIN
+ID
+Click the Register button to obtain your own Creator ID via the Internet.
+URL:
+Phone:
+Digimarc ID
+E-Mail:
+or contact Digimarc at:
+Distributor ID
+Usage statistics
+No.of images watermarked by this creator:
+Setup Intensity Properties
+Auto Watermarking
+Output for
+Image DPI
+100 DPI is recommended for 
+images to be used on the Web
+50% is recommended for
+use in typical applications
+Drop Shadow
+H
+V
+X
+Y
+Image Optimizer Professional Edition - Licensed.\n
+Save Optimized Image As
+Thank you for choosing to evaluate Image Optimizer Professional. This demo is fully functional except that it is not possible to save the optimized files. Please click on the Purchase button to purchase the product.
+Digimarc Watermarking
+&Benefits of Licensed Editions...
+&Purchase Online...
+&Run Professional Demo
+Cancel
+&Cancel
